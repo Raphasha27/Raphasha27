@@ -31,6 +31,8 @@ I've been actively expanding my portfolio with complex, real-world applications 
 
 **Web & Mobile Development:**
 - ⚛️ **React / React Native / Expo**
+- 📱 **Mobile Frameworks**: Flutter, Expo Go
+- 🛠️ **Tools**: Android Studio, Xcode
 - 🌐 **HTML5 / CSS3 / Modern JS**
 - 🔗 **RESTful APIs & Backend Logic**
 
