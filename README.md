@@ -1,124 +1,107 @@
-# 👋 Hi! I'm Raphasha27 (Koketso Raphasha)
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
+  
+  # 🚀 Raphasha27
+  ### **Software Engineer • AI Specialist • Tech Visionary**
+  
+  <p align="center">
+    <a href="https://github.com/Raphasha27">
+      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
+    </a>
+    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+    </a>
+  </p>
 
-> **Determined and adaptable Software Developer and AI Engineer** with a solid foundation in Information Technology and a keen interest in artificial intelligence and software innovation. I'm committed to continuous learning and professional growth, aiming to deliver impactful solutions and advance in the tech industry.
+  ---
+  
+  *"Building intelligent systems that bridge the gap between complex data and human intuition."*
+</div>
 
----
+## 🌌 About Me
+I am a determined **Software Developer and AI Engineer** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
 
-## 🚀 Recent Updates & Progress
-
-I've been actively expanding my portfolio with complex, real-world applications focusing on **Java Development**, **Data Visualization**, **Mobile Development**, and **AI-powered Web Tools**.
-
-### ✨ Newest Projects
-- **[Small-Business-Assistant](https://github.com/Raphasha27/small-business-assistant)**: A comprehensive web platform for SA entrepreneurs featuring an **AI chatbot**, **cost calculators**, and **compliance checklists**. Built with modern HTML/CSS/JS.
-- **[Koketso Swing Calculator](https://github.com/Raphasha27/koketso-swing-calculator)**: A robust **Java Swing** desktop application with a modern dark-themed UI, real-time equation history, and scientific calculation layout.
-- **[Gauteng Transport Dashboard](https://github.com/Raphasha27/dashboard)**: Advanced data analytics platform using **Streamlit (Python)**. Features interactive maps of Gauteng's transport network, predictive AI modeling for passenger demand, and automated reporting.
-- **Restaurant Management System**: A full-stack mobile application (React Native/Expo) for restaurant operations including table management, vibrant menu interfaces, and order tracking.
-
----
-
-## 🛠️ Skills & Technologies
-
-**Programming Languages:**
-- 🐍 **Python** (Advanced: Data Science, AI, Automation)
-- ☕ **Java** (Intermediate: Swing, Desktop Apps, OOP)
-- 📜 **JavaScript** (Intermediate: Web, React Native)
-- ➕ **C++** (Basic: Algorithms)
-
-**AI & Machine Learning:**
-- 🤖 **Frameworks**: PyTorch, TensorFlow, scikit-learn
-- 🧠 **Domains**: Neural Networks, Computer Vision, NLP, Predictive Modeling
-- 🛠️ **Tools**: Jupyter Notebooks, Streamlit for ML Apps
-
-**Web & Mobile Development:**
-- ⚛️ **React / React Native / Expo**
-- 📱 **Mobile Frameworks**: Flutter, Expo Go
-- 🛠️ **Tools**: Android Studio, Xcode
-- 🌐 **HTML5 / CSS3 / Modern JS**
-- 🔗 **RESTful APIs & Backend Logic**
-
-**Data Science & Analytics:**
-- 📊 **Libraries**: Pandas, NumPy, Matplotlib, Plotly
-- 📉 **Visualization**: Streamlit, Interactive Dashboards
-
-**Cloud & DevOps:**
-- ☁️ **Platforms**: AWS, Azure
-- 🐳 **Tools**: Docker, GitHub Actions, Git/Version Control
+- 🎓 Pursuing **Bachelor of Information Technology** @ Richfield College.
+- 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
+- 🛠️ Currently architecting the **AI Job Market Intelligence Platform**.
 
 ---
 
-## 🎓 Education & Certification
+## 🛠️ Technology Stack & Arsenal
 
-### 🏫 Formal Education
-**Bachelor of Information Technology**  
-*Richfield College (In Progress)*
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,java,cpp,js,react,nextjs,nodejs,express,fastapi,flask,tailwind,bootstrap,vite,postman,docker,aws,azure,mysql,sqlite,mongodb,git,github,vscode,androidstudio,pycharm&perline=10" />
+</div>
 
-### 📜 Professional Development (Coursera)
-- **AI & Machine Learning**:
-  - Introduction to Artificial Intelligence (AI)
-  - Machine Learning Fundamentals
-  - Data Science & Analytics
-- **Software Engineering**:
-  - Python for Everybody
-  - Web Development Specialization
-  - Git & Version Control
-  - Cloud Computing Concepts
+### 🧠 AI & Data Science
+`PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `Streamlit` • `OpenCV`
 
 ---
 
-## 📂 Key Projects Overview
+## 💎 Featured Masterpieces
 
-Explore my diverse portfolio highlighting my journey from basic scripts to full-scale applications:
-
-1. **[Small-Business-Assistant](https://github.com/Raphasha27/small-business-assistant)** (Web/AI)  
-   *An AI-powered guide for SA startups with financial tools and regulatory resources.*
-
-2. **[Gauteng Transport Dashboard](https://github.com/Raphasha27/dashboard)** (Python/Data Science)  
-   *Real-time analytics dashboard for public transport monitoring and AI predictions.*
-
-3. **[Koketso Swing Calculator](https://github.com/Raphasha27/koketso-swing-calculator)** (Java)  
-   *Modern desktop calculator showcasing Java Swing UI design and logic.*
-
-4. **[Fire4s_Resume_Generator](https://github.com/Raphasha27/Fire4s_Resume_Generator)** (Automation)  
-   *Automated tool for generating professional resumes dynamically.*
-
-5. **[Portfolio](https://github.com/Raphasha27/Portfolio)** (Web)  
-   *Personal portfolio site showcasing web projects and development skills.*
-
----
-
-## 💡 Introduction to AI Journey
-
-I have completed hands-on and online courses in Artificial Intelligence and Machine Learning, building projects from basic classifiers to natural language processing applications. My interests include:
-
-- **Neural Networks & Deep Learning**: Building models that learn from data.
-- **Computer Vision**: Enabling machines to "see" and interpret images.
-- **AI for Automation**: Streamlining workflows with intelligent scripts.
-- **Ethical AI**: ensuring responsible and unbiased AI development.
-
----
-
-## 🌟 Why Hire Me?
-
-- **Continuous Learner**: Dedicated to staying updated with industry trends (recently mastered **Java Swing** and **Streamlit**).
-- **Proven Project Experience**: My portfolio demonstrates real-world solutions, from **mobile apps** to **desktop software** and **web platforms**.
-- **Strong Technical Foundation**: Combining formal education with relentless self-driven skill development.
-- **Adaptability**: Whether it's **Python for data**, **Java for desktop**, or **JS for web**, I adapt to the right tool for the job.
-- **Team Player**: Effective communicator and collaborator in diverse environments.
+<table border="0">
+  <tr>
+    <td width="50%">
+      <h3>🤖 AI Job Market Intelligence</h3>
+      <p>A premium platform for real-time job market analytics and AI resume matching.</p>
+      <img src="./assets/jobsphere_dashboard.png" width="100%" style="border-radius: 8px;">
+      <br>
+      <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
+    </td>
+    <td width="50%">
+      <h3>🛡️ CyberShield Modern</h3>
+      <p>Next-gen Security Operations Center dashboard with AI Sentinel integration.</p>
+      <img src="./assets/cybershield.png" width="100%" style="border-radius: 8px;">
+      <br>
+      <code>Angular</code> <code>Tailwind</code> <code>D3.js</code> <code>WebSockets</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>☀️ Aura Weather AI</h3>
+      <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
+      <img src="./assets/aura_weather.png" width="100%" style="border-radius: 8px;">
+      <br>
+      <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
+    </td>
+    <td width="50%">
+      <h3>🌍 Sovereign AI Nexus</h3>
+      <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
+      <img src="./assets/nexus.png" width="100%" style="border-radius: 8px;">
+      <br>
+      <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🤝 Collaboration & Contact
+## 📊 My Digital Footprint
 
-I'm open to collaboration, networking, and mentorship opportunities. Please feel free to open issues or submit pull requests on any of my repositories.
-
-- **GitHub**: [@Raphasha27](https://github.com/Raphasha27)
-- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/koketso-raphasha-27)
-- **Email**: [Available upon request]
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="150" alt="Stats"></td>
+      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Langs"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true" alt="Streak"></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## 📄 License
-Unless noted otherwise, content in this repository is provided under the **MIT License**.
+## 📬 Connect & Collaborate
+<div align="center">
+  <p align="center">
+    <a href="https://twitter.com/Raphasha27"><img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" /></a>
+    <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord" /></a>
+    <a href="mailto:koketso.raphasha27@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" /></a>
+  </p>
+</div>
 
----
-*Created by [Raphasha27](https://github.com/Raphasha27) — Building the future, one line of code at a time.*
+<div align="center">
+  <sub>Built with ❤️ by <b>Raphasha27</b> • © 2026</sub>
+</div>
