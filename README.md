@@ -23,14 +23,14 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 - 🎓 Pursuing **Bachelor of Information Technology** @ Richfield College.
 - 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
-- 🛠️ Currently architecting the **AI Job Market Intelligence Platform**.
+- 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade traffic governance platform.
 
 ---
 
 ## 🛠️ Technology Stack & Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,cpp,js,react,nextjs,nodejs,express,fastapi,flask,tailwind,bootstrap,vite,postman,docker,aws,azure,mysql,sqlite,mongodb,git,github,vscode,androidstudio,pycharm&perline=10" />
+  <img src="https://skillicons.dev/icons?i=cs,dotnet,redis,docker,kubernetes,grafana,prometheus,python,react,nextjs,tailwind,aws,azure,git,github,vscode&perline=10" />
 </div>
 
 ### 🧠 AI & Data Science
@@ -41,6 +41,16 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 ## 💎 Featured Masterpieces
 
 <table border="0">
+  <tr>
+    <td colspan="2">
+      <h3>🚦 FlowSentinel (Traffic Governance Platform)</h3>
+      <p><b>Staff-Level Infrastructure Engineering</b>. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.</p>
+      <img src="https://raw.githubusercontent.com/Raphasha27/flowsentinel/main/screenshots/dashboard_overview.png" width="100%" style="border-radius: 8px;">
+      <br>
+      <br>
+      <code>.NET 8</code> <code>Redis</code> <code>Docker</code> <code>OpenTelemetry</code> <code>Lua</code> <code>Prometheus</code>
+    </td>
+  </tr>
   <tr>
     <td width="50%">
       <h3>🤖 AI Job Market Intelligence</h3>
