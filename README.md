@@ -4,7 +4,7 @@
   
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer;AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer+%26+AI+Engineer;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
   <p align="center">
     <a href="https://github.com/Raphasha27">
@@ -58,14 +58,14 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 ### 📚 Proficiency & Mastery
 
 <div align="left">
-  <b>C# / .NET Ecosystem</b>
-  <img src="https://progress-bar.dev/95/?title=Mastery&color=0ea5e9&width=600" alt="C# Progress">
+  <b>C# / .NET Ecosystem Mastery</b>
+  <img src="https://progress-bar.dev/95/?title=Expert&color=0ea5e9&width=600" alt="C# Progress">
   <br>
   <b>AI / Machine Learning (PyTorch/TensorFlow)</b>
-  <img src="https://progress-bar.dev/90/?title=Expertise&color=0ea5e9&width=600" alt="AI Progress">
+  <img src="https://progress-bar.dev/90/?title=Specialist&color=0ea5e9&width=600" alt="AI Progress">
   <br>
   <b>Mobile Development (React Native/MAUI)</b>
-  <img src="https://progress-bar.dev/85/?title=Advanced&color=0ea5e9&width=600" alt="Mobile Progress">
+  <img src="https://progress-bar.dev/85/?title=High+Distinction&color=0ea5e9&width=600" alt="Mobile Progress">
   <br>
   <b>Cloud & DevOps (Docker/K8s/AWS)</b>
   <img src="https://progress-bar.dev/80/?title=Proficient&color=0ea5e9&width=600" alt="DevOps Progress">
@@ -181,5 +181,5 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 </div>
 
 <div align="center">
-  <sub>Built with ❤️ by <b>Raphasha27</b> • © 2026</sub>
+  <sub>Built with ❤️ by <b>Koketso Raphasha</b> • © 2026</sub>
 </div>
