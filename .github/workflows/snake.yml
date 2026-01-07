@@ -1,0 +1,43 @@
+name: Generate Snake
+
+on:
+  # Run automatically every 24 hours
+  schedule:
+    - cron: "0 */24 * * *"
+  
+  # Allow manual workflow trigger
+  workflow_dispatch:
+  
+  # Run on every push to main branch
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checkout the repository
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      # Generate the snake game from contributions graph
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: Raphasha27
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      # Push the generated files to the output branch
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

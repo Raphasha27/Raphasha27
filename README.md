@@ -19,9 +19,13 @@
 </div>
 
 ## 🌌 About Me
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="350px" style="border-radius: 12px; margin: 20px 0;" alt="Coding Animation">
+</div>
+
 I am a determined **Software Developer and AI Engineer** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
 
-- 🎓 Pursuing **Bachelor of Information Technology** @ Richfield College.
+- 🎓 **Completed Bachelor of Information Technology** in **2025** @ **Richfield Graduate Institute of Technology**.
 - 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
 - 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade traffic governance platform.
 
@@ -103,7 +107,35 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 ---
 
-## 📬 Connect & Collaborate
+## � Contribution Snake Game
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph">
+</div>
+
+---
+
+## �📬 Connect & Collaborate
 <div align="center">
   <p align="center">
     <a href="https://twitter.com/Raphasha27"><img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" /></a>
