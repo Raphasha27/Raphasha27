@@ -1,8 +1,10 @@
+<!-- SECTION: HEADER START -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
   
-  # 🚀 Raphasha27
-  ### **Software Engineer • AI Specialist • Tech Visionary**
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer+%26+AI+Engineer;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
   <p align="center">
     <a href="https://github.com/Raphasha27">
@@ -18,13 +20,30 @@
   *"Building intelligent systems that bridge the gap between complex data and human intuition."*
 </div>
 
+<!-- SECTION: HEADER END -->
+
+<!-- SECTION: ABOUT ME START -->
 ## 🌌 About Me
+<div align="center">
+  <table border="0">
+    <tr>
+      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
+      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
+    </tr>
+  </table>
+</div>
+
 I am a determined **Software Developer and AI Engineer** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
 
-- 🎓 Pursuing **Bachelor of Information Technology** @ Richfield College.
+- 🎓 **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**.
+- 🏆 Achieved a **DISTINCTION in Mobile App Development**.
+- 🤝 Highly collaborative **Good Team Player** with a focus on collective success.
 - 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
 - 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade traffic governance platform.
 
+<!-- SECTION: ABOUT ME END -->
+
+<!-- SECTION: TECH STACK START -->
 ---
 
 ## 🛠️ Technology Stack & Arsenal
@@ -36,6 +55,25 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 ### 🧠 AI & Data Science
 `PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `Streamlit` • `OpenCV`
 
+### 📚 Proficiency & Mastery
+
+<div align="left">
+  <b>C# / .NET Ecosystem Mastery</b>
+  <img src="https://progress-bar.dev/95/?title=Expert&color=0ea5e9&width=600" alt="C# Progress">
+  <br>
+  <b>AI / Machine Learning (PyTorch/TensorFlow)</b>
+  <img src="https://progress-bar.dev/90/?title=Specialist&color=0ea5e9&width=600" alt="AI Progress">
+  <br>
+  <b>Mobile Development (React Native/MAUI)</b>
+  <img src="https://progress-bar.dev/85/?title=High+Distinction&color=0ea5e9&width=600" alt="Mobile Progress">
+  <br>
+  <b>Cloud & DevOps (Docker/K8s/AWS)</b>
+  <img src="https://progress-bar.dev/80/?title=Proficient&color=0ea5e9&width=600" alt="DevOps Progress">
+</div>
+
+<!-- SECTION: TECH STACK END -->
+
+<!-- SECTION: FEATURED PROJECTS START -->
 ---
 
 ## 💎 Featured Masterpieces
@@ -85,6 +123,8 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
   </tr>
 </table>
 
+<!-- SECTION: FEATURED PROJECTS END -->
+
 ---
 
 ## 📊 My Digital Footprint
@@ -103,6 +143,34 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 ---
 
+## 🐍 Contribution Snake Game
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph">
+</div>
+
+---
+
 ## 📬 Connect & Collaborate
 <div align="center">
   <p align="center">
@@ -113,5 +181,5 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 </div>
 
 <div align="center">
-  <sub>Built with ❤️ by <b>Raphasha27</b> • © 2026</sub>
+  <sub>Built with ❤️ by <b>Koketso Raphasha</b> • © 2026</sub>
 </div>
