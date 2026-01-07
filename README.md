@@ -49,7 +49,7 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 ## 🛠️ Technology Stack & Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,redis,docker,kubernetes,grafana,prometheus,python,react,nextjs,tailwind,aws,azure,git,github,vscode&perline=10" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/rotating_tech_stack.svg" width="100%" alt="Rotating Tech Stack">
 </div>
 
 ### 🧠 AI & Data Science
