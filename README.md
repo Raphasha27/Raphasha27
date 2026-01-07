@@ -1,3 +1,4 @@
+<!-- SECTION: HEADER START -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
   
@@ -20,15 +21,25 @@
 
 ## 🌌 About Me
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="350px" style="border-radius: 12px; margin: 20px 0;" alt="Coding Animation">
+  <table border="0">
+    <tr>
+      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
+      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
+    </tr>
+  </table>
 </div>
 
 I am a determined **Software Developer and AI Engineer** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
 
-- 🎓 **Completed Bachelor of Information Technology** in **2025** @ **Richfield Graduate Institute of Technology**.
+- 🎓 **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**.
+- 🏆 Achieved a **DISTINCTION in Mobile App Development**.
+- 🤝 Highly collaborative **Good Team Player** with a focus on collective success.
 - 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
 - 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade traffic governance platform.
 
+<!-- SECTION: ABOUT ME END -->
+
+<!-- SECTION: TECH STACK START -->
 ---
 
 ## 🛠️ Technology Stack & Arsenal
