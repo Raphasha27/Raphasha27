@@ -2,8 +2,9 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
   
-  # 🚀 Raphasha27
-  ### **Software Engineer • AI Specialist • Tech Visionary**
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
+  
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer;AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
   <p align="center">
     <a href="https://github.com/Raphasha27">
@@ -19,6 +20,9 @@
   *"Building intelligent systems that bridge the gap between complex data and human intuition."*
 </div>
 
+<!-- SECTION: HEADER END -->
+
+<!-- SECTION: ABOUT ME START -->
 ## 🌌 About Me
 <div align="center">
   <table border="0">
@@ -51,6 +55,25 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 ### 🧠 AI & Data Science
 `PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `Streamlit` • `OpenCV`
 
+### 📚 Proficiency & Mastery
+
+<div align="left">
+  <b>C# / .NET Ecosystem</b>
+  <img src="https://progress-bar.dev/95/?title=Mastery&color=0ea5e9&width=600" alt="C# Progress">
+  <br>
+  <b>AI / Machine Learning (PyTorch/TensorFlow)</b>
+  <img src="https://progress-bar.dev/90/?title=Expertise&color=0ea5e9&width=600" alt="AI Progress">
+  <br>
+  <b>Mobile Development (React Native/MAUI)</b>
+  <img src="https://progress-bar.dev/85/?title=Advanced&color=0ea5e9&width=600" alt="Mobile Progress">
+  <br>
+  <b>Cloud & DevOps (Docker/K8s/AWS)</b>
+  <img src="https://progress-bar.dev/80/?title=Proficient&color=0ea5e9&width=600" alt="DevOps Progress">
+</div>
+
+<!-- SECTION: TECH STACK END -->
+
+<!-- SECTION: FEATURED PROJECTS START -->
 ---
 
 ## 💎 Featured Masterpieces
@@ -100,6 +123,8 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
   </tr>
 </table>
 
+<!-- SECTION: FEATURED PROJECTS END -->
+
 ---
 
 ## 📊 My Digital Footprint
@@ -118,7 +143,7 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 ---
 
-## � Contribution Snake Game
+## 🐍 Contribution Snake Game
 
 <div align="center">
   <picture>
@@ -146,7 +171,7 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 ---
 
-## �📬 Connect & Collaborate
+## 📬 Connect & Collaborate
 <div align="center">
   <p align="center">
     <a href="https://twitter.com/Raphasha27"><img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" /></a>
