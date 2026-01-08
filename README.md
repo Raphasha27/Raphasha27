@@ -206,9 +206,6 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 ### 🗂️ All Public Repositories
 *All repositories are set to public visibility and showcase production-ready code:*
 
-<details>
-<summary><b>🔍 View Complete Repository List</b></summary>
-
 #### 🚀 Enterprise & Infrastructure
 - **[FlowSentinel](https://github.com/Raphasha27/flowsentinel)** - Distributed rate-limiting engine with Redis Lua & OpenTelemetry
 - **[SeatLock](https://github.com/Raphasha27/seatlockengine)** - High-performance C++ reservation system with lock-free architecture
@@ -234,7 +231,6 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 - **[Certificate Verification System](https://github.com/Raphasha27/certificate-verification-sql)** - SQL database project with advanced features
 - **[Billboard Project](https://github.com/Raphasha27/billboard)** - Professional billboard design system
 
-</details>
 
 ---
 
