@@ -45,7 +45,9 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**
 - 🏆 Achieved **DISTINCTION in Mobile App Development**
 - 💼 **CAPACITI Program Graduate** - Enterprise Software Development Track
-- 🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
+- � **Google Professional Certificates** via **Coursera**
+- 🚀 **YES4Youth Program** - Professional Development & Training
+- �🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
 
 ### 🤝 Team Collaboration & Leadership
 <div align="center">
