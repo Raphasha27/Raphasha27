@@ -91,32 +91,66 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/rotating_tech_stack.svg" width="100%" alt="Rotating Tech Stack">
 </div>
 
+<div align="center">
+
 ### 🧠 AI & Intelligent Systems
-`PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `OpenCV` • `FastAPI` • `HuggingFace` • `Neural Networks` • `Computer Vision` • `LLM Fine-tuning`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Neural Networks](https://img.shields.io/badge/Neural_Networks-8E44AD?style=for-the-badge&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-2980B9?style=for-the-badge&logoColor=white)
+![LLM Fine-tuning](https://img.shields.io/badge/LLM_Fine--tuning-E74C3C?style=for-the-badge&logoColor=white)
 
 ### 💻 Core Backend & Logic
-`C#` • `.NET 8` • `Python` • `Rust` • `Go` • `C++` • `Lua` • `Solidity` • `Redis` • `PostgreSQL` • `MongoDB`
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### 🎨 Web & Mobile Architecture
-`React` • `Next.js` • `Tailwind CSS 4` • `Three.js` • `Framer Motion` • `React Native` • `MAUI` • `HTML5` • `CSS3`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### 🚀 Cloud, DevOps & SecOps
-`Docker` • `Kubernetes` • `AWS` • `Azure` • `GCP` • `GitHub Actions` • `Linux` • `Grafana` • `Prometheus` • `OpenTelemetry`
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
 
 ### 📚 Proficiency & Mastery
 
-<div align="left">
-  <b>C# / .NET Ecosystem Mastery</b>
-  <img src="https://progress-bar.dev/95/?title=Expert&color=0ea5e9&width=600" alt="C# Progress">
-  <br>
-  <b>AI / Machine Learning (PyTorch/TensorFlow)</b>
-  <img src="https://progress-bar.dev/90/?title=Specialist&color=0ea5e9&width=600" alt="AI Progress">
-  <br>
-  <b>Mobile Development (React Native/MAUI)</b>
-  <img src="https://progress-bar.dev/85/?title=High+Distinction&color=0ea5e9&width=600" alt="Mobile Progress">
-  <br>
-  <b>Cloud & DevOps (Docker/K8s/AWS)</b>
-  <img src="https://progress-bar.dev/80/?title=Proficient&color=0ea5e9&width=600" alt="DevOps Progress">
+| Skill | Proficiency |
+| :--- | :--- |
+| **C# / .NET Ecosystem Mastery** | ![95%](https://progress-bar.dev/95?title=Expert&color=512BD4) |
+| **AI / Machine Learning (PyTorch/TensorFlow)** | ![90%](https://progress-bar.dev/90?title=Advanced&color=EE4C2C) |
+| **Mobile Development (React Native/MAUI)** | ![85%](https://progress-bar.dev/85?title=Advanced&color=61DAFB) |
+| **Cloud & DevOps (Docker/K8s/AWS)** | ![92%](https://progress-bar.dev/92?title=Expert&color=2496ED) |
+
 </div>
 
 <!-- SECTION: TECH STACK END -->
