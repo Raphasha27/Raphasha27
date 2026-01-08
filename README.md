@@ -219,13 +219,12 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 ## 📊 GitHub Statistics & Activity
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="45%">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" width="45%">
+  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%">
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="45%">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="45%">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages">
 </div>
 
 ---
