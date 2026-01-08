@@ -251,46 +251,27 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 <div align="center">
   <p>I'm always open to collaborating on innovative projects, discussing tech, or exploring new opportunities!</p>
   
-  <table border="0">
-    <tr>
-      <td align="center">
-        <h3>💼 Professional Contact</h3>
-        <p>
-          <a href="mailto:koketso.raphasha@capaciti.org.za">
-            <img src="https://img.shields.io/badge/Work_Email-CAPACITI-0078D4?style=for-the-badge&logo=microsoft-outlook" alt="Work Email"/>
-          </a>
-        </p>
-        <p><code>koketso.raphasha@capaciti.org.za</code></p>
-      </td>
-      <td align="center">
-        <h3>📧 Personal Contact</h3>
-        <p>
-          <a href="mailto:raphashakoketso99@gmail.com">
-            <img src="https://img.shields.io/badge/Personal_Email-Gmail-D14836?style=for-the-badge&logo=gmail" alt="Personal Email"/>
-          </a>
-        </p>
-        <p><code>raphashakoketso99@gmail.com</code></p>
-      </td>
-      <td align="center">
-        <h3>📱 Phone</h3>
-        <p>
-          <a href="tel:+27781172470">
-            <img src="https://img.shields.io/badge/Call_Me-078_117_2470-25D366?style=for-the-badge&logo=whatsapp" alt="Phone"/>
-          </a>
-        </p>
-        <p><code>+27 78 117 2470</code></p>
-      </td>
-    </tr>
-  </table>
-  
-  <br>
-  
-  <p align="center">
-    <a href="https://twitter.com/Raphasha27"><img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" /></a>
-    <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord" /></a>
-    <a href="https://www.linkedin.com/in/koketso-raphasha-27"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" /></a>
-    <a href="mailto:raphashakoketso99@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" /></a>
-  </p>
+  <a href="mailto:koketso.raphasha@capaciti.org.za">
+    <img src="https://img.shields.io/badge/Work-koketso.raphasha@capaciti.org.za-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Work Email"/>
+  </a>
+  <a href="mailto:raphashakoketso99@gmail.com">
+    <img src="https://img.shields.io/badge/Personal-raphashakoketso99@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email"/>
+  </a>
+  <a href="tel:+27781172470">
+    <img src="https://img.shields.io/badge/Phone-+27_78_117_2470-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+  </a>
+
+  <br><br>
+
+  <a href="https://twitter.com/Raphasha27">
+    <img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" alt="X"/>
+  </a>
+  <a href="https://discord.com/users/Raphasha27">
+    <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord" alt="Discord"/>
+  </a>
+  <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+  </a>
 </div>
 
 <div align="center">
