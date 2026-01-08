@@ -145,10 +145,10 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 | Skill | Proficiency |
 | :--- | :--- |
-| **C# / .NET Ecosystem Mastery** | ![95%](https://progress-bar.dev/95?title=Expert&color=512BD4) |
-| **AI / Machine Learning (PyTorch/TensorFlow)** | ![90%](https://progress-bar.dev/90?title=Advanced&color=EE4C2C) |
-| **Mobile Development (React Native/MAUI)** | ![85%](https://progress-bar.dev/85?title=Advanced&color=61DAFB) |
-| **Cloud & DevOps (Docker/K8s/AWS)** | ![92%](https://progress-bar.dev/92?title=Expert&color=2496ED) |
+| **C# / .NET Ecosystem Mastery** | **95%** |
+| **AI / Machine Learning (PyTorch/TensorFlow)** | **90%** |
+| **Mobile Development (React Native/MAUI)** | **85%** |
+| **Cloud & DevOps (Docker/K8s/AWS)** | **92%** |
 
 </div>
 
