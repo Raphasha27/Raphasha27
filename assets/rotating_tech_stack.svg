@@ -1,4 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120">
-<style>.ts{animation:r 15s ease-in-out infinite;transform-origin:center;}@keyframes r{0%,100%{transform:perspective(1000px) rotateY(-15deg) rotateX(5deg);}50%{transform:perspective(1000px) rotateY(15deg) rotateX(-5deg);}}</style>
-<image class="ts" href="https://skillicons.dev/icons?i=cs,dotnet,redis,docker,kubernetes,grafana,prometheus,python,react,nextjs,tailwind,aws,azure,git,github,vscode" x="0" y="10" width="800" height="100"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="320">
+<style>
+  .ts {
+    animation: r 20s ease-in-out infinite;
+    transform-origin: center;
+  }
+  @keyframes r {
+    0%, 100% { transform: perspective(1200px) rotateY(-10deg) rotateX(2deg); }
+    50% { transform: perspective(1200px) rotateY(10deg) rotateX(-2deg); }
+  }
+</style>
+<image class="ts" href="https://skillicons.dev/icons?i=cs,dotnet,py,pytorch,tensorflow,sklearn,opencv,pandas,numpy,fastapi,flask,rust,cpp,go,solidity,lua,react,nextjs,tailwind,threejs,html,css,framer,nodejs,mongodb,postgres,redis,docker,kubernetes,aws,azure,gcp,git,github,githubactions,linux,grafana,prometheus,vscode&amp;perline=13" x="0" y="10" width="800" height="300"/>
 </svg>

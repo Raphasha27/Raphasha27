@@ -52,8 +52,17 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/rotating_tech_stack.svg" width="100%" alt="Rotating Tech Stack">
 </div>
 
-### 🧠 AI & Data Science
-`PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `Streamlit` • `OpenCV`
+### 🧠 AI & Intelligent Systems
+`PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `OpenCV` • `FastAPI` • `HuggingFace` • `Neural Networks` • `Computer Vision` • `LLM Fine-tuning`
+
+### 💻 Core Backend & Logic
+`C#` • `.NET 8` • `Python` • `Rust` • `Go` • `C++` • `Lua` • `Solidity` • `Redis` • `PostgreSQL` • `MongoDB`
+
+### 🎨 Web & Mobile Architecture
+`React` • `Next.js` • `Tailwind CSS 4` • `Three.js` • `Framer Motion` • `React Native` • `MAUI` • `HTML5` • `CSS3`
+
+### 🚀 Cloud, DevOps & SecOps
+`Docker` • `Kubernetes` • `AWS` • `Azure` • `GCP` • `GitHub Actions` • `Linux` • `Grafana` • `Prometheus` • `OpenTelemetry`
 
 ### 📚 Proficiency & Mastery
 
