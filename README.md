@@ -4,7 +4,7 @@
   
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
   
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=Software+Engineer+%26+AI+Engineer;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
   <p align="center">
     <a href="https://github.com/Raphasha27">
@@ -33,7 +33,7 @@
   </table>
 </div>
 
-I am a determined **Software Developer and AI Engineer** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
+I am a determined **Software Developer and AI Specialist** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
 
 - 🎓 **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**.
 - 🏆 Achieved a **DISTINCTION in Mobile App Development**.
@@ -127,35 +127,7 @@ I am a determined **Software Developer and AI Engineer** based in South Africa. 
 
 ---
 
-## 📊 My Digital Footprint
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td><img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" height="150" alt="Stats"></td>
-      <td><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Langs"></td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center"><img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true" alt="Streak"></td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🐍 Contribution Snake Game
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-## 🏆 GitHub Trophies
+## 🏆 Professional Achievements & Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
