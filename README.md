@@ -1,8 +1,6 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="./assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
-  
-  <img src="./assets/sliding_title.svg" width="100%" alt="Sliding Title">
+
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
@@ -25,18 +23,9 @@
 <!-- SECTION: ABOUT ME START -->
 ## 🌌 About Me
 
-<div align="center">
-  <img src="./assets/bot_programming_3d.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
-</div>
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%"><img src="./assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
-      <td width="50%"><img src="./assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
-    </tr>
-  </table>
-</div>
+
+
 
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
 
@@ -50,9 +39,7 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - 🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
 
 ### 🤝 Team Collaboration & Leadership
-<div align="center">
-  <img src="./assets/team_collaboration.png" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
-</div>
+
 
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
 - 🚀 Collaborative team player who values collective success and knowledge sharing
