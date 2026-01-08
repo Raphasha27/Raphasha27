@@ -40,7 +40,8 @@
 
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
 
-### 🎓 Education & Achievements
+### 🎓 Experience & Achievements
+- **Co-founder & Developer** @ **Kid of Dynamics** (Start-up) 🚀
 - **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**
 - 🏆 Achieved **DISTINCTION in Mobile App Development**
 - 💼 **CAPACITI Program Graduate** - Enterprise Software Development Track
