@@ -1,166 +1,107 @@
-<!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
-  
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
-  
-  <p align="center">
-    <a href="https://github.com/Raphasha27">
-      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
-    </a>
-    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
-    </a>
-  </p>
 
-  ---
-  
-  *"Building intelligent systems that bridge the gap between complex data and human intuition."*
+# [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FCA311&width=435&lines=Hi+There!+I'm+Raphasha27;IT+Technical+Support+Specialist;AI+%26+Cloud+Enthusiast;Full+Stack+Developer)](https://git.io/typing-svg)
+
+### 🚀 Combining Technical Support Expertise with Modern Software Engineering
+
+[![Outlook](https://img.shields.io/badge/Microsoft_Outlook-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white)](mailto:your-email@example.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphasha27)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+
 </div>
 
-<!-- SECTION: HEADER END -->
+---
 
-<!-- SECTION: ABOUT ME START -->
-## 🌌 About Me
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
-      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
-    </tr>
-  </table>
-</div>
+## 👨‍💻 About Me
 
-I am a determined **Software Developer and AI Specialist** based in South Africa. My focus lies in creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes or modernizing SOC platforms, I thrive at the intersection of performance and aesthetics.
+I am a dedicated **IT Technical Support Specialist** and **Software Engineer** with a passion for building robust, scalable systems and solving complex technical problems. My expertise spans across providing exceptional end-user support, managing infrastructure, and developing next-generation AI and web applications. I thrive in environments that require detailed troubleshooting and creative architectural design.
 
-- 🎓 **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**.
-- 🏆 Achieved a **DISTINCTION in Mobile App Development**.
-- 🤝 Highly collaborative **Good Team Player** with a focus on collective success.
-- 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**.
-- 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade traffic governance platform.
+- 🔭 I’m currently working on **High-Performance Distributed Systems** and **AI-Driven Analytics**.
+- 🌱 I’m currently learning **Advanced Kubernetes Operators** and **Rust for WebAssembly**.
+- 💬 Ask me about **.NET 8, React, Cloud Infrastructure, and AI Integration**.
 
-<!-- SECTION: ABOUT ME END -->
-
-<!-- SECTION: TECH STACK START -->
 ---
 
 ## 🛠️ Technology Stack & Arsenal
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/rotating_tech_stack.svg" width="100%" alt="Rotating Tech Stack">
-</div>
 
 ### 🧠 AI & Intelligent Systems
-`PyTorch` • `TensorFlow` • `Scikit-Learn` • `Pandas` • `NumPy` • `OpenCV` • `FastAPI` • `HuggingFace` • `Neural Networks` • `Computer Vision` • `LLM Fine-tuning`
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![Neural Networks](https://img.shields.io/badge/Neural_Networks-8E44AD?style=for-the-badge&logoColor=white)
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-2980B9?style=for-the-badge&logoColor=white)
+![LLM Fine-tuning](https://img.shields.io/badge/LLM_Fine--tuning-E74C3C?style=for-the-badge&logoColor=white)
 
 ### 💻 Core Backend & Logic
-`C#` • `.NET 8` • `Python` • `Rust` • `Go` • `C++` • `Lua` • `Solidity` • `Redis` • `PostgreSQL` • `MongoDB`
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
+![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 
 ### 🎨 Web & Mobile Architecture
-`React` • `Next.js` • `Tailwind CSS 4` • `Three.js` • `Framer Motion` • `React Native` • `MAUI` • `HTML5` • `CSS3`
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 ### 🚀 Cloud, DevOps & SecOps
-`Docker` • `Kubernetes` • `AWS` • `Azure` • `GCP` • `GitHub Actions` • `Linux` • `Grafana` • `Prometheus` • `OpenTelemetry`
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=for-the-badge&logo=opentelemetry&logoColor=white)
+
+---
 
 ### 📚 Proficiency & Mastery
 
-<div align="left">
-  <b>C# / .NET Ecosystem Mastery</b>
-  <img src="https://progress-bar.dev/95/?title=Expert&color=0ea5e9&width=600" alt="C# Progress">
-  <br>
-  <b>AI / Machine Learning (PyTorch/TensorFlow)</b>
-  <img src="https://progress-bar.dev/90/?title=Specialist&color=0ea5e9&width=600" alt="AI Progress">
-  <br>
-  <b>Mobile Development (React Native/MAUI)</b>
-  <img src="https://progress-bar.dev/85/?title=High+Distinction&color=0ea5e9&width=600" alt="Mobile Progress">
-  <br>
-  <b>Cloud & DevOps (Docker/K8s/AWS)</b>
-  <img src="https://progress-bar.dev/80/?title=Proficient&color=0ea5e9&width=600" alt="DevOps Progress">
-</div>
+| Skill | Proficiency |
+| :--- | :--- |
+| **C# / .NET Ecosystem Mastery** | ![95%](https://progress-bar.dev/95?title=Expert&color=512BD4) |
+| **AI / Machine Learning (PyTorch/TensorFlow)** | ![90%](https://progress-bar.dev/90?title=Advanced&color=EE4C2C) |
+| **Mobile Development (React Native/MAUI)** | ![85%](https://progress-bar.dev/85?title=Advanced&color=61DAFB) |
+| **Cloud & DevOps (Docker/K8s/AWS)** | ![92%](https://progress-bar.dev/92?title=Expert&color=2496ED) |
 
-<!-- SECTION: TECH STACK END -->
-
-<!-- SECTION: FEATURED PROJECTS START -->
----
-
-## 💎 Featured Masterpieces
-
-<table border="0">
-  <tr>
-    <td colspan="2">
-      <h3>🚦 FlowSentinel (Traffic Governance Platform)</h3>
-      <p><b>Staff-Level Infrastructure Engineering</b>. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.</p>
-      <img src="https://raw.githubusercontent.com/Raphasha27/flowsentinel/main/screenshots/dashboard_overview.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <br>
-      <code>.NET 8</code> <code>Redis</code> <code>Docker</code> <code>OpenTelemetry</code> <code>Lua</code> <code>Prometheus</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>🤖 AI Job Market Intelligence</h3>
-      <p>A premium platform for real-time job market analytics and AI resume matching.</p>
-      <img src="./assets/jobsphere_dashboard.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
-    </td>
-    <td width="50%">
-      <h3>🛡️ CyberShield Modern</h3>
-      <p>Next-gen Security Operations Center dashboard with AI Sentinel integration.</p>
-      <img src="./assets/cybershield.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <code>Angular</code> <code>Tailwind</code> <code>D3.js</code> <code>WebSockets</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>☀️ Aura Weather AI</h3>
-      <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
-      <img src="./assets/aura_weather.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
-    </td>
-    <td width="50%">
-      <h3>🌍 Sovereign AI Nexus</h3>
-      <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
-      <img src="./assets/nexus.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
-    </td>
-  </tr>
-</table>
-
-<!-- SECTION: FEATURED PROJECTS END -->
-
----
-
-## 🏆 Professional Achievements & Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
 </div>
 
 ---
 
-## 📈 Contribution Activity
+## 🌟 Featured Projects
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph">
-</div>
+| Project | Description | Tech Stack |
+| :--- | :--- | :--: |
+| **🚦 FlowSentinel** | **Traffic Governance Platform**. A distributed rate-limiting engine with "Fail-Open" resilience and glassmorphic Command Center. | `.NET 8` `Redis` `Lua` |
+| **🤖 AI Job Market Intelligence** | **Premium Analytics**. Real-time job market analytics and AI resume matching platform. | `React` `FastAPI` `OpenAI` |
+| **🛡️ CyberShield Modern** | **SOC Dashboard**. Next-gen Security Operations Center dashboard with AI Sentinel integration. | `Angular` `D3.js` `WebSockets` |
+| **☀️ Aura Weather AI** | **Visual Forecasts**. Hyper-visual weather forecast app with glassmorphic UI and climate insights. | `Vite` `Vanilla CSS` `Framer` |
+| **🌍 Sovereign AI Nexus** | **Decentralized AI**. Ecosystem for high-performance computing and secure data nodes. | `Python` `Rust` `gRPC` |
 
 ---
 
-## 📬 Connect & Collaborate
 <div align="center">
-  <p align="center">
-    <a href="https://twitter.com/Raphasha27"><img src="https://img.shields.io/badge/X-Follow-black?style=for-the-badge&logo=x" /></a>
-    <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord" /></a>
-    <a href="mailto:koketso.raphasha27@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail" /></a>
-  </p>
-</div>
-
-<div align="center">
-  <sub>Built with ❤️ by <b>Koketso Raphasha</b> • © 2026</sub>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:e100ff,100:00dbde&height=200&section=footer&text=Innovate.%20Build.%20Deploy.&fontSize=40&fontAlignY=40&desc=Raphasha27%20Inc.&descSize=20&descAlignY=70&animation=fadeIn" alt="footer" width="100%" />
 </div>
