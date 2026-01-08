@@ -87,9 +87,8 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ## 🛠️ Technology Stack & Arsenal
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/rotating_tech_stack.svg" width="100%" alt="Rotating Tech Stack">
-</div>
+
+
 
 <div align="center">
 
