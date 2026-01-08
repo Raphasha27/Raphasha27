@@ -1,8 +1,8 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
+  <img src="./assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
   
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/sliding_title.svg" width="100%" alt="Sliding Title">
+  <img src="./assets/sliding_title.svg" width="100%" alt="Sliding Title">
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
   
@@ -26,14 +26,14 @@
 ## 🌌 About Me
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/bot_programming_3d.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
+  <img src="./assets/bot_programming_3d.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
 </div>
 
 <div align="center">
   <table border="0">
     <tr>
-      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
-      <td width="50%"><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
+      <td width="50%"><img src="./assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
+      <td width="50%"><img src="./assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
     </tr>
   </table>
 </div>
@@ -45,13 +45,13 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**
 - 🏆 Achieved **DISTINCTION in Mobile App Development**
 - 💼 **CAPACITI Program Graduate** - Enterprise Software Development Track
-- � **Google Professional Certificates** via **Coursera**
+- 📜 **Google Professional Certificates** via **Coursera**
 - 🚀 **YES4Youth Program** - Professional Development & Training
-- �🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
+- 🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
 
 ### 🤝 Team Collaboration & Leadership
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/team_collaboration.png" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
+  <img src="./assets/team_collaboration.png" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
 </div>
 
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
@@ -120,9 +120,9 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ### 🎨 Web & Mobile Architecture
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_4-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![MAUI](https://img.shields.io/badge/.NET_MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
@@ -219,12 +219,13 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 ## 📊 GitHub Statistics & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="Stats" width="45%">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Top Languages" width="45%">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per Language" width="45%">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/profile-summary-card-output/tokyonight/4-productive-time.svg" alt="Productive Time" width="45%">
 </div>
 
 ---
