@@ -208,7 +208,11 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ---
 
+## 🏆 Professional Achievements & Trophies
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
+</div>
 
 ---
 
