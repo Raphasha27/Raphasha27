@@ -162,7 +162,7 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 <table border="0">
   <tr>
     <td colspan="2">
-      <h3>🚦 FlowSentinel (Traffic Governance Platform)</h3>
+      <h3><a href="https://github.com/Raphasha27/flowsentinel">🚦 FlowSentinel (Traffic Governance Platform)</a></h3>
       <p><b>Staff-Level Infrastructure Engineering</b>. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.</p>
       <img src="https://raw.githubusercontent.com/Raphasha27/flowsentinel/main/screenshots/dashboard_overview.png" width="100%" style="border-radius: 8px;">
       <br>
@@ -172,14 +172,14 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
   </tr>
   <tr>
     <td width="50%">
-      <h3>🤖 AI Job Market Intelligence</h3>
+      <h3><a href="https://github.com/Raphasha27/ai-job-market">🤖 AI Job Market Intelligence</a></h3>
       <p>A premium platform for real-time job market analytics and AI resume matching.</p>
       <img src="./assets/jobsphere_dashboard_light.png" width="100%" style="border-radius: 8px;">
       <br>
       <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
     </td>
     <td width="50%">
-      <h3>🛡️ CyberShield Modern</h3>
+      <h3><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield Modern</a></h3>
       <p>Next-gen Security Operations Center dashboard with AI Sentinel integration.</p>
       <img src="./assets/cybershield.png" width="100%" style="border-radius: 8px;">
       <br>
@@ -188,14 +188,14 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
   </tr>
   <tr>
     <td width="50%">
-      <h3>☀️ Aura Weather AI</h3>
+      <h3><a href="https://github.com/Raphasha27/aura-weather-ai">☀️ Aura Weather AI</a></h3>
       <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
       <img src="./assets/aura_weather_light.png" width="100%" style="border-radius: 8px;">
       <br>
       <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
     </td>
     <td width="50%">
-      <h3>🌍 Sovereign AI Nexus</h3>
+      <h3><a href="https://github.com/Raphasha27/sovereign-ai-nexus-v2">🌍 Sovereign AI Nexus</a></h3>
       <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
       <img src="./assets/nexus.png" width="100%" style="border-radius: 8px;">
       <br>
