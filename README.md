@@ -174,7 +174,7 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3>🤖 AI Job Market Intelligence</h3>
       <p>A premium platform for real-time job market analytics and AI resume matching.</p>
-      <img src="./assets/jobsphere_dashboard.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/jobsphere_dashboard_light.png" width="100%" style="border-radius: 8px;">
       <br>
       <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
     </td>
@@ -190,7 +190,7 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3>☀️ Aura Weather AI</h3>
       <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
-      <img src="./assets/aura_weather.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/aura_weather_light.png" width="100%" style="border-radius: 8px;">
       <br>
       <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
     </td>
