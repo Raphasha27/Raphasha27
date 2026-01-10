@@ -11,7 +11,7 @@
       <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
     </a>
     <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+      <img src="https://img.shields.io/badge/Koketso_Raphasha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
   </p>
 
@@ -301,7 +301,7 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <img src="https://img.shields.io/badge/Discord-Join-5865F2?style=for-the-badge&logo=discord" alt="Discord"/>
   </a>
   <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/Koketso_Raphasha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
 
