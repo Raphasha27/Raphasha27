@@ -13,7 +13,11 @@
     </a>
   </p>
 
-  <img src="./assets/nexus.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/nexus.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/nexus_light.jpg">
+    <img src="./assets/nexus_light.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
+  </picture>
 
   ---
   
@@ -174,7 +178,11 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/ai-job-market">🤖 AI Job Market Intelligence</a></h3>
       <p>A premium platform for real-time job market analytics and AI resume matching.</p>
-      <img src="./assets/jobsphere_dashboard_light.jpg" width="100%" style="border-radius: 8px;">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/jobsphere_dashboard.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/jobsphere_dashboard_light.jpg">
+        <img src="./assets/jobsphere_dashboard_light.jpg" width="100%" style="border-radius: 8px;">
+      </picture>
       <br>
       <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
     </td>
@@ -190,14 +198,22 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/aura-weather-ai">☀️ Aura Weather AI</a></h3>
       <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
-      <img src="./assets/aura_weather_light.jpg" width="100%" style="border-radius: 8px;">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/aura_weather.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/aura_weather_light.jpg">
+        <img src="./assets/aura_weather_light.jpg" width="100%" style="border-radius: 8px;">
+      </picture>
       <br>
       <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/sovereign-ai-nexus-v2">🌍 Sovereign AI Nexus</a></h3>
       <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
-      <img src="./assets/nexus.jpg" width="100%" style="border-radius: 8px;">
+      <picture>
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/nexus.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/nexus_light.jpg">
+        <img src="./assets/nexus_light.jpg" width="100%" style="border-radius: 8px;">
+      </picture>
       <br>
       <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
     </td>
