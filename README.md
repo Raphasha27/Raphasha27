@@ -1,7 +1,5 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="./assets/nexus.jpg" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
-  
   <img src="./assets/sliding_title.svg" width="100%" alt="Sliding Title">
   
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary" alt="Typing Animation">
@@ -14,6 +12,8 @@
       <img src="https://img.shields.io/badge/Koketso_Raphasha-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
     </a>
   </p>
+
+  <img src="./assets/nexus.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
 
   ---
   
