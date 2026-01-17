@@ -13,6 +13,8 @@
     </a>
   </p>
 
+  <img src="./assets/bot_animated.svg" width="45%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
+
   ---
   
   *"Building intelligent systems that bridge the gap between complex data and human intuition."*
@@ -23,9 +25,6 @@
 <!-- SECTION: ABOUT ME START -->
 ## 🌌 About Me
 
-<div align="center">
-  <img src="./assets/bot_animated.svg" width="45%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
-</div>
 
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
 
