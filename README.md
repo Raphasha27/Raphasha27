@@ -16,7 +16,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.jpg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.jpg">
-    <img src="./assets/banner_light.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
+    <img src="./assets/banner_light.jpg" width="85%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
   </picture>
 
   ---
@@ -30,7 +30,7 @@
 ## 🌌 About Me
 
 <div align="center">
-  <img src="./assets/bot_programming_3d.jpg" width="30%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
+  <img src="./assets/bot_programming_3d.jpg" width="45%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
 </div>
 
 <div align="center">
@@ -55,7 +55,7 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 
 ### 🤝 Team Collaboration & Leadership
 <div align="center">
-  <img src="./assets/team_collaboration.jpg" width="60%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
+  <img src="./assets/team_collaboration.jpg" width="75%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
 </div>
 
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
