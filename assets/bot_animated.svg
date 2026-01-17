@@ -1,12 +1,12 @@
 <svg width="600" height="600" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <clipPath id="triangle">
-      <path d="M 250 20 L 20 480 L 480 480 Z" />
+      <path d="M 250 50 L -150 450 L 650 450 Z" />
     </clipPath>
   </defs>
   <style>
-    .f1 { animation: flash1 0.04s infinite; }
-    .f2 { animation: flash2 0.04s infinite; }
+    .f1 { animation: flash1 6s infinite; }
+    .f2 { animation: flash2 6s infinite; }
     @keyframes flash1 {
       0%, 45% { opacity: 1; }
       50%, 95% { opacity: 0; }

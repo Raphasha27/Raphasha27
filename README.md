@@ -29,12 +29,6 @@
 
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
 
-### 🔭 My Technical Focus
-- **Distributed Computing**: Architecting resilient, high-throughput systems using **.NET 8**, **Rust**, and **Go**.
-- **Neural Architectures**: Specialized in **Computer Vision** (OpenCV) and fine-tuning **LLMs** for domain-specific automation.
-- **Security Engineering**: Implementing zero-trust architectures and AI-driven threat detection (SOC automation).
-- **Haptic UI Design**: Crafting "Human-First" interfaces using **glassmorphism**, **Three.js**, and advanced **Framer Motion** animations.
-
 ### 🎯 My Mission & Vision
 - **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
 - **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
@@ -153,27 +147,27 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering**. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.
-- ⚡ **Low-Latency**: Achieving sub-millisecond overhead using Redis Lua script evaluation.
-- 🛡️ **Chaos Engineering**: Built-in circuit breakers for "Fail-Open" reliability during backend degradation.
-- 📊 **Real-time Observability**: Integrated with OpenTelemetry for distributed tracing and Grafana for metrics.
+- ⚡ **Architecture**: Distributed system with Redis persistence.
+- 🛡️ **Resilience**: Implements fail-open circuit breakers.
+- 📊 **Monitoring**: Full observability via OpenTelemetry & Grafana.
 ` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
 
 ### 🤖 AI Job Market Intelligence
 A premium platform for real-time job market analytics and AI resume matching.
-- 🧠 **Contextual NLP**: Utilizes RAG (Retrieval-Augmented Generation) for highly precise candidate-to-market matching.
-- 🎯 **Vector Embeddings**: High-dimensional semantic search to identify career trajectory trends.
+- 🧠 **AI Engine**: Advanced NLP for career trajectory mapping.
+- 🎯 **matching**: Real-time semantic matching between resumes and job specs.
 ` React ` ` FastAPI ` ` OpenAI ` ` Tailwind 4 `
 
 ### 🛡️ CyberShield Modern
 Next-gen Security Operations Center dashboard with AI Sentinel integration.
-- 🚀 **Asynchronous Streams**: Handling thousands of security events per second via WebSockets.
-- 📈 **D3 Engine**: Custom WebGL-accelerated visualizations for network traffic heatmaps.
+- 🚀 **Real-time**: WebSocket-driven threat alerts.
+- 📈 **Visualization**: Complex D3.js security metrics.
 ` Angular ` ` Tailwind ` ` D3.js ` ` WebSockets `
 
 ### 🌍 Sovereign AI Nexus
 Decentralized AI ecosystem for high-performance computing and secure data nodes.
-- 🕸️ **P2P Orchestration**: Secure gRPC-based communication for zero-latency node synchronization.
-- ⚡ **Kernel Optimization**: Core performance modules built with Rust for maximum hardware efficiency.
+- 🕸️ **Decentralized**: Secure gRPC communication across nodes.
+- ⚡ **High-Performance**: Core modules in Rust and C++.
 ` Python ` ` Rust ` ` Docker ` ` gRPC `
 
 <!-- SECTION: FEATURED PROJECTS END -->
