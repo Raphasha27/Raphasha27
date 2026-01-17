@@ -1,6 +1,6 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="./assets/nexus.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
+  <img src="./assets/nexus.jpg" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Banner">
   
   <img src="./assets/sliding_title.svg" width="100%" alt="Sliding Title">
   
@@ -26,14 +26,14 @@
 ## 🌌 About Me
 
 <div align="center">
-  <img src="./assets/bot_programming_3d.png" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
+  <img src="./assets/bot_programming_3d.jpg" width="30%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
 </div>
 
 <div align="center">
   <table border="0">
     <tr>
-      <td width="50%"><img src="./assets/coding_animation.png" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
-      <td width="50%"><img src="./assets/mobile_animation.png" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
+      <td width="50%"><img src="./assets/coding_animation.jpg" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
+      <td width="50%"><img src="./assets/mobile_animation.jpg" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
     </tr>
   </table>
 </div>
@@ -51,7 +51,7 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 
 ### 🤝 Team Collaboration & Leadership
 <div align="center">
-  <img src="./assets/team_collaboration.png" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
+  <img src="./assets/team_collaboration.jpg" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
 </div>
 
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
@@ -174,14 +174,14 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/ai-job-market">🤖 AI Job Market Intelligence</a></h3>
       <p>A premium platform for real-time job market analytics and AI resume matching.</p>
-      <img src="./assets/jobsphere_dashboard_light.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/jobsphere_dashboard_light.jpg" width="100%" style="border-radius: 8px;">
       <br>
       <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield Modern</a></h3>
       <p>Next-gen Security Operations Center dashboard with AI Sentinel integration.</p>
-      <img src="./assets/cybershield.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/cybershield.jpg" width="100%" style="border-radius: 8px;">
       <br>
       <code>Angular</code> <code>Tailwind</code> <code>D3.js</code> <code>WebSockets</code>
     </td>
@@ -190,14 +190,14 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/aura-weather-ai">☀️ Aura Weather AI</a></h3>
       <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
-      <img src="./assets/aura_weather_light.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/aura_weather_light.jpg" width="100%" style="border-radius: 8px;">
       <br>
       <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/Raphasha27/sovereign-ai-nexus-v2">🌍 Sovereign AI Nexus</a></h3>
       <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
-      <img src="./assets/nexus.png" width="100%" style="border-radius: 8px;">
+      <img src="./assets/nexus.jpg" width="100%" style="border-radius: 8px;">
       <br>
       <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
     </td>
