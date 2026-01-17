@@ -5,8 +5,8 @@
     </clipPath>
   </defs>
   <style>
-    .f1 { animation: flash1 6s infinite; }
-    .f2 { animation: flash2 6s infinite; }
+    .f1 { animation: flash1 0.04s infinite; }
+    .f2 { animation: flash2 0.04s infinite; }
     @keyframes flash1 {
       0%, 45% { opacity: 1; }
       50%, 95% { opacity: 0; }
