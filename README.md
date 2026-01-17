@@ -13,12 +13,6 @@
     </a>
   </p>
 
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.jpg">
-    <img src="./assets/banner_light.jpg" width="85%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
-  </picture>
-
   ---
   
   *"Building intelligent systems that bridge the gap between complex data and human intuition."*
@@ -29,20 +23,12 @@
 <!-- SECTION: ABOUT ME START -->
 ## 🌌 About Me
 
-<div align="center">
-  <img src="./assets/bot_programming_3d.jpg" width="45%" style="border-radius: 12px; margin-bottom: 20px;" alt="3D AI Programming Bot">
-</div>
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="50%"><img src="./assets/coding_animation.jpg" width="100%" style="border-radius: 12px;" alt="Coding Animation"></td>
-      <td width="50%"><img src="./assets/mobile_animation.jpg" width="100%" style="border-radius: 12px;" alt="Mobile Dev Animation"></td>
-    </tr>
-  </table>
-</div>
-
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
+
+### 🎯 My Mission & Vision
+- **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
+- **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
+- **Visual Storytelling**: Merging complex data with premium, glassmorphic UI designs for intuitive human interaction.
 
 ### 🎓 Experience & Achievements
 - **Co-founder & Developer** @ **Kid of Dynamics** (Start-up) 🚀
@@ -54,10 +40,6 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - 🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
 
 ### 🤝 Team Collaboration & Leadership
-<div align="center">
-  <img src="./assets/team_collaboration.jpg" width="75%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
-</div>
-
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
 - 🚀 Collaborative team player who values collective success and knowledge sharing
 - 💡 Experienced in agile development, code reviews, and pair programming
@@ -91,9 +73,6 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ## 🛠️ Technology Stack & Arsenal
 
-
-
-
 <div align="center">
 
 ### 🧠 AI & Intelligent Systems
@@ -117,7 +96,6 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=for-the-badge&logo=solidity&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -163,62 +141,30 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 ## 💎 Featured Masterpieces
 
-<table border="0">
-  <tr>
-    <td colspan="2">
-      <h3><a href="https://github.com/Raphasha27/flowsentinel">🚦 FlowSentinel (Traffic Governance Platform)</a></h3>
-      <p><b>Staff-Level Infrastructure Engineering</b>. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.</p>
-      <img src="https://raw.githubusercontent.com/Raphasha27/flowsentinel/main/screenshots/dashboard_overview.png" width="100%" style="border-radius: 8px;">
-      <br>
-      <br>
-      <code>.NET 8</code> <code>Redis</code> <code>Docker</code> <code>OpenTelemetry</code> <code>Lua</code> <code>Prometheus</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Raphasha27/ai-job-market">🤖 AI Job Market Intelligence</a></h3>
-      <p>A premium platform for real-time job market analytics and AI resume matching.</p>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/jobsphere_dashboard.jpg">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/jobsphere_dashboard_light.jpg">
-        <img src="./assets/jobsphere_dashboard_light.jpg" width="100%" style="border-radius: 8px;">
-      </picture>
-      <br>
-      <code>React</code> <code>FastAPI</code> <code>OpenAI</code> <code>Tailwind 4</code>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield Modern</a></h3>
-      <p>Next-gen Security Operations Center dashboard with AI Sentinel integration.</p>
-      <img src="./assets/cybershield.jpg" width="100%" style="border-radius: 8px;">
-      <br>
-      <code>Angular</code> <code>Tailwind</code> <code>D3.js</code> <code>WebSockets</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/Raphasha27/aura-weather-ai">☀️ Aura Weather AI</a></h3>
-      <p>Hyper-visual weather forecast app with glassmorphic UI and climate insights.</p>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/aura_weather.jpg">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/aura_weather_light.jpg">
-        <img src="./assets/aura_weather_light.jpg" width="100%" style="border-radius: 8px;">
-      </picture>
-      <br>
-      <code>Vite</code> <code>Vanilla CSS</code> <code>Framer Motion</code>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/Raphasha27/sovereign-ai-nexus-v2">🌍 Sovereign AI Nexus</a></h3>
-      <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.jpg">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.jpg">
-        <img src="./assets/banner_light.jpg" width="100%" style="border-radius: 8px;">
-      </picture>
-      <br>
-      <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
-    </td>
-  </tr>
-</table>
+### 🚦 FlowSentinel (Traffic Governance Platform)
+**Staff-Level Infrastructure Engineering**. A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua token buckets, and a glassmorphic Command Center.
+- ⚡ **Architecture**: Distributed system with Redis persistence.
+- 🛡️ **Resilience**: Implements fail-open circuit breakers.
+- 📊 **Monitoring**: Full observability via OpenTelemetry & Grafana.
+` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
+
+### 🤖 AI Job Market Intelligence
+A premium platform for real-time job market analytics and AI resume matching.
+- 🧠 **AI Engine**: Advanced NLP for career trajectory mapping.
+- 🎯 **matching**: Real-time semantic matching between resumes and job specs.
+` React ` ` FastAPI ` ` OpenAI ` ` Tailwind 4 `
+
+### 🛡️ CyberShield Modern
+Next-gen Security Operations Center dashboard with AI Sentinel integration.
+- 🚀 **Real-time**: WebSocket-driven threat alerts.
+- 📈 **Visualization**: Complex D3.js security metrics.
+` Angular ` ` Tailwind ` ` D3.js ` ` WebSockets `
+
+### 🌍 Sovereign AI Nexus
+Decentralized AI ecosystem for high-performance computing and secure data nodes.
+- 🕸️ **Decentralized**: Secure gRPC communication across nodes.
+- ⚡ **High-Performance**: Core modules in Rust and C++.
+` Python ` ` Rust ` ` Docker ` ` gRPC `
 
 <!-- SECTION: FEATURED PROJECTS END -->
 
@@ -241,54 +187,6 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages">
-</div>
-
----
-
-## 📌 Pinned Repositories
-
-<div align="center">
-  
-[![FlowSentinel](https://github-readme-stats.vercel.app/api/pin/?username=Raphasha27&repo=flowsentinel&theme=tokyonight&hide_border=true)](https://github.com/Raphasha27/flowsentinel)
-[![CyberShield Modern](https://github-readme-stats.vercel.app/api/pin/?username=Raphasha27&repo=cybershield-modern&theme=tokyonight&hide_border=true)](https://github.com/Raphasha27/cybershield-modern)
-
-</div>
-
-### 🗂️ All Public Repositories
-*All repositories are set to public visibility and showcase production-ready code:*
-
-#### 🚀 Enterprise & Infrastructure
-- **[FlowSentinel](https://github.com/Raphasha27/flowsentinel)** - Distributed rate-limiting engine with Redis Lua & OpenTelemetry
-- **[SeatLock](https://github.com/Raphasha27/seatlockengine)** - High-performance C++ reservation system with lock-free architecture
-- **[SupportHive-C](https://github.com/Raphasha27/supporthive-c)** - Multi-tenant ticketing system built in C
-
-#### 🤖 AI & Machine Learning
-- **[NoShowIQ](https://github.com/Raphasha27/noshowiq)** - Healthcare no-show prediction with .NET 8 & FastAPI ML engine
-- **[AI Job Market Intelligence](https://github.com/Raphasha27/ai-job-market)** - Real-time job analytics with AI resume matching
-- **[Sovereign AI Nexus](https://github.com/Raphasha27/sovereign-ai-nexus-v2)** - Decentralized AI computing ecosystem
-
-#### 🛡️ Security & Monitoring
-- **[CyberShield Modern](https://github.com/Raphasha27/cybershield-modern)** - Next-gen SOC dashboard with Angular & D3.js
-- **[CyberShield SOC](https://github.com/Raphasha27/cybershield-soc)** - Security Operations Center platform
-
-#### 🌦️ Web Applications
-- **[Aura Weather AI](https://github.com/Raphasha27/aura-weather-ai)** - Hyper-visual weather app with climate insights
-- **[CONVO](https://github.com/Raphasha27/convo)** - Real-time chat application
-
-#### 📱 Mobile Development
-- **[Afro Fashion Mobile](https://github.com/Raphasha27/afro-fashion-mobile)** - E-commerce mobile app for African fashion
-
-#### 📊 Data & Analytics
-- **[Certificate Verification System](https://github.com/Raphasha27/certificate-verification-sql)** - SQL database project with advanced features
-- **[Billboard Project](https://github.com/Raphasha27/billboard)** - Professional billboard design system
-
-
----
-
-## 📈 Contribution Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph">
 </div>
 
 ---
@@ -324,4 +222,3 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 <div align="center">
   <sub>Built with ❤️ by <b>Koketso Raphasha</b> • Fire4s Team @ CAPACITI • © 2026</sub>
 </div>
-
