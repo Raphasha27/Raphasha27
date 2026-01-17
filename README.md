@@ -14,9 +14,9 @@
   </p>
 
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/nexus.jpg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/nexus_light.jpg">
-    <img src="./assets/nexus_light.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.jpg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.jpg">
+    <img src="./assets/banner_light.jpg" width="100%" style="border-radius: 12px; margin-top: 20px;" alt="Banner">
   </picture>
 
   ---
@@ -210,9 +210,9 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
       <h3><a href="https://github.com/Raphasha27/sovereign-ai-nexus-v2">🌍 Sovereign AI Nexus</a></h3>
       <p>Decentralized AI ecosystem for high-performance computing and secure data nodes.</p>
       <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="./assets/nexus.jpg">
-        <source media="(prefers-color-scheme: light)" srcset="./assets/nexus_light.jpg">
-        <img src="./assets/nexus_light.jpg" width="100%" style="border-radius: 8px;">
+        <source media="(prefers-color-scheme: dark)" srcset="./assets/banner_dark.jpg">
+        <source media="(prefers-color-scheme: light)" srcset="./assets/banner_light.jpg">
+        <img src="./assets/banner_light.jpg" width="100%" style="border-radius: 8px;">
       </picture>
       <br>
       <code>Python</code> <code>Rust</code> <code>Docker</code> <code>gRPC</code>
