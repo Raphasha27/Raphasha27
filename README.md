@@ -55,7 +55,7 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 
 ### 🤝 Team Collaboration & Leadership
 <div align="center">
-  <img src="./assets/team_collaboration.jpg" width="100%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
+  <img src="./assets/team_collaboration.jpg" width="60%" style="border-radius: 12px; margin: 20px 0;" alt="Team Collaboration">
 </div>
 
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
