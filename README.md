@@ -36,11 +36,11 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 ### 🎓 Experience & Achievements
 - **Co-founder & Developer** @ **Kid of Dynamics** (Start-up) 🚀
 - **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**
-- 🏆 Achieved **DISTINCTION in Mobile App Development**
-- 💼 **CAPACITI Program Graduate** - Enterprise Software Development Track
-- 📜 **Google Professional Certificates** via **Coursera**
-- 🚀 **YES4Youth Program** - Professional Development & Training
-- 🌟 Completed intensive training in **.NET, React, Cloud Architecture, and AI/ML**
+- 🎖️ **Academic Excellence**: Achieved **DISTINCTION in Mobile App Development**
+- 💼 **Enterprise Ready**: **CAPACITI Program Graduate** - Software Development Track
+- 📜 **Certified Professional**: Multiple **Google & IBM Professional Certificates** via **Coursera/Credly**
+- 🚀 **Professional Growth**: **YES4Youth Program** Participant - Tech & Leadership Training
+- 🌟 **Specialized Training**: Completed intensive modules in **.NET 8, React, AI/ML (IBM), and Cloud Architecture**
 
 ### 🤝 Team Collaboration & Leadership
 - 👥 **Proud Member of Fire4s Development Team** @ CAPACITI
@@ -58,11 +58,11 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - **Adaptive Thinking**: Pivoting quickly to new technologies and industry shifts to maintain a competitive edge.
 
 ### 🔬 Core Competencies
-- 🧪 Deeply invested in **Neural Networks**, **Computer Vision**, and **Autonomous Systems**
-- 🛠️ Recently shipped **FlowSentinel**, an enterprise-grade distributed rate-limiting platform
-- 🏗️ Architected **NoShowIQ**, a healthcare no-show prediction system using ML
-- 🎨 Expert in building **premium glassmorphic UIs** with modern frameworks
-- ⚡ Performance optimization specialist with focus on **high-throughput systems**
+- 🧠 **Neural Networks**: Deeply invested in **Computer Vision** and **Autonomous Systems**.
+- ⚙️ **Infrastructure**: Architected **FlowSentinel**, an enterprise-grade rate-limiting platform.
+- 📉 **Predictive Analytics**: Designed **NoShowIQ**, a healthcare prediction system using ML.
+- 🎨 **UI/UX Excellence**: Expert in building **premium glassmorphic UIs** with modern frameworks.
+- ⚡ **Performance**: Specialist in **high-throughput systems** and kernel optimization.
 
 ### 📂 Portfolio Highlights
 My repositories showcase a diverse range of skills from AI/ML to full-stack development:
@@ -157,25 +157,29 @@ My repositories showcase a diverse range of skills from AI/ML to full-stack deve
 - ⚡ **Low-Latency**: Achieving sub-millisecond overhead using Redis Lua token buckets.
 - 🛡️ **Chaos Engineering**: Built-in circuit breakers for "Fail-Open" reliability during backend degradation.
 - 📊 **Real-time Observability**: Integrated with OpenTelemetry for distributed tracing and Grafana for metrics.
-` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
+
+![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white) ![Lua](https://img.shields.io/badge/Lua-2C2D72?style=flat-square&logo=lua&logoColor=white) ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 
 ### 🤖 AI Job Market Intelligence
 A premium platform for real-time job market analytics and AI resume matching.
 - 🧠 **Contextual NLP**: Utilizes RAG (Retrieval-Augmented Generation) for highly precise candidate-to-market matching.
 - 🎯 **Vector Embeddings**: High-dimensional semantic search to identify career trajectory trends.
-` React ` ` FastAPI ` ` OpenAI ` ` Tailwind 4 `
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 
 ### 🛡️ CyberShield Modern
 Next-gen Security Operations Center dashboard with AI Sentinel integration.
 - 🚀 **Asynchronous Streams**: Handling thousands of security events per second via WebSockets.
 - 📈 **D3 Engine**: Custom WebGL-accelerated visualizations for network traffic heatmaps.
-` Angular ` ` Tailwind ` ` D3.js ` ` WebSockets `
+
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![D3.js](https://img.shields.io/badge/D3.js-F9A03C?style=flat-square&logo=d3.js&logoColor=white) ![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logoColor=white)
 
 ### 🌍 Sovereign AI Nexus
 Decentralized AI ecosystem for high-performance computing and secure data nodes.
 - 🕸️ **P2P Orchestration**: Secure gRPC-based communication for zero-latency node synchronization.
 - ⚡ **Kernel Optimization**: Core performance modules built with Rust for maximum hardware efficiency.
-` Python ` ` Rust ` ` Docker ` ` gRPC `
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=flat-square&logo=grpc&logoColor=white)
 
 <!-- SECTION: FEATURED PROJECTS END -->
 
@@ -184,7 +188,26 @@ Decentralized AI ecosystem for high-performance computing and secure data nodes.
 ## 🏆 Professional Achievements & Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=radical&no-frame=true&margin-w=4" alt="Trophies">
+</div>
+
+### 📜 Professional Certifications & Badges
+<div align="center">
+  <img src="https://images.credly.com/images/0680be6a-7c03-4c38-912c-7f1c2429364b/Coursera_20Chatbot_20Bldg_20Essen_20with_20watsonx_20Assist_20V2.png" width="100" alt="IBM watsonx Assistant">
+  <img src="https://images.credly.com/images/40bee502-a5b3-4365-90e7-57eed5067594/image.png" width="100" alt="IBM Python Data Science">
+  <img src="https://images.credly.com/images/3e199561-bc4a-4621-9361-340fc43d997e/Coursera_20Artificial_20Intelligence_20Essentials_20V2.png" width="100" alt="IBM AI Essentials">
+  <img src="https://images.credly.com/images/cd438751-dc30-4e49-ad59-a419926be02c/5f2edc5371da4f5bba4b74c04e09c84c_cached_image_20250827-31-mkkat2.png" width="100" alt="CAPACITI AI Bootcamp">
+  <img src="https://images.credly.com/images/c50b43e0-328e-4371-843b-84255661434e/d1fd917c42894b79bd21cafd731e87db_cached_image_20250827-32-z1elv3.png" width="100" alt="Professional Development">
+</div>
+
+<div align="center">
+
+![Google IT Support](https://img.shields.io/badge/Google-IT%20Support-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Google Data Analytics](https://img.shields.io/badge/Google-Data%20Analytics-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Google AI Mastery](https://img.shields.io/badge/Google-AI%20Mastery-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![CAPACITI Software Dev](https://img.shields.io/badge/CAPACITI-Software%20Dev-FFD700?style=for-the-badge&logo=micro-strategy&logoColor=black)
+![Mobile App Distinction](https://img.shields.io/badge/Distinction-Mobile%20App%20Dev-0EA5E9?style=for-the-badge&logo=react&logoColor=white)
+
 </div>
 
 ---
@@ -192,12 +215,16 @@ Decentralized AI ecosystem for high-performance computing and secure data nodes.
 ## 📊 GitHub Statistics & Activity
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%">
+  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&stroke=0EA5E9&ring=0EA5E9&fire=0EA5E9&currStreakNum=0EA5E9&sideNums=0EA5E9&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="GitHub Streak" width="49%">
 </div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&theme=tokyonight&hide_border=true&layout=compact&langs_count=8" alt="Top Languages">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=github-dark&color=0EA5E9&line=0EA5E9&point=0EA5E9&area=true&hide_border=true" alt="Activity Graph" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&layout=compact&langs_count=8" alt="Top Languages">
 </div>
 
 ---
