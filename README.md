@@ -34,7 +34,7 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 - **Visual Storytelling**: Merging complex data with premium, glassmorphic UI designs for intuitive human interaction.
 
 ### 🎓 Experience & Achievements
-- **Co-founder & Developer** @ **Kid of Dynamics** (Start-up) 🚀
+- **Co-founder & Developer** @ **Kivoc Dynamics Technology** (Start-up) 🚀
 - **Bachelor of Information Technology** (Class of 2025) @ **Richfield Graduate Institute of Technology**
 - 🎖️ **Academic Excellence**: Achieved **DISTINCTION in Mobile App Development**
 - 💼 **Enterprise Ready**: **CAPACITI Program Graduate** - Software Development Track
