@@ -23,7 +23,7 @@
 <!-- SECTION: HEADER END -->
 
 <!-- SECTION: ABOUT ME START -->
-## 🌌 About Me
+## 👤About Me
 
 
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
