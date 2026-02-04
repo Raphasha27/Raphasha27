@@ -19,6 +19,13 @@
   </p>
 
   <br>
+
+  <!-- HORIZONTAL TECH ARSENAL MARQUEE -->
+  <div align="center">
+    <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
+  </div>
+
+  <br>
   
   <table border="0" width="100%">
     <tr>
@@ -73,13 +80,6 @@
       </td>
     </tr>
   </table>
-</div>
-
----
-
-<!-- THE 2026 DEVELOPER'S ARSENAL -->
-<div align="center">
-  <img src="./assets/arsenal_2026.svg" width="100%" alt="The 2026 Developer's Arsenal">
 </div>
 
 ---
