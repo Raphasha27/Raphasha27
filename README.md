@@ -35,10 +35,11 @@
 ## 👤 About Me
 I am a determined **Software Developer and AI Specialist** based in South Africa, passionate about creating high-impact, AI-driven solutions that solve real-world problems. Whether it's building sovereign AI nodes, modernizing SOC platforms, or developing enterprise-grade systems, I thrive at the intersection of performance, innovation, and aesthetics.
 
-### 🎯 My Mission & Vision
-- 🌐 **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
-- 🏗️ **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
-- 🎨 **Visual Storytelling**: Merging complex data with premium, glassmorphic UI designs for intuitive human interaction.
+### 🧠 Core Competencies
+- 🧠 **Neural Networks**: Deeply invested in **Computer Vision** and **Autonomous Systems**.
+- ⚙️ **Infrastructure**: Architected **FlowSentinel**, an enterprise-grade rate-limiting platform.
+- 📉 **Predictive Analytics**: Designed **NoShowIQ**, a healthcare prediction system using ML.
+- 🎨 **UI/UX Excellence**: Expert in building **premium glassmorphic UIs** with modern frameworks.
 
 ---
 
@@ -53,62 +54,14 @@ I am a determined **Software Developer and AI Specialist** based in South Africa
 
 ---
 
-## 🤝 Team Collaboration & Leadership
-- 👥 **Proud Member of Fire4s Development Team @ CAPACITI**
-- 🚀 Collaborative team player who values collective success and knowledge sharing.
-- 💡 Experienced in agile development, code reviews, and pair programming.
-- 🎯 Contributed to multiple group projects focusing on mobile apps, web platforms, and AI solutions.
-- 📚 Mentored junior developers in React Native, .NET, and cloud deployment.
-
-### 🎭 Soft Skills & Leadership
-- **Critical Problem Solving**: Approaching complex challenges with a methodical, first-principles mindset.
-- **Strategic Leadership**: Leading with empathy and vision, as demonstrated in my co-founding role at Kivoc Dynamics.
-- **Cross-functional Collaboration**: Effectively bridging communication between technical teams and stakeholders.
-- **Technical Mentorship**: Committed to knowledge sharing and elevating team performance.
-- **Agile Methodology**: Expert in navigating fast-paced development cycles (Scrum/Kanban).
-- **Adaptive Thinking**: Pivoting quickly to new technologies and industry shifts.
-
----
-
-## 🔬 Core Competencies
-- 🧠 **Neural Networks**: Deeply invested in Computer Vision and Autonomous Systems.
-- ⚙️ **Infrastructure**: Architected **FlowSentinel**, an enterprise-grade rate-limiting platform.
-- 📉 **Predictive Analytics**: Designed **NoShowIQ**, a healthcare prediction system using ML.
-- 🎨 **UI/UX Excellence**: Expert in building premium glassmorphic UIs with modern frameworks.
-- ⚡ **Performance**: Specialist in high-throughput systems and kernel optimization.
-
----
-
-## 📂 Portfolio Highlights
-Discover curated repositories showcasing production-ready code:
-- 🚦 **FlowSentinel**: Traffic governance with Redis Lua & OpenTelemetry.
-- 🤖 **AI Job Market Intelligence**: Real-time analytics & resume matching.
-- 🛡️ **CyberShield Modern**: SOC dashboard with AI Sentinel.
-- ☀️ **Aura Weather AI**: Climate insights with glassmorphic UI.
-- 🌍 **Sovereign AI Nexus**: Decentralized AI computing ecosystem.
-- 🏥 **NoShowIQ**: Healthcare ML prediction platform.
-- 💺 **SeatLock**: High-performance C++ reservation engine.
-- 🎫 **SupportHive-C**: Multi-tenant ticketing system in C.
-
----
-
-## 🛠️ Technology Stack & Arsenal
-
-### 🧠 AI & Intelligent Systems
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-### 💻 Core Backend & Logic
-![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white) ![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-
----
-
-## 📚 Proficiency & Mastery
-| Skill | Proficiency |
-| :--- | :---: |
-| **C# / .NET Ecosystem Mastery** | 95% |
-| **AI / Machine Learning (PyTorch/TensorFlow)** | 90% |
-| **Mobile Development (React Native / MAUI)** | 85% |
-| **Cloud & DevOps (Docker / K8s / AWS)** | 92% |
+## 🎮 Elite AI Showroom
+<div align="center">
+  <h3>🐍 Snake AI: Hard Mode (A* Pathfinding)</h3>
+  <p>An autonomous agent using A* search and Flood-Fill safety analysis to achieve near-perfect play.</p>
+  <img src="https://github.com/Raphasha27/Raphasha27/raw/main/assets/snake_demo.gif" width="600" style="border-radius: 12px;" alt="Snake AI Demo">
+  <br>
+  <sub><i>Algorithm: Heuristic-driven graph search + Recursive state-space evaluation</i></sub>
+</div>
 
 ---
 
@@ -117,31 +70,13 @@ Discover curated repositories showcasing production-ready code:
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering.** A high-performance distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
 - ⚡ **Low-Latency**: Achieving sub-millisecond overhead using Redis Lua token buckets.
-- 🛡️ **Chaos Engineering**: Built-in circuit breakers for "Fail-Open" reliability during backend degradation.
-- 📊 **Real-time Observability**: Integrated with OpenTelemetry and Grafana.
-` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
+- 🛡️ **Chaos Engineering**: Built-in circuit breakers for "Fail-Open" reliability.
+
+![.NET 8](https://img.shields.io/badge/.NET_8-512BD4?style=flat-square&logo=dotnet&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 
 ### 🤖 AI Job Market Intelligence
 A premium platform for real-time job market analytics and AI resume matching.
 - 🧠 **Contextual NLP**: Utilizes RAG (Retrieval-Augmented Generation) for precise matching.
-- 🎯 **Vector Embeddings**: High-dimensional semantic search for career trends.
-` React ` ` FastAPI ` ` OpenAI ` ` Tailwind `
-
-### 🏥 NoShowIQ
-Advanced Healthcare prediction platform powered by Machine Learning.
-- 🧪 **Predictive Modeling**: High-accuracy patient no-show forecasting.
-- 📉 **Analytics Dashboard**: Real-time insights for healthcare providers.
-` Python ` ` Scikit-learn ` ` Streamlit ` ` PostgreSQL `
-
----
-
-## 🕹️ Elite AI Showroom
-<div align="center">
-  <h3>🐍 Snake AI: Hard Mode (A* Pathfinding)</h3>
-  <img src="https://github.com/Raphasha27/Raphasha27/raw/main/assets/snake_demo.gif" width="600" style="border-radius: 12px;" alt="Snake AI Demo">
-  <br>
-  <sub><i>Algorithm: A* Search + Recursive State-Space Evaluation + Flood-Fill Safety</i></sub>
-</div>
 
 ---
 
