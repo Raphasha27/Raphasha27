@@ -1,0 +1,55 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" rx="12" fill="#000000" stroke="#2121de" stroke-width="2"/>
+  
+  <!-- Maze Walls -->
+  <g stroke="#2121de" stroke-width="2" fill="none" opacity="0.6">
+    <rect x="50" y="50" width="300" height="200" rx="8" />
+    <path d="M 150 50 V 120 M 250 50 V 120 M 150 250 V 180 M 250 250 V 180" />
+    <path d="M 50 150 H 120 M 350 150 H 280" />
+  </g>
+
+  <!-- Pellets -->
+  <g fill="#ffb8ae">
+    <circle cx="100" cy="100" r="2" />
+    <circle cx="200" cy="100" r="2" />
+    <circle cx="300" cy="100" r="2" />
+    <circle cx="100" cy="200" r="2" />
+    <circle cx="200" cy="200" r="2" />
+    <circle cx="300" cy="200" r="2" />
+  </g>
+
+  <!-- Pacman -->
+  <g>
+    <path d="M 0 0 A 15 15 0 1 1 0 1 L -2 0 Z" fill="#ffff00">
+      <animateTransform attributeName="transform" type="translate" values="100,150; 300,150; 300,100; 100,100; 100,150" dur="8s" repeatCount="indefinite" />
+      <animate attributeName="d" values="M 15 0 A 15 15 0 1 1 15 1 L 0 0 Z; M 15 -5 A 15 15 0 1 1 15 5 L 0 0 Z; M 15 0 A 15 15 0 1 1 15 1 L 0 0 Z" dur="0.3s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Ghost (Blinky) -->
+  <g>
+    <path d="M -12 12 V -2 A 12 12 0 0 1 12 -2 V 12 L 8 8 L 4 12 L 0 8 L -4 12 L -8 8 L -12 12 Z" fill="#ff0000">
+      <animateTransform attributeName="transform" type="translate" values="60,150; 260,150; 260,100; 60,100; 60,150" dur="8s" repeatCount="indefinite" />
+    </path>
+    <!-- Eyes -->
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="60,150; 260,150; 260,100; 60,100; 60,150" dur="8s" repeatCount="indefinite" />
+      <circle cx="-5" cy="-2" r="3" fill="white" />
+      <circle cx="5" cy="-2" r="3" fill="white" />
+      <circle cx="-4" cy="-2" r="1.5" fill="blue" />
+      <circle cx="6" cy="-2" r="1.5" fill="blue" />
+    </g>
+  </g>
+
+  <!-- AI HUD -->
+  <text x="20" y="30" font-family="monospace" font-size="12" fill="#ffff00" opacity="0.8">
+    PACMAN_AI: THREAT_EVASION
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+  </text>
+  <text x="20" y="50" font-family="monospace" font-size="10" fill="#34d399">
+    STRATEGY: BFS_SHORTEST_PATH
+  </text>
+  <text x="300" y="30" font-family="monospace" font-size="12" fill="#ff0000" text-anchor="end">
+    SCORE: 2450
+  </text>
+</svg>

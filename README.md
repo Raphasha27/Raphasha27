@@ -49,34 +49,34 @@
 
 ---
 
-## 🎮 Elite AI Showroom: Snake AI (Hard Mode)
+## 🎮 Elite AI Showroom: Pacman AI (Autonomous)
 
 <div align="center">
   <table border="0">
     <tr>
       <td width="60%">
         <p align="left">
-          <b>Snake AI: Hard Mode</b> is an autonomous agent demonstrating advanced graph search and state-space evaluation techniques.
+          <b>Pacman AI: Autonomous Ghost Hunting</b> is a multi-agent system demonstrating real-time pathfinding and adversarial decision-making.
         </p>
         <ul>
-          <li><b>Algorithm</b>: Custom A* Pathfinding + Recursive Flood-Fill Safety Analysis.</li>
-          <li><b>Intelligence</b>: Evaluates 100+ moves ahead to avoid self-trapping loops.</li>
-          <li><b>Visualization</b>: Real-time path projection and neural-node stat tracking.</li>
+          <li><b>Algorithm</b>: Breadth-First Search (BFS) + Ghost Behavior Prediction.</li>
+          <li><b>Intelligence</b>: Dynamically recalculates pathing based on ghost proximity and power-pellet availability.</li>
+          <li><b>Visualization</b>: Real-time heuristic scoring and adaptive risk-assessment HUD.</li>
         </ul>
         <p align="left">
-          <a href="./snake_ai.html">
-            <img src="https://img.shields.io/badge/PLAY_LIVE-0EA5E9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+          <a href="https://Raphasha27.github.io/Pacman-AI/">
+            <img src="https://img.shields.io/badge/PLAY_LIVE-FFFF00?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Live Demo" />
           </a>
-          <a href="https://github.com/Raphasha27/Raphasha27/blob/main/snake_ai.html">
+          <a href="https://github.com/Raphasha27/Pacman-AI">
             <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
           </a>
         </p>
       </td>
       <td width="40%">
         <!-- AUTOPLAYING AI SHOWCASE -->
-        <img src="./assets/snake_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #30363d;" alt="Snake AI Auto-Play">
+        <img src="./assets/pacman_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #2121de;" alt="Pacman AI Auto-Play">
         <br>
-        <sub><i>Simulated A* Neural Traversal</i></sub>
+        <sub><i>Heuristic BFS Traversal & Threat Evasion</i></sub>
       </td>
     </tr>
   </table>
