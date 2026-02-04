@@ -42,15 +42,6 @@
 
 ---
 
-<!-- HIGH PERFORMANCE ARSENAL SECTION -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=100&text=High-Performance%20Arsenal&fontSize=35&fontAlignY=40&animation=fadeIn" width="100%" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=mongodb,linux,py,react,ts,java,cpp,docker,aws,postgres,nodejs,rust,kubernetes,tensorflow&perline=14" alt="Arsenal Icons" />
-</div>
-
----
-
 ## 🎮 Elite AI Showroom: Snake AI (Hard Mode)
 
 <div align="center">
@@ -66,18 +57,19 @@
           <li><b>Visualization</b>: Real-time path projection and neural-node stat tracking.</li>
         </ul>
         <p align="left">
-          <a href="https://Raphasha27.github.io/Raphasha27/snake_ai.html">
-            <img src="https://img.shields.io/badge/LIVE_DEMO-0EA5E9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
-          </a>
           <a href="./snake_ai.html">
-            <img src="https://img.shields.io/badge/PLAY_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+            <img src="https://img.shields.io/badge/PLAY_LIVE-0EA5E9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+          </a>
+          <a href="https://github.com/Raphasha27/Raphasha27/blob/main/snake_ai.html">
+            <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
           </a>
         </p>
       </td>
       <td width="40%">
-        <a href="https://Raphasha27.github.io/Raphasha27/snake_ai.html">
-          <img src="https://capsule-render.vercel.app/api?type=rect&color=0EA5E9&height=180&text=SNAKE%20AI%20HARD%20MODE&fontSize=25&fontAlignY=50&animation=fadeIn" width="300" style="border-radius: 12px;" alt="Play Snake AI">
-        </a>
+        <!-- AUTOPLAYING AI SHOWCASE -->
+        <img src="./assets/snake_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #30363d;" alt="Snake AI Auto-Play">
+        <br>
+        <sub><i>Simulated A* Neural Traversal</i></sub>
       </td>
     </tr>
   </table>
