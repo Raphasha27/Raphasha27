@@ -30,9 +30,6 @@
         <p align="left">
           Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
         </p>
-        <p align="left">
-          <i>"Building intelligent systems that bridge the gap between complex data and human intuition."</i>
-        </p>
       </td>
       <td width="30%" align="right">
         <!-- VERTICAL TECH STACK MARQUEE -->
@@ -47,7 +44,9 @@
 
 <!-- HIGH PERFORMANCE ARSENAL SECTION -->
 <div align="center">
-  <img src="./assets/horizontal_arsenal.svg" width="100%" alt="High-Performance Arsenal Banner">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0d1117&height=100&text=High-Performance%20Arsenal&fontSize=35&fontAlignY=40&animation=fadeIn" width="100%" />
+  <br>
+  <img src="https://skillicons.dev/icons?i=mongodb,linux,py,react,ts,java,cpp,docker,aws,postgres,nodejs,rust,kubernetes,tensorflow&perline=14" alt="Arsenal Icons" />
 </div>
 
 ---
@@ -81,8 +80,20 @@
 
 ## 🎓 Specialized Learning & Certifications
 <div align="center">
-  <p>Continuous growth in AI, Design, and Engineering</p>
-  <img src="./assets/specialized_learning.svg" width="100%" alt="Specialized Learning Grid">
+  <p><i>Continuous growth in AI, Design, and Engineering</i></p>
+  
+  <table border="0">
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Data_Analytics-0EA5E9?style=for-the-badge&logo=google-analytics&logoColor=white" /><br>Google / Coursera</td>
+      <td align="center"><img src="https://img.shields.io/badge/UX_Design-10B981?style=for-the-badge&logo=figma&logoColor=white" /><br>Google / UI/UX</td>
+      <td align="center"><img src="https://img.shields.io/badge/AI_Engineering-006699?style=for-the-badge&logo=ibm&logoColor=white" /><br>IBM Professional</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Professional_Dev-34D399?style=for-the-badge&logo=target&logoColor=white" /><br>YES4Youth / CapaCiTi</td>
+      <td align="center"><img src="https://img.shields.io/badge/Python_Beginner-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB" /><br>Univ. of Michigan</td>
+      <td align="center"><img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br>DeepLearning.AI</td>
+    </tr>
+  </table>
 </div>
 
 ---
@@ -113,19 +124,12 @@
 A premium platform for real-time job market analytics and AI resume matching.
 ` React ` ` FastAPI ` ` OpenAI ` ` Tailwind `
 
-### 🏥 NoShowIQ
-Advanced Healthcare prediction platform powered by Machine Learning.
-` Python ` ` Scikit-learn ` ` Streamlit ` ` PostgreSQL `
-
 ---
 
 ## 📊 GitHub Statistics
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&stroke=0EA5E9&ring=0EA5E9&fire=0EA5E9&currStreakNum=0EA5E9&sideNums=0EA5E9&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="GitHub Streak" width="49%">
-</div>
-<div align="center" style="margin-top: 10px;">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=react-dark&area=true&color=0EA5E9" alt="Activity Graph" width="99%">
 </div>
 
 ---

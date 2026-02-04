@@ -1,82 +1,98 @@
 <svg fill="none" viewBox="0 0 150 500" width="150" height="500" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .wrapper {
-          height: 500px;
-          width: 150px;
-          overflow: hidden;
-          position: relative;
-          background: transparent;
-          /* Smoothly fades the icons out at the top and bottom */
-          mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
-          -webkit-mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
-        }
-        
-        .track {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 50px;
-          padding: 25px 0;
-          animation: slide-up 25s linear infinite;
-        }
+  <style>
+    @keyframes slide-up {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-50%); }
+    }
+    .track {
+      animation: slide-up 20s linear infinite;
+    }
+    .icon-box {
+      fill: rgba(255, 255, 255, 0.05);
+      stroke: rgba(255, 255, 255, 0.1);
+      stroke-width: 1;
+    }
+    .icon-box:hover {
+      fill: rgba(255, 255, 255, 0.15);
+      stroke: #00d2ff;
+    }
+  </style>
 
-        @keyframes slide-up {
-          from { transform: translateY(0); }
-          to { transform: translateY(-50%); }
-        }
+  <defs>
+    <clipPath id="frame">
+      <rect width="150" height="500" />
+    </clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="black" stop-opacity="0" />
+      <stop offset="15%" stop-color="black" stop-opacity="1" />
+      <stop offset="85%" stop-color="black" stop-opacity="1" />
+      <stop offset="100%" stop-color="black" stop-opacity="0" />
+    </linearGradient>
+    <mask id="fade-mask">
+      <rect width="150" height="500" fill="url(#fade)" />
+    </mask>
+  </defs>
 
-        .icon-box {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          width: 60px;
-          height: 60px;
-          background: rgba(255, 255, 255, 0.05);
-          border-radius: 12px;
-          transition: all 0.3s ease;
-          border: 1px solid rgba(255, 255, 255, 0.1);
-        }
+  <g mask="url(#fade-mask)">
+    <g class="track">
+      <!-- Row 1 -->
+      <g transform="translate(45, 20)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=python" x="10" y="10" width="40" height="40" />
+      </g>
+      <!-- Row 2 -->
+      <g transform="translate(45, 100)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=rust" x="10" y="10" width="40" height="40" />
+      </g>
+      <!-- Row 3 -->
+      <g transform="translate(45, 180)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=ts" x="10" y="10" width="40" height="40" />
+      </g>
+      <!-- Row 4 -->
+      <g transform="translate(45, 260)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=react" x="10" y="10" width="40" height="40" />
+      </g>
+      <!-- Row 5 -->
+      <g transform="translate(45, 340)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=docker" x="10" y="10" width="40" height="40" />
+      </g>
+      <!-- Row 6 -->
+      <g transform="translate(45, 420)">
+        <rect width="60" height="60" rx="12" class="icon-box" />
+        <image href="https://skillicons.dev/icons?i=aws" x="10" y="10" width="40" height="40" />
+      </g>
 
-        .icon-box:hover {
-          background: rgba(255, 255, 255, 0.15);
-          transform: scale(1.1) rotate(5deg);
-          border-color: #00d2ff;
-        }
-
-        img {
-          width: 35px;
-          height: 35px;
-        }
-      </style>
-
-      <div class="wrapper">
-        <div class="track">
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="Go" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="K8s" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="Postgres" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" /></div>
-          
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/go/go-original-wordmark.svg" alt="Go" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kubernetes/kubernetes-plain.svg" alt="K8s" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="Postgres" /></div>
-          <div class="icon-box"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" /></div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+      <!-- Duplicate for looping -->
+      <g transform="translate(0, 480)">
+        <g transform="translate(45, 20)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=python" x="10" y="10" width="40" height="40" />
+        </g>
+        <g transform="translate(45, 100)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=rust" x="10" y="10" width="40" height="40" />
+        </g>
+        <g transform="translate(45, 180)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=ts" x="10" y="10" width="40" height="40" />
+        </g>
+        <g transform="translate(45, 260)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=react" x="10" y="10" width="40" height="40" />
+        </g>
+        <g transform="translate(45, 340)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=docker" x="10" y="10" width="40" height="40" />
+        </g>
+        <g transform="translate(45, 420)">
+          <rect width="60" height="60" rx="12" class="icon-box" />
+          <image href="https://skillicons.dev/icons?i=aws" x="10" y="10" width="40" height="40" />
+        </g>
+      </g>
+    </g>
+  </g>
 </svg>
