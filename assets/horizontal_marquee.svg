@@ -1,24 +1,21 @@
 <svg fill="none" viewBox="0 0 800 100" width="800" height="100" xmlns="http://www.w3.org/2000/svg">
   <style>
     @keyframes scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-50%); }
+      0% { transform: translateX(100%); opacity: 0; }
+      10% { opacity: 1; }
+      90% { opacity: 1; }
+      100% { transform: translateX(-100%); opacity: 0; }
     }
     .track {
-      animation: scroll 30s linear infinite;
-    }
-    .icon-box {
-      fill: rgba(255, 255, 255, 0.05);
-      stroke: rgba(255, 255, 255, 0.1);
-      stroke-width: 1;
+      animation: scroll 20s linear infinite;
     }
   </style>
 
   <defs>
     <linearGradient id="fade-grad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="black" stop-opacity="0" />
-      <stop offset="10%" stop-color="black" stop-opacity="1" />
-      <stop offset="90%" stop-color="black" stop-opacity="1" />
+      <stop offset="20%" stop-color="black" stop-opacity="1" />
+      <stop offset="80%" stop-color="black" stop-opacity="1" />
       <stop offset="100%" stop-color="black" stop-opacity="0" />
     </linearGradient>
     <mask id="fade-mask">
@@ -28,14 +25,7 @@
 
   <g mask="url(#fade-mask)">
     <g class="track">
-      <!-- Group 1 -->
-      <g transform="translate(0, 20)">
-        <image href="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,docker,aws,postgres,nodejs,rust,cpp,cs&amp;perline=12" x="0" y="0" height="60" />
-      </g>
-      <!-- Duplicate for looping -->
-      <g transform="translate(600, 20)">
-        <image href="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,docker,aws,postgres,nodejs,rust,cpp,cs&amp;perline=12" x="0" y="0" height="60" />
-      </g>
+      <image href="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,docker,aws,postgres,nodejs,rust,cpp,java,html,css,php,go&amp;perline=16" x="0" y="20" height="60" />
     </g>
   </g>
 </svg>
