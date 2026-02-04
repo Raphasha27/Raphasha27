@@ -66,14 +66,28 @@
           <li><b>Visualization</b>: Real-time path projection and neural-node stat tracking.</li>
         </ul>
         <p align="left">
-          <a href="./snake_ai.html"><b>[ PLAY SOURCE CODE ]</b></a>
+          <a href="https://Raphasha27.github.io/Raphasha27/snake_ai.html">
+            <img src="https://img.shields.io/badge/LIVE_DEMO-0EA5E9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
+          </a>
+          <a href="./snake_ai.html">
+            <img src="https://img.shields.io/badge/PLAY_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+          </a>
         </p>
       </td>
       <td width="40%">
-        <img src="https://github.com/Raphasha27/Raphasha27/raw/main/assets/snake_demo.gif" width="300" style="border-radius: 12px; border: 2px solid #0EA5E9;" alt="Snake AI Demo">
+        <a href="https://Raphasha27.github.io/Raphasha27/snake_ai.html">
+          <img src="https://capsule-render.vercel.app/api?type=rect&color=0EA5E9&height=180&text=SNAKE%20AI%20HARD%20MODE&fontSize=25&fontAlignY=50&animation=fadeIn" width="300" style="border-radius: 12px;" alt="Play Snake AI">
+        </a>
       </td>
     </tr>
   </table>
+</div>
+
+---
+
+<!-- THE 2026 DEVELOPER'S ARSENAL -->
+<div align="center">
+  <img src="./assets/arsenal_2026.svg" width="100%" alt="The 2026 Developer's Arsenal">
 </div>
 
 ---
