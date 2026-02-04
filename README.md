@@ -45,6 +45,13 @@
 
 ---
 
+<!-- HIGH PERFORMANCE ARSENAL SECTION -->
+<div align="center">
+  <img src="./assets/horizontal_arsenal.svg" width="100%" alt="High-Performance Arsenal Banner">
+</div>
+
+---
+
 ## 🎮 Elite AI Showroom: Snake AI (Hard Mode)
 
 <div align="center">
@@ -72,19 +79,26 @@
 
 ---
 
-## 🎯 My Mission & Vision
-- 🌐 **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
-- 🏗️ **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
-- 🧪 **Predictive Mastery**: Leveraging ML to forecast outcomes and optimize resource allocation across healthcare and logistics.
+## 🎓 Specialized Learning & Certifications
+<div align="center">
+  <p>Continuous growth in AI, Design, and Engineering</p>
+  <img src="./assets/specialized_learning.svg" width="100%" alt="Specialized Learning Grid">
+</div>
 
 ---
 
-## 🎓 Experience & Achievements
+## 🎯 My Mission & Vision
+- 🌐 **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
+- 🏗️ **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
+- 🧪 **Predictive Mastery**: Leveraging ML to forecast outcomes and optimize resource allocation.
+
+---
+
+## 🎓 Academic Foundation
 - **Co-founder & Developer** @ **Kivoc Dynamics Technology** (Start-up) 🚀
 - **Bachelor of IT (Class of 2025)** @ **Richfield Graduate Institute of Technology**
 - 🎖️ **Academic Excellence**: Achieved **DISTINCTION in Mobile App Development**
 - 💼 **Enterprise Ready**: **CAPACITI Program Graduate** - Software Development Track
-- 📜 **Certified Professional**: Multiple **Google & IBM Professional Certificates**
 - 🚀 **Professional Growth**: **YES4Youth Program Participant** - Tech & Leadership Training
 
 ---
@@ -93,28 +107,15 @@
 
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
-- ⚡ **Low-Latency**: Sub-millisecond overhead using Redis Lua token buckets.
-- 🛡️ **Chaos Engineering**: Built-in circuit breakers for extreme reliability.
 ` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
 
 ### 🤖 AI Job Market Intelligence
 A premium platform for real-time job market analytics and AI resume matching.
-- 🧠 **Contextual NLP**: Utilizes RAG for highly precise candidate matching.
-- 🎯 **Vector Embeddings**: High-dimensional semantic search to identify career trends.
 ` React ` ` FastAPI ` ` OpenAI ` ` Tailwind `
 
 ### 🏥 NoShowIQ
 Advanced Healthcare prediction platform powered by Machine Learning.
-- 🧪 **Predictive Modeling**: High-accuracy patient no-show forecasting.
 ` Python ` ` Scikit-learn ` ` Streamlit ` ` PostgreSQL `
-
----
-
-## 📚 Proficiency & Mastery
-| Skill | Proficiency | Skill | Proficiency |
-| :--- | :---: | :--- | :---: |
-| **C# / .NET Ecosystem** | 95% | **AI / Machine Learning** | 90% |
-| **Cloud & DevOps (AWS/K8s)** | 92% | **Mobile (React Native)** | 85% |
 
 ---
 

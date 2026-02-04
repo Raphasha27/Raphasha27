@@ -1,0 +1,97 @@
+<svg fill="none" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .grid {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          gap: 20px;
+          padding: 20px;
+          background: #0d1117;
+          border-radius: 12px;
+          font-family: 'Segoe UI', Roboto, sans-serif;
+        }
+        .card {
+          background: #161b22;
+          border-radius: 12px;
+          border: 1px solid #30363d;
+          overflow: hidden;
+          transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+        .card:hover {
+          transform: translateY(-5px);
+          border-color: #10b981;
+        }
+        .card-img {
+          height: 120px;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+        }
+        .card-content {
+          padding: 15px;
+        }
+        .card-title {
+          color: #f0f6fc;
+          font-weight: 600;
+          font-size: 16px;
+          margin-bottom: 5px;
+        }
+        .card-subtitle {
+          color: #10b981;
+          font-size: 13px;
+          font-weight: 500;
+        }
+        /* Card Backgrounds (Using high-quality tech imagery) */
+        .img-analytics { background-image: url('https://images.unsplash.com/photo-1551288049-bbda38a5f85d?auto=format&fit=crop&q=80&w=300&h=120'); }
+        .img-ux { background-image: url('https://images.unsplash.com/photo-1586717791821-3f44a563dc4c?auto=format&fit=crop&q=80&w=300&h=120'); }
+        .img-ai { background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=300&h=120'); }
+        .img-prof { background-image: url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&q=80&w=300&h=120'); }
+        .img-python { background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=300&h=120'); }
+        .img-ml { background-image: url('https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&q=80&w=300&h=120'); }
+      </style>
+      <div class="grid">
+        <div class="card">
+          <div class="card-img img-analytics"></div>
+          <div class="card-content">
+            <div class="card-title">Data Analytics</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img img-ux"></div>
+          <div class="card-content">
+            <div class="card-title">UX Design</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img img-ai"></div>
+          <div class="card-content">
+            <div class="card-title">AI Engineering</div>
+            <div class="card-subtitle">IBM</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img img-prof"></div>
+          <div class="card-content">
+            <div class="card-title">Professional Development</div>
+            <div class="card-subtitle">YES4Youth / CapaCiTi</div>
+          </div>
+        </div>
+        <div class="card" style="border-color: #10b981;">
+          <div class="card-img img-python"></div>
+          <div class="card-content">
+            <div class="card-title">Python for Beginners</div>
+            <div class="card-subtitle">University of Michigan</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img img-ml"></div>
+          <div class="card-content">
+            <div class="card-title">Machine Learning</div>
+            <div class="card-subtitle">DeepLearning.AI</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
