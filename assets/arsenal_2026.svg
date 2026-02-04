@@ -1,125 +1,126 @@
 <svg fill="none" viewBox="0 0 1000 1000" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap');
-    .bg { fill: #0d1117; }
+    .bg { fill: #0b0e14; }
     .card { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 20; }
-    .title { fill: #ffffff; font-family: 'Inter', sans-serif; font-weight: 900; font-size: 56px; text-transform: uppercase; letter-spacing: -1.5px; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 56px; text-transform: uppercase; letter-spacing: -1px; }
     .section-label { fill: #8b949e; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; }
-    .item-bg { fill: rgba(255, 255, 255, 0.03); stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; rx: 12; }
+    .item-bg { fill: rgba(255, 255, 255, 0.03); stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; rx: 35; } /*pill shape*/
     .item-title { fill: #f0f6fc; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 18px; }
-    .item-desc { fill: #8b949e; font-family: 'Inter', sans-serif; font-size: 14px; }
     .accent-green { stroke: #10b981; stroke-width: 2; }
     .accent-blue { stroke: #0ea5e9; stroke-width: 2; }
-    .circuit-lines { stroke: rgba(16, 185, 129, 0.05); stroke-width: 1; }
+    .accent-cyan { stroke: #22d3ee; stroke-width: 2; }
   </style>
+
+  <defs>
+    <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#8b949e" />
+    </linearGradient>
+  </defs>
 
   <rect width="1000" height="1000" class="bg" />
   
-  <!-- Circuit Background Pattern -->
-  <g class="circuit-lines">
-    <path d="M0 100 H1000 M0 300 H1000 M0 500 H1000 M0 700 H1000 M0 900 H1000" />
-    <path d="M100 0 V1000 M300 0 V1000 M500 0 V1000 M700 0 V1000 M900 0 V1000" />
-    <circle cx="100" cy="100" r="3" fill="rgba(16, 185, 129, 0.1)" />
-    <circle cx="500" cy="300" r="3" fill="rgba(16, 185, 129, 0.1)" />
-    <circle cx="900" cy="700" r="3" fill="rgba(16, 185, 129, 0.1)" />
-  </g>
-
-  <text x="500" y="100" text-anchor="middle" class="title">THE 2026</text>
-  <text x="500" y="160" text-anchor="middle" class="title">DEVELOPER'S ARSENAL</text>
+  <text x="500" y="100" text-anchor="middle" fill="url(#title-grad)" class="title">THE 2026</text>
+  <text x="500" y="160" text-anchor="middle" fill="url(#title-grad)" class="title">DEVELOPER'S ARSENAL</text>
 
   <!-- Left Column: Language Heavyweights -->
-  <rect x="50" y="220" width="440" height="730" class="card accent-blue" />
-  <text x="75" y="260" class="section-label">Language Heavyweights</text>
+  <rect x="50" y="220" width="440" height="730" class="card accent-cyan" />
+  <text x="75" y="265" class="section-label">Language Heavyweights</text>
   
   <!-- Python -->
-  <g transform="translate(75, 280)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=py" x="15" y="15" width="50" height="50" />
-    <text x="80" y="35" class="item-title">Python: AI, JIT &amp; Free-threading</text>
-    <text x="80" y="58" class="item-desc">Core AI &amp; High-Performance Logic</text>
+  <g transform="translate(75, 290)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=py" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">Python: AI, JIT &amp;</text>
+    <text x="80" y="60" class="item-title">Free-threading</text>
   </g>
 
   <!-- Rust -->
-  <g transform="translate(75, 380)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=rust" x="15" y="15" width="50" height="50" />
-    <text x="80" y="35" class="item-title">Rust: Systems, Safety &amp; WASM</text>
-    <text x="80" y="58" class="item-desc">Memory Safety &amp; Bare-Metal Power</text>
+  <g transform="translate(75, 385)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=rust" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">Rust: Systems,</text>
+    <text x="80" y="60" class="item-title">Safety &amp; WASM</text>
   </g>
 
-  <!-- Go -->
+  <!-- Go 1 -->
   <g transform="translate(75, 480)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=go" x="15" y="15" width="50" height="50" />
-    <text x="80" y="35" class="item-title">Go: Cloud &amp; Microservices</text>
-    <text x="80" y="58" class="item-desc">Distributed Systems &amp; Scaling</text>
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=go" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">Go: Cloud &amp;</text>
+    <text x="80" y="60" class="item-title">Microservices</text>
+  </g>
+
+  <!-- Go 2 -->
+  <g transform="translate(75, 575)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=go" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">Go: Cloud v3</text>
+    <text x="80" y="60" class="item-title">Agents</text>
+  </g>
+
+  <!-- Go 3 -->
+  <g transform="translate(75, 670)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=go" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">Go: Cloud</text>
+    <text x="80" y="60" class="item-title">Web &amp; Enterprises</text>
   </g>
 
   <!-- TypeScript -->
-  <g transform="translate(75, 580)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=ts" x="15" y="15" width="50" height="50" />
-    <text x="80" y="35" class="item-title">TypeScript 7: Web &amp; Enterprise</text>
-    <text x="80" y="58" class="item-desc">Typed Web Orchestration</text>
-  </g>
-
-  <!-- C++ -->
-  <g transform="translate(75, 680)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=cpp" x="15" y="15" width="50" height="50" />
-    <text x="80" y="45" class="item-title">C++: Low-Level Mastery</text>
-  </g>
-
-  <!-- .NET -->
-  <g transform="translate(75, 780)">
-    <rect width="390" height="80" class="item-bg" />
-    <image href="https://skillicons.dev/icons?i=cs" x="15" y="15" width="50" height="50" />
-    <text x="80" y="45" class="item-title">.NET 8: Enterprise Solutions</text>
+  <g transform="translate(75, 765)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://skillicons.dev/icons?i=ts" x="15" y="12" width="50" height="50" />
+    <text x="80" y="38" class="item-title">TypeScript 7:</text>
+    <text x="80" y="60" class="item-title">Web &amp; Enterprise</text>
   </g>
 
   <!-- Right Column -->
   <!-- AI & Data Toolkit -->
   <rect x="520" y="220" width="430" height="230" class="card accent-green" />
-  <text x="545" y="260" class="section-label">AI &amp; Data Toolkit</text>
-  <g transform="translate(545, 280)">
-    <image href="https://skillicons.dev/icons?i=postgres" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">Polars: Fast Dataframes</text>
+  <text x="545" y="265" class="section-label">AI &amp; Data Toolkit</text>
+  <g transform="translate(545, 290)">
+    <image href="https://skillicons.dev/icons?i=postgres" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Polars: Fast Dataframes</text>
   </g>
-  <g transform="translate(545, 330)">
-    <image href="https://skillicons.dev/icons?i=tensorflow" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">LangGraph: AI Agents</text>
+  <g transform="translate(545, 350)">
+    <image href="https://skillicons.dev/icons?i=tensorflow" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">LangGraph: AI Agents</text>
   </g>
-  <g transform="translate(545, 380)">
-    <image href="https://skillicons.dev/icons?i=mongodb" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">Vector DBs: RAG &amp; Search</text>
+  <g transform="translate(545, 410)">
+    <image href="https://skillicons.dev/icons?i=mongodb" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Vector DBs: RAG &amp; Search</text>
   </g>
 
   <!-- Web Infrastructure -->
   <rect x="520" y="470" width="430" height="170" class="card accent-blue" />
   <text x="545" y="510" class="section-label">Web Infrastructure</text>
-  <g transform="translate(545, 530)">
-    <image href="https://skillicons.dev/icons?i=nextjs" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">Next.js 16+ Server Streaming</text>
+  <g transform="translate(545, 540)">
+    <image href="https://skillicons.dev/icons?i=nextjs" x="0" y="0" width="35" height="35" />
+    <text x="50" y="25" class="item-title">Next.js 16+ Server Streaming</text>
   </g>
-  <g transform="translate(545, 580)">
-    <image href="https://skillicons.dev/icons?i=tailwind" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">Tailwind CSS: AI Styling</text>
+  <g transform="translate(545, 600)">
+    <image href="https://skillicons.dev/icons?i=tailwind" x="0" y="0" width="35" height="35" />
+    <text x="50" y="25" class="item-title">Tailwind CSS: AI Styling</text>
   </g>
 
   <!-- Dev Environment -->
-  <rect x="520" y="660" width="430" height="230" class="card accent-green" />
+  <rect x="520" y="660" width="430" height="230" class="card accent-cyan" />
   <text x="545" y="700" class="section-label">Dev Environment</text>
-  <g transform="translate(545, 720)">
-    <image href="https://skillicons.dev/icons?i=vscode" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">VS Code / Cursor: AI-Native</text>
+  <g transform="translate(545, 730)">
+    <image href="https://skillicons.dev/icons?i=vscode" x="0" y="0" width="35" height="35" />
+    <text x="50" y="25" class="item-title">VS Code / Cursor: AI-Native IDEs</text>
   </g>
-  <g transform="translate(545, 770)">
-    <image href="https://skillicons.dev/icons?i=docker" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">uv: Ultrafast Python Pkg</text>
+  <g transform="translate(545, 790)">
+    <image href="https://skillicons.dev/icons?i=py" x="0" y="0" width="35" height="35" />
+    <text x="50" y="25" class="item-title">uv: Ultrafast Python Pkg</text>
   </g>
-  <g transform="translate(545, 820)">
-    <image href="https://skillicons.dev/icons?i=nodejs" x="0" y="0" width="30" height="30" />
-    <text x="45" y="22" class="item-title">Biome: Linter &amp; Formatter</text>
+  <g transform="translate(545, 850)">
+    <image href="https://skillicons.dev/icons?i=nodejs" x="0" y="0" width="35" height="35" />
+    <text x="50" y="25" class="item-title">Biome: Linter &amp; Formatter</text>
   </g>
 
+  <!-- Sparkle Icon in bottom right -->
+  <path d="M930 930 L940 910 L950 930 L970 940 L950 950 L940 970 L930 950 L910 940 Z" fill="#ffffff" opacity="0.8" />
 </svg>
