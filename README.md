@@ -110,7 +110,7 @@
         <sub>University of Michigan</sub>
       </td>
       <td align="center">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/DeepLearning.AI_logo.jpg" height="40" alt="DeepLearning.AI"><br>
+        <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/deeplearning_logo.png" height="40" alt="DeepLearning.AI"><br>
         <b>Machine Learning</b><br>
         <sub>DeepLearning.AI</sub>
       </td>
