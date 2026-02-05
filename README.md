@@ -54,10 +54,10 @@
           <li><b>Visualization</b>: Real-time heuristic scoring and adaptive risk-assessment HUD.</li>
         </ul>
         <p align="left">
-          <a href="https://Raphasha27.github.io/Pacman-AI/">
+          <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
             <img src="https://img.shields.io/badge/PLAY_LIVE-FFFF00?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Live Demo" />
           </a>
-          <a href="https://github.com/Raphasha27/Pacman-AI">
+          <a href="https://github.com/Raphasha27/Raphasha27/blob/main/pacman_game.html">
             <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
           </a>
         </p>
