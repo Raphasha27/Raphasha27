@@ -42,36 +42,30 @@
 ## 🎮 Elite AI Showroom: Pacman AI (Autonomous)
 
 <div align="center">
-  <table border="0">
-    <tr>
-      <td width="60%">
-        <p align="left">
-          <b>Pacman: Arcade Deluxe Edition</b>. A fully playable, high-fidelity recreation of the 1980 classic, engineered with authentic ghost logic and modern web technologies.
-        </p>
-        <ul>
-          <li><b>Engine</b>: Custom JavaScript game loop (140fps) with delta-time movement and pixel-perfect collision.</li>
-          <li><b>AI Logic</b>: Authentic ghost personalities (Blinky, Pinky, Inky, Clyde) using A* pathfinding.</li>
-          <li><b>Features</b>: Retro CRT scanlines, particle effects, mobile touch controls, and 3-channel audio synthesis.</li>
-        </ul>
-        <p align="left">
-          <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-            <img src="https://img.shields.io/badge/PLAY_LIVE-FFFF00?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Live Demo" />
-          </a>
-          <a href="https://github.com/Raphasha27/Raphasha27/blob/main/pacman_game.html">
-            <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
-          </a>
-        </p>
-      </td>
-      <td width="40%">
-        <!-- PLAYABLE GAME SHOWCASE -->
-        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-            <img src="./assets/pacman_autoplay.svg" width="100%" alt="Play Pacman Arcade Deluxe">
-        </a>
-        <br>
-        <sub><i>Autoplay Preview - Click to Start</i></sub>
-      </td>
-    </tr>
-  </table>
+  <p align="left">
+    <b>Pacman: Arcade Deluxe Edition</b>. A fully playable, high-fidelity recreation of the 1980 classic, engineered with authentic ghost logic and modern web technologies.
+  </p>
+  <ul>
+    <li><b>Engine</b>: Custom JavaScript game loop (140fps) with delta-time movement and pixel-perfect collision.</li>
+    <li><b>AI Logic</b>: Authentic ghost personalities (Blinky, Pinky, Inky, Clyde) using A* pathfinding.</li>
+    <li><b>Features</b>: Retro CRT scanlines, particle effects, mobile touch controls, and 3-channel audio synthesis.</li>
+  </ul>
+  
+  <p align="center">
+    <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
+      <img src="https://img.shields.io/badge/PLAY_LIVE-FFFF00?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Live Demo" />
+    </a>
+    <a href="https://github.com/Raphasha27/Raphasha27/blob/main/pacman_game.html">
+      <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+    </a>
+  </p>
+  
+  <!-- PLAYABLE GAME SHOWCASE -->
+  <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
+      <img src="./assets/pacman_autoplay.svg" width="600" style="border-radius: 8px; border: 2px solid #2121de;" alt="Play Pacman Arcade Deluxe">
+  </a>
+  <br>
+  <sub><i>Autoplay Preview - Click to Start</i></sub>
 </div>
 
 ---
