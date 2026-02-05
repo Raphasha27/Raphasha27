@@ -89,6 +89,41 @@
     <button onclick="toggleDebug()">Debug: <span id="debugStatus">OFF</span></button>
   </div>
   
+  <div class="d-pad">
+    <button onclick="manualMove(0, -1)">⬆️</button>
+    <div class="d-pad-row">
+      <button onclick="manualMove(-1, 0)">⬅️</button>
+      <button onclick="manualMove(1, 0)">➡️</button>
+    </div>
+    <button onclick="manualMove(0, 1)">⬇️</button>
+  </div>
+  
+  <style>
+    .d-pad {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+    }
+    .d-pad-row {
+      display: flex;
+      gap: 5px;
+    }
+    .d-pad button {
+      width: 50px;
+      height: 50px;
+      font-size: 1.5em;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #333;
+      border: 2px solid #555;
+    }
+    .d-pad button:active { background: #555; }
+  </style>
+  
   <p class="info">
     🧠 Pac-Man uses <b>A* pathfinding</b> to hunt the red ghost in real-time.
     The ghost has evasive AI and tries to escape. Watch the chase unfold!
@@ -410,20 +445,14 @@ function resetGame() {
   currentPath = [];
 }
 
-// Manual controls (when AI is off)
-document.addEventListener("keydown", e => {
-  if (aiEnabled) return;
+// Manual controls
+function manualMove(dx, dy) {
+  if (aiEnabled) toggleAI(); // Auto-disable AI when player takes control
   
-  let nx = pacman.x;
-  let ny = pacman.y;
+  let nx = pacman.x + dx;
+  let ny = pacman.y + dy;
   
-  if (e.key === "ArrowUp") ny--;
-  else if (e.key === "ArrowDown") ny++;
-  else if (e.key === "ArrowLeft") nx--;
-  else if (e.key === "ArrowRight") nx++;
-  else return;
-  
-  if (map[ny] && map[ny][nx] !== '#') {
+  if (ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#') {
     pacman.x = nx;
     pacman.y = ny;
     if (map[ny][nx] === '.') {
@@ -431,6 +460,13 @@ document.addEventListener("keydown", e => {
       score += 10;
     }
   }
+}
+
+document.addEventListener("keydown", e => {
+  if (e.key === "ArrowUp") manualMove(0, -1);
+  else if (e.key === "ArrowDown") manualMove(0, 1);
+  else if (e.key === "ArrowLeft") manualMove(-1, 0);
+  else if (e.key === "ArrowRight") manualMove(1, 0);
 });
 
 // Start
