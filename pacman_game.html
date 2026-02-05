@@ -163,7 +163,6 @@ const COLS = map[0].length;
 
 // Entities
 let pacman = { x: 1, y: 1, dx: 0, dy: 0 };
-let ghost = { x: 19, y: 9 };
 
 // A* Pathfinding
 function heuristic(a, b) {
@@ -247,18 +246,38 @@ function movePacmanAI() {
   }
 }
 
+// Ghost Squad: Red -> Pink -> Cyan -> Orange -> Green
+const GHOST_SQUAD = [
+  { color: '#ff0000', speed: 200, name: 'Red' },
+  { color: '#ffb8ff', speed: 180, name: 'Pink' },
+  { color: '#00ffff', speed: 160, name: 'Cyan' },
+  { color: '#ffb852', speed: 140, name: 'Orange' },
+  { color: '#00ff00', speed: 120, name: 'Green' }
+];
+let currentGhostIndex = 0;
+let ghost = { x: 19, y: 9, ...GHOST_SQUAD[0] };
+
+// ... (A* functions remain same) ...
+
 function moveGhostEvasive() {
   // Ghost tries to escape from Pacman
   const dirs = [{x:0,y:-1}, {x:0,y:1}, {x:-1,y:0}, {x:1,y:0}];
   let bestDir = null;
   let maxDist = -1;
   
+  // Create deep copy of ghost position for simulation
+  let currentDist = heuristic(ghost, pacman);
+  
   for (const d of dirs) {
     const nx = ghost.x + d.x;
     const ny = ghost.y + d.y;
     
+    // Check boundaries and walls
     if (ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#') {
+      // Calculate distance from Pacman if we move to (nx, ny)
       const dist = heuristic({x: nx, y: ny}, pacman);
+      
+      // Prefer moves that increase distance
       if (dist > maxDist) {
         maxDist = dist;
         bestDir = d;
@@ -266,21 +285,36 @@ function moveGhostEvasive() {
     }
   }
   
-  if (bestDir && Math.random() < 0.7) { // 70% chance to make smart move
-    ghost.x += bestDir.x;
-    ghost.y += bestDir.y;
+  // Move 
+  if (bestDir && maxDist >= currentDist) {
+     // If we found a move that keeps or increases distance, take it
+     ghost.x += bestDir.x;
+     ghost.y += bestDir.y;
   } else if (bestDir) {
-    // Random valid move
-    const validDirs = dirs.filter(d => {
-      const nx = ghost.x + d.x;
-      const ny = ghost.y + d.y;
-      return ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#';
-    });
-    if (validDirs.length > 0) {
-      const rd = validDirs[Math.floor(Math.random() * validDirs.length)];
-      ghost.x += rd.x;
-      ghost.y += rd.y;
+     // If trapped, take best available option (even if distance decreases slightly)
+     ghost.x += bestDir.x;
+     ghost.y += bestDir.y;
+  }
+}
+
+function spawnNextGhost() {
+  currentGhostIndex = (currentGhostIndex + 1) % GHOST_SQUAD.length;
+  const nextGhost = GHOST_SQUAD[currentGhostIndex];
+  
+  // Respawn at random processing
+  let attempts = 0;
+  while (attempts < 100) {
+    const rx = Math.floor(Math.random() * COLS);
+    const ry = Math.floor(Math.random() * ROWS);
+    if (map[ry][rx] !== '#' && heuristic({x: rx, y: ry}, pacman) > 8) {
+      ghost = { x: rx, y: ry, ...nextGhost };
+      
+      // Flash effect or notification could go here
+      const infoEl = document.querySelector('.info');
+      infoEl.innerHTML = `⚠️ <b>${nextGhost.name} Ghost</b> spawned! Speed: ${nextGhost.speed}ms`;
+      break;
     }
+    attempts++;
   }
 }
 
@@ -288,18 +322,7 @@ function checkCollision() {
   if (pacman.x === ghost.x && pacman.y === ghost.y) {
     catches++;
     score += 200;
-    // Respawn ghost at random valid position
-    let attempts = 0;
-    while (attempts < 100) {
-      const rx = Math.floor(Math.random() * COLS);
-      const ry = Math.floor(Math.random() * ROWS);
-      if (map[ry][rx] !== '#' && heuristic({x: rx, y: ry}, pacman) > 5) {
-        ghost.x = rx;
-        ghost.y = ry;
-        break;
-      }
-      attempts++;
-    }
+    spawnNextGhost();
   }
 }
 
@@ -344,8 +367,8 @@ function draw() {
     }
   }
   
-  // Draw Ghost (Red)
-  ctx.fillStyle = "#ff0000";
+  // Draw Ghost (Dynamic Color)
+  ctx.fillStyle = ghost.color || "#ff0000";
   ctx.beginPath();
   const gx = ghost.x * TILE + TILE/2;
   const gy = ghost.y * TILE + TILE/2;
@@ -437,12 +460,14 @@ function toggleDebug() {
 
 function resetGame() {
   pacman = { x: 1, y: 1, dx: 0, dy: 0 };
-  ghost = { x: 19, y: 9 };
+  currentGhostIndex = 0;
+  ghost = { x: 19, y: 9, ...GHOST_SQUAD[0] };
   score = 0;
   catches = 0;
   gameTime = 0;
   map = mapTemplate.map(row => row.split(''));
   currentPath = [];
+  document.querySelector('.info').innerHTML = `🧠 Pac-Man uses <b>A* pathfinding</b> to hunt the red ghost in real-time.`;
 }
 
 // Manual controls
