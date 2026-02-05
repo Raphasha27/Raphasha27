@@ -80,14 +80,38 @@
   
   <table border="0">
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Data_Analytics-0EA5E9?style=for-the-badge&logo=google-analytics&logoColor=white" /><br>Google / Coursera</td>
-      <td align="center"><img src="https://img.shields.io/badge/UX_Design-10B981?style=for-the-badge&logo=figma&logoColor=white" /><br>Google / UI/UX</td>
-      <td align="center"><img src="https://img.shields.io/badge/AI_Engineering-006699?style=for-the-badge&logo=ibm&logoColor=white" /><br>IBM Professional</td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" height="40" alt="Google"><br>
+        <b>Data Analytics</b><br>
+        <sub>Google / Coursera</sub>
+      </td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" height="40" alt="Figma"><br>
+        <b>UX Design</b><br>
+        <sub>Google Professional</sub>
+      </td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" height="40" alt="IBM"><br>
+        <b>AI Engineering</b><br>
+        <sub>IBM Professional</sub>
+      </td>
     </tr>
     <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Professional_Dev-34D399?style=for-the-badge&logo=target&logoColor=white" /><br>YES4Youth / CapaCiTi</td>
-      <td align="center"><img src="https://img.shields.io/badge/Python_Beginner-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB" /><br>Univ. of Michigan</td>
-      <td align="center"><img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br>DeepLearning.AI</td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png" height="50" alt="YES"><br>
+        <b>Professional Dev</b><br>
+        <sub>YES4Youth / CapaCiTi</sub>
+      </td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Seal_of_the_University_of_Michigan.svg" height="50" alt="UMich"><br>
+        <b>Python for Everybody</b><br>
+        <sub>University of Michigan</sub>
+      </td>
+      <td align="center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/DeepLearning.AI_logo.jpg" height="40" alt="DeepLearning.AI"><br>
+        <b>Machine Learning</b><br>
+        <sub>DeepLearning.AI</sub>
+      </td>
     </tr>
   </table>
 </div>
