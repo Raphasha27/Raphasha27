@@ -65,10 +65,10 @@
       <td width="40%">
         <!-- PLAYABLE GAME SHOWCASE -->
         <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-            <img src="./assets/pacman_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #2121de;" alt="Play Pacman Arcade Deluxe">
+            <img src="./assets/pacman_autoplay.svg" width="100%" alt="Play Pacman Arcade Deluxe">
         </a>
         <br>
-        <sub><i>Click image to play the Arcade Deluxe Edition</i></sub>
+        <sub><i>Autoplay Preview - Click to Start</i></sub>
       </td>
     </tr>
   </table>
