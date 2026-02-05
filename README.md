@@ -46,12 +46,12 @@
     <tr>
       <td width="60%">
         <p align="left">
-          <b>Pacman AI: Autonomous Ghost Hunting</b> is a multi-agent system demonstrating real-time pathfinding and adversarial decision-making.
+          <b>Pacman: Arcade Deluxe Edition</b>. A fully playable, high-fidelity recreation of the 1980 classic, engineered with authentic ghost logic and modern web technologies.
         </p>
         <ul>
-          <li><b>Algorithm</b>: Breadth-First Search (BFS) + Ghost Behavior Prediction.</li>
-          <li><b>Intelligence</b>: Dynamically recalculates pathing based on ghost proximity and power-pellet availability.</li>
-          <li><b>Visualization</b>: Real-time heuristic scoring and adaptive risk-assessment HUD.</li>
+          <li><b>Engine</b>: Custom JavaScript game loop (140fps) with delta-time movement and pixel-perfect collision.</li>
+          <li><b>AI Logic</b>: Authentic ghost personalities (Blinky, Pinky, Inky, Clyde) using A* pathfinding.</li>
+          <li><b>Features</b>: Retro CRT scanlines, particle effects, mobile touch controls, and 3-channel audio synthesis.</li>
         </ul>
         <p align="left">
           <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
@@ -63,10 +63,12 @@
         </p>
       </td>
       <td width="40%">
-        <!-- AUTOPLAYING AI SHOWCASE -->
-        <img src="./assets/pacman_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #2121de;" alt="Pacman AI Auto-Play">
+        <!-- PLAYABLE GAME SHOWCASE -->
+        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
+            <img src="./assets/pacman_ai_animate.svg" width="350" style="border-radius: 12px; border: 2px solid #2121de;" alt="Play Pacman Arcade Deluxe">
+        </a>
         <br>
-        <sub><i>Heuristic BFS Traversal & Threat Evasion</i></sub>
+        <sub><i>Click image to play the Arcade Deluxe Edition</i></sub>
       </td>
     </tr>
   </table>
