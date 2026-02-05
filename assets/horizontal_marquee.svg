@@ -22,28 +22,28 @@
   <g class="track">
     <g transform="translate(0, 20)">
       <!-- First set -->
-      <image href="https://skillicons.dev/icons?i=py" x="20" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=js" x="100" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=ts" x="180" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=java" x="260" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=cpp" x="340" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=php" x="420" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=docker" x="500" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=postgres" x="580" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=mongodb" x="660" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=react" x="740" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/python.svg" x="20" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/javascript.svg" x="100" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/typescript.svg" x="180" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/java.svg" x="260" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/cpp.svg" x="340" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/php.svg" x="420" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/docker.svg" x="500" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/postgresql.svg" x="580" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mongodb.svg" x="660" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/react.svg" x="740" y="0" width="60" height="60" />
       
       <!-- Duplicate set for seamless loop -->
-      <image href="https://skillicons.dev/icons?i=py" x="820" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=js" x="900" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=ts" x="980" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=java" x="1060" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=cpp" x="1140" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=php" x="1220" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=docker" x="1300" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=postgres" x="1380" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=mongodb" x="1460" y="0" width="60" height="60" />
-      <image href="https://skillicons.dev/icons?i=react" x="1540" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/python.svg" x="820" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/javascript.svg" x="900" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/typescript.svg" x="980" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/java.svg" x="1060" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/cpp.svg" x="1140" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/php.svg" x="1220" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/docker.svg" x="1300" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/postgresql.svg" x="1380" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mongodb.svg" x="1460" y="0" width="60" height="60" />
+      <image href="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/react.svg" x="1540" y="0" width="60" height="60" />
     </g>
   </g>
 

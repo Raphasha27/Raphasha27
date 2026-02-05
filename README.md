@@ -27,23 +27,13 @@
 
   <br>
   
-  <table border="0" width="100%">
-    <tr>
-      <td width="70%" valign="top">
-        <h2 align="left">👤 About Me</h2>
-        <p align="left">
-          I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
-        </p>
-        <p align="left">
-          Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
-        </p>
-      </td>
-      <td width="30%" align="right">
-        <!-- VERTICAL TECH STACK MARQUEE -->
-        <img src="./assets/vertical_stack.svg" width="120" alt="Tech Stack Marquee" />
-      </td>
-    </tr>
-  </table>
+  <h2 align="left">👤 About Me</h2>
+  <p align="left">
+    I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
+  </p>
+  <p align="left">
+    Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
+  </p>
 </div>
 <!-- SECTION: HEADER END -->
 
