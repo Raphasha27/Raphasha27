@@ -1,127 +1,440 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple Pac-Man</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pac-Man AI Hunter</title>
   <style>
-    body { background: black; color: yellow; text-align: center; font-family: Arial; }
-    canvas { background: #000; border: 2px solid yellow; }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      background: #000; 
+      color: yellow; 
+      text-align: center; 
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    h1 { 
+      font-size: 2.5em; 
+      margin-bottom: 10px;
+      text-shadow: 0 0 20px #ff0;
+    }
+    .subtitle { color: #0ff; font-size: 0.9em; margin-bottom: 15px; }
+    .stats { 
+      display: flex; 
+      gap: 30px; 
+      margin-bottom: 15px;
+      font-size: 1.1em;
+    }
+    .stat { padding: 8px 15px; background: #111; border-radius: 8px; }
+    .stat span { color: #0f0; }
+    canvas { 
+      background: #000; 
+      border: 3px solid #2121de;
+      border-radius: 8px;
+      box-shadow: 0 0 30px rgba(33, 33, 222, 0.5);
+    }
+    .controls {
+      margin-top: 15px;
+      display: flex;
+      gap: 10px;
+    }
+    button {
+      background: #2121de;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+    }
+    button:hover { background: #3434ff; }
+    .info { 
+      margin-top: 15px; 
+      color: #888; 
+      font-size: 0.85em;
+      max-width: 420px;
+    }
+    .mode-indicator {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: rgba(0,0,0,0.8);
+      padding: 10px 15px;
+      border-radius: 8px;
+      border: 1px solid #333;
+    }
+    .ai-status { color: #0f0; }
   </style>
 </head>
 <body>
-  <h1>Pac-Man</h1>
-  <p>Use Arrow Keys</p>
-  <h2 id="score">Score: 0</h2>
-  <canvas id="game" width="420" height="420"></canvas>
+  <h1>🎮 Pac-Man AI Hunter</h1>
+  <p class="subtitle">Intelligent A* Pathfinding • Real-Time Target Tracking</p>
+  
+  <div class="stats">
+    <div class="stat">Score: <span id="score">0</span></div>
+    <div class="stat">Catches: <span id="catches">0</span></div>
+    <div class="stat">Time: <span id="time">0</span>s</div>
+  </div>
+  
+  <canvas id="game" width="420" height="220"></canvas>
+  
+  <div class="controls">
+    <button onclick="toggleAI()">Toggle AI: <span id="aiStatus">ON</span></button>
+    <button onclick="resetGame()">Reset Game</button>
+    <button onclick="toggleDebug()">Debug: <span id="debugStatus">OFF</span></button>
+  </div>
+  
+  <p class="info">
+    🧠 Pac-Man uses <b>A* pathfinding</b> to hunt the red ghost in real-time.
+    The ghost has evasive AI and tries to escape. Watch the chase unfold!
+  </p>
 
 <script>
 const canvas = document.getElementById("game");
 const ctx = canvas.getContext("2d");
-const tile = 20;
-let score = 0;
+const TILE = 20;
 
-const map = [
- "#####################",
- "#.........##........#",
- "#.###.###..##..###.###",
- "#...................#",
- "#.###.#.######.#.###.#",
- "#.....#....##....#...#",
- "#####.#######.####.###",
- "#...................#",
- "#.###.###..##..###.###",
- "#.........##........#",
- "#####################"
+// Game State
+let score = 0;
+let catches = 0;
+let gameTime = 0;
+let aiEnabled = true;
+let debugMode = false;
+let currentPath = [];
+
+// Map: # = wall, . = dot, space = empty
+const mapTemplate = [
+  "#####################",
+  "#.........#.........#",
+  "#.###.###.#.###.###.#",
+  "#...................#",
+  "#.###.#.#####.#.###.#",
+  "#.....#...#...#.....#",
+  "#####.###.#.###.#####",
+  "#...................#",
+  "#.###.###.#.###.###.#",
+  "#.........#.........#",
+  "#####################"
 ];
 
+let map = mapTemplate.map(row => row.split(''));
+const ROWS = map.length;
+const COLS = map[0].length;
+
+// Entities
 let pacman = { x: 1, y: 1, dx: 0, dy: 0 };
-let ghost = { x: 10, y: 5 };
+let ghost = { x: 19, y: 9 };
 
-document.addEventListener("keydown", e => {
-  if (e.key === "ArrowUp")    { pacman.dx=0; pacman.dy=-1; }
-  if (e.key === "ArrowDown")  { pacman.dx=0; pacman.dy=1; }
-  if (e.key === "ArrowLeft")  { pacman.dx=-1; pacman.dy=0; }
-  if (e.key === "ArrowRight") { pacman.dx=1; pacman.dy=0; }
-});
+// A* Pathfinding
+function heuristic(a, b) {
+  return Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
+}
 
-function drawMap() {
-  for (let y=0; y<map.length; y++) {
-    for (let x=0; x<map[y].length; x++) {
-      if (map[y][x] === "#") {
-        ctx.fillStyle = "blue";
-        ctx.fillRect(x*tile, y*tile, tile, tile);
-      } else if (map[y][x] === ".") {
-        ctx.fillStyle = "white";
-        ctx.beginPath();
-        ctx.arc(x*tile+10, y*tile+10, 3, 0, Math.PI*2);
-        ctx.fill();
+function getNeighbors(node) {
+  const dirs = [{x:0,y:-1}, {x:0,y:1}, {x:-1,y:0}, {x:1,y:0}];
+  const neighbors = [];
+  for (const d of dirs) {
+    const nx = node.x + d.x;
+    const ny = node.y + d.y;
+    if (ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#') {
+      neighbors.push({x: nx, y: ny});
+    }
+  }
+  return neighbors;
+}
+
+function aStar(start, goal) {
+  const openSet = [start];
+  const cameFrom = new Map();
+  const gScore = new Map();
+  const fScore = new Map();
+  
+  const key = (n) => `${n.x},${n.y}`;
+  gScore.set(key(start), 0);
+  fScore.set(key(start), heuristic(start, goal));
+  
+  while (openSet.length > 0) {
+    // Get node with lowest fScore
+    openSet.sort((a, b) => (fScore.get(key(a)) || Infinity) - (fScore.get(key(b)) || Infinity));
+    const current = openSet.shift();
+    
+    if (current.x === goal.x && current.y === goal.y) {
+      // Reconstruct path
+      const path = [current];
+      let curr = current;
+      while (cameFrom.has(key(curr))) {
+        curr = cameFrom.get(key(curr));
+        path.unshift(curr);
+      }
+      return path;
+    }
+    
+    for (const neighbor of getNeighbors(current)) {
+      const tentativeG = (gScore.get(key(current)) || Infinity) + 1;
+      
+      if (tentativeG < (gScore.get(key(neighbor)) || Infinity)) {
+        cameFrom.set(key(neighbor), current);
+        gScore.set(key(neighbor), tentativeG);
+        fScore.set(key(neighbor), tentativeG + heuristic(neighbor, goal));
+        
+        if (!openSet.some(n => n.x === neighbor.x && n.y === neighbor.y)) {
+          openSet.push(neighbor);
+        }
       }
     }
   }
+  
+  return []; // No path found
 }
 
-function movePacman() {
-  let nx = pacman.x + pacman.dx;
-  let ny = pacman.y + pacman.dy;
-
-  if (map[ny] && map[ny][nx] !== "#") {
-    pacman.x = nx;
-    pacman.y = ny;
-
-    if (map[ny][nx] === ".") {
+// Game Logic
+function movePacmanAI() {
+  if (!aiEnabled) return;
+  
+  // Calculate path to ghost
+  currentPath = aStar({x: pacman.x, y: pacman.y}, {x: ghost.x, y: ghost.y});
+  
+  if (currentPath.length > 1) {
+    const next = currentPath[1];
+    pacman.x = next.x;
+    pacman.y = next.y;
+    
+    // Eat dots
+    if (map[pacman.y][pacman.x] === '.') {
+      map[pacman.y][pacman.x] = ' ';
       score += 10;
-      document.getElementById("score").innerText = "Score: " + score;
-      // Replace dot with empty space using array manipulation
-      let row = map[ny].split('');
-      row[nx] = ' ';
-      map[ny] = row.join('');
     }
   }
 }
 
-function moveGhost() {
-  const dirs = [
-    {x:1,y:0},{x:-1,y:0},{x:0,y:1},{x:0,y:-1}
-  ];
-  let d = dirs[Math.floor(Math.random()*4)];
-  let nx = ghost.x + d.x;
-  let ny = ghost.y + d.y;
-
-  if (map[ny] && map[ny][nx] !== "#") {
-    ghost.x = nx;
-    ghost.y = ny;
+function moveGhostEvasive() {
+  // Ghost tries to escape from Pacman
+  const dirs = [{x:0,y:-1}, {x:0,y:1}, {x:-1,y:0}, {x:1,y:0}];
+  let bestDir = null;
+  let maxDist = -1;
+  
+  for (const d of dirs) {
+    const nx = ghost.x + d.x;
+    const ny = ghost.y + d.y;
+    
+    if (ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#') {
+      const dist = heuristic({x: nx, y: ny}, pacman);
+      if (dist > maxDist) {
+        maxDist = dist;
+        bestDir = d;
+      }
+    }
   }
-}
-
-function drawCharacters() {
-  // Pac-Man
-  ctx.fillStyle = "yellow";
-  ctx.beginPath();
-  ctx.arc(pacman.x*tile+10, pacman.y*tile+10, 9, 0.2, Math.PI*1.8);
-  ctx.lineTo(pacman.x*tile+10, pacman.y*tile+10);
-  ctx.fill();
-
-  // Ghost
-  ctx.fillStyle = "red";
-  ctx.fillRect(ghost.x*tile+3, ghost.y*tile+3, 14, 14);
+  
+  if (bestDir && Math.random() < 0.7) { // 70% chance to make smart move
+    ghost.x += bestDir.x;
+    ghost.y += bestDir.y;
+  } else if (bestDir) {
+    // Random valid move
+    const validDirs = dirs.filter(d => {
+      const nx = ghost.x + d.x;
+      const ny = ghost.y + d.y;
+      return ny >= 0 && ny < ROWS && nx >= 0 && nx < COLS && map[ny][nx] !== '#';
+    });
+    if (validDirs.length > 0) {
+      const rd = validDirs[Math.floor(Math.random() * validDirs.length)];
+      ghost.x += rd.x;
+      ghost.y += rd.y;
+    }
+  }
 }
 
 function checkCollision() {
   if (pacman.x === ghost.x && pacman.y === ghost.y) {
-    alert("GAME OVER! Score: " + score);
-    location.reload();
+    catches++;
+    score += 200;
+    // Respawn ghost at random valid position
+    let attempts = 0;
+    while (attempts < 100) {
+      const rx = Math.floor(Math.random() * COLS);
+      const ry = Math.floor(Math.random() * ROWS);
+      if (map[ry][rx] !== '#' && heuristic({x: rx, y: ry}, pacman) > 5) {
+        ghost.x = rx;
+        ghost.y = ry;
+        break;
+      }
+      attempts++;
+    }
   }
 }
 
-function gameLoop() {
-  ctx.clearRect(0,0,canvas.width,canvas.height);
-  drawMap();
-  movePacman();
-  if (Math.random() < 0.3) moveGhost();
-  drawCharacters();
-  checkCollision();
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  
+  // Draw map
+  for (let y = 0; y < ROWS; y++) {
+    for (let x = 0; x < COLS; x++) {
+      const cell = map[y][x];
+      if (cell === '#') {
+        ctx.fillStyle = "#1919a6";
+        ctx.fillRect(x * TILE, y * TILE, TILE, TILE);
+        ctx.fillStyle = "#000";
+        ctx.fillRect(x * TILE + 3, y * TILE + 3, TILE - 6, TILE - 6);
+      } else if (cell === '.') {
+        ctx.fillStyle = "#ffb8ae";
+        ctx.beginPath();
+        ctx.arc(x * TILE + TILE/2, y * TILE + TILE/2, 3, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+  }
+  
+  // Debug: Draw AI path
+  if (debugMode && currentPath.length > 0) {
+    ctx.strokeStyle = "rgba(0, 255, 0, 0.5)";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(currentPath[0].x * TILE + TILE/2, currentPath[0].y * TILE + TILE/2);
+    for (let i = 1; i < currentPath.length; i++) {
+      ctx.lineTo(currentPath[i].x * TILE + TILE/2, currentPath[i].y * TILE + TILE/2);
+    }
+    ctx.stroke();
+    
+    // Draw path nodes
+    ctx.fillStyle = "rgba(0, 255, 0, 0.3)";
+    for (const node of currentPath) {
+      ctx.beginPath();
+      ctx.arc(node.x * TILE + TILE/2, node.y * TILE + TILE/2, 5, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+  
+  // Draw Ghost (Red)
+  ctx.fillStyle = "#ff0000";
+  ctx.beginPath();
+  const gx = ghost.x * TILE + TILE/2;
+  const gy = ghost.y * TILE + TILE/2;
+  ctx.arc(gx, gy - 2, 8, Math.PI, 0);
+  ctx.lineTo(gx + 8, gy + 6);
+  ctx.lineTo(gx + 4, gy + 2);
+  ctx.lineTo(gx, gy + 6);
+  ctx.lineTo(gx - 4, gy + 2);
+  ctx.lineTo(gx - 8, gy + 6);
+  ctx.fill();
+  // Ghost eyes
+  ctx.fillStyle = "#fff";
+  ctx.beginPath();
+  ctx.arc(gx - 3, gy - 4, 3, 0, Math.PI * 2);
+  ctx.arc(gx + 3, gy - 4, 3, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = "#00f";
+  ctx.beginPath();
+  ctx.arc(gx - 2, gy - 4, 1.5, 0, Math.PI * 2);
+  ctx.arc(gx + 4, gy - 4, 1.5, 0, Math.PI * 2);
+  ctx.fill();
+  
+  // Draw Pac-Man (Yellow Hunter)
+  ctx.fillStyle = "#ffff00";
+  ctx.beginPath();
+  const px = pacman.x * TILE + TILE/2;
+  const py = pacman.y * TILE + TILE/2;
+  const mouthAngle = Math.abs(Math.sin(Date.now() / 100)) * 0.3;
+  
+  // Calculate direction to ghost for mouth orientation
+  let angle = 0;
+  if (currentPath.length > 1) {
+    const next = currentPath[1];
+    const dx = next.x - pacman.x;
+    const dy = next.y - pacman.y;
+    angle = Math.atan2(dy, dx);
+  }
+  
+  ctx.arc(px, py, 9, angle + mouthAngle, angle + Math.PI * 2 - mouthAngle);
+  ctx.lineTo(px, py);
+  ctx.fill();
+  
+  // Update stats
+  document.getElementById("score").textContent = score;
+  document.getElementById("catches").textContent = catches;
 }
 
-setInterval(gameLoop, 150);
+// Game Loop
+let lastMoveTime = 0;
+let lastGhostTime = 0;
+const PACMAN_SPEED = 120; // ms per move
+const GHOST_SPEED = 200;  // ms per move (slower = easier to catch)
+
+function gameLoop(timestamp) {
+  // Move Pacman
+  if (timestamp - lastMoveTime > PACMAN_SPEED) {
+    movePacmanAI();
+    checkCollision();
+    lastMoveTime = timestamp;
+  }
+  
+  // Move Ghost (slower)
+  if (timestamp - lastGhostTime > GHOST_SPEED) {
+    moveGhostEvasive();
+    checkCollision();
+    lastGhostTime = timestamp;
+  }
+  
+  draw();
+  requestAnimationFrame(gameLoop);
+}
+
+// Timer
+setInterval(() => {
+  gameTime++;
+  document.getElementById("time").textContent = gameTime;
+}, 1000);
+
+// Controls
+function toggleAI() {
+  aiEnabled = !aiEnabled;
+  document.getElementById("aiStatus").textContent = aiEnabled ? "ON" : "OFF";
+}
+
+function toggleDebug() {
+  debugMode = !debugMode;
+  document.getElementById("debugStatus").textContent = debugMode ? "ON" : "OFF";
+}
+
+function resetGame() {
+  pacman = { x: 1, y: 1, dx: 0, dy: 0 };
+  ghost = { x: 19, y: 9 };
+  score = 0;
+  catches = 0;
+  gameTime = 0;
+  map = mapTemplate.map(row => row.split(''));
+  currentPath = [];
+}
+
+// Manual controls (when AI is off)
+document.addEventListener("keydown", e => {
+  if (aiEnabled) return;
+  
+  let nx = pacman.x;
+  let ny = pacman.y;
+  
+  if (e.key === "ArrowUp") ny--;
+  else if (e.key === "ArrowDown") ny++;
+  else if (e.key === "ArrowLeft") nx--;
+  else if (e.key === "ArrowRight") nx++;
+  else return;
+  
+  if (map[ny] && map[ny][nx] !== '#') {
+    pacman.x = nx;
+    pacman.y = ny;
+    if (map[ny][nx] === '.') {
+      map[ny][nx] = ' ';
+      score += 10;
+    }
+  }
+});
+
+// Start
+requestAnimationFrame(gameLoop);
 </script>
 </body>
 </html>

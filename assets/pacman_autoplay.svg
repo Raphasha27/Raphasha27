@@ -1,86 +1,56 @@
 <svg width="420" height="220" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" style="background: black;">
   <defs>
-    <!-- Dot Pattern -->
     <pattern id="dotPat" width="20" height="20" patternUnits="userSpaceOnUse">
       <circle cx="10" cy="10" r="2" fill="white" opacity="0.7" />
     </pattern>
-    <!-- Wall Block -->
     <rect id="W" width="20" height="20" fill="blue" stroke="black" stroke-width="2" />
   </defs>
 
-  <!-- MAP RENDERING (Matches Grid Exactly) -->
-  <!-- Row 0 -->
+  <!-- MAP (Same Grid) -->
   <use href="#W" x="0" y="0"/><use href="#W" x="20" y="0"/><use href="#W" x="40" y="0"/><use href="#W" x="60" y="0"/><use href="#W" x="80" y="0"/><use href="#W" x="100" y="0"/><use href="#W" x="120" y="0"/><use href="#W" x="140" y="0"/><use href="#W" x="160" y="0"/><use href="#W" x="180" y="0"/><use href="#W" x="200" y="0"/><use href="#W" x="220" y="0"/><use href="#W" x="240" y="0"/><use href="#W" x="260" y="0"/><use href="#W" x="280" y="0"/><use href="#W" x="300" y="0"/><use href="#W" x="320" y="0"/><use href="#W" x="340" y="0"/><use href="#W" x="360" y="0"/><use href="#W" x="380" y="0"/><use href="#W" x="400" y="0"/>
-  
-  <!-- Row 1 (Dots + Walls at 10,11) -->
-  <use href="#W" x="0" y="20"/>
-  <use href="#W" x="200" y="20"/><use href="#W" x="220" y="20"/>
-  <use href="#W" x="400" y="20"/>
-
-  <!-- Row 2 -->
+  <use href="#W" x="0" y="20"/><use href="#W" x="200" y="20"/><use href="#W" x="220" y="20"/><use href="#W" x="400" y="20"/>
   <use href="#W" x="0" y="40"/> <use href="#W" x="40" y="40"/><use href="#W" x="60" y="40"/><use href="#W" x="80" y="40"/> <use href="#W" x="120" y="40"/><use href="#W" x="140" y="40"/><use href="#W" x="160" y="40"/> <use href="#W" x="220" y="40"/><use href="#W" x="240" y="40"/> <use href="#W" x="280" y="40"/><use href="#W" x="300" y="40"/><use href="#W" x="320" y="40"/> <use href="#W" x="360" y="40"/><use href="#W" x="380" y="40"/> <use href="#W" x="400" y="40"/>
-
-  <!-- Row 3: All Path except borders -->
   <use href="#W" x="0" y="60"/> <use href="#W" x="400" y="60"/>
-
-  <!-- Row 4 -->
   <use href="#W" x="0" y="80"/> <use href="#W" x="40" y="80"/><use href="#W" x="60" y="80"/><use href="#W" x="80" y="80"/> <use href="#W" x="120" y="80"/> <use href="#W" x="160" y="80"/><use href="#W" x="180" y="80"/><use href="#W" x="200" y="80"/><use href="#W" x="220" y="80"/><use href="#W" x="240" y="80"/> <use href="#W" x="280" y="80"/> <use href="#W" x="320" y="80"/><use href="#W" x="340" y="80"/><use href="#W" x="360" y="80"/> <use href="#W" x="400" y="80"/>
-
-  <!-- Row 5 -->
   <use href="#W" x="0" y="100"/> <use href="#W" x="120" y="100"/> <use href="#W" x="220" y="100"/><use href="#W" x="240" y="100"/> <use href="#W" x="340" y="100"/> <use href="#W" x="400" y="100"/>
-
-  <!-- Row 6 -->
   <use href="#W" x="0" y="120"/><use href="#W" x="20" y="120"/><use href="#W" x="40" y="120"/><use href="#W" x="60" y="120"/><use href="#W" x="80" y="120"/> <use href="#W" x="120" y="120"/> <use href="#W" x="160" y="120"/><use href="#W" x="180" y="120"/><use href="#W" x="200" y="120"/><use href="#W" x="220" y="120"/><use href="#W" x="240" y="120"/> <use href="#W" x="280" y="120"/><use href="#W" x="300" y="120"/><use href="#W" x="320" y="120"/> <use href="#W" x="360" y="120"/><use href="#W" x="380" y="120"/><use href="#W" x="400" y="120"/>
-
-  <!-- Row 7: Like Row 3 -->
   <use href="#W" x="0" y="140"/> <use href="#W" x="400" y="140"/>
-
-  <!-- Row 8: Like Row 2 -->
-   <use href="#W" x="0" y="160"/> <use href="#W" x="40" y="160"/><use href="#W" x="60" y="160"/><use href="#W" x="80" y="160"/> <use href="#W" x="120" y="160"/><use href="#W" x="140" y="160"/><use href="#W" x="160" y="160"/> <use href="#W" x="220" y="160"/><use href="#W" x="240" y="160"/> <use href="#W" x="280" y="160"/><use href="#W" x="300" y="160"/><use href="#W" x="320" y="160"/> <use href="#W" x="360" y="160"/><use href="#W" x="380" y="160"/> <use href="#W" x="400" y="160"/>
-
-  <!-- Row 9: Like Row 1 -->
-  <use href="#W" x="0" y="180"/>
-  <use href="#W" x="200" y="180"/><use href="#W" x="220" y="180"/>
-  <use href="#W" x="400" y="180"/>
-
-  <!-- Row 10: Like Row 0 -->
+  <use href="#W" x="0" y="160"/> <use href="#W" x="40" y="160"/><use href="#W" x="60" y="160"/><use href="#W" x="80" y="160"/> <use href="#W" x="120" y="160"/><use href="#W" x="140" y="160"/><use href="#W" x="160" y="160"/> <use href="#W" x="220" y="160"/><use href="#W" x="240" y="160"/> <use href="#W" x="280" y="160"/><use href="#W" x="300" y="160"/><use href="#W" x="320" y="160"/> <use href="#W" x="360" y="160"/><use href="#W" x="380" y="160"/> <use href="#W" x="400" y="160"/>
+  <use href="#W" x="0" y="180"/> <use href="#W" x="200" y="180"/><use href="#W" x="220" y="180"/> <use href="#W" x="400" y="180"/>
   <use href="#W" x="0" y="200" /><use href="#W" x="20" y="200"/><use href="#W" x="40" y="200"/><use href="#W" x="60" y="200"/><use href="#W" x="80" y="200"/><use href="#W" x="100" y="200"/><use href="#W" x="120" y="200"/><use href="#W" x="140" y="200"/><use href="#W" x="160" y="200"/><use href="#W" x="180" y="200"/><use href="#W" x="200" y="200"/><use href="#W" x="220" y="200"/><use href="#W" x="240" y="200"/><use href="#W" x="260" y="200"/><use href="#W" x="280" y="200"/><use href="#W" x="300" y="200"/><use href="#W" x="320" y="200"/><use href="#W" x="340" y="200"/><use href="#W" x="360" y="200"/><use href="#W" x="380" y="200"/><use href="#W" x="400" y="200"/>
 
-  <!-- Dots Overlay -->
   <rect x="0" y="0" width="420" height="220" fill="url(#dotPat)" style="mix-blend-mode: screen;" />
 
-  <!-- Pacman: Moves in Loop -->
-  <g>
-    <animateMotion dur="8s" repeatCount="indefinite" path="M 30 70 H 390 V 150 H 30 V 70" />
+  <!-- Pacman: Starts at x=50, Moves Right to x=390. Speed: 340px / 4s = 85px/s -->
+  <g transform="translate(50, 70)">
+    <animateTransform attributeName="transform" type="translate" values="50,70; 390,70" dur="4s" repeatCount="indefinite" />
     <path fill="yellow">
        <animate attributeName="d" values="M0,0 L10,-5 A11,11 0 1,0 10,5 Z; M0,0 L10,-1 A11,11 0 1,0 10,1 Z" dur="0.2s" repeatCount="indefinite" />
-       <!-- Rotate based on direction of motion rect -->
-       <animateTransform attributeName="transform" type="rotate" values="0;0;90;90;180;180;270;270;360" keyTimes="0;0.45;0.46;0.55;0.56;0.95;0.96;1" dur="8s" repeatCount="indefinite" />
     </path>
+    <!-- Eat Effect (Score Pop) -->
+    <text x="0" y="-15" fill="#0ff" font-family="monospace" font-size="14" font-weight="bold" opacity="0">
+        200
+        <!-- Pop up at t=3s (75% of 4s) -->
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.73;0.74;0.85;0.86" dur="4s" repeatCount="indefinite" />
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-20" keyTimes="0.74; 1" dur="4s" repeatCount="indefinite" />
+    </text>
   </g>
 
-  <!-- Ghost (Red): Patrols valid path only -->
-  <g>
-    <!-- Path: (10,5) -> (10,3) -> (5,3) -> (5,7) -> (10,7) -> (10,5) 
-         Pixels: 
-         (10,5) = 210, 110
-         (10,3) = 210, 70
-         (5,3)  = 110, 70
-         (5,7)  = 110, 150
-         (10,7) = 210, 150
-    -->
-    <animateMotion dur="6s" repeatCount="indefinite" path="M 210 110 V 70 H 110 V 150 H 210 V 110" />
+  <!-- Red Ghost: Starts at x=150, Moves Right to x=300 (Caught). Speed: 150px / 3s = 50px/s (Slower) -->
+  <g transform="translate(150, 70)">
+    <!-- Moves to 300 over 3s (0.75 of total time), then vanishes -->
+    <animateTransform attributeName="transform" type="translate" values="150,70; 300,70; 300,70" keyTimes="0; 0.74; 1" dur="4s" repeatCount="indefinite" />
     
-    <g transform="translate(-10,-10)">
-      <path d="M 0 20 V 6 A 10 10 0 0 1 20 6 V 20 L 16 16 L 12 20 L 8 16 L 4 20 L 0 16 Z" fill="red" />
-      <circle cx="6" cy="8" r="3" fill="white" />
-      <circle cx="14" cy="8" r="3" fill="white" />
-      <circle cx="6" cy="8" r="1.5" fill="blue" />
-      <circle cx="14" cy="8" r="1.5" fill="blue" />
+    <g>
+        <!-- Vanish at 3s -->
+        <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.73;0.74;1" dur="4s" repeatCount="indefinite" />
+        <path d="M-10,0 L-10,-8 A10,10 0 1,1 10,-8 L10,0 L6,-3 L3,0 L0,-3 L-3,0 L-6,-3 Z" fill="red" />
+        <circle cx="-4" cy="-6" r="3" fill="white" />
+        <circle cx="4" cy="-6" r="3" fill="white" />
+        <circle cx="-4" cy="-6" r="1.5" fill="blue" />
+        <circle cx="4" cy="-6" r="1.5" fill="blue" />
     </g>
   </g>
 
-  <text x="5" y="15" fill="white" font-family="Arial" font-size="12">Score: 650</text>
   <text x="350" y="215" fill="yellow" font-family="Arial" font-size="10" opacity="0.6">LIVE PREVIEW</text>
-
 </svg>

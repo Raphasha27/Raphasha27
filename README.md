@@ -43,12 +43,13 @@
 
 <div align="center">
   <p align="left">
-    <b>Pacman: Arcade Deluxe Edition</b>. A fully playable, high-fidelity recreation of the 1980 classic, engineered with authentic ghost logic and modern web technologies.
+    <b>🧠 Pac-Man AI Hunter</b> — An autonomous agent powered by <b>A* pathfinding</b> that actively hunts the red ghost by calculating the shortest available path in real-time, creating a challenging and dynamic chase experience.
   </p>
   <ul>
-    <li><b>Engine</b>: Custom JavaScript game loop (140fps) with delta-time movement and pixel-perfect collision.</li>
-    <li><b>AI Logic</b>: Authentic ghost personalities (Blinky, Pinky, Inky, Clyde) using A* pathfinding.</li>
-    <li><b>Features</b>: Retro CRT scanlines, particle effects, mobile touch controls, and 3-channel audio synthesis.</li>
+    <li><b>🎯 Intelligent Tracking</b>: Real-time target acquisition with dynamic path recalculation as the ghost moves.</li>
+    <li><b>🔴 Evasive Ghost AI</b>: The red ghost has evasion logic — it actively tries to escape from Pac-Man.</li>
+    <li><b>📊 Debug Mode</b>: Toggle visualization of AI pathfinding nodes and shortest-path calculations.</li>
+    <li><b>⚡ Performance</b>: 60fps game loop with optimized A* heuristics for smooth pursuit.</li>
   </ul>
   
   <p align="center">
