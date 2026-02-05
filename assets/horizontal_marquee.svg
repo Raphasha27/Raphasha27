@@ -2,27 +2,49 @@
   <rect width="100%" height="100%" fill="#0d1117" rx="12"/>
   <style>
     @keyframes scroll {
-      0% { transform: translateX(100%); opacity: 0; }
-      10% { opacity: 1; }
-      90% { opacity: 1; }
-      100% { transform: translateX(-100%); opacity: 0; }
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
     }
     .track {
-      animation: scroll 20s linear infinite;
+      animation: scroll 30s linear infinite;
     }
   </style>
 
   <defs>
     <linearGradient id="fade-grad" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
-      <stop offset="20%" stop-color="#0d1117" stop-opacity="0" />
-      <stop offset="80%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="10%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="90%" stop-color="#0d1117" stop-opacity="0" />
       <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
     </linearGradient>
   </defs>
 
   <g class="track">
-    <image href="https://skillicons.dev/icons?i=py,js,ts,react,nextjs,docker,aws,postgres,nodejs,rust,cpp,java,html,css,php,go&amp;perline=16" x="0" y="20" height="60" />
+    <g transform="translate(0, 20)">
+      <!-- First set -->
+      <image href="https://skillicons.dev/icons?i=py" x="20" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=js" x="100" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=ts" x="180" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=java" x="260" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=cpp" x="340" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=php" x="420" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=docker" x="500" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=postgres" x="580" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=mongodb" x="660" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=react" x="740" y="0" width="60" height="60" />
+      
+      <!-- Duplicate set for seamless loop -->
+      <image href="https://skillicons.dev/icons?i=py" x="820" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=js" x="900" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=ts" x="980" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=java" x="1060" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=cpp" x="1140" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=php" x="1220" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=docker" x="1300" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=postgres" x="1380" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=mongodb" x="1460" y="0" width="60" height="60" />
+      <image href="https://skillicons.dev/icons?i=react" x="1540" y="0" width="60" height="60" />
+    </g>
   </g>
 
   <!-- Side Fades -->
