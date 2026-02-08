@@ -1,6 +1,6 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="https://sl.bing.net/eIp4uBvBltI" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Raphasha27 Header">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0EA5E9&height=200&section=header&text=Koketso%20Raphasha&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" alt="Header Banner">
   
   <br>
   
