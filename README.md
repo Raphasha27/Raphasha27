@@ -200,42 +200,54 @@
 
 ---
 
-## 💎 Elite Projects & Architectures
+<h2 align="center" style="color:#38bdf8; text-shadow:0 0 15px #38bdf8;">
+SYSTEMS • AI • AUTOMATION • PERFORMANCE
+</h2>
 
-<table border="0">
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/ai-job-market-intelligence">🚨 FlowSentinel</a></h4>
-        <p><i>Distributed Traffic Governance & AI Intelligence.</i></p>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield SOC</a></h4>
-        <p><i>Next-Gen AI Security Operations Center.</i></p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">☁️ Sovereign AI Nexus</a></h4>
-        <p><i>Decentralized AI Ecosystem & Infrastructure.</i></p>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/aura-weather-ai">🌡️ Aura Weather AI</a></h4>
-        <p><i>Predictive Climate Pattern Analysis.</i></p>
-      </div>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <p style="color:#22c55e; text-shadow:0 0 12px #22c55e;"> Architecting scalable systems • AI platforms • High-performance engines </p>
+</div>
+
+### 🤖 AI & Intelligence Platforms
+<div align="center"> 
+  <a href="https://github.com/Raphasha27/ai-job-market-intelligence"><img src="https://opengraph.githubassets.com/1/Raphasha27/ai-job-market-intelligence" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/aura-weather-ai"><img src="https://opengraph.githubassets.com/1/Raphasha27/aura-weather-ai" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2"><img src="https://opengraph.githubassets.com/1/Raphasha27/Sovereign-AI-Nexus-v2" width="32%" /></a>
+</div>
+<br>
+
+### 🧠 Backend & Platforms
+<div align="center"> 
+  <a href="https://github.com/Raphasha27/noshowiq"><img src="https://opengraph.githubassets.com/1/Raphasha27/noshowiq" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/Management-System"><img src="https://opengraph.githubassets.com/1/Raphasha27/Management-System" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/CycleSync"><img src="https://opengraph.githubassets.com/1/Raphasha27/CycleSync" width="32%" /></a>
+</div>
+<br>
+<div align="center">
+  <a href="https://github.com/Raphasha27/afro_fashion_mobile"><img src="https://opengraph.githubassets.com/1/Raphasha27/afro_fashion_mobile" width="32%" /></a>
+</div>
+
+### ⚙️ Systems & High-Performance Engines
+<div align="center"> 
+  <a href="https://github.com/Raphasha27/SeatLock"><img src="https://opengraph.githubassets.com/1/Raphasha27/SeatLock" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/SupportHive-C"><img src="https://opengraph.githubassets.com/1/Raphasha27/SupportHive-C" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/flowsentinel"><img src="https://opengraph.githubassets.com/1/Raphasha27/flowsentinel" width="32%" /></a>
+</div>
+
+### 🎨 Frontend, Motion & UX
+<div align="center"> 
+  <a href="https://github.com/Raphasha27/Portfolio"><img src="https://opengraph.githubassets.com/1/Raphasha27/Portfolio" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/mochi-motion"><img src="https://opengraph.githubassets.com/1/Raphasha27/mochi-motion" width="32%" /></a>
+  <a href="https://github.com/Raphasha27/cybershield-modern"><img src="https://opengraph.githubassets.com/1/Raphasha27/cybershield-modern" width="32%" /></a>
+</div>
+<br>
+<div align="center">
+  <a href="https://github.com/Raphasha27/koketso-swing-calculator"><img src="https://opengraph.githubassets.com/1/Raphasha27/koketso-swing-calculator" width="32%" /></a>
+</div>
 
 ---
 
-## 📂 Project Repository Index
+## 📊 Advanced GitHub Analytics
 <details>
 <summary><b>🔻 Click to Expand Full Project List</b></summary>
 <br>
@@ -332,7 +344,7 @@
 
 ## 📊 Advanced GitHub Analytics
 <div align="center">
-  <img src="https://github.com/Raphasha27/Raphasha27/blob/main/github-metrics.svg" alt="Advanced Metrics" width="100%">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" alt="Advanced Metrics" width="100%">
 </div>
 
 ---
