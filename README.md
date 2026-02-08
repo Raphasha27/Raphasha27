@@ -13,16 +13,12 @@
   <br>
 
   <p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
-    🚀 Building next-gen platforms • Scalable systems • AI-driven solutions
+    🚀 Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
   </p>
 
   <p>
     <a href="https://github.com/Raphasha27">
       <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
-    </a>
-
-    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-      <img src="https://img.shields.io/badge/LinkedIn-Koketso%20Raphasha-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
     </a>
   </p>
 
@@ -169,20 +165,6 @@
 
 ---
 
-## 🎯 My Mission & Vision
-- 🌐 **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
-- 🏗️ **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
-- 🧪 **Predictive Mastery**: Leveraging ML to forecast outcomes and optimize resource allocation.
-
----
-
-## 🎓 Academic Foundation
-- **Co-founder & Developer** @ **Kivoc Dynamics Technology** (Start-up) 🚀
-- **Bachelor of IT (Class of 2025)** @ **Richfield Graduate Institute of Technology**
-- 🎖️ **Academic Excellence**: Achieved **DISTINCTION in Mobile App Development**
-- 💼 **Enterprise Ready**: **CAPACITI Program Graduate** - Software Development Track
-- 🚀 **Professional Growth**: **YES4Youth Program Participant** - Tech & Leadership Training
-
 ---
 
 ## 📡 Sovereign AI Nexus: Real-Time Status
@@ -193,49 +175,25 @@
 
 ---
 
-<h2 align="center" style="color:#38bdf8; text-shadow:0 0 15px #38bdf8;">
-SYSTEMS • AI • AUTOMATION • PERFORMANCE
-</h2>
+## 📊 Advanced GitHub Analytics
 
 <div align="center">
-  <p style="color:#22c55e; text-shadow:0 0 12px #22c55e;"> Architecting scalable systems • AI platforms • High-performance engines </p>
-</div>
-
-### 🤖 AI & Intelligence Platforms
-<div align="center"> 
-  <a href="https://github.com/Raphasha27/ai-job-market-intelligence"><img src="https://opengraph.githubassets.com/1/Raphasha27/ai-job-market-intelligence" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/aura-weather-ai"><img src="https://opengraph.githubassets.com/1/Raphasha27/aura-weather-ai" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2"><img src="https://opengraph.githubassets.com/1/Raphasha27/Sovereign-AI-Nexus-v2" width="32%" /></a>
-</div>
-<br>
-
-### 🧠 Backend & Platforms
-<div align="center"> 
-  <a href="https://github.com/Raphasha27/noshowiq"><img src="https://opengraph.githubassets.com/1/Raphasha27/noshowiq" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/Management-System"><img src="https://opengraph.githubassets.com/1/Raphasha27/Management-System" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/CycleSync"><img src="https://opengraph.githubassets.com/1/Raphasha27/CycleSync" width="32%" /></a>
-</div>
-<br>
-<div align="center">
-  <a href="https://github.com/Raphasha27/afro_fashion_mobile"><img src="https://opengraph.githubassets.com/1/Raphasha27/afro_fashion_mobile" width="32%" /></a>
-</div>
-
-### ⚙️ Systems & High-Performance Engines
-<div align="center"> 
-  <a href="https://github.com/Raphasha27/SeatLock"><img src="https://opengraph.githubassets.com/1/Raphasha27/SeatLock" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/SupportHive-C"><img src="https://opengraph.githubassets.com/1/Raphasha27/SupportHive-C" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/flowsentinel"><img src="https://opengraph.githubassets.com/1/Raphasha27/flowsentinel" width="32%" /></a>
-</div>
-
-### 🎨 Frontend, Motion & UX
-<div align="center"> 
-  <a href="https://github.com/Raphasha27/Portfolio"><img src="https://opengraph.githubassets.com/1/Raphasha27/Portfolio" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/mochi-motion"><img src="https://opengraph.githubassets.com/1/Raphasha27/mochi-motion" width="32%" /></a>
-  <a href="https://github.com/Raphasha27/cybershield-modern"><img src="https://opengraph.githubassets.com/1/Raphasha27/cybershield-modern" width="32%" /></a>
-</div>
-<br>
-<div align="center">
-  <a href="https://github.com/Raphasha27/koketso-swing-calculator"><img src="https://opengraph.githubassets.com/1/Raphasha27/koketso-swing-calculator" width="32%" /></a>
+  
+  <!-- Mission & Academic Cards Row -->
+  <img src="./assets/mission_card.svg" width="49%" alt="Mission & Vision" />
+  <img src="./assets/academic_card.svg" width="49%" alt="Academic Foundation" />
+  
+  <br><br>
+  
+  <!-- GitHub Stats and Languages Row -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
+  
+  <br><br>
+  
+  <!-- Snake Animation -->
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake Animation" />
+  
 </div>
 
 ---

@@ -1,0 +1,30 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #58a6ff; }
+    .item-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #c9d1d9; }
+    .icon { font-size: 14px; }
+  </style>
+  
+  <rect x="0.5" y="0.5" width="399" height="249" class="card" />
+  
+  <text x="25" y="35" class="title">🎯 My Mission &amp; Vision</text>
+  
+  <g transform="translate(25, 60)">
+    <text x="0" y="0" class="icon">🌐</text>
+    <text x="25" y="0" class="item-text" font-weight="600">Sovereign Intelligence</text>
+    <text x="25" y="20" class="item-text">Autonomous systems prioritizing data privacy.</text>
+  </g>
+
+  <g transform="translate(25, 110)">
+    <text x="0" y="0" class="icon">🏗️</text>
+    <text x="25" y="0" class="item-text" font-weight="600">Architectural Scalability</text>
+    <text x="25" y="20" class="item-text">High-throughput systems: C++, .NET 8, Rust.</text>
+  </g>
+
+  <g transform="translate(25, 160)">
+    <text x="0" y="0" class="icon">🧪</text>
+    <text x="25" y="0" class="item-text" font-weight="600">Predictive Mastery</text>
+    <text x="25" y="20" class="item-text">ML for forecasting and optimization.</text>
+  </g>
+</svg>
