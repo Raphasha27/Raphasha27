@@ -1,44 +1,38 @@
 <!-- SECTION: HEADER START -->
+<table border="0" width="100%">
+  <tr>
+    <td width="60%" align="left" valign="center">
+      <h1>Hi 👋, I'm Koketso Raphasha</h1>
+      <h3>A passionate Software Developer and AI Specialist from South Africa</h3>
+      
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=0EA5E9&center=false&vCenter=true&width=500&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary;Elite+AI+Engineer" alt="Typing Animation">
+      
+      <ul>
+        <li>🔭 I’m currently building <b>Sovereign Intelligence Systems</b></li>
+        <li>🌱 I’m currently learning <b>Advanced Neural Architectures</b></li>
+        <li>💬 Ask me about <b>AI Agents, Cloud Infrastructure, & .NET 8</b></li>
+        <li>📫 How to reach me: <a href="mailto:koketso.raphasha@capaciti.org.za"><b>koketso.raphasha@capaciti.org.za</b></a></li>
+        <li>⚡ Fun fact: <b>I build autonomous Pac-Man hunters!</b></li>
+      </ul>
+      
+      <p align="left">
+        <a href="https://github.com/Raphasha27">
+          <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
+        </a>
+        <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+        </a>
+      </p>
+    </td>
+    <td width="40%" align="center" valign="center">
+      <img src="https://sl.bing.net/giY7BYN2qa" width="100%" alt="Koketso Raphasha">
+    </td>
+  </tr>
+</table>
+
+<!-- HORIZONTAL TECH ARSENAL MARQUEE -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0EA5E9&height=200&section=header&text=Koketso%20Raphasha&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" alt="Header Banner">
-  
-  <br>
-  
-  <!-- 3D AI Programming Bot -->
-  <img src="./assets/bot_animated.svg" width="220" alt="3D AI Programming Bot">
-  
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary;Elite+AI+Engineer" alt="Typing Animation">
-  
-  <p align="center">
-    <a href="https://github.com/Raphasha27">
-      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
-    </a>
-    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-  </p>
-
-  <br>
-
-  <!-- HORIZONTAL TECH ARSENAL MARQUEE -->
-  <div align="center">
-    <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
-  </div>
-
-  <br>
-  
-  <h2 align="left">👤 About Me</h2>
-  <p align="left">
-    I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
-  </p>
-  <div align="center">
-  <img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/GIFs/Ultra-Confident-Coder.gif" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Coding Banner GIF">
-  
-  *"Building intelligent systems that bridge the gap between complex data and human intuition."*
-</div>
-  <p align="left">
-    Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
-  </p>
+  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
 </div>
 <!-- SECTION: HEADER END -->
 
