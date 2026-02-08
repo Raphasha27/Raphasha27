@@ -70,16 +70,16 @@
 
 ## Mastered Technologies &amp; Tools
 <div align="center">
-  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Marquee" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Marquee" />
   <br>
-  <img src="./assets/certifications-marquee.svg" width="100%" alt="Certifications" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/certifications-marquee.svg" width="100%" alt="Certifications" />
 </div>
 
 <br>
 
 ## Professional Certifications & Training
 <div align="center">
-  <img src="./assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
 </div>
 
 <br>
@@ -87,8 +87,8 @@
 ## Advanced GitHub Analytics
 <div align="center">
   <!-- Mission & Academic Cards Row -->
-  <img src="./assets/mission_card.svg" width="49%" alt="Mission & Vision" />
-  <img src="./assets/academic_card.svg" width="49%" alt="Academic Foundation" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/mission_card.svg" width="49%" alt="Mission & Vision" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/academic_card.svg" width="49%" alt="Academic Foundation" />
   
   <br><br>
   
