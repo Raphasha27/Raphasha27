@@ -131,6 +131,18 @@
               <sub>IBM / Coursera</sub>
             </td>
           </tr>
+          <tr>
+            <td align="center" width="50%">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" height="40" alt="Microsoft"><br>
+              <b>Azure AI Engineer</b><br>
+              <sub>Microsoft Associate</sub>
+            </td>
+            <td align="center" width="50%">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/DeepLearning.AI_logo.svg?20220305193910" height="40" alt="DeepLearning.AI"><br>
+              <b>Generative AI with LLMs</b><br>
+              <sub>DeepLearning.AI</sub>
+            </td>
+          </tr>
         </table>
       </td>
     </tr>
