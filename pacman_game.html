@@ -4,83 +4,157 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pac-Man AI Hunter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700;900&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --primary: #0ea5e9;
+      --secondary: #2121de;
+      --bg: #030712;
+      --card-bg: rgba(17, 24, 39, 0.7);
+      --text: #f8fafc;
+      --neon-blue: #00f2ff;
+      --neon-yellow: #fff200;
+    }
+
     * { margin: 0; padding: 0; box-sizing: border-box; }
+    
     body { 
-      background: #000; 
-      color: yellow; 
+      background: var(--bg); 
+      color: var(--text); 
       text-align: center; 
-      font-family: 'Segoe UI', Arial, sans-serif;
+      font-family: 'Outfit', sans-serif;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       padding: 20px;
+      overflow-x: hidden;
     }
+
+    /* Ambient Background blobs */
+    .blob {
+      position: fixed;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(14, 165, 233, 0.15) 0%, rgba(33, 33, 222, 0) 70%);
+      border-radius: 50%;
+      z-index: -1;
+      filter: blur(80px);
+      animation: float 20s infinite alternate;
+    }
+    @keyframes float {
+      from { transform: translate(-20%, -20%); }
+      to { transform: translate(20%, 20%); }
+    }
+
     h1 { 
-      font-size: 2.5em; 
-      margin-bottom: 10px;
-      text-shadow: 0 0 20px #ff0;
+      font-size: 3em; 
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 5px;
+      background: linear-gradient(135deg, #fff, var(--primary));
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 10px 30px rgba(14, 165, 233, 0.3);
     }
-    .subtitle { color: #0ff; font-size: 0.9em; margin-bottom: 15px; }
+
+    .subtitle { color: var(--primary); font-size: 0.95em; margin-bottom: 25px; opacity: 0.8; }
+
     .stats { 
       display: flex; 
-      gap: 30px; 
-      margin-bottom: 15px;
-      font-size: 1.1em;
+      gap: 15px; 
+      margin-bottom: 25px;
+      perspective: 1000px;
     }
-    .stat { padding: 8px 15px; background: #111; border-radius: 8px; }
-    .stat span { color: #0f0; }
+
+    .stat { 
+      padding: 12px 20px; 
+      background: var(--card-bg);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px; 
+      font-weight: 700;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      transition: transform 0.3s ease;
+    }
+    .stat:hover { transform: translateY(-5px) rotateX(10deg); }
+    .stat span { color: var(--neon-blue); text-shadow: 0 0 10px var(--neon-blue); }
+
     canvas { 
       background: #000; 
-      border: 3px solid #2121de;
-      border-radius: 8px;
-      box-shadow: 0 0 30px rgba(33, 33, 222, 0.5);
+      border: 2px solid var(--secondary);
+      border-radius: 12px;
+      box-shadow: 0 0 50px rgba(33, 33, 222, 0.4), inset 0 0 20px rgba(33, 33, 222, 0.2);
+      image-rendering: pixelated;
     }
+
     .controls {
-      margin-top: 15px;
+      margin-top: 25px;
       display: flex;
-      gap: 10px;
+      gap: 15px;
     }
+
     button {
-      background: #2121de;
+      background: var(--card-bg);
+      backdrop-filter: blur(8px);
       color: white;
-      border: none;
-      padding: 10px 20px;
-      border-radius: 5px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      padding: 12px 24px;
+      border-radius: 12px;
       cursor: pointer;
-      font-size: 1em;
+      font-family: inherit;
+      font-weight: 700;
+      font-size: 0.9em;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    button:hover { background: #3434ff; }
+
+    button:hover { 
+      background: var(--primary);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(14, 165, 233, 0.4);
+    }
+
+    .d-pad {
+      margin-top: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .d-pad-row { display: flex; gap: 8px; }
+    .d-pad button {
+      width: 60px;
+      height: 60px;
+      border-radius: 18px;
+      background: var(--card-bg);
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      font-size: 1.4em;
+    }
+
     .info { 
-      margin-top: 15px; 
-      color: #888; 
-      font-size: 0.85em;
-      max-width: 420px;
+      margin-top: 30px; 
+      color: #94a3b8; 
+      font-size: 0.9em;
+      max-width: 450px;
+      line-height: 1.6;
     }
-    .mode-indicator {
+    .info b { color: var(--primary); }
+
+    /* Scanlines */
+    .scanlines {
       position: fixed;
-      top: 20px;
-      right: 20px;
-      background: rgba(0,0,0,0.8);
-      padding: 10px 15px;
-      border-radius: 8px;
-      border: 1px solid #333;
-    }
-    .ai-status { color: #0f0; }
-    
-    /* Retro Scanline Effect */
-    body::after {
-      content: " ";
-      display: block;
-      position: fixed;
-      top: 0; left: 0; bottom: 0; right: 0;
-      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+      top: 0; left: 0; width: 100%; height: 100%;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.15) 50%);
+      background-size: 100% 4px;
       z-index: 100;
-      background-size: 100% 4px, 3px 100%;
       pointer-events: none;
-      opacity: 0.3;
+      opacity: 0.2;
     }
     
     @keyframes pulse {
@@ -112,6 +186,15 @@
     <button onclick="toggleAI()">Toggle AI: <span id="aiStatus">ON</span></button>
     <button onclick="resetGame()">Reset Game</button>
     <button onclick="toggleDebug()">Debug: <span id="debugStatus">OFF</span></button>
+  </div>
+  
+  <div class="d-pad">
+    <button onclick="manualMove(0, -1)">⬆️</button>
+    <div class="d-pad-row">
+      <button onclick="manualMove(-1, 0)">⬅️</button>
+      <button onclick="manualMove(1, 0)">➡️</button>
+    </div>
+    <button onclick="manualMove(0, 1)">⬇️</button>
   </div>
   
   <p class="info">
