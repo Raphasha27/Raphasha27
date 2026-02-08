@@ -341,6 +341,8 @@ SYSTEMS • AI • AUTOMATION • PERFORMANCE
 ## 📊 Advanced GitHub Analytics
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" alt="Advanced Metrics" width="100%">
+  <br><br>
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" alt="Snake Animation" width="100%">
 </div>
 
 ---
