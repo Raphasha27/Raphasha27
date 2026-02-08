@@ -301,10 +301,9 @@
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 Advanced GitHub Analytics
 <div align="center">
-  <img src="./assets/github_stats.svg" alt="GitHub Stats" width="49%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&stroke=0EA5E9&ring=0EA5E9&fire=0EA5E9&currStreakNum=0EA5E9&sideNums=0EA5E9&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="GitHub Streak" width="49%">
+  <img src="https://github.com/Raphasha27/Raphasha27/blob/main/github-metrics.svg" alt="Advanced Metrics" width="100%">
 </div>
 
 ---
