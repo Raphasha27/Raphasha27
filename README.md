@@ -13,7 +13,7 @@
   <br>
 
   <p align="center">
-    <b>Elite Software Developer</b> and <b>AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b>full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b>backend engineering</b> (Node.js, .NET, FastAPI), and <b>AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b>innovation, speed, and precision</b> to solve complex challenges at scale.
+    Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
   </p>
 
   <p align="center">
