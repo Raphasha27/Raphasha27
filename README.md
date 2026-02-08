@@ -40,7 +40,7 @@
 <td width="40%" align="center" valign="center">
 
 <img 
-  src="https://sl.bing.net/giY7BYN2qa" 
+  src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
   width="100%" 
   style="
     border-radius:20px;
@@ -50,7 +50,7 @@
       0 0 40px rgba(56,189,248,0.6),
       0 0 60px rgba(34,197,94,0.4);
   " 
-  alt="Koketso Raphasha" 
+  alt="Coding Animation" 
 />
 
 </td>
