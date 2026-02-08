@@ -50,7 +50,7 @@
 
 ---
 
-## ⚡ Sovereign AI Nexus: Real-Time Status
+## Sovereign AI Nexus: Real-Time Status
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/dashboard.svg" width="100%" alt="AI Nexus Dashboard" />
 </div>
@@ -68,7 +68,7 @@
 
 ---
 
-## ⬢ Mastered Technologies & Tools
+## Mastered Technologies &amp; Tools
 <div align="center">
   <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Marquee" />
   <br>
@@ -77,14 +77,14 @@
 
 <br>
 
-## ◈ Professional Certifications & Training
+## Professional Certifications & Training
 <div align="center">
   <img src="./assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
 </div>
 
 <br>
 
-## 📈 Advanced GitHub Analytics
+## Advanced GitHub Analytics
 <div align="center">
   <!-- Mission & Academic Cards Row -->
   <img src="./assets/mission_card.svg" width="49%" alt="Mission & Vision" />
@@ -99,7 +99,7 @@
 
 <br>
 
-## ◈ Connect & Collaborate
+## Connect & Collaborate
 <div align="center">
   <table border="0">
     <tr>

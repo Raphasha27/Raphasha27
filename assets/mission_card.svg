@@ -8,23 +8,20 @@
   
   <rect x="0.5" y="0.5" width="399" height="249" class="card" />
   
-  <text x="25" y="35" class="title">🎯 My Mission &amp; Vision</text>
+  <text x="25" y="35" class="title">My Mission &amp; Vision</text>
   
   <g transform="translate(25, 60)">
-    <text x="0" y="0" class="icon">🌐</text>
-    <text x="25" y="0" class="item-text" font-weight="600">Sovereign Intelligence</text>
-    <text x="25" y="20" class="item-text">Autonomous systems prioritizing data privacy.</text>
+    <text x="0" y="0" class="item-text" font-weight="600">Sovereign Intelligence</text>
+    <text x="0" y="20" class="item-text">Autonomous systems prioritizing data privacy.</text>
   </g>
 
   <g transform="translate(25, 110)">
-    <text x="0" y="0" class="icon">🏗️</text>
-    <text x="25" y="0" class="item-text" font-weight="600">Architectural Scalability</text>
-    <text x="25" y="20" class="item-text">High-throughput systems: C++, .NET 8, Rust.</text>
+    <text x="0" y="0" class="item-text" font-weight="600">Architectural Scalability</text>
+    <text x="0" y="20" class="item-text">High-throughput systems: C++, .NET 8, Rust.</text>
   </g>
 
   <g transform="translate(25, 160)">
-    <text x="0" y="0" class="icon">🧪</text>
-    <text x="25" y="0" class="item-text" font-weight="600">Predictive Mastery</text>
-    <text x="25" y="20" class="item-text">ML for forecasting and optimization.</text>
+    <text x="0" y="0" class="item-text" font-weight="600">Predictive Mastery</text>
+    <text x="0" y="20" class="item-text">ML for forecasting and optimization.</text>
   </g>
 </svg>
