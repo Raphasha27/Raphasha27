@@ -70,7 +70,7 @@
 
 ## ⬢ Mastered Technologies & Tools
 <div align="center">
-  <img src="./assets/arsenal_2026.svg" width="100%" alt="Tech Arsenal" />
+  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Marquee" />
   <br>
   <img src="./assets/certifications-marquee.svg" width="100%" alt="Certifications" />
 </div>
