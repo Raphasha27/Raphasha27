@@ -68,7 +68,7 @@
   
   <!-- PLAYABLE GAME SHOWCASE -->
   <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-      <img src="./assets/pacman_autoplay.svg" width="600" style="border-radius: 8px; border: 2px solid #2121de;" alt="Play Pacman Arcade Deluxe">
+      <img src="https://sl.bing.net/dzz1hrd9x2O" width="600" style="border-radius: 8px; border: 2px solid #2121de;" alt="Pac-Man AI Hunter">
   </a>
   <br>
   <sub><i>Autoplay Preview - Click to Start</i></sub>
