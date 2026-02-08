@@ -94,11 +94,6 @@
           <b>Azure AI Engineer</b><br>
           <sub>Microsoft Associate</sub>
         </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/DeepLearning.AI_logo.svg?20220305193910" height="50" alt="DeepLearning.AI"><br>
-          <b>Generative AI with LLMs</b><br>
-          <sub>DeepLearning.AI</sub>
-        </td>
       </tr>
     </table>
   </marquee>
