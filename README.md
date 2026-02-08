@@ -6,8 +6,7 @@
   </h1>
 
   <h2 align="center">
-    ⚡ Software Developer and AI Specialist ⚡
-  </h2>
+     Software Developer and AI Specialist   </h2>
 
   <br>
 
