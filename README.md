@@ -118,9 +118,20 @@
     </tr>
     <tr>
       <td align="center" colspan="3">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" height="40" alt="Meta"><br>
-        <b>Meta Frontend Developer</b><br>
-        <sub>Meta / Coursera</sub>
+        <table border="0" width="100%">
+          <tr>
+            <td align="center" width="50%">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" height="40" alt="Meta"><br>
+              <b>Meta Frontend Developer</b><br>
+              <sub>Meta / Coursera</sub>
+            </td>
+            <td align="center" width="50%">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" height="40" alt="IBM"><br>
+              <b>Data Science Professional</b><br>
+              <sub>IBM / Coursera</sub>
+            </td>
+          </tr>
+        </table>
       </td>
     </tr>
   </table>
