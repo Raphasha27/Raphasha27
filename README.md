@@ -193,7 +193,10 @@
   
   <!-- Visitor Counter & Trophies Row -->
   <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=Profile%20Views&color=38bdf8&style=for-the-badge" alt="Profile Views" />
-  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  
+  <br><br>
+  
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=7" width="100%" alt="GitHub Trophies" />
   
   <br><br>
   
