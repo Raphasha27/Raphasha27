@@ -131,7 +131,42 @@
 
 ---
 
-## 💎 Featured Masterpieces
+## 💎 Featured Masterpieces & AI Arcade
+
+<!-- SECTION: ARCADE START -->
+<table border="0">
+  <tr>
+    <td colspan="2" align="center">
+      <h3>🎮 Raphasha AI Arcade (Live Games)</h3>
+      <p>Interactive AI simulations running directly on the edge.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <div align="center">
+        <h4>🟡 Pac-Man AI Hunter</h4>
+        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
+          <img src="assets/coding_animation.png" width="100%" style="border-radius: 8px; filter: hue-rotate(180deg);" alt="Pacman">
+        </a>
+        <br>
+        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html"><b>[ PLAY LIVE ]</b></a>
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <h4>🐍 Snake AI: Hard Mode</h4>
+        <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html">
+          <img src="assets/mobile_animation.png" width="100%" style="border-radius: 8px; filter: hue-rotate(80deg);" alt="Snake AI">
+        </a>
+        <br>
+        <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html"><b>[ PLAY LIVE ]</b></a>
+      </div>
+    </td>
+  </tr>
+</table>
+<!-- SECTION: ARCADE END -->
+
+<br>
 
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.

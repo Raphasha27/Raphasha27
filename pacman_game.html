@@ -69,6 +69,28 @@
       border: 1px solid #333;
     }
     .ai-status { color: #0f0; }
+    
+    /* Retro Scanline Effect */
+    body::after {
+      content: " ";
+      display: block;
+      position: fixed;
+      top: 0; left: 0; bottom: 0; right: 0;
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+      z-index: 100;
+      background-size: 100% 4px, 3px 100%;
+      pointer-events: none;
+      opacity: 0.3;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.8; }
+      50% { transform: scale(1.1); opacity: 1; }
+      100% { transform: scale(1); opacity: 0.8; }
+    }
+    .power-pellet {
+      animation: pulse 0.5s infinite;
+    }
   </style>
 </head>
 <body>
@@ -77,6 +99,7 @@
   
   <div class="stats">
     <div class="stat">Score: <span id="score">0</span></div>
+    <div class="stat">High Score: <span id="highScore">0</span></div>
     <div class="stat">Catches: <span id="catches">0</span></div>
     <div class="stat">Time: <span id="time">0</span>s</div>
   </div>
@@ -136,16 +159,19 @@ const TILE = 20;
 
 // Game State
 let score = 0;
+let highScore = localStorage.getItem("pacman_highscore") || 0;
 let catches = 0;
 let gameTime = 0;
 let aiEnabled = true;
 let debugMode = false;
 let currentPath = [];
+let powerTimer = 0;
+let particles = [];
 
 // Map: # = wall, . = dot, space = empty
 const mapTemplate = [
   "#####################",
-  "#.........#.........#",
+  "#O........#........O#",
   "#.###.###.#.###.###.#",
   "#...................#",
   "#.###.#.#####.#.###.#",
@@ -153,7 +179,7 @@ const mapTemplate = [
   "#####.###.#.###.#####",
   "#...................#",
   "#.###.###.#.###.###.#",
-  "#.........#.........#",
+  "#O........#........O#",
   "#####################"
 ];
 
@@ -242,7 +268,35 @@ function movePacmanAI() {
     if (map[pacman.y][pacman.x] === '.') {
       map[pacman.y][pacman.x] = ' ';
       score += 10;
+      createParticles(pacman.x * TILE + TILE/2, pacman.y * TILE + TILE/2, "#ffb8ae");
+    } else if (map[pacman.y][pacman.x] === 'O') {
+      map[pacman.y][pacman.x] = ' ';
+      score += 50;
+      powerTimer = 50; // ~6 seconds at 120ms
+      createParticles(pacman.x * TILE + TILE/2, pacman.y * TILE + TILE/2, "#fff");
     }
+  }
+}
+
+function createParticles(x, y, color) {
+  for (let i = 0; i < 8; i++) {
+    particles.push({
+      x, y,
+      vx: (Math.random() - 0.5) * 4,
+      vy: (Math.random() - 0.5) * 4,
+      life: 1.0,
+      color
+    });
+  }
+}
+
+function updateParticles() {
+  for (let i = particles.length - 1; i >= 0; i--) {
+    const p = particles[i];
+    p.x += p.vx;
+    p.y += p.vy;
+    p.life -= 0.05;
+    if (p.life <= 0) particles.splice(i, 1);
   }
 }
 
@@ -260,6 +314,8 @@ let ghost = { x: 19, y: 9, ...GHOST_SQUAD[0] };
 // ... (A* functions remain same) ...
 
 function moveGhostEvasive() {
+  if (powerTimer > 0) powerTimer--;
+  
   // Ghost tries to escape from Pacman
   const dirs = [{x:0,y:-1}, {x:0,y:1}, {x:-1,y:0}, {x:1,y:0}];
   let bestDir = null;
@@ -320,9 +376,17 @@ function spawnNextGhost() {
 
 function checkCollision() {
   if (pacman.x === ghost.x && pacman.y === ghost.y) {
-    catches++;
-    score += 200;
-    spawnNextGhost();
+    if (powerTimer > 0) {
+      // Pacman eats ghost
+      catches++;
+      score += 200;
+      createParticles(ghost.x * TILE + TILE/2, ghost.y * TILE + TILE/2, "#00ffff");
+      spawnNextGhost();
+    } else {
+      // Ghost eats Pacman (Reset for now)
+      createParticles(pacman.x * TILE + TILE/2, pacman.y * TILE + TILE/2, "#ffff00");
+      resetGame();
+    }
   }
 }
 
@@ -343,9 +407,24 @@ function draw() {
         ctx.beginPath();
         ctx.arc(x * TILE + TILE/2, y * TILE + TILE/2, 3, 0, Math.PI * 2);
         ctx.fill();
+      } else if (cell === 'O') {
+        ctx.fillStyle = "#fff";
+        ctx.beginPath();
+        const pulse = Math.sin(Date.now() / 150) * 2;
+        ctx.arc(x * TILE + TILE/2, y * TILE + TILE/2, 6 + pulse, 0, Math.PI * 2);
+        ctx.fill();
       }
     }
   }
+  
+  // Draw particles
+  ctx.globalAlpha = 1.0;
+  for (const p of particles) {
+    ctx.globalAlpha = p.life;
+    ctx.fillStyle = p.color;
+    ctx.fillRect(p.x - 2, p.y - 2, 4, 4);
+  }
+  ctx.globalAlpha = 1.0;
   
   // Debug: Draw AI path
   if (debugMode && currentPath.length > 0) {
@@ -368,7 +447,7 @@ function draw() {
   }
   
   // Draw Ghost (Dynamic Color)
-  ctx.fillStyle = ghost.color || "#ff0000";
+  ctx.fillStyle = powerTimer > 0 ? (powerTimer < 20 && Math.floor(Date.now()/200) % 2 ? "#fff" : "#2121de") : (ghost.color || "#ff0000");
   ctx.beginPath();
   const gx = ghost.x * TILE + TILE/2;
   const gy = ghost.y * TILE + TILE/2;
@@ -414,6 +493,11 @@ function draw() {
   // Update stats
   document.getElementById("score").textContent = score;
   document.getElementById("catches").textContent = catches;
+  if (score > highScore) {
+    highScore = score;
+    localStorage.setItem("pacman_highscore", highScore);
+  }
+  document.getElementById("highScore").textContent = highScore;
 }
 
 // Game Loop
@@ -437,6 +521,7 @@ function gameLoop(timestamp) {
     lastGhostTime = timestamp;
   }
   
+  updateParticles();
   draw();
   requestAnimationFrame(gameLoop);
 }

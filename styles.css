@@ -18,20 +18,66 @@
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: var(--bg);
-  background-image: 
-    radial-gradient(circle at 0% 0%, rgba(14, 165, 233, 0.15) 0%, transparent 40%),
-    radial-gradient(circle at 100% 100%, rgba(99, 102, 241, 0.15) 0%, transparent 40%);
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(14, 165, 233, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(99, 102, 241, 0.1) 0%, transparent 40%);
   color: var(--text);
   line-height: 1.6;
   overflow-x: hidden;
+  position: relative;
+}
+
+/* Animated Background Blobs */
+.bg-blob {
+  position: fixed;
+  width: 500px;
+  height: 500px;
+  background: var(--accent-gradient);
+  filter: blur(120px);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0.15;
+  pointer-events: none;
+  animation: blob-float 20s infinite alternate;
+}
+
+.blob-1 {
+  top: -100px;
+  left: -100px;
+  animation-delay: 0s;
+}
+
+.blob-2 {
+  bottom: -100px;
+  right: -100px;
+  animation-delay: -5s;
+}
+
+@keyframes blob-float {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate(100px, 50px) scale(1.1);
+  }
+
+  66% {
+    transform: translate(-50px, 100px) scale(0.9);
+  }
+
+  100% {
+    transform: translate(0, 0) scale(1);
+  }
 }
 
 .glass {
   background: var(--card-bg);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--border);
-  border-radius: 16px;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* Header & Nav */
@@ -59,6 +105,7 @@ nav {
   font-weight: 800;
   background: var(--accent-gradient);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   letter-spacing: -0.02em;
 }
@@ -100,6 +147,7 @@ nav a:hover {
   letter-spacing: -0.04em;
   background: linear-gradient(to bottom right, #fff, #94a3b8);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -240,6 +288,65 @@ footer {
 }
 
 @media (max-width: 768px) {
-  .hero h1 { font-size: 3rem; }
-  nav ul { display: none; }
+  .hero h1 {
+    font-size: 3rem;
+  }
+
+  nav ul {
+    display: none;
+  }
+}
+
+/* Reveal Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Arcade Section Specifics */
+.arcade-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.arcade-card {
+  border: 1px solid rgba(234, 179, 8, 0.2);
+  position: relative;
+  overflow: hidden;
+}
+
+.arcade-card::before {
+  content: "ARCADE LIVE";
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background: #eab308;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 2px 30px;
+  transform: rotate(45deg);
+  z-index: 10;
+}
+
+.arcade-card:hover {
+  border-color: #eab308;
+  box-shadow: 0 0 40px rgba(234, 179, 8, 0.2);
+}
+
+.btn-arcade {
+  background: linear-gradient(135deg, #eab308, #ca8a04);
+  color: #000;
+  box-shadow: 0 10px 25px -5px rgba(234, 179, 8, 0.3);
+}
+
+.btn-arcade:hover {
+  box-shadow: 0 20px 35px -5px rgba(234, 179, 8, 0.4);
 }

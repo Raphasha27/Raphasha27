@@ -10,6 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+  <div class="bg-blob blob-1"></div>
+  <div class="bg-blob blob-2"></div>
+  
   <header>
     <nav>
       <div class="logo">RAPHASHA.AI</div>
@@ -23,7 +26,7 @@
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero reveal">
       <h1>Engineering the <br>Next Frontier.</h1>
       <p>Determined Software Developer and AI Engineer specialization in high-performance autonomous systems, predictive analytics, and premium user experiences.</p>
       <div class="card-links">
@@ -31,7 +34,7 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
+    <section id="projects" class="section reveal">
       <h2 class="section-title">Masterpieces</h2>
       <div class="grid">
         <!-- AI JobSphere -->
@@ -104,7 +107,45 @@
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <!-- NEW: AI Arcade Section -->
+    <section id="arcade" class="section reveal">
+      <h2 class="section-title">AI Arcade</h2>
+      <div class="arcade-grid">
+        <!-- Pac-Man -->
+        <article class="card glass arcade-card">
+          <img src="assets/coding_animation.png" alt="Pac-Man AI" class="card-img" style="filter: brightness(0.7) hue-rotate(180deg);">
+          <div class="card-content">
+            <div class="card-tags">
+              <span class="tag" style="color: #eab308; border-color: #eab308;">A* Pathfinding</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <h3>Pac-Man AI Hunter</h3>
+            <p>A sophisticated AI simulation where Pac-Man uses heuristic pathfinding to track and hunt ghost entities in a dynamic maze.</p>
+            <div class="card-links">
+              <a href="pacman_game.html" class="btn-primary btn-arcade">Play Now &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Snake AI -->
+        <article class="card glass arcade-card">
+          <img src="assets/mobile_animation.png" alt="Snake AI" class="card-img" style="filter: brightness(0.7) hue-rotate(80deg);">
+          <div class="card-content">
+            <div class="card-tags">
+              <span class="tag" style="color: #eab308; border-color: #eab308;">Neural Agent</span>
+              <span class="tag">Canvas API</span>
+            </div>
+            <h3>Snake AI: Hard Mode</h3>
+            <p>Challenge a high-frequency autonomous agent in a classic game of survival, optimized for maximum length and speed.</p>
+            <div class="card-links">
+              <a href="snake_ai.html" class="btn-primary btn-arcade">Play Now &rarr;</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
         <h2 class="section-title">The Arsenal</h2>
         <div class="skills-grid">
             <div class="skill-item glass">
@@ -146,5 +187,21 @@
   <footer>
     <p>&copy; 2026 Raphasha27. Built with precision and passion.</p>
   </footer>
+  <script>
+    // Intersection Observer for Reveal Animations
+    const observerOptions = {
+      threshold: 0.15
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
