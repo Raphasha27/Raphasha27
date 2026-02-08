@@ -4,7 +4,7 @@
     <td bgcolor="#0d1117" align="center" style="border: none;">
       <br>
       <h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
-        👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
+        ⬢ Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
       </h1>
 
       <h2 style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
@@ -14,13 +14,13 @@
       <br>
 
       <p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
-        🚀 Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
+        ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
       </p>
 
       <br>
 
       <p align="center" style="color:#c9d1d9; font-size:14px; line-height:1.8; max-width:800px; margin:0 auto; padding:0 20px;">
-        Elite <b style="color:#38bdf8;">Software Developer</b> and <b style="color:#22c55e;">AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b style="color:#ec4899;">full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b style="color:#38bdf8;">backend engineering</b> (Node.js, .NET, FastAPI), and <b style="color:#22c55e;">AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b style="color:#ec4899;">innovation, speed, and precision</b> to solve complex challenges at scale.
+        <b style="color:#38bdf8;">Elite Software Developer</b> and <b style="color:#22c55e;">AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b style="color:#ec4899;">full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b style="color:#38bdf8;">backend engineering</b> (Node.js, .NET, FastAPI), and <b style="color:#22c55e;">AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b style="color:#ec4899;">innovation, speed, and precision</b> to solve complex challenges at scale.
       </p>
 
       <p>
@@ -30,8 +30,8 @@
       </p>
 
       <p>
-        <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span> • 
-        <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span> • 
+        <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">⌘ Available for elite collaborations</span> • 
+        <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">◈ Global-scale systems</span> • 
         <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
       </p>
 
@@ -71,7 +71,7 @@
 
 ---
 
-## 🛠️ Mastered Technologies & Tools
+## ⬢ Mastered Technologies & Tools
 
 <div align="center">
   <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
@@ -122,7 +122,7 @@
 
 ---
 
-## 🎓 Professional Certifications & Training
+## ◈ Professional Certifications & Training
 
 <div align="center">
   <img src="./assets/certifications-marquee.svg" width="100%" alt="Professional Certifications Marquee" />
@@ -132,7 +132,7 @@
 
 ---
 
-## 📡 Sovereign AI Nexus: Real-Time Status
+## ⚡ Sovereign AI Nexus: Real-Time Status
 
 <div align="center">
   <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
@@ -140,7 +140,7 @@
 
 ---
 
-## 📊 Advanced GitHub Analytics
+## 📈 Advanced GitHub Analytics
 
 <div align="center">
   
@@ -183,7 +183,7 @@
 ---
 
 
-## 📬 Connect & Collaborate
+## ◈ Connect & Collaborate
 <div align="center">
   <table border="0">
     <tr>
@@ -210,5 +210,5 @@
 </div>
 
 <div align="center" style="margin-top: 30px;">
-  <sub>Built with ❤️ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
+  <sub>Built with ⚡ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
 </div>
