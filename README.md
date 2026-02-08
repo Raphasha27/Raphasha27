@@ -136,42 +136,65 @@
 
 ---
 
-## 💎 Featured Masterpieces & AI Arcade
+## 💎 Featured Masterpieces
 
-<!-- SECTION: ARCADE START -->
 <table border="0">
   <tr>
-    <td colspan="2" align="center">
-      <h3>🎮 Raphasha AI Arcade (Live Games)</h3>
-      <p>Interactive AI simulations running directly on the edge.</p>
+    <td width="50%">
+      <div align="center">
+        <h4>🚨 FlowSentinel</h4>
+        <a href="https://github.com/Raphasha27/ai-job-market-intelligence">
+          <img src="assets/jobsphere_dashboard.png" width="100%" style="border-radius: 8px;" alt="JobSphere">
+        </a>
+        <p><i>Distributed Traffic Governance & AI Intelligence.</i></p>
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <h4>🛡️ CyberShield SOC</h4>
+        <a href="https://github.com/Raphasha27/cybershield-modern">
+          <img src="assets/cybershield.png" width="100%" style="border-radius: 8px;" alt="CyberShield">
+        </a>
+        <p><i>Next-Gen AI Security Operations Center.</i></p>
+      </div>
     </td>
   </tr>
   <tr>
     <td width="50%">
       <div align="center">
-        <h4>🟡 Pac-Man AI Hunter</h4>
-        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-          <img src="assets/coding_animation.png" width="100%" style="border-radius: 8px; filter: hue-rotate(180deg);" alt="Pacman">
+        <h4>☁️ Sovereign AI Nexus</h4>
+        <a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">
+          <img src="assets/nexus.png" width="100%" style="border-radius: 8px;" alt="Nexus">
         </a>
-        <br>
-        <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html"><b>[ PLAY LIVE ]</b></a>
+        <p><i>Decentralized AI Ecosystem & Infrastructure.</i></p>
       </div>
     </td>
     <td width="50%">
       <div align="center">
-        <h4>🐍 Snake AI: Hard Mode</h4>
-        <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html">
-          <img src="assets/mobile_animation.png" width="100%" style="border-radius: 8px; filter: hue-rotate(80deg);" alt="Snake AI">
+        <h4>🌡️ Aura Weather AI</h4>
+        <a href="https://github.com/Raphasha27/aura-weather-ai">
+          <img src="assets/aura_weather.png" width="100%" style="border-radius: 8px;" alt="Aura">
         </a>
-        <br>
-        <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html"><b>[ PLAY LIVE ]</b></a>
+        <p><i>Predictive Climate Pattern Analysis.</i></p>
       </div>
     </td>
   </tr>
 </table>
-<!-- SECTION: ARCADE END -->
 
-<br>
+---
+
+## 🎮 AI Arcade (Experimental)
+
+<table border="0">
+  <tr>
+    <td width="50%" align="center">
+      <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html"><b>🟡 Pac-Man AI Hunter</b></a>
+    </td>
+    <td width="50%" align="center">
+      <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html"><b>🐍 Snake AI: Hard Mode</b></a>
+    </td>
+  </tr>
+</table>
 
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
