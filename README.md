@@ -111,60 +111,10 @@
 
 ---
 
-## 🎓 Specialized Learning & Certifications
+## 🎓 Professional Certifications & Training
+
 <div align="center">
-  <p><i>Continuous growth in AI, Design, and Engineering</i></p>
-  <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
-    <table border="0">
-      <tr>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" height="50" alt="Google"><br>
-          <b>Data Analytics</b><br>
-          <sub>Google / Coursera</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" height="50" alt="Figma"><br>
-          <b>UX Design</b><br>
-          <sub>Google Professional</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" height="50" alt="IBM"><br>
-          <b>AI Engineering</b><br>
-          <sub>IBM Professional</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png" height="50" alt="YES"><br>
-          <b>Professional Dev</b><br>
-          <sub>YES4Youth / CapaCiTi</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Seal_of_the_University_of_Michigan.svg" height="50" alt="UMich"><br>
-          <b>Python for Everybody</b><br>
-          <sub>University of Michigan</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/deeplearning_logo.png" height="50" alt="DeepLearning.AI"><br>
-          <b>Machine Learning</b><br>
-          <sub>DeepLearning.AI</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" height="50" alt="Meta"><br>
-          <b>Meta Frontend Developer</b><br>
-          <sub>Meta / Coursera</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" height="50" alt="IBM"><br>
-          <b>Data Science Professional</b><br>
-          <sub>IBM / Coursera</sub>
-        </td>
-        <td align="center" style="padding: 0 40px;">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" height="50" alt="Microsoft"><br>
-          <b>Azure AI Engineer</b><br>
-          <sub>Microsoft Associate</sub>
-        </td>
-      </tr>
-    </table>
-  </marquee>
+  <img src="./assets/certifications-marquee.svg" width="100%" alt="Professional Certifications Marquee" />
 </div>
 
 ---

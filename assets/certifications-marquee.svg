@@ -1,0 +1,154 @@
+<svg width="1200" height="200" viewBox="0 0 1200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cert-track {
+        animation: scroll 40s linear infinite;
+      }
+      @keyframes scroll {
+        from { transform: translateX(0); }
+        to { transform: translateX(-1200px); }
+      }
+      .cert-card {
+        fill: #161b22;
+        stroke: #30363d;
+        stroke-width: 1;
+      }
+      .cert-card:hover {
+        fill: #1c2128;
+        stroke: #38bdf8;
+      }
+      .cert-title {
+        fill: #c9d1d9;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .cert-provider {
+        fill: #8b949e;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 11px;
+      }
+      .title {
+        fill: #38bdf8;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .subtitle {
+        fill: #8b949e;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-size: 13px;
+        font-style: italic;
+      }
+    </style>
+    
+    <linearGradient id="fadeGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="10%" style="stop-color:#0d1117;stop-opacity:0" />
+      <stop offset="90%" style="stop-color:#0d1117;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="200" fill="#0d1117"/>
+  
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" class="title">🎓 Professional Certifications & Training</text>
+  <text x="600" y="50" text-anchor="middle" class="subtitle">Continuous growth in AI, Design, and Engineering</text>
+  
+  <!-- Scrolling Track Container -->
+  <g mask="url(#fadeMask)">
+    <g class="cert-track">
+      <!-- Certificate 1: Google Data Analytics -->
+      <g transform="translate(50, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Google Data Analytics</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">Google / Coursera</text>
+      </g>
+      
+      <!-- Certificate 2: UX Design -->
+      <g transform="translate(260, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">UX Design</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">Google Professional</text>
+      </g>
+      
+      <!-- Certificate 3: IBM AI Engineering -->
+      <g transform="translate(470, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">AI Engineering</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">IBM Professional</text>
+      </g>
+      
+      <!-- Certificate 4: Professional Dev -->
+      <g transform="translate(680, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Professional Dev</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">YES4Youth / CAPACITI</text>
+      </g>
+      
+      <!-- Certificate 5: Python -->
+      <g transform="translate(890, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="35" text-anchor="middle" class="cert-title">Python for</text>
+        <text x="90" y="50" text-anchor="middle" class="cert-title">Everybody</text>
+        <text x="90" y="70" text-anchor="middle" class="cert-provider">University of Michigan</text>
+      </g>
+      
+      <!-- Certificate 6: Machine Learning -->
+      <g transform="translate(1100, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Machine Learning</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">DeepLearning.AI</text>
+      </g>
+      
+      <!-- Duplicate set for seamless loop starting at x=1310 -->
+      <g transform="translate(1310, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Google Data Analytics</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">Google / Coursera</text>
+      </g>
+      
+      <g transform="translate(1520, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">UX Design</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">Google Professional</text>
+      </g>
+      
+      <g transform="translate(1730, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">AI Engineering</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">IBM Professional</text>
+      </g>
+      
+      <g transform="translate(1940, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Professional Dev</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">YES4Youth / CAPACITI</text>
+      </g>
+      
+      <g transform="translate(2150, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="35" text-anchor="middle" class="cert-title">Python for</text>
+        <text x="90" y="50" text-anchor="middle" class="cert-title">Everybody</text>
+        <text x="90" y="70" text-anchor="middle" class="cert-provider">University of Michigan</text>
+      </g>
+      
+      <g transform="translate(2360, 70)">
+        <rect class="cert-card" width="180" height="90" rx="8"/>
+        <text x="90" y="40" text-anchor="middle" class="cert-title">Machine Learning</text>
+        <text x="90" y="60" text-anchor="middle" class="cert-provider">DeepLearning.AI</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Fade mask overlay -->
+  <rect width="1200" height="200" fill="url(#fadeGradient)" pointer-events="none"/>
+
+  <defs>
+    <mask id="fadeMask">
+      <rect width="1200" height="200" fill="white"/>
+    </mask>
+  </defs>
+</svg>
