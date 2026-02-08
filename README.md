@@ -38,36 +38,6 @@
 
 ---
 
-## 🎮 Elite AI Showroom: Pacman AI (Autonomous)
-
-<div align="center">
-  <p align="left">
-    <b>🧠 Pac-Man AI Hunter</b> — An autonomous agent powered by <b>A* pathfinding</b> that actively hunts the red ghost by calculating the shortest available path in real-time, creating a challenging and dynamic chase experience.
-  </p>
-  <ul>
-    <li><b>🎯 Intelligent Tracking</b>: Real-time target acquisition with dynamic path recalculation as the ghost moves.</li>
-    <li><b>🔴 Evasive Ghost AI</b>: The red ghost has evasion logic — it actively tries to escape from Pac-Man.</li>
-    <li><b>📊 Debug Mode</b>: Toggle visualization of AI pathfinding nodes and shortest-path calculations.</li>
-    <li><b>⚡ Performance</b>: 60fps game loop with optimized A* heuristics for smooth pursuit.</li>
-  </ul>
-  
-  <p align="center">
-    <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-      <img src="https://img.shields.io/badge/PLAY_LIVE-FFFF00?style=for-the-badge&logo=google-chrome&logoColor=black" alt="Live Demo" />
-    </a>
-    <a href="https://github.com/Raphasha27/Raphasha27/blob/main/pacman_game.html">
-      <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
-    </a>
-  </p>
-  
-  <!-- PLAYABLE GAME SHOWCASE -->
-  <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html">
-      <img src="https://sl.bing.net/dzz1hrd9x2O" width="600" style="border-radius: 8px; border: 2px solid #2121de;" alt="Pac-Man AI Hunter">
-  </a>
-  <br>
-  <sub><i>Autoplay Preview - Click to Start</i></sub>
-</div>
-
 ---
 
 ## 🎓 Specialized Learning & Certifications
