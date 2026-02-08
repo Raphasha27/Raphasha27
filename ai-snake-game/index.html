@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Snake - Autonomous Showcase</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐍 AI Snake Autonomous</h1>
+            <div class="stats">
+                <div class="stat-box">
+                    <span class="label">SCORE</span>
+                    <span id="score" class="value">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="label">HIGH SCORE</span>
+                    <span id="high-score" class="value">0</span>
+                </div>
+                <div class="stat-box">
+                    <span class="label">AI MODE</span>
+                    <span class="value active">ACTIVE</span>
+                </div>
+            </div>
+        </header>
+        
+        <div class="game-wrapper">
+            <canvas id="gameCanvas" width="600" height="600"></canvas>
+            <div class="overlay" id="overlay">
+                <h2>SYSTEM PAUSED</h2>
+                <p>Click to Resume Simulation</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>Developed by <span class="highlight">Koketso Raphasha</span></p>
+            <p class="status">Status: <span id="status-text">CALCULATING PATH...</span></p>
+        </footer>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
