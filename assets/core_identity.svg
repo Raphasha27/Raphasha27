@@ -31,27 +31,28 @@
     <text y="0" class="bracket">{</text>
     
     <g transform="translate(20, 20)">
-      <text y="0"><tspan class="key">"greeting"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Hello world my name is Koketso Raphasha,"</tspan></text>
-      <text y="20" x="20"><tspan class="string">"I am Software Developer and AI Specialist"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="0"><tspan class="key">"identity"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Koketso Raphasha"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="20"><tspan class="key">"message"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Hello world,"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="40"><tspan class="key">"role"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Software Developer"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="60"><tspan class="key">"specialist"</tspan><tspan class="bracket">: </tspan><tspan class="string">"AI &amp; Automation"</tspan><tspan class="bracket">,</tspan></text>
       
-      <text y="45"><tspan class="key">"user"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Raphasha27"</tspan><tspan class="bracket">,</tspan></text>
-      <text y="65"><tspan class="key">"cloud"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Azure | AWS | Cloud Native"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="85"><tspan class="key">"git_config"</tspan><tspan class="bracket">: {</tspan></text>
+      <text y="105" x="20"><tspan class="key">"user"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Raphasha27"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="125" x="20"><tspan class="key">"engine"</tspan><tspan class="bracket">: </tspan><tspan class="string">"GitHub Actions"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="145" x="20"><tspan class="key">"branch"</tspan><tspan class="bracket">: </tspan><tspan class="string">"main"</tspan></text>
+      <text y="165"><tspan class="bracket">},</tspan></text>
       
-      <text y="90"><tspan class="key">"git_config"</tspan><tspan class="bracket">: {</tspan></text>
-      <text y="110" x="20"><tspan class="key">"engine"</tspan><tspan class="bracket">: </tspan><tspan class="string">"GitHub Actions"</tspan><tspan class="bracket">,</tspan></text>
-      <text y="130" x="20"><tspan class="key">"branch"</tspan><tspan class="bracket">: </tspan><tspan class="string">"main"</tspan></text>
-      <text y="150"><tspan class="bracket">},</tspan></text>
+      <text y="190"><tspan class="key">"stack"</tspan><tspan class="bracket">: [</tspan><tspan class="string">"AI"</tspan><tspan class="bracket">, </tspan><tspan class="string">"Cloud"</tspan><tspan class="bracket">, </tspan><tspan class="string">"Full-Stack"</tspan><tspan class="bracket">],</tspan></text>
       
-      <text y="175"><tspan class="key">"infrastructure"</tspan><tspan class="bracket">: {</tspan></text>
-      <text y="195" x="20"><tspan class="key">"os"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Windows / Linux / WSL2"</tspan><tspan class="bracket">,</tspan></text>
-      <text y="215" x="20"><tspan class="key">"stack"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Full-Stack | AI | Cloud"</tspan></text>
-      <text y="235"><tspan class="bracket">},</tspan></text>
+      <text y="215"><tspan class="key">"infrastructure"</tspan><tspan class="bracket">: {</tspan></text>
+      <text y="235" x="20"><tspan class="key">"os"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Windows / Linux / WSL2"</tspan></text>
+      <text y="255"><tspan class="bracket">},</tspan></text>
       
-      <text y="260"><tspan class="key">"status"</tspan><tspan class="bracket">: </tspan><tspan class="value">"OPTIMAL"</tspan></text>
+      <text y="280"><tspan class="key">"status"</tspan><tspan class="bracket">: </tspan><tspan class="value">"OPTIMAL"</tspan></text>
     </g>
     
-    <text y="300" class="bracket">}</text>
+    <text y="320" class="bracket">}</text>
   </g>
   
-  <text x="30" y="325" class="comment" font-family="monospace" font-size="10">// Initializing Build Sequence: Git + AI + Cloud</text>
+  <text x="30" y="325" class="comment" font-family="monospace" font-size="10" opacity="0.5">// Software Developer &amp; AI Specialist</text>
 </svg>
