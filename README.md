@@ -149,8 +149,8 @@
   
   <br><br>
   
-  <!-- GitHub & PlayStation Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
+  <!-- Local Dashboard & Trophies Row -->
+  <img src="./assets/psn_trophies.svg" width="100%" alt="PlayStation Trophies" />
   
   <br><br>
 
@@ -158,19 +158,14 @@
   
   <br><br>
   
-  <!-- GitHub Stats & Streak -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=22c55e&text_color=c9d1d9" height="180" alt="GitHub Stats" />
+  <!-- GitHub Streak & Activity Graph -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=22c55e&currStreakLabel=38bdf8" height="180" alt="GitHub Streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" height="180" alt="Contribution Graph" />
   
   <br><br>
   
-  <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="180" alt="Top Languages" />
-  
-  <br><br>
-  
-  <!-- 3D Contribution Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" alt="Contribution Graph" />
+  <!-- Comprehensive Metrics Overview -->
+  <img src="./github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
   
   <br><br>
   
