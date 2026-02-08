@@ -1,18 +1,17 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
   <br>
-  <h1 align="center">
-    
-    Koketso <span style="color:#22c55e;">Raphasha</span>
-  </h1>
+  <!-- Name Banner -->
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/name_banner_blue.svg" width="800" alt="Koketso Raphasha Banner" />
 
   <h2 align="center">
-     Software Developer and AI Specialist   </h2>
+    ⚡ Software Developer and AI Specialist ⚡
+  </h2>
 
   <br>
 
   <p align="center">
-     Co-founder @ <b>Kivoc Dynamics Technology</b>  Bachelor of IT (Richfield Graduate)  Distinction in Mobile App Development
+    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
   </p>
 
   <br>
@@ -30,7 +29,7 @@
   <p align="center">
     <span style="color:#22c55e;">⌘ Available for elite collaborations</span> • 
     <span style="color:#38bdf8;">◈ Global-scale systems</span> • 
-    <span style="color:#ec4899;"> Innovation | Speed | Precision</span>
+    <span style="color:#ec4899;">⚡ Innovation | Speed | Precision</span>
   </p>
 
   <br>
@@ -51,120 +50,61 @@
 <br>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
 </div>
 
 <!-- SECTION: HEADER END -->
 
 ---
 
-##  Mastered Technologies & Tools
-
+## ⚡ Sovereign AI Nexus: Real-Time Status
 <div align="center">
-  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/dashboard.svg" width="100%" alt="AI Nexus Dashboard" />
 </div>
 
 <br>
 
+<!-- ONE-LINE SLIDING MARQUEE: METRICS & SNAKE -->
+<marquee scrollamount="8" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" height="250" alt="GitHub Metrics" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" height="250" alt="GitHub Contribution Snake" />
+</marquee>
+
+<br><br>
+
+---
+
+## ⬢ Mastered Technologies & Tools
 <div align="center">
-  <table border="0" width="100%">
-    <tr>
-      <td width="25%" align="center" valign="top">
-        <h3 align="center">💻 Languages</h3>
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
-      </td>
-      <td width="25%" align="center" valign="top">
-        <h3 align="center">🌐 Frontend</h3>
-        <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /><br>
-        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-      </td>
-      <td width="25%" align="center" valign="top">
-        <h3 align="center">⚙️ Backend & DB</h3>
-        <img src="https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
-      </td>
-      <td width="25%" align="center" valign="top">
-        <h3 align="center">☁️ Cloud & AI</h3>
-        <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br>
-        <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-      </td>
-    </tr>
-  </table>
+  <img src="./assets/arsenal_2026.svg" width="100%" alt="Tech Arsenal" />
+  <br>
+  <img src="./assets/certifications-marquee.svg" width="100%" alt="Certifications" />
 </div>
 
----
+<br>
 
----
-
-##  Professional Certifications & Training
-
+## ◈ Professional Certifications & Training
 <div align="center">
-  <img src="./assets/certifications-marquee.svg" width="100%" alt="Professional Certifications Marquee" />
+  <img src="./assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
 </div>
 
----
-
----
-
-##  Sovereign AI Nexus: Real-Time Status
-
-<div align="center">
-  <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
-</div>
-
----
+<br>
 
 ## 📈 Advanced GitHub Analytics
-
 <div align="center">
-  
   <!-- Mission & Academic Cards Row -->
   <img src="./assets/mission_card.svg" width="49%" alt="Mission & Vision" />
   <img src="./assets/academic_card.svg" width="49%" alt="Academic Foundation" />
   
   <br><br>
   
-  <!-- Visitor Counter & Trophies Row -->
-  <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=Profile%20Views&color=38bdf8&style=for-the-badge" alt="Profile Views" />
-  
-  <br><br>
-  
-  <!-- Local Dashboard & Trophies Row -->
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/psn_trophies.svg" width="100%" alt="PlayStation Trophies" />
-  
-  <br><br>
-  
-  <!-- GitHub Streak & Activity Graph -->
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="180" alt="Top Languages" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=22c55e&currStreakLabel=38bdf8" height="180" alt="GitHub Streak" />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" height="180" alt="Contribution Graph" />
-  
-  <br><br>
-  
-  <!-- Comprehensive Metrics Overview -->
-  <img src="./github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
-  
-  <br><br>
-  
-  <!-- Snake Animation -->
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake Animation" />
-  
 </div>
 
----
-
+<br>
 
 ## ◈ Connect & Collaborate
 <div align="center">
@@ -193,5 +133,5 @@
 </div>
 
 <div align="center" style="margin-top: 30px;">
-  <sub>Built with  by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
+  <sub>Built with ⚡ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
 </div>
