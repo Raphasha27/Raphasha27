@@ -154,6 +154,103 @@
 
 ---
 
+---
+
+## 📂 Project Repository Index
+<details>
+<summary><b>🔻 Click to Expand Full Project List</b></summary>
+<br>
+
+<table border="0" width="100%">
+  <thead>
+    <tr>
+      <th>Repository</th>
+      <th width="50%">Description</th>
+      <th>Stack</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/noshowiq">noshowiq</a></b></td>
+      <td>Backend reservation & scheduling engine</td>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/Management-System">Management-System</a></b></td>
+      <td>Premium IT Management System. AI-Powered, Secure, and Scalable</td>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/Portfolio">Portfolio</a></b></td>
+      <td>Luxury 3D Portfolio with React, Three.js, and Framer Motion</td>
+      <td>CSS / React</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/CycleSync">CycleSync</a></b></td>
+      <td>Premium Bicycle Management System v2.0 - Full-featured fleet tool</td>
+      <td>JavaScript</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/SupportHive-C">SupportHive-C</a></b></td>
+      <td>High-performance, event-driven multi-tenant support engine</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/flowsentinel">flowsentinel</a></b></td>
+      <td>Distributed Traffic Governance & AI Intelligence</td>
+      <td>C#</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/SeatLock">SeatLock</a></b></td>
+      <td>High-Performance Real-Time Reservation Engine</td>
+      <td>C++</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/ai-job-market-intelligence">ai-job-market-intelligence</a></b></td>
+      <td>Advanced AI Job Market Intelligence Platform</td>
+      <td>JavaScript</td>
+    </tr>
+     <tr>
+      <td><b><a href="https://github.com/Raphasha27/mochi-motion">mochi-motion</a></b></td>
+      <td>Animation library for effortless beautiful scroll animations</td>
+      <td>TypeScript</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/koketso-swing-calculator">koketso-swing-calculator</a></b></td>
+      <td>Simple Java Swing calculator with clean GUI</td>
+      <td>Java</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/afro_fashion_mobile">afro_fashion_mobile</a></b></td>
+      <td>Mobile e-commerce application</td>
+      <td>Dart / Flutter</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/thuto-ai">thuto-ai</a></b></td>
+      <td>AI-driven educational platform</td>
+      <td>Vue.js</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/cybershield-modern">cybershield-modern</a></b></td>
+      <td>Modern cybersecurity dashboard interface</td>
+      <td>HTML / CSS</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">Sovereign-AI-Nexus-v2</a></b></td>
+      <td>Decentralized AI Ecosystem & Infrastructure</td>
+      <td>JavaScript</td>
+    </tr>
+    <tr>
+      <td><b><a href="https://github.com/Raphasha27/aura-weather-ai">aura-weather-ai</a></b></td>
+      <td>Predictive Climate Pattern Analysis</td>
+      <td>JavaScript</td>
+    </tr>
+  </tbody>
+</table>
+</details>
+
+---
+
 ## 📊 GitHub Statistics
 <div align="center">
   <img src="./assets/github_stats.svg" alt="GitHub Stats" width="49%">
