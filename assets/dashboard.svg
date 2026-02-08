@@ -1,0 +1,99 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+      <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <style>
+            .container {
+              font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+              background: #0d1117;
+              border: 1px solid #30363d;
+              border-radius: 10px;
+              width: 100%;
+              height: 200px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              color: #c9d1d9;
+              overflow: hidden;
+              position: relative;
+            }
+            .glass {
+                background: rgba(22, 27, 34, 0.8);
+                backdrop-filter: blur(10px);
+                position: absolute;
+                top: 0; left: 0; right: 0; bottom: 0;
+                z-index: 0;
+            }
+            .content {
+                z-index: 1;
+                display: flex;
+                width: 100%;
+                padding: 20px;
+                justify-content: space-between;
+            }
+            .left-panel {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            .right-panel {
+                text-align: right;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            h1 { margin: 0; font-size: 48px; font-weight: 700; color: #38bdf8; text-shadow: 0 0 15px rgba(56, 189, 248, 0.5); }
+            h2 { margin: 0; font-size: 20px; color: #8b949e; letter-spacing: 1px; }
+            .weather-box { display: flex; align-items: center; gap: 15px; margin-top: 10px; }
+            .temp { font-size: 36px; font-weight: bold; color: #e2e8f0; }
+            .condition { font-size: 16px; color: #38bdf8; text-transform: uppercase; letter-spacing: 1px; }
+            .prediction { 
+                margin-top: 15px; 
+                font-family: 'Courier New', monospace; 
+                font-size: 12px; 
+                color: #22c55e; 
+                background: rgba(0,0,0,0.3); 
+                padding: 8px; 
+                border-left: 3px solid #22c55e;
+            }
+            .location { display: flex; align-items: center; justify-content: flex-end; gap: 8px; font-size: 14px; color: #8b949e; margin-bottom: 5px; }
+            .badge { 
+                background: #1f6feb; 
+                color: white; 
+                padding: 2px 8px; 
+                border-radius: 12px; 
+                font-size: 10px; 
+                font-weight: bold;
+            }
+          </style>
+          <div class="container">
+            <div class="glass"></div>
+            <div class="content">
+                <div class="left-panel">
+                    <h2>SOUTH AFRICA (SAST)</h2>
+                    <h1>10:40</h1>
+                    <div class="weather-box">
+                        <div class="temp">25.3°C</div>
+                        <div>
+                            <div class="condition">Partly Cloudy</div>
+                            <div style="font-size: 12px; color: #8b949e;">H: 29.5° L: 16.9°</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-panel">
+                    <div class="location">
+                        <span>JOHANNESBURG</span>
+                        <span class="badge">LIVE</span>
+                    </div>
+                    <div style="font-size: 14px; color: #c9d1d9; margin-bottom: 20px;">Sunday, 08 Feb 2026</div>
+                    <div class="prediction">
+                        PREDICTION: Systems nominal. Ideal extensive coding conditions.
+                        <br/>
+                        SYSTEM STATUS: OPTIMAL
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </foreignObject>
+    </svg>
+    

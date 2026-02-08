@@ -14,7 +14,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
+        
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -25,13 +25,16 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Update Stats Image
+      - name: Run Stats Updater
         run: python scripts/update_stats.py
+        
+      - name: Run AI Dashboard Generator
+        run: python scripts/update_dashboard.py
 
-      - name: Commit and Push changes
+      - name: Commit and Push
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add assets/github_stats.svg
-          git commit -m "Update GitHub Stats [skip ci]" || echo "No changes to commit"
+          git add assets/github_stats.svg assets/dashboard.svg
+          git commit -m "Updated GitHub stats and AI Dashboard" || echo "No changes to commit"
           git push

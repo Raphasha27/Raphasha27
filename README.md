@@ -63,30 +63,7 @@
 ## 🛠️ Mastered Technologies & Tools
 
 <div align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  
-  <br><br>
-
-  <!-- AI & Data -->
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure_AI-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-
-  <br><br>
-
-  <!-- Frameworks & Tools -->
-  <img src="https://img.shields.io/badge/.NET_8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
 </div>
 
 ---
@@ -167,38 +144,11 @@
 
 ---
 
-## 💎 Featured Masterpieces
+## 🔮 Sovereign AI Nexus: Real-Time Status
 
-<table border="0">
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/ai-job-market-intelligence">🚨 FlowSentinel</a></h4>
-        <p><i>Distributed Traffic Governance & AI Intelligence.</i></p>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield SOC</a></h4>
-        <p><i>Next-Gen AI Security Operations Center.</i></p>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">☁️ Sovereign AI Nexus</a></h4>
-        <p><i>Decentralized AI Ecosystem & Infrastructure.</i></p>
-      </div>
-    </td>
-    <td width="50%">
-      <div align="center">
-        <h4><a href="https://github.com/Raphasha27/aura-weather-ai">🌡️ Aura Weather AI</a></h4>
-        <p><i>Predictive Climate Pattern Analysis.</i></p>
-      </div>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
+</div>
 
 --- 
 
