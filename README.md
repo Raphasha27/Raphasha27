@@ -16,6 +16,12 @@
     🚀 Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
   </p>
 
+  <br>
+
+  <p align="center" style="color:#c9d1d9; font-size:14px; line-height:1.8; max-width:800px; margin:0 auto; padding:0 20px;">
+    Elite <b style="color:#38bdf8;">Software Developer</b> and <b style="color:#22c55e;">AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b style="color:#ec4899;">full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b style="color:#38bdf8;">backend engineering</b> (Node.js, .NET, FastAPI), and <b style="color:#22c55e;">AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b style="color:#ec4899;">innovation, speed, and precision</b> to solve complex challenges at scale.
+  </p>
+
   <p>
     <a href="https://github.com/Raphasha27">
       <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
