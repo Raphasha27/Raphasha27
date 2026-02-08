@@ -191,9 +191,40 @@
   <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
 </div>
 
---- 
-
 ---
+
+## 💎 Elite Projects & Architectures
+
+<table border="0">
+  <tr>
+    <td width="50%">
+      <div align="center">
+        <h4><a href="https://github.com/Raphasha27/ai-job-market-intelligence">🚨 FlowSentinel</a></h4>
+        <p><i>Distributed Traffic Governance & AI Intelligence.</i></p>
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <h4><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield SOC</a></h4>
+        <p><i>Next-Gen AI Security Operations Center.</i></p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <div align="center">
+        <h4><a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">☁️ Sovereign AI Nexus</a></h4>
+        <p><i>Decentralized AI Ecosystem & Infrastructure.</i></p>
+      </div>
+    </td>
+    <td width="50%">
+      <div align="center">
+        <h4><a href="https://github.com/Raphasha27/aura-weather-ai">🌡️ Aura Weather AI</a></h4>
+        <p><i>Predictive Climate Pattern Analysis.</i></p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
