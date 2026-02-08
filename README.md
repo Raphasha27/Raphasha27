@@ -1,14 +1,12 @@
 <!-- SECTION: HEADER START -->
-<h2 align="center" style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
-⚡ Architecting the Future with Code, AI & Automation ⚡
-</h2>
-
-<br>
-
 <div align="center">
   <h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
     👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
   </h1>
+
+  <h2 style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
+    ⚡ Architecting the Future with Code, AI & Automation ⚡
+  </h2>
 
   <br>
 
