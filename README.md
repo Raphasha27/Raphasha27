@@ -6,17 +6,6 @@
       <h3>A passionate <span style="color: #0ea5e9;">Software Developer</span> and <span style="color: #6366f1;">AI Specialist</span> from South Africa</h3>
       
       <br>
-
-      <!-- Bio as Code -->
-      ```json
-      {
-        "current_focus": "Sovereign Intelligence Systems 🔭",
-        "learning": "Advanced Neural Architectures 🌱",
-        "stack": ["AI Agents", "Cloud Infra", ".NET 8"],
-        "fun_fact": "I build autonomous Pac-Man hunters! ⚡",
-        "contact": "koketso.raphasha@capaciti.org.za 📫"
-      }
-      ```
       
       <p align="left">
         <a href="https://github.com/Raphasha27">
