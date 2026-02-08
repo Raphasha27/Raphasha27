@@ -5,57 +5,50 @@
 
 <br>
 
-<table border="0" width="100%">
-<tr>
-<td width="60%" valign="top">
+<div align="center">
+  <h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
+    👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
+  </h1>
 
-<h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
-👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
-</h1>
+  <br>
 
-<br>
+  <p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
+    🚀 Building next-gen platforms • Scalable systems • AI-driven solutions
+  </p>
 
-<p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
-🚀 Building next-gen platforms • Scalable systems • AI-driven solutions
-</p>
+  <p>
+    <a href="https://github.com/Raphasha27">
+      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
+    </a>
 
-<p>
-  <a href="https://github.com/Raphasha27">
-    <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
-  </a>
+    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+      <img src="https://img.shields.io/badge/LinkedIn-Koketso%20Raphasha-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    </a>
+  </p>
 
-  <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-    <img src="https://img.shields.io/badge/LinkedIn-Koketso%20Raphasha-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-</p>
+  <p>
+    <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span> • 
+    <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span> • 
+    <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
+  </p>
 
-<p>
-  <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span><br>
-  <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span><br>
-  <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
-</p>
+  <br>
 
-</td>
-
-<td width="40%" align="center" valign="center">
-
-<img 
-  src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
-  width="100%" 
-  style="
-    border-radius:20px;
-    border:3px solid #38bdf8;
-    box-shadow:
-      0 0 20px #38bdf8,
-      0 0 40px rgba(56,189,248,0.6),
-      0 0 60px rgba(34,197,94,0.4);
-  " 
-  alt="Coding Animation" 
-/>
-
-</td>
-</tr>
-</table>
+  <img 
+    src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
+    width="80%" 
+    style="
+      border-radius:20px;
+      border:3px solid #38bdf8;
+      box-shadow:
+        0 0 20px #38bdf8,
+        0 0 40px rgba(56,189,248,0.6),
+        0 0 60px rgba(34,197,94,0.4);
+      max-width: 800px;
+    " 
+    alt="Coding Animation" 
+  />
+</div>
 
 <br>
 
