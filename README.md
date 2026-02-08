@@ -29,7 +29,7 @@
   <p align="center">
     <span style="color:#22c55e;">⌘ Available for elite collaborations</span> • 
     <span style="color:#38bdf8;">◈ Global-scale systems</span> • 
-    <span style="color:#ec4899;">⚡ Innovation | Speed | Precision</span>
+    <span style="color:#ec4899;"> Innovation | Speed | Precision</span>
   </p>
 
   <br>
