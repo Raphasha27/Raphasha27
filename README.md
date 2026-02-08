@@ -13,7 +13,7 @@
 👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
 </h1>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&pause=500&color=38BDF8&center=false&vCenter=true&width=500&lines=Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Developer;Tech+Visionary" alt="Typing SVG" />
+<br>
 
 <p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
 🚀 Building next-gen platforms • Scalable systems • AI-driven solutions
@@ -56,6 +56,13 @@
 </td>
 </tr>
 </table>
+
+<br>
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+</div>
+
 <!-- SECTION: HEADER END -->
 
 ---
