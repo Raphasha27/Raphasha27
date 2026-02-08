@@ -11,7 +11,7 @@
   <br>
 
   <p align="center">
-    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
+    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b>  Bachelor of IT (Richfield Graduate)  Distinction in Mobile App Development
   </p>
 
   <br>
