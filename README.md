@@ -2,7 +2,8 @@
 <div align="center">
   <br>
   <h1 align="center">
-    ⬢ Koketso <span style="color:#22c55e;">Raphasha</span>
+    
+    Koketso <span style="color:#22c55e;">Raphasha</span>
   </h1>
 
   <h2 align="center">
@@ -11,7 +12,7 @@
   <br>
 
   <p align="center">
-    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b>  Bachelor of IT (Richfield Graduate)  Distinction in Mobile App Development
+     Co-founder @ <b>Kivoc Dynamics Technology</b>  Bachelor of IT (Richfield Graduate)  Distinction in Mobile App Development
   </p>
 
   <br>
@@ -57,7 +58,7 @@
 
 ---
 
-## ⬢ Mastered Technologies & Tools
+##  Mastered Technologies & Tools
 
 <div align="center">
   <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
@@ -108,7 +109,7 @@
 
 ---
 
-## ◈ Professional Certifications & Training
+##  Professional Certifications & Training
 
 <div align="center">
   <img src="./assets/certifications-marquee.svg" width="100%" alt="Professional Certifications Marquee" />
@@ -118,7 +119,7 @@
 
 ---
 
-## ⚡ Sovereign AI Nexus: Real-Time Status
+##  Sovereign AI Nexus: Real-Time Status
 
 <div align="center">
   <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
@@ -192,5 +193,5 @@
 </div>
 
 <div align="center" style="margin-top: 30px;">
-  <sub>Built with ⚡ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
+  <sub>Built with  by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
 </div>
