@@ -5,7 +5,7 @@
   </h1>
 
   <h2 style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
-    ⚡ Software Engineer and AI Specialist and Cloud ⚡
+    ⚡ Software Developer and AI Specialist ⚡
   </h2>
 
   <br>
@@ -34,11 +34,6 @@
 
   <br>
 
-  <!-- Binary Signature / Core Config Widget -->
-  <img src="./assets/core_identity.svg" width="450" alt="Core Identity Configuration" />
-
-  <br>
-
   <img 
     src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
     width="80%" 
@@ -53,6 +48,11 @@
     " 
     alt="Coding Animation" 
   />
+
+  <br><br>
+
+  <!-- Binary Signature / Core Config Widget -->
+  <img src="./assets/core_identity.svg" width="450" alt="Core Identity Configuration" />
 </div>
 
 <br>
