@@ -38,9 +38,6 @@
 
   <br><br>
 
-  <!-- Binary Signature / Core Config Widget -->
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/core_identity.svg" width="450" alt="Core Identity Configuration" />
-  <br><br>
 </div>
 
 <br>
