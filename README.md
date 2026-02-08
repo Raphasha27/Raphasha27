@@ -4,10 +4,6 @@
   <!-- Name Banner -->
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/name_banner_blue.svg" width="800" alt="Koketso Raphasha Banner" />
 
-  <h2 align="center">
-    ⚡ Software Developer and AI Specialist ⚡
-  </h2>
-
   <br>
 
   <p align="center">
