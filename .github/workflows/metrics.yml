@@ -42,9 +42,13 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_limit: 8
           
-          # Habits
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          
+          # Trophies
+          plugin_trophies: yes
+          plugin_trophies_skin: aura
+          plugin_trophies_display: silver

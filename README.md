@@ -144,7 +144,12 @@
   
   <br><br>
   
+  <!-- GitHub & PlayStation Trophies -->
   <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=7" width="100%" alt="GitHub Trophies" />
+  
+  <br><br>
+
+  <img src="./assets/psn_trophies.svg" width="600" alt="PlayStation Trophies" />
   
   <br><br>
   
