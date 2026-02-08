@@ -35,7 +35,7 @@
 ## 🎓 Specialized Learning & Certifications
 <div align="center">
   <p><i>Continuous growth in AI, Design, and Engineering</i></p>
-  <marquee direction="left" scrollamount="2" behavior="scroll">
+  <marquee direction="left" scrollamount="6" onmouseover="this.stop();" onmouseout="this.start();">
     <table border="0">
       <tr>
         <td align="center" style="padding: 0 40px;">
