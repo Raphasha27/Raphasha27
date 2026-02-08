@@ -31,6 +31,11 @@
   <p align="left">
     I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
   </p>
+  <div align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpiazR0Y2R2dzRwdXp0cmx3bXp3bXp3bXp3bXp3bXp3bXp3ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1TVr9WvYfK/giphy.gif" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Coding Banner GIF">
+  
+  *"Building intelligent systems that bridge the gap between complex data and human intuition."*
+</div>
   <p align="left">
     Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
   </p>

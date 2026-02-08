@@ -28,7 +28,26 @@
   <main>
     <section class="hero reveal">
       <h1>Engineering the <br>Next Frontier.</h1>
-      <p>Determined Software Developer and AI Engineer specialization in high-performance autonomous systems, predictive analytics, and premium user experiences.</p>
+      <p id="typewriter-text"></p><span class="typewriter-cursor"></span>
+      
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        <div class="terminal-body" id="terminal-code">
+          <span class="code-comment"># Initializing Koketso Raphasha's Portfolio...</span><br>
+          <span class="code-keyword">class</span> <span class="code-func">Developer</span>:<br>
+          &nbsp;&nbsp;<span class="code-keyword">def</span> <span class="code-func">__init__</span>(self):<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-str">"Koketso Raphasha"</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;self.role = <span class="code-str">"AI Specialist"</span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;self.passion = <span class="code-str">"Autonomous Systems"</span><br>
+          <br>
+          <span class="code-comment"># status: 100% optimized. Ready to build.</span>
+        </div>
+      </div>
+
       <div class="card-links">
         <a href="#projects" class="btn-primary">View Masterpieces</a>
       </div>
@@ -188,6 +207,35 @@
     <p>&copy; 2026 Raphasha27. Built with precision and passion.</p>
   </footer>
   <script>
+    // Typewriter Effect
+    const texts = [
+      "I am Koketso Raphasha.",
+      "Determined Software Developer.",
+      "AI Specialist & Cloud Visionary.",
+      "I build intelligent systems."
+    ];
+    let count = 0;
+    let index = 0;
+    let currentText = "";
+    let letter = "";
+
+    (function type() {
+      if (count === texts.length) {
+        count = 0;
+      }
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+
+      document.getElementById("typewriter-text").textContent = letter;
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+        setTimeout(type, 2000); // Wait 2s before next word
+      } else {
+        setTimeout(type, 100); // Speed of typing
+      }
+    })();
+
     // Intersection Observer for Reveal Animations
     const observerOptions = {
       threshold: 0.15
