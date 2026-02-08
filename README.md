@@ -2,8 +2,27 @@
 <table border="0" width="100%">
   <tr>
     <td width="60%" align="left" valign="center">
-      <h1>Hi 👋, I'm <span style="color: #0ea5e9;">Koketso Raphasha</span></h1>
-      <h3>A passionate <span style="color: #0ea5e9;">Software Developer</span> and <span style="color: #6366f1;">AI Specialist</span> from South Africa</h3>
+      <h1>Hi 👋, I'm Koketso Raphasha</h1>
+      <h3>A passionate Software Developer and AI Specialist from South Africa</h3>
+      
+      <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=0EA5E9&center=false&vCenter=true&width=500&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary;Elite+AI+Engineer" alt="Typing Animation">
+      
+      <ul>
+        <li>🔭 I’m currently building <b>Sovereign Intelligence Systems</b></li>
+        <li>🌱 I’m currently learning <b>Advanced Neural Architectures</b></li>
+        <li>💬 Ask me about <b>AI Agents, Cloud Infrastructure, & .NET 8</b></li>
+        <li>📫 How to reach me: <a href="mailto:koketso.raphasha@capaciti.org.za"><b>koketso.raphasha@capaciti.org.za</b></a></li>
+        <li>⚡ Fun fact: <b>I build autonomous Pac-Man hunters!</b></li>
+      </ul>
+      
+      <p align="left">
+        <a href="https://github.com/Raphasha27">
+          <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
+        </a>
+        <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+        </a>
+      </p>
     </td>
     <td width="40%" align="center" valign="center">
       <img src="https://sl.bing.net/giY7BYN2qa" width="100%" alt="Koketso Raphasha">
