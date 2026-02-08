@@ -164,6 +164,42 @@
       </div>
     </section>
 
+    <!-- AI Roadmap Section -->
+    <section id="roadmap" class="section reveal">
+      <h2 class="section-title">Path to Sovereignty</h2>
+      <div class="roadmap-container">
+        <!-- Milestone 1 -->
+        <div class="roadmap-item">
+          <div class="roadmap-icon">01</div>
+          <div class="roadmap-content glass" style="padding: 1.5rem;">
+            <span class="roadmap-status status-completed">COMPLETED</span>
+            <h3>Neural Core Architecture</h3>
+            <p>Initial design of distributed AI processing nodes and lock-free memory management for Sovereign AI Nexus v1.</p>
+          </div>
+        </div>
+
+        <!-- Milestone 2 -->
+        <div class="roadmap-item">
+          <div class="roadmap-icon">02</div>
+          <div class="roadmap-content glass" style="padding: 1.5rem;">
+            <span class="roadmap-status status-active">ACTIVE INGRESS</span>
+            <h3>Distributed Governance</h3>
+            <p>Implementing FlowSentinel rate-limiting across multi-cloud environments with centralized observability.</p>
+          </div>
+        </div>
+
+        <!-- Milestone 3 -->
+        <div class="roadmap-item">
+          <div class="roadmap-icon">03</div>
+          <div class="roadmap-content glass" style="padding: 1.5rem;">
+            <span class="roadmap-status status-planned">RESEARCHING</span>
+            <h3>Autonomous Synthesis</h3>
+            <p>Developing self-optimizing ML agents capable of high-frequency market analysis and predictive risk assessment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="skills" class="section reveal">
         <h2 class="section-title">The Arsenal</h2>
         <div class="skills-grid">
@@ -206,7 +242,63 @@
   <footer>
     <p>&copy; 2026 Raphasha27. Built with precision and passion.</p>
   </footer>
+  <!-- Interactive Terminal Widget -->
+  <div class="terminal-toggle" onclick="toggleTerminal()">⌨️</div>
+  <div class="terminal-window terminal-widget glass" id="terminal-widget">
+    <div class="terminal-header">
+      <div class="dot red" onclick="toggleTerminal()"></div>
+      <div class="dot yellow"></div>
+      <div class="dot green"></div>
+      <span style="font-size: 0.7rem; color: #888; margin-left: 10px;">guest@raphasha.ai: ~</span>
+    </div>
+    <div class="terminal-body" id="widget-output" style="height: 160px; overflow-y: auto; padding-bottom: 0;">
+      <span class="code-comment">AI Core Booting...</span><br>
+      Type <span class="code-func">'help'</span> to see commands.<br>
+    </div>
+    <div class="terminal-body" style="padding-top: 5px;">
+      <div class="terminal-input-row">
+        <span class="terminal-prompt">$</span>
+        <input type="text" class="terminal-command-input" id="terminal-input" autofocus onkeydown="handleCommand(event)">
+      </div>
+    </div>
+  </div>
+
   <script>
+    function toggleTerminal() {
+      const widget = document.getElementById("terminal-widget");
+      widget.classList.toggle("active");
+      if (widget.classList.contains("active")) {
+        document.getElementById("terminal-input").focus();
+      }
+    }
+
+    function handleCommand(e) {
+      if (e.key === "Enter") {
+        const input = document.getElementById("terminal-input");
+        const cmd = input.value.toLowerCase().trim();
+        const output = document.getElementById("widget-output");
+        
+        output.innerHTML += `<div><span class="terminal-prompt">$</span> ${input.value}</div>`;
+        
+        if (cmd === "help") {
+          output.innerHTML += `<div>Available: <span class="code-func">projects, whoami, clear, contact</span></div>`;
+        } else if (cmd === "whoami") {
+          output.innerHTML += `<div>Koketso Raphasha | AI Specialist | Elite Engineer</div>`;
+        } else if (cmd === "projects") {
+          output.innerHTML += `<div>- FlowSentinel<br>- AI JobSphere<br>- Sovereign AI Nexus</div>`;
+        } else if (cmd === "contact") {
+          output.innerHTML += `<div>E: <span class="code-str">koketso.raphasha27@gmail.com</span></div>`;
+        } else if (cmd === "clear") {
+          output.innerHTML = "";
+        } else {
+          output.innerHTML += `<div>Command not found: ${cmd}</div>`;
+        }
+        
+        input.value = "";
+        output.scrollTop = output.scrollHeight;
+      }
+    }
+
     // Typewriter Effect
     const texts = [
       "I am Koketso Raphasha.",
