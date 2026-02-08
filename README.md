@@ -153,7 +153,7 @@
   <br><br>
   
   <!-- Comprehensive Metrics Overview -->
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
+  <img src="./github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
   
   <br><br>
   
