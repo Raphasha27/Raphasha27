@@ -150,7 +150,7 @@
   <br><br>
   
   <!-- GitHub & PlayStation Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=7" width="100%" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
   
   <br><br>
 
