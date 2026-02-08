@@ -98,6 +98,7 @@
         <sub>IBM Professional</sub>
       </td>
     </tr>
+    </tr>
     <tr>
       <td align="center">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/768px-Google_%22G%22_logo.svg.png" height="50" alt="YES"><br>
@@ -113,6 +114,13 @@
         <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/deeplearning_logo.png" height="40" alt="DeepLearning.AI"><br>
         <b>Machine Learning</b><br>
         <sub>DeepLearning.AI</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="3">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" height="40" alt="Meta"><br>
+        <b>Meta Frontend Developer</b><br>
+        <sub>Meta / Coursera</sub>
       </td>
     </tr>
   </table>
