@@ -1,6 +1,6 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0EA5E9&height=200&section=header&text=Koketso%20Raphasha&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" alt="Header Banner">
+  <img src="https://sl.bing.net/eIp4uBvBltI" width="100%" style="border-radius: 12px; margin-bottom: 20px;" alt="Raphasha27 Header">
   
   <br>
   
@@ -181,28 +181,7 @@
   </tr>
 </table>
 
----
-
-## 🎮 AI Arcade (Experimental)
-
-<table border="0">
-  <tr>
-    <td width="50%" align="center">
-      <a href="https://raphasha27.github.io/Raphasha27/pacman_game.html"><b>🟡 Pac-Man AI Hunter</b></a>
-    </td>
-    <td width="50%" align="center">
-      <a href="https://raphasha27.github.io/Raphasha27/snake_ai.html"><b>🐍 Snake AI: Hard Mode</b></a>
-    </td>
-  </tr>
-</table>
-
-### 🚦 FlowSentinel (Traffic Governance Platform)
-**Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
-` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
-
-### 🤖 AI Job Market Intelligence
-A premium platform for real-time job market analytics and AI resume matching.
-` React ` ` FastAPI ` ` OpenAI ` ` Tailwind `
+--- 
 
 ---
 
