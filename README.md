@@ -144,7 +144,7 @@
 
 ---
 
-## 🔮 Sovereign AI Nexus: Real-Time Status
+## 📡 Sovereign AI Nexus: Real-Time Status
 
 <div align="center">
   <img src="./assets/dashboard.svg" width="100%" alt="AI Live Dashboard">
