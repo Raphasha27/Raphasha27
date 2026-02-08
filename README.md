@@ -1,31 +1,61 @@
 <!-- SECTION: HEADER START -->
-<table border="0" width="100%">
-  <tr>
-    <td width="60%" align="left" valign="center">
-      <h1>Hi 👋, I'm <span style="color: #0ea5e9;">Koketso Raphasha</span></h1>
-      <h3>A passionate <span style="color: #0ea5e9;">Software Developer</span> and <span style="color: #6366f1;">AI Specialist</span> from South Africa</h3>
-      
-      <br>
-      
-      <p align="left">
-        <a href="https://github.com/Raphasha27">
-          <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
-        </a>
-        <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-          <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-        </a>
-      </p>
-    </td>
-    <td width="40%" align="center" valign="center">
-      <img src="https://sl.bing.net/giY7BYN2qa" width="100%" alt="Koketso Raphasha">
-    </td>
-  </tr>
-</table>
+<h2 align="center" style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
+⚡ Architecting the Future with Code, AI & Automation ⚡
+</h2>
 
-<!-- HORIZONTAL TECH ARSENAL MARQUEE -->
-<div align="center">
-  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
-</div>
+<br>
+
+<table border="0" width="100%">
+<tr>
+<td width="60%" valign="top">
+
+<h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
+👾 Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
+</h1>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&pause=500&color=38BDF8&center=false&vCenter=true&width=500&lines=Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Developer;Tech+Visionary" alt="Typing SVG" />
+
+<p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
+🚀 Building next-gen platforms • Scalable systems • AI-driven solutions
+</p>
+
+<p>
+  <a href="https://github.com/Raphasha27">
+    <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/koketso-raphasha-27">
+    <img src="https://img.shields.io/badge/LinkedIn-Koketso%20Raphasha-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+<p>
+  <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span><br>
+  <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span><br>
+  <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
+</p>
+
+</td>
+
+<td width="40%" align="center" valign="center">
+
+<img 
+  src="https://sl.bing.net/giY7BYN2qa" 
+  width="100%" 
+  style="
+    border-radius:20px;
+    border:3px solid #38bdf8;
+    box-shadow:
+      0 0 20px #38bdf8,
+      0 0 40px rgba(56,189,248,0.6),
+      0 0 60px rgba(34,197,94,0.4);
+  " 
+  alt="Koketso Raphasha" 
+/>
+
+</td>
+</tr>
+</table>
 <!-- SECTION: HEADER END -->
 
 ---
