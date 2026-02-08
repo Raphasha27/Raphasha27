@@ -173,19 +173,13 @@
   <tr>
     <td width="50%">
       <div align="center">
-        <h4>🚨 FlowSentinel</h4>
-        <a href="https://github.com/Raphasha27/ai-job-market-intelligence">
-          <img src="assets/jobsphere_dashboard.png" width="100%" style="border-radius: 8px;" alt="JobSphere">
-        </a>
+        <h4><a href="https://github.com/Raphasha27/ai-job-market-intelligence">🚨 FlowSentinel</a></h4>
         <p><i>Distributed Traffic Governance & AI Intelligence.</i></p>
       </div>
     </td>
     <td width="50%">
       <div align="center">
-        <h4>🛡️ CyberShield SOC</h4>
-        <a href="https://github.com/Raphasha27/cybershield-modern">
-          <img src="assets/cybershield.png" width="100%" style="border-radius: 8px;" alt="CyberShield">
-        </a>
+        <h4><a href="https://github.com/Raphasha27/cybershield-modern">🛡️ CyberShield SOC</a></h4>
         <p><i>Next-Gen AI Security Operations Center.</i></p>
       </div>
     </td>
@@ -193,19 +187,13 @@
   <tr>
     <td width="50%">
       <div align="center">
-        <h4>☁️ Sovereign AI Nexus</h4>
-        <a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">
-          <img src="assets/nexus.png" width="100%" style="border-radius: 8px;" alt="Nexus">
-        </a>
+        <h4><a href="https://github.com/Raphasha27/Sovereign-AI-Nexus-v2">☁️ Sovereign AI Nexus</a></h4>
         <p><i>Decentralized AI Ecosystem & Infrastructure.</i></p>
       </div>
     </td>
     <td width="50%">
       <div align="center">
-        <h4>🌡️ Aura Weather AI</h4>
-        <a href="https://github.com/Raphasha27/aura-weather-ai">
-          <img src="assets/aura_weather.png" width="100%" style="border-radius: 8px;" alt="Aura">
-        </a>
+        <h4><a href="https://github.com/Raphasha27/aura-weather-ai">🌡️ Aura Weather AI</a></h4>
         <p><i>Predictive Climate Pattern Analysis.</i></p>
       </div>
     </td>
