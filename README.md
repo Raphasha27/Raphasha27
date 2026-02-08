@@ -61,7 +61,7 @@
 <marquee scrollamount="8" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" height="250" alt="GitHub Metrics" />
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" height="250" alt="GitHub Contribution Snake" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.gif" height="250" alt="GitHub Contribution Snake" />
 </marquee>
 
 <br><br>

@@ -15,6 +15,7 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg
+            dist/github-contribution-grid-snake.gif
       - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
