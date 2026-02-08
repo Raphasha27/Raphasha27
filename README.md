@@ -21,15 +21,15 @@
   </p>
 
   <p>
-    <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span> • 
-    <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span> • 
-    <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
-  </p>
-
-  <p>
     <a href="https://github.com/Raphasha27">
       <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
     </a>
+  </p>
+
+  <p>
+    <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">🟢 Available for elite collaborations</span> • 
+    <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">🌐 Global-scale systems</span> • 
+    <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
   </p>
 
   <br>

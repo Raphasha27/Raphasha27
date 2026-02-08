@@ -29,6 +29,11 @@
   <main>
     <section class="hero reveal">
       <h1>Engineering the <br>Next Frontier.</h1>
+      
+      <div style="margin: 1rem 0; font-family: 'Courier New', monospace; color: #38bdf8; font-size: 0.9rem; letter-spacing: 2px;">
+        📍 JOHANNESBURG, ZA • <span id="joburg-clock" style="font-weight: bold; color: #22c55e;">00:00:00</span> SAST
+      </div>
+
       <p id="typewriter-text"></p><span class="typewriter-cursor"></span>
       
       <div class="terminal-window">
@@ -343,6 +348,25 @@
     }, observerOptions);
 
     document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    // Real-Time Johannesburg Clock (SAST)
+    function updateJoburgTime() {
+      const now = new Date();
+      const formatter = new Intl.DateTimeFormat('en-GB', {
+        timeZone: 'Africa/Johannesburg',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: false
+      });
+      const timeString = formatter.format(now);
+      const clockElement = document.getElementById('joburg-clock');
+      if (clockElement) {
+        clockElement.innerText = timeString;
+      }
+    }
+    setInterval(updateJoburgTime, 1000);
+    updateJoburgTime();
   </script>
 </body>
 </html>
