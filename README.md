@@ -1,65 +1,52 @@
 <!-- SECTION: HEADER START -->
-<table width="100%">
-  <tr>
-    <td bgcolor="#0d1117" align="center" style="border: none;">
-      <br>
-      <h1 style="color:#38bdf8; text-shadow: 0 0 10px #38bdf8;">
-        ⬢ Koketso <span style="color:#22c55e; text-shadow:0 0 10px #22c55e;">Raphasha</span>
-      </h1>
+<div align="center">
+  <br>
+  <h1 align="center">
+    ⬢ Koketso <span style="color:#22c55e;">Raphasha</span>
+  </h1>
 
-      <h2 style="color:#22c55e; text-shadow:0 0 12px #22c55e;">
-        ⚡ Software Developer and AI Specialist ⚡
-      </h2>
+  <h2 align="center">
+    ⚡ Software Developer and AI Specialist ⚡
+  </h2>
 
-      <br>
+  <br>
 
-      <p style="color:#a855f7; font-size:15px; text-shadow:0 0 6px #a855f7;">
-        ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
-      </p>
+  <p align="center">
+    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
+  </p>
 
-      <br>
+  <br>
 
-      <p align="center" style="color:#c9d1d9; font-size:14px; line-height:1.8; max-width:800px; margin:0 auto; padding:0 20px;">
-        <b style="color:#38bdf8;">Elite Software Developer</b> and <b style="color:#22c55e;">AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b style="color:#ec4899;">full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b style="color:#38bdf8;">backend engineering</b> (Node.js, .NET, FastAPI), and <b style="color:#22c55e;">AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b style="color:#ec4899;">innovation, speed, and precision</b> to solve complex challenges at scale.
-      </p>
+  <p align="center">
+    <b>Elite Software Developer</b> and <b>AI Engineer</b> specializing in architecting high-performance systems and intelligent automation. Expertise spans <b>full-stack web development</b> with modern frameworks (React, Vue.js, Next.js), <b>backend engineering</b> (Node.js, .NET, FastAPI), and <b>AI/ML solutions</b> for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge <b>innovation, speed, and precision</b> to solve complex challenges at scale.
+  </p>
 
-      <p>
-        <a href="https://github.com/Raphasha27">
-          <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
-        </a>
-      </p>
+  <p align="center">
+    <a href="https://github.com/Raphasha27">
+      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />
+    </a>
+  </p>
 
-      <p>
-        <span style="color:#22c55e; text-shadow:0 0 8px #22c55e;">⌘ Available for elite collaborations</span> • 
-        <span style="color:#38bdf8; text-shadow:0 0 8px #38bdf8;">◈ Global-scale systems</span> • 
-        <span style="color:#ec4899; text-shadow:0 0 8px #ec4899;">⚡ Innovation | Speed | Precision</span>
-      </p>
+  <p align="center">
+    <span style="color:#22c55e;">⌘ Available for elite collaborations</span> • 
+    <span style="color:#38bdf8;">◈ Global-scale systems</span> • 
+    <span style="color:#ec4899;">⚡ Innovation | Speed | Precision</span>
+  </p>
 
-      <br>
+  <br>
 
-      <img 
-        src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
-        width="80%" 
-        style="
-          border-radius:20px;
-          border:3px solid #38bdf8;
-          box-shadow:
-            0 0 20px #38bdf8,
-            0 0 40px rgba(56,189,248,0.6),
-            0 0 60px rgba(34,197,94,0.4);
-          max-width: 800px;
-        " 
-        alt="Coding Animation" 
-      />
+  <img 
+    src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
+    width="600" 
+    alt="Coding Animation" 
+  />
 
-      <br><br>
+  <br><br>
 
-      <!-- Binary Signature / Core Config Widget -->
-      <img src="./assets/core_identity.svg" width="450" alt="Core Identity Configuration" />
-      <br><br>
-    </td>
-  </tr>
-</table>
+  <!-- Binary Signature / Core Config Widget -->
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/core_identity.svg" width="450" alt="Core Identity Configuration" />
+  <br><br>
+</div>
 
 <br>
 
@@ -156,11 +143,7 @@
   <br><br>
   
   <!-- Local Dashboard & Trophies Row -->
-  <img src="./assets/psn_trophies.svg" width="100%" alt="PlayStation Trophies" />
-  
-  <br><br>
-
-  <img src="./assets/psn_trophies.svg" width="600" alt="PlayStation Trophies" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/psn_trophies.svg" width="100%" alt="PlayStation Trophies" />
   
   <br><br>
   
@@ -171,12 +154,12 @@
   <br><br>
   
   <!-- Comprehensive Metrics Overview -->
-  <img src="./github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/github-metrics.svg" width="100%" alt="GitHub Metrics Overview" />
   
   <br><br>
   
   <!-- Snake Animation -->
-  <img src="https://repository-images.githubusercontent.com/535853534/51dc23ec-3b75-421d-90e4-b30c678ac80e" width="100%" alt="GitHub Contribution Snake Animation" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake Animation" />
   
 </div>
 
