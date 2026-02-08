@@ -94,8 +94,10 @@
   </style>
 </head>
 <body>
-  <h1>🎮 Pac-Man AI Hunter</h1>
-  <p class="subtitle">Intelligent A* Pathfinding • Real-Time Target Tracking</p>
+  <div class="blob"></div>
+  <div class="scanlines"></div>
+  <h1>🟡 Pac-Man AI Hunter</h1>
+  <p class="subtitle">Neural Pathfinding & Coordinated Ghost Swarm</p>
   
   <div class="stats">
     <div class="stat">Score: <span id="score">0</span></div>
@@ -112,44 +114,8 @@
     <button onclick="toggleDebug()">Debug: <span id="debugStatus">OFF</span></button>
   </div>
   
-  <div class="d-pad">
-    <button onclick="manualMove(0, -1)">⬆️</button>
-    <div class="d-pad-row">
-      <button onclick="manualMove(-1, 0)">⬅️</button>
-      <button onclick="manualMove(1, 0)">➡️</button>
-    </div>
-    <button onclick="manualMove(0, 1)">⬇️</button>
-  </div>
-  
-  <style>
-    .d-pad {
-      margin-top: 15px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 5px;
-    }
-    .d-pad-row {
-      display: flex;
-      gap: 5px;
-    }
-    .d-pad button {
-      width: 50px;
-      height: 50px;
-      font-size: 1.5em;
-      padding: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: #333;
-      border: 2px solid #555;
-    }
-    .d-pad button:active { background: #555; }
-  </style>
-  
   <p class="info">
-    🧠 Pac-Man uses <b>A* pathfinding</b> to hunt the red ghost in real-time.
-    The ghost has evasive AI and tries to escape. Watch the chase unfold!
+    🧠 This system combines <b>Classical Grid AI</b> with <b>Unique Ghost Personalities</b> (Blinky, Pinky, Inky, Clyde) to create a high-fidelity arcade simulation. 
   </p>
 
 <script>
@@ -167,6 +133,8 @@ let debugMode = false;
 let powerTimer = 0;
 let particles = [];
 let gameRunning = true;
+let modeTimer = 0;
+let currentMode = 'CHASE'; // SCATTER or CHASE
 
 // Map: # = wall, . = dot, space = empty, O = power
 const mapTemplate = [
@@ -251,8 +219,8 @@ class Entity {
     this.gridY = Math.floor(this.y / TILE);
 
     // 5. Tunnel Warp
-    if (this.x < 0) this.x = COLS * TILE;
-    if (this.x > COLS * TILE) this.x = 0;
+    if (this.x < -TILE/2) this.x = COLS * TILE + TILE/2;
+    if (this.x > COLS * TILE + TILE/2) this.x = -TILE/2;
   }
 }
 
@@ -271,10 +239,13 @@ class Ghost extends Entity {
   updateAI(pacman) {
     if (!this.isAtCenter()) return;
 
-    // Determine Target
+    // Determine State and Target
     if (powerTimer > 0) {
       this.state = 'FRIGHTENED';
       this.target = { x: Math.random() * COLS, y: Math.random() * ROWS };
+    } else if (currentMode === 'SCATTER') {
+      this.state = 'SCATTER';
+      this.target = this.scatterTarget;
     } else {
       this.state = 'CHASE';
       this.setChaseTarget(pacman);
@@ -446,6 +417,11 @@ function gameLoop() {
   if (!gameRunning) return;
   
   if (powerTimer > 0) powerTimer--;
+  
+  // Mode Timer (7s Scatter, 20s Chase)
+  modeTimer++;
+  if (currentMode === 'SCATTER' && modeTimer > 600) { currentMode = 'CHASE'; modeTimer = 0; }
+  if (currentMode === 'CHASE' && modeTimer > 1600) { currentMode = 'SCATTER'; modeTimer = 0; }
   
   if (aiEnabled) {
     // Simple Hunter AI for Pacman (Nearest Target)
