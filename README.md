@@ -217,7 +217,7 @@
   <br><br>
   
   <!-- Snake Animation -->
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake Animation" />
+  <img src="https://repository-images.githubusercontent.com/535853534/51dc23ec-3b75-421d-90e4-b30c678ac80e" width="100%" alt="GitHub Contribution Snake Animation" />
   
 </div>
 
