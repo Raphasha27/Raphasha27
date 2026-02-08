@@ -1,0 +1,54 @@
+<svg width="450" height="300" viewBox="0 0 450 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; }
+      .header { fill: #161b22; }
+      .dot { stroke-width: 0; }
+      .red { fill: #ff5f56; }
+      .yellow { fill: #ffbd2e; }
+      .green { fill: #27c93f; }
+      
+      .code-container { font-family: 'Fira Code', 'Courier New', monospace; font-size: 14px; }
+      .key { fill: #79c0ff; }
+      .string { fill: #a5d6ff; }
+      .value { fill: #ffa657; }
+      .bracket { fill: #d1d5da; }
+      .indent { fill: #30363d; }
+      .comment { fill: #8b949e; font-style: italic; }
+    </style>
+  </defs>
+
+  <!-- Window Frame -->
+  <rect class="bg" width="450" height="300" rx="10"/>
+  <rect class="header" width="450" height="35" rx="10 10 0 0" />
+  
+  <!-- Mac Buttons -->
+  <circle class="dot red" cx="25" cy="18" r="6" />
+  <circle class="dot yellow" cx="45" cy="18" r="6" />
+  <circle class="dot green" cx="65" cy="18" r="6" />
+
+  <!-- Code Snippet -->
+  <g class="code-container" transform="translate(30, 70)">
+    <text y="0" class="bracket">{</text>
+    
+    <g transform="translate(20, 25)">
+      <text y="0"><tspan class="key">"identity"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Raphasha27"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="25"><tspan class="key">"archetype"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Sovereign AI Lead"</tspan><tspan class="bracket">,</tspan></text>
+      
+      <text y="50"><tspan class="key">"specialization"</tspan><tspan class="bracket">: [</tspan></text>
+      <text y="75" x="20"><tspan class="string">"Neural Architectures"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="100" x="20"><tspan class="string">"Full-Stack Engineering"</tspan></text>
+      <text y="125"><tspan class="bracket">],</tspan></text>
+      
+      <text y="150"><tspan class="key">"nexus"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Johannesburg, ZA"</tspan><tspan class="bracket">,</tspan></text>
+      <text y="175"><tspan class="key">"ambition"</tspan><tspan class="bracket">: </tspan><tspan class="string">"Elite Systems Mastery"</tspan><tspan class="bracket">,</tspan></text>
+      
+      <text y="200"><tspan class="key">"status"</tspan><tspan class="bracket">: </tspan><tspan class="value">"OPTIMAL"</tspan></text>
+    </g>
+    
+    <text y="255" class="bracket">}</text>
+  </g>
+  
+  <!-- Subtle Comment at Bottom -->
+  <text x="30" y="285" class="comment" font-family="monospace" font-size="10">// Initializing Sovereign Profile Sequence...</text>
+</svg>
