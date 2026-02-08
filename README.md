@@ -248,9 +248,6 @@ SYSTEMS • AI • AUTOMATION • PERFORMANCE
 ---
 
 ## 📊 Advanced GitHub Analytics
-<details>
-<summary><b>🔻 Click to Expand Full Project List</b></summary>
-<br>
 
 <table border="0" width="100%">
   <thead>
@@ -338,7 +335,6 @@ SYSTEMS • AI • AUTOMATION • PERFORMANCE
     </tr>
   </tbody>
 </table>
-</details>
 
 ---
 
