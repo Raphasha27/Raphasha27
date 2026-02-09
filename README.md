@@ -18,15 +18,6 @@
 
 ---
 
-## 📊 GitHub Analytics & Contribution Activity
-
-<div align="center">
-  <!-- GitHub Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" width="100%" alt="Contribution Graph" />
-</div>
-
----
-
 ## 🐍 GitHub Contribution Snake & Elite AI Engine
 
 <div align="center">
