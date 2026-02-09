@@ -1,0 +1,96 @@
+<svg fill="none" viewBox="0 0 800 450" width="800" height="450" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .card {
+          background: #0d1117;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          padding: 25px;
+          color: #c9d1d9;
+          font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+          height: 398px; /* Offset for border */
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+          transition: border-color 0.3s ease;
+        }
+        .card:hover {
+          border-color: #38bdf8;
+        }
+        .header {
+          display: flex;
+          gap: 8px;
+          margin-bottom: 5px;
+        }
+        .dot { width: 12px; height: 12px; border-radius: 50%; opacity: 0.8; }
+        .red { background: #ff5f56; }
+        .yellow { background: #ffbd2e; }
+        .green { background: #27c93f; }
+        
+        .role-line {
+          font-size: 14px;
+          font-weight: 600;
+          color: #38bdf8;
+          border-bottom: 1px solid #30363d;
+          padding-bottom: 10px;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+        }
+        
+        .bio {
+          font-size: 14px;
+          line-height: 1.7;
+          color: #8b949e;
+          flex-grow: 1;
+          margin: 10px 0;
+        }
+        
+        .status-footer {
+          background: rgba(56, 189, 248, 0.05);
+          border-radius: 8px;
+          padding: 12px;
+          display: flex;
+          justify-content: space-around;
+          font-size: 12px;
+          font-weight: 500;
+          border: 1px dashed rgba(56, 189, 248, 0.2);
+        }
+        
+        .status-item {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+        .status-collab { color: #22c55e; }
+        .status-global { color: #38bdf8; }
+        .status-precision { color: #ec4899; }
+        
+        .highlight { color: #f0f6fc; font-weight: 600; }
+      </style>
+      <div class="card">
+        <div class="header">
+          <div class="dot red"></div>
+          <div class="dot yellow"></div>
+          <div class="dot green"></div>
+        </div>
+        
+        <div class="role-line">
+          ◈ Co-founder @ <span class="highlight">Kivoc Dynamics Technology</span> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
+        </div>
+        
+        <div class="bio">
+          Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
+        </div>
+        
+        <div class="status-footer">
+          <div class="status-item status-collab">⌘ Available for elite collaborations</div>
+          <div class="status-item status-global">◈ Global-scale systems</div>
+          <div class="status-item status-precision">⚡ Innovation | Speed | Precision</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
