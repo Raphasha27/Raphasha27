@@ -18,7 +18,7 @@
 
 ---
 
-## GitHub Analytics & Contribution Activity
+## 📊 GitHub Analytics & Contribution Activity
 
 <div align="center">
   <!-- GitHub Activity Graph -->
@@ -42,7 +42,7 @@
 
 ---
 
-## GitHub Contribution Snake & Elite AI Engine
+## 🐍 GitHub Contribution Snake & Elite AI Engine
 
 <div align="center">
   <!-- This is the contribution graph snake -->
@@ -52,46 +52,83 @@
 
 ---
 
-## About Me
+## 👨‍💻 About Me
 
 Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
 
 ---
 
-## Professional Certifications & Training
+## 🎖️ Professional Certifications & Training
 
 <div align="center">
+  <marquee behavior="scroll" direction="left" scrollamount="8">
+    <img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" width="40" alt="Google"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Experience_Design_icon.svg" width="40" alt="UX Design"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" width="40" alt="IBM"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="40" alt="Python"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="40" alt="Tensorflow"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40" alt="Azure"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" width="40" alt="Cisco"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Digital_Ocean_logo.svg" width="40" alt="CapaCiTi"/> &nbsp;&nbsp;&nbsp;
+    <img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" width="40" alt="Google Analytics"/> &nbsp;&nbsp;&nbsp;
+  </marquee>
+  
+  <br/>
+  
   <table border="0">
     <tr>
-      <td align="center"><img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" width="40"/><br/><b>Google</b><br/>Data Analytics</td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Experience_Design_icon.svg" width="40"/><br/><b>Google</b><br/>UX Design</td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" width="40"/><br/><b>IBM</b><br/>AI Engineering</td>
+      <td align="center"><img src="https://img.shields.io/badge/Google-Data_Analytics-4285F4?style=for-the-badge&logo=google&logoColor=white"/></td>
+      <td align="center"><img src="https://img.shields.io/badge/IBM-AI_Engineering-054ADA?style=for-the-badge&logo=ibm&logoColor=white"/></td>
+      <td align="center"><img src="https://img.shields.io/badge/Michigan-Python-00274C?style=for-the-badge&logo=python&logoColor=white"/></td>
     </tr>
     <tr>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="40"/><br/><b>Michigan</b><br/>Python</td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="40"/><br/><b>DeepLearning</b><br/>ML Specialist</td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40"/><br/><b>Azure</b><br/>Cloud Infra</td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" width="40"/><br/><b>Cisco</b><br/>Cybersecurity</td>
-      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Digital_Ocean_logo.svg" width="40"/><br/><b>CapaCiTi</b><br/>Prof. Dev</td>
+      <td align="center"><img src="https://img.shields.io/badge/DeepLearning.AI-ML_Specialist-0056D2?style=for-the-badge&logo=tensorflow&logoColor=white"/></td>
+      <td align="center"><img src="https://img.shields.io/badge/Cisco-Cybersecurity-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white"/></td>
+      <td align="center"><img src="https://img.shields.io/badge/Microsoft-Azure_Cloud-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white"/></td>
     </tr>
   </table>
 </div>
 
 ---
 
-## Education & Credentials
+## 🎓 Education & Credentials
 
-- **Bachelor of Information Technology** - Richfield Graduate Institute of Technology (2025)
-  - *DISTINCTION in Mobile App Development*
-- **CAPACITI Program Graduate** - Johannesburg, Enterprise Software Development Track
-- **Google Professional Certificates** - Data Analytics & Advanced Machine Learning (Coursera)
-- **YES4Youth Program** - Selected for intensive workplace experience
+<div align="center">
+  <table width="100%" border="0">
+    <tr>
+      <td width="50%">
+        <div style="background: rgba(30, 41, 59, 0.4); border: 1px solid #334155; border-radius: 12px; padding: 20px; text-align: left; height: 120px;">
+          <h3>🎓 Higher Education</h3>
+          <p><b>Bachelor of Information Technology</b><br/>Richfield Graduate Institute (2025)<br/><i>🏆 DISTINCTION in Mobile App Development</i></p>
+        </div>
+      </td>
+      <td width="50%">
+        <div style="background: rgba(30, 41, 59, 0.4); border: 1px solid #334155; border-radius: 12px; padding: 20px; text-align: left; height: 120px;">
+          <h3>💼 Professional Training</h3>
+          <p><b>CAPACITI Graduate</b><br/>Enterprise Software track<br/>Johannesburg, ZA</p>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%">
+        <div style="background: rgba(30, 41, 59, 0.4); border: 1px solid #334155; border-radius: 12px; padding: 20px; text-align: left; height: 120px;">
+          <h3>📜 Certifications</h3>
+          <p><b>Google Professional Certs</b><br/>Data Analytics & Advanced ML<br/>Project Management</p>
+        </div>
+      </td>
+      <td width="50%">
+        <div style="background: rgba(30, 41, 59, 0.4); border: 1px solid #334155; border-radius: 12px; padding: 20px; text-align: left; height: 120px;">
+          <h3>🚀 Experience</h3>
+          <p><b>YES4Youth Program</b><br/>Selected for intensive<br/>workplace leadership</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-## Mastered Technologies & Tools
+## 🛠️ Mastered Technologies & Tools
 
 <div align="center">
 
@@ -142,7 +179,7 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 ---
 
-## Featured Projects
+## 🏆 Featured Projects
 
 <div align="center">
 
@@ -158,7 +195,7 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 ---
 
-## Connect & Collaborate
+## 📫 Connect & Collaborate
 
 <div align="center">
   <table border="0">
@@ -181,7 +218,7 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 <div align="center" style="margin-top: 20px;">
   <a href="https://linkedin.com/in/koketso-raphasha-27"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
+  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github-logo&logoColor=white" alt="GitHub"></a>
   <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://x.com/Raphasha27"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
 </div>
