@@ -35,7 +35,7 @@
 
 ---
 
-## � GitHub Contribution Snake
+## 🐍 GitHub Contribution Snake
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/output/github-contribution-grid-snake.gif" width="100%" alt="GitHub Contribution Snake Animation" />
@@ -45,9 +45,52 @@
 
 ---
 
-## �👨‍💻 About Me
+## 👨‍💻 About Me
 
 Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
+
+<br>
+
+---
+
+## 🎖️ Professional Certifications & Training
+
+<div align="center">
+
+### Google Professional Certificates
+![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Data Analytics](https://img.shields.io/badge/Data_Analytics-34A853?style=for-the-badge&logo=google&logoColor=white)
+![UX Design](https://img.shields.io/badge/UX_Design-FBBC04?style=for-the-badge&logo=google&logoColor=black)
+![Machine Learning](https://img.shields.io/badge/Advanced_ML-EA4335?style=for-the-badge&logo=google&logoColor=white)
+
+### IBM Professional
+![IBM](https://img.shields.io/badge/IBM-054ADA?style=for-the-badge&logo=ibm&logoColor=white)
+![AI Engineering](https://img.shields.io/badge/AI_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
+
+### University of Michigan
+![Michigan](https://img.shields.io/badge/University_of_Michigan-00274C?style=for-the-badge&logo=university&logoColor=FFCB05)
+![Python](https://img.shields.io/badge/Python_for_Everybody-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### DeepLearning.AI
+![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-0056D2?style=for-the-badge&logo=deeplearning&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Generative AI](https://img.shields.io/badge/Generative_AI-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
+
+### Cisco Networking Academy
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity_Specialist-049FD9?style=for-the-badge&logo=cisco&logoColor=white)
+
+### Microsoft Azure
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![Cloud Infrastructure](https://img.shields.io/badge/Cloud_Infrastructure-007FFF?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Solution Associate](https://img.shields.io/badge/Solution_Associate-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)
+
+### YES4Youth & CapaCiTi
+![Professional Development](https://img.shields.io/badge/Professional_Development-22C55E?style=for-the-badge&logo=graduation-cap&logoColor=white)
+![YES4Youth](https://img.shields.io/badge/YES4Youth-10B981?style=for-the-badge&logo=checkmarx&logoColor=white)
+![CapaCiTi](https://img.shields.io/badge/CapaCiTi-059669?style=for-the-badge&logo=educative&logoColor=white)
+
+</div>
 
 <br>
 
@@ -111,49 +154,6 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-
-</div>
-
-<br>
-
----
-
-## 🎖️ Professional Certifications & Training
-
-<div align="center">
-
-### Google Professional Certificates
-![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Data Analytics](https://img.shields.io/badge/Data_Analytics-34A853?style=for-the-badge&logo=google&logoColor=white)
-![UX Design](https://img.shields.io/badge/UX_Design-FBBC04?style=for-the-badge&logo=google&logoColor=black)
-![Machine Learning](https://img.shields.io/badge/Advanced_ML-EA4335?style=for-the-badge&logo=google&logoColor=white)
-
-### IBM Professional
-![IBM](https://img.shields.io/badge/IBM-054ADA?style=for-the-badge&logo=ibm&logoColor=white)
-![AI Engineering](https://img.shields.io/badge/AI_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
-
-### University of Michigan
-![Michigan](https://img.shields.io/badge/University_of_Michigan-00274C?style=for-the-badge&logo=university&logoColor=FFCB05)
-![Python](https://img.shields.io/badge/Python_for_Everybody-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### DeepLearning.AI
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-0056D2?style=for-the-badge&logo=deeplearning&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Generative AI](https://img.shields.io/badge/Generative_AI-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
-
-### Cisco Networking Academy
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity_Specialist-049FD9?style=for-the-badge&logo=cisco&logoColor=white)
-
-### Microsoft Azure
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Cloud Infrastructure](https://img.shields.io/badge/Cloud_Infrastructure-007FFF?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Solution Associate](https://img.shields.io/badge/Solution_Associate-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)
-
-### YES4Youth & CapaCiTi
-![Professional Development](https://img.shields.io/badge/Professional_Development-22C55E?style=for-the-badge&logo=graduation-cap&logoColor=white)
-![YES4Youth](https://img.shields.io/badge/YES4Youth-10B981?style=for-the-badge&logo=checkmarx&logoColor=white)
-![CapaCiTi](https://img.shields.io/badge/CapaCiTi-059669?style=for-the-badge&logo=educative&logoColor=white)
 
 </div>
 

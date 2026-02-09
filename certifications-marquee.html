@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certification Marquee</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #0d1117;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #c9d1d9;
+            padding: 40px 0;
+        }
+
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            position: relative;
+            background: linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+            padding: 60px 0;
+            border-top: 1px solid #30363d;
+            border-bottom: 1px solid #30363d;
+        }
+
+        .marquee-title {
+            text-align: center;
+            font-size: 24px;
+            font-weight: 600;
+            color: #38bdf8;
+            margin-bottom: 40px;
+            text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
+        }
+
+        .marquee-subtitle {
+            text-align: center;
+            font-size: 14px;
+            color: #8b949e;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        /* Mask gradient for fade effect */
+        .marquee-wrapper {
+            position: relative;
+            -webkit-mask-image: linear-gradient(
+                to right,
+                transparent 0%,
+                black 10%,
+                black 90%,
+                transparent 100%
+            );
+            mask-image: linear-gradient(
+                to right,
+                transparent 0%,
+                black 10%,
+                black 90%,
+                transparent 100%
+            );
+        }
+
+        .marquee-track {
+            display: flex;
+            gap: 80px;
+            animation: scroll 40s linear infinite;
+            will-change: transform;
+        }
+
+        .marquee-track:hover {
+            animation-play-state: paused;
+        }
+
+        /* Duplicate for seamless loop */
+        .cert-item {
+            flex-shrink: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px 40px;
+            background: rgba(22, 27, 34, 0.8);
+            border: 1px solid #30363d;
+            border-radius: 12px;
+            min-width: 220px;
+            transition: all 0.3s ease;
+        }
+
+        .cert-item:hover {
+            transform: translateY(-5px);
+            background: rgba(22, 27, 34, 1);
+            border-color: #38bdf8;
+            box-shadow: 0 8px 16px rgba(56, 189, 248, 0.2);
+        }
+
+        .cert-logo {
+            height: 60px;
+            margin-bottom: 20px;
+            object-fit: contain;
+        }
+
+        .cert-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: #c9d1d9;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+        .cert-provider {
+            font-size: 12px;
+            color: #8b949e;
+            text-align: center;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .cert-item {
+                min-width: 180px;
+                padding: 20px 30px;
+            }
+            
+            .marquee-track {
+                gap: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="marquee-container">
+        <h2 class="marquee-title">🎓 Professional Certifications & Training</h2>
+        <p class="marquee-subtitle">Continuous growth in AI, Design, and Engineering</p>
+        
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <!-- First set of certificates -->
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">Data Analytics</div>
+                    <div class="cert-provider">Google / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">UX Design</div>
+                    <div class="cert-provider">Google Professional</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="cert-logo">
+                    <div class="cert-name">AI Engineering</div>
+                    <div class="cert-provider">IBM Professional</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">Professional Dev</div>
+                    <div class="cert-provider">YES4Youth / CAPACITI</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="cert-logo">
+                    <div class="cert-name">Python for Everybody</div>
+                    <div class="cert-provider">University of Michigan</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://deeplearning.ai/wp-content/uploads/2021/02/LogoFiles_DeepLearning_PrimaryLogo.png" alt="DeepLearning.AI" class="cert-logo">
+                    <div class="cert-name">Machine Learning</div>
+                    <div class="cert-provider">DeepLearning.AI</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="Meta" class="cert-logo">
+                    <div class="cert-name">Meta Frontend Developer</div>
+                    <div class="cert-provider">Meta / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="cert-logo">
+                    <div class="cert-name">Data Science Professional</div>
+                    <div class="cert-provider">IBM / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="cert-logo">
+                    <div class="cert-name">Azure AI Engineer</div>
+                    <div class="cert-provider">Microsoft Associate</div>
+                </div>
+
+                <!-- Duplicate set for seamless loop -->
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">Data Analytics</div>
+                    <div class="cert-provider">Google / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">UX Design</div>
+                    <div class="cert-provider">Google Professional</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="cert-logo">
+                    <div class="cert-name">AI Engineering</div>
+                    <div class="cert-provider">IBM Professional</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google" class="cert-logo">
+                    <div class="cert-name">Professional Dev</div>
+                    <div class="cert-provider">YES4Youth / CAPACITI</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="cert-logo">
+                    <div class="cert-name">Python for Everybody</div>
+                    <div class="cert-provider">University of Michigan</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://deeplearning.ai/wp-content/uploads/2021/02/LogoFiles_DeepLearning_PrimaryLogo.png" alt="DeepLearning.AI" class="cert-logo">
+                    <div class="cert-name">Machine Learning</div>
+                    <div class="cert-provider">DeepLearning.AI</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="Meta" class="cert-logo">
+                    <div class="cert-name">Meta Frontend Developer</div>
+                    <div class="cert-provider">Meta / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM" class="cert-logo">
+                    <div class="cert-name">Data Science Professional</div>
+                    <div class="cert-provider">IBM / Coursera</div>
+                </div>
+
+                <div class="cert-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" class="cert-logo">
+                    <div class="cert-name">Azure AI Engineer</div>
+                    <div class="cert-provider">Microsoft Associate</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

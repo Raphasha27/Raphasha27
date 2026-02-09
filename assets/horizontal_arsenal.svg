@@ -1,0 +1,116 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background: #0d1117;
+          font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 200px;
+          border-radius: 12px;
+          border: 1px solid rgba(255, 255, 255, 0.05);
+          position: relative;
+          overflow: hidden;
+        }
+
+        /* Subtle neural network background effect */
+        .dots {
+          position: absolute;
+          top: 0; left: 0; width: 100%; height: 100%;
+          background-image: radial-gradient(rgba(14, 165, 233, 0.1) 1px, transparent 1px);
+          background-size: 20px 20px;
+          z-index: 0;
+        }
+
+        h2 {
+          color: white;
+          font-size: 28px;
+          margin: 0 0 10px 0;
+          z-index: 1;
+          font-weight: 700;
+          letter-spacing: -0.5px;
+        }
+
+        .line {
+          width: 60px;
+          height: 4px;
+          background: #10b981;
+          border-radius: 2px;
+          margin-bottom: 30px;
+          z-index: 1;
+        }
+
+        .marquee {
+          width: 100%;
+          display: flex;
+          overflow: hidden;
+          gap: 60px;
+          mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+          z-index: 1;
+        }
+
+        .track {
+          display: flex;
+          gap: 60px;
+          animation: scroll 30s linear infinite;
+        }
+
+        @keyframes scroll {
+          from { transform: translateX(0); }
+          to { transform: translateX(-50%); }
+        }
+
+        .icon-wrapper {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 60px;
+          height: 60px;
+          transition: transform 0.3s ease;
+        }
+
+        .icon-wrapper:hover {
+          transform: translateY(-5px) scale(1.1);
+        }
+
+        img {
+          width: 50px;
+          height: 50px;
+          object-fit: contain;
+          filter: drop-shadow(0 4px 10px rgba(0,0,0,0.3));
+        }
+      </style>
+      <div class="container">
+        <div class="dots"></div>
+        <h2>High-Performance Arsenal</h2>
+        <div class="line"></div>
+        <div class="marquee">
+          <div class="track">
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" /></div>
+            
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" /></div>
+            <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS" /></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
