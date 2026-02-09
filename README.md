@@ -1,15 +1,10 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <br>
   <!-- Animated Name Banner -->
   <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=40&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=800&lines=KOKETSO+RAPHASHA;SOFTWARE+DEVELOPER;AI+SPECIALIST" alt="Header" />
   
-  <br><br>
-  
   <!-- Typing Roles -->
   <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
-
-  <br><br>
 
   <p align="center">
     <a href="https://github.com/Raphasha27">
@@ -17,104 +12,86 @@
     </a>
   </p>
 
-  <br>
-
-  <img 
-    src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" 
-    width="600" 
-    alt="Coding Animation" 
-  />
-
-  <br><br>
-
+  <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="600" alt="Coding Animation" />
 </div>
-
-<br>
-
 <!-- SECTION: HEADER END -->
 
 ---
 
-## 🐍 GitHub Contribution Snake & Elite AI Engine
+## GitHub Analytics & Contribution Activity
+
+<div align="center">
+  <!-- GitHub Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" width="100%" alt="Contribution Graph" />
+  
+  <!-- GitHub Stats Row -->
+  <div style="display: flex; justify-content: center; gap: 10px; margin: 10px 0;">
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&count_private=true" height="180" alt="GitHub Stats" />
+    </a>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="180" alt="Top Languages" />
+    </a>
+  </div>
+  
+  <!-- GitHub Streak -->
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=22c55e&currStreakLabel=38bdf8" height="180" alt="GitHub Streak" />
+  </a>
+</div>
+
+---
+
+## GitHub Contribution Snake & Elite AI Engine
 
 <div align="center">
   <!-- This is the contribution graph snake -->
   <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/output/github-contribution-grid-snake.gif" width="100%" alt="GitHub Contribution Snake Animation" />
-  
-  <br>
-  
-  <!-- Conceptual description of the custom AI logic -->
   <p><i>Powered by a custom A* pathfinding algorithm with flood-fill safety fallbacks.</i></p>
 </div>
 
-<br>
-
 ---
 
-## 👨‍💻 About Me
+## About Me
 
 Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
 
-<br>
-
 ---
 
-## 🎖️ Professional Certifications & Training
+## Professional Certifications & Training
 
 <div align="center">
-
-### Google Professional Certificates
-![Google](https://img.shields.io/badge/Google-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Data Analytics](https://img.shields.io/badge/Data_Analytics-34A853?style=for-the-badge&logo=google&logoColor=white)
-![UX Design](https://img.shields.io/badge/UX_Design-FBBC04?style=for-the-badge&logo=google&logoColor=black)
-![Machine Learning](https://img.shields.io/badge/Advanced_ML-EA4335?style=for-the-badge&logo=google&logoColor=white)
-
-### IBM Professional
-![IBM](https://img.shields.io/badge/IBM-054ADA?style=for-the-badge&logo=ibm&logoColor=white)
-![AI Engineering](https://img.shields.io/badge/AI_Engineering-052FAD?style=for-the-badge&logo=ibm&logoColor=white)
-
-### University of Michigan
-![Michigan](https://img.shields.io/badge/University_of_Michigan-00274C?style=for-the-badge&logo=university&logoColor=FFCB05)
-![Python](https://img.shields.io/badge/Python_for_Everybody-3776AB?style=for-the-badge&logo=python&logoColor=white)
-
-### DeepLearning.AI
-![DeepLearning.AI](https://img.shields.io/badge/DeepLearning.AI-0056D2?style=for-the-badge&logo=deeplearning&logoColor=white)
-![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Generative AI](https://img.shields.io/badge/Generative_AI-00D4AA?style=for-the-badge&logo=openai&logoColor=white)
-
-### Cisco Networking Academy
-![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=for-the-badge&logo=cisco&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity_Specialist-049FD9?style=for-the-badge&logo=cisco&logoColor=white)
-
-### Microsoft Azure
-![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Cloud Infrastructure](https://img.shields.io/badge/Cloud_Infrastructure-007FFF?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Solution Associate](https://img.shields.io/badge/Solution_Associate-0089D6?style=for-the-badge&logo=microsoft&logoColor=white)
-
-### YES4Youth & CapaCiTi
-![Professional Development](https://img.shields.io/badge/Professional_Development-22C55E?style=for-the-badge&logo=graduation-cap&logoColor=white)
-![YES4Youth](https://img.shields.io/badge/YES4Youth-10B981?style=for-the-badge&logo=checkmarx&logoColor=white)
-![CapaCiTi](https://img.shields.io/badge/CapaCiTi-059669?style=for-the-badge&logo=educative&logoColor=white)
-
+  <table border="0">
+    <tr>
+      <td align="center"><img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" width="40"/><br/><b>Google</b><br/>Data Analytics</td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Experience_Design_icon.svg" width="40"/><br/><b>Google</b><br/>UX Design</td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" width="40"/><br/><b>IBM</b><br/>AI Engineering</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="40"/><br/><b>Michigan</b><br/>Python</td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg" width="40"/><br/><b>DeepLearning</b><br/>ML Specialist</td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" width="40"/><br/><b>Azure</b><br/>Cloud Infra</td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" width="40"/><br/><b>Cisco</b><br/>Cybersecurity</td>
+      <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Digital_Ocean_logo.svg" width="40"/><br/><b>CapaCiTi</b><br/>Prof. Dev</td>
+    </tr>
+  </table>
 </div>
 
-<br>
+---
+
+## Education & Credentials
+
+- **Bachelor of Information Technology** - Richfield Graduate Institute of Technology (2025)
+  - *DISTINCTION in Mobile App Development*
+- **CAPACITI Program Graduate** - Johannesburg, Enterprise Software Development Track
+- **Google Professional Certificates** - Data Analytics & Advanced Machine Learning (Coursera)
+- **YES4Youth Program** - Selected for intensive workplace experience
 
 ---
 
-## 🎓 Education & Credentials
-
-- 🎓 **Bachelor of Information Technology** - Richfield Graduate Institute of Technology (2025)
-  - 🏆 **DISTINCTION in Mobile App Development**
-- 💼 **CAPACITI Program Graduate** - Johannesburg, Enterprise Software Development Track
-- 📜 **Google Professional Certificates** - Data Analytics & Advanced Machine Learning (Coursera)
-- 🚀 **YES4Youth Program** - Selected for intensive workplace experience
-
-<br>
-
----
-
-## 🛠️ Mastered Technologies & Tools
+## Mastered Technologies & Tools
 
 <div align="center">
 
@@ -163,35 +140,9 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 </div>
 
-<br>
-
 ---
 
-## 📊 GitHub Analytics & Contribution Activity
-
-<div align="center">
-  
-  <!-- GitHub Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" width="100%" alt="Contribution Graph" />
-  
-  <br><br>
-  
-  <!-- GitHub Stats Row -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9" height="200" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=c9d1d9" height="200" alt="Top Languages" />
-  
-  <br><br>
-  
-  <!-- GitHub Streak -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=22c55e&currStreakLabel=38bdf8" height="200" alt="GitHub Streak" />
-
-</div>
-
-<br>
-
----
-
-## 🏆 Featured Projects
+## Featured Projects
 
 <div align="center">
 
@@ -205,14 +156,11 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 </div>
 
-<br>
-
 ---
 
-## 📫 Connect & Collaborate
+## Connect & Collaborate
 
 <div align="center">
-  
   <table border="0">
     <tr>
       <td><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/qr_code.png" width="150" alt="QR Code"></td>
@@ -229,19 +177,14 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
       </td>
     </tr>
   </table>
-  
 </div>
 
-<br>
-
-<div align="center">
+<div align="center" style="margin-top: 20px;">
   <a href="https://linkedin.com/in/koketso-raphasha-27"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://x.com/Raphasha27"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
 </div>
-
-<br>
 
 ---
 
