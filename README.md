@@ -6,8 +6,7 @@
   <br>
   <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
 
-  <br><br>
-
+  
   <!-- Identity Card -->
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/identity_card.svg" width="800" alt="Identity Card" />
 
