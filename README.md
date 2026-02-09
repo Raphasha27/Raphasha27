@@ -3,6 +3,8 @@
   <br>
   <!-- Name Banner -->
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/name_banner_blue.svg" width="800" alt="Koketso Raphasha Banner" />
+  <br>
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=24&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
 
   <br>
 
@@ -42,10 +44,6 @@
 
 <br>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
-</div>
-
 <!-- SECTION: HEADER END -->
 
 ---
@@ -72,14 +70,14 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Marquee" />
   <br>
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/certifications-marquee.svg" width="100%" alt="Certifications" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
 </div>
 
 <br>
 
 ## Professional Certifications & Training
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/specialized_learning.svg" width="100%" alt="Specialized Learning Path" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/certifications-marquee.svg" width="100%" alt="Certifications" />
 </div>
 
 <br>
