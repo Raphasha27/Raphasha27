@@ -191,17 +191,29 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 ---
 
+## 🚀 Current Engineering Focus: Elite Mode Refactor
+I am currently transitioning my entire portfolio to professional **SDLC (Software Development Life Cycle)** standards. My goal is to transform my activity metrics from "Direct Commits" to a balanced ecosystem of **Issue Tracking**, **Pull Request Workflows**, and **Architectural Code Reviews**.
+
+### 🛠️ Core Engineering Standards
+- **🛡️ DevSecOps**: Automated secret scanning (TruffleHog) and dependency auditing (Snyk) integrated into CI.
+- **🧪 Algorithmic Precision**: Moving from "black box" logic to unit-tested, mathematically verified algorithms.
+- **🟦 Type Safety**: Universal migration to TypeScript for all frontend and full-stack projects.
+- **🏗️ Infrastructure as Code**: Orchestrating complex environments with persistent Docker containers and automated health checks.
+
+<br>
+
+---
+
 ## 🏆 Featured Projects
 
 <div align="center">
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | Enterprise distributed rate-limiting engine with Redis Lua scripting & OpenTelemetry observability | .NET 8, Redis, Docker, Lua |
-| **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | Healthcare ML prediction platform reducing no-shows with predictive analytics | C#, PyTorch, PostgreSQL, FastAPI |
-| **[AI Job Market Intelligence](https://github.com/Raphasha27/AI-Job-Market)** | Real-time job analytics dashboard with AI-powered resume matching | React, FastAPI, OpenAI, Tailwind |
-| **[CyberShield Modern](https://github.com/Raphasha27/CyberShield)** | Next-gen SOC dashboard with AI Sentinel integration and real-time threat monitoring | Angular, D3.js, WebSockets |
-| **[Aura Weather AI](https://github.com/Raphasha27/AuraWeather)** | Hyper-visual weather forecast with climate insights and glassmorphic UI design | Vite, Vanilla CSS, Framer Motion |
+| Project | Description | Elite Status | Tech Stack |
+|---------|-------------|--------------|------------|
+| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | High-performance distributed rate-limiting engine. | 🧠 **Test-Driven Algorithms** | .NET 8, Redis, Lua, XUnit |
+| **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | Healthcare ML prediction platform for hospital queue management. | 🛡️ **DevSecOps Audited** | FastAPI, Next.js, Postgres, Docker |
+| **[Aura Weather AI](https://github.com/Raphasha27/AuraWeather)** | Hyper-visual weather intelligence with atmospheric pattern analysis. | 🟦 **TypeScript Migrated** | React TS, Framer Motion, Vite |
+| **[CyberShield Modern](https://github.com/Raphasha27/CyberShield)** | Next-gen SOC dashboard for real-time security monitoring. | ⚡ **Signal-Driven UX** | Angular 19, D3.js, Signals |
 
 </div>
 
