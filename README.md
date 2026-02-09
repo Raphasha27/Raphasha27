@@ -37,12 +37,6 @@
 
 ---
 
-## Sovereign AI Nexus: Real-Time Status
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/dashboard.svg" width="100%" alt="AI Nexus Dashboard" />
-</div>
-
-<br>
 
 <!-- ONE-LINE SLIDING MARQUEE: METRICS & SNAKE -->
 <marquee scrollamount="8" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
