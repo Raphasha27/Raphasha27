@@ -4,6 +4,18 @@
   <!-- Name Banner -->
   <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/name_banner_blue.svg" width="800" alt="Koketso Raphasha Banner" />
 
+  <br>
+
+  <p align="center">
+    ◈ Co-founder @ <b>Kivoc Dynamics Technology</b> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
+  </p>
+
+  <br>
+
+  <p align="center">
+    Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
+  </p>
+
   <p align="center">
     <a href="https://github.com/Raphasha27">
       <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=38bdf8&logo=github" alt="Followers" />

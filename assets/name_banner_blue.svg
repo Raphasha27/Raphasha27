@@ -1,4 +1,4 @@
-<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 800 120" width="800" height="120" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -7,11 +7,11 @@
           border: 1px solid #30363d;
           border-radius: 12px;
           width: 798px;
-          height: 398px;
+          height: 118px;
           display: flex;
           flex-direction: column;
           overflow: hidden;
-          font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+          font-family: 'Segoe UI', Roboto, sans-serif;
         }
         .header {
           background: #161b22;
@@ -26,16 +26,11 @@
         .body {
           flex: 1;
           display: flex;
-          flex-direction: column;
           align-items: center;
           justify-content: center;
           background: linear-gradient(135deg, #0d1117 0%, #030712 100%);
-          padding: 30px;
         }
-        .name-container { 
-          text-align: center;
-          margin-bottom: 20px;
-        }
+        .name-container { position: relative; }
         .name {
           font-family: 'Courier New', monospace;
           font-size: 42px;
@@ -43,37 +38,15 @@
           color: #38bdf8;
           text-transform: uppercase;
           letter-spacing: 2px;
-          text-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-          margin-bottom: 5px;
+          text-shadow: 0 0 20px rgba(56, 189, 248, 0.6);
         }
         .subtitle {
-          font-size: 11px;
+          font-size: 12px;
           color: #8b949e;
-          letter-spacing: 5px;
+          text-align: center;
+          margin-top: 5px;
+          letter-spacing: 4px;
           text-transform: uppercase;
-        }
-        .roles {
-          color: #c9d1d9;
-          font-size: 13px;
-          margin-bottom: 25px;
-          text-align: center;
-          font-weight: 500;
-          border-top: 1px solid #30363d;
-          border-bottom: 1px solid #30363d;
-          padding: 10px 0;
-          width: 90%;
-        }
-        .bio {
-          color: #8b949e;
-          font-size: 13px;
-          text-align: center;
-          max-width: 680px;
-          line-height: 1.7;
-          font-weight: 400;
-        }
-        .highlight {
-          color: #38bdf8;
-          font-weight: 600;
         }
       </style>
       <div class="banner">
@@ -86,12 +59,6 @@
           <div class="name-container">
             <div class="name">Koketso Raphasha</div>
             <div class="subtitle">Software Developer and AI Specialist</div>
-          </div>
-          <div class="roles">
-            ◈ Co-founder @ <span class="highlight">Kivoc Dynamics Technology</span> • Bachelor of IT (Richfield Graduate) • Distinction in Mobile App Development
-          </div>
-          <div class="bio">
-            Elite Software Developer and AI Engineer specializing in architecting high-performance systems and intelligent automation. Expertise spans full-stack web development with modern frameworks (React, Vue.js, Next.js), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record building scalable enterprise platforms, real-time reservation engines (C++, C#), and cutting-edge web applications with premium UX. Passionate about sovereign AI, data privacy, and creating systems that merge innovation, speed, and precision to solve complex challenges at scale.
           </div>
         </div>
       </div>
