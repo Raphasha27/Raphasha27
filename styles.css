@@ -598,3 +598,79 @@ footer {
   flex: 1;
   outline: none;
 }
+
+/* MARQUEE ANIMATION */
+.marquee-wrapper {
+  overflow: hidden;
+  width: 100%;
+  padding: 40px 0;
+  position: relative;
+  background: rgba(14, 165, 233, 0.02);
+}
+
+.marquee-track {
+  display: flex;
+  gap: 80px;
+  width: max-content;
+  animation: scroll-left 30s linear infinite;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.marquee-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  filter: grayscale(1) opacity(0.5);
+  transition: all 0.4s ease;
+}
+
+.marquee-item:hover {
+  filter: grayscale(0) opacity(1);
+  transform: scale(1.1);
+}
+
+.marquee-item img {
+  height: 35px;
+}
+
+.marquee-item span {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+}
+
+/* CARD GRID FOR EDUCATION */
+.edu-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 2rem;
+}
+
+.edu-card {
+  padding: 2rem;
+  text-align: left;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.edu-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 0;
+  background: var(--primary);
+  transition: height 0.4s ease;
+}
+
+.edu-card:hover::before {
+  height: 100%;
+}

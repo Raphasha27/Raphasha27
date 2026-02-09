@@ -1,258 +1,397 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Elite Snake AI - A* + Safety + Debug</title>
   <style>
-    body { background:#0b0f14; color:#e5e7eb; display:flex; justify-content:center; align-items:center; height:100vh; margin:0; overflow:hidden; }
-    #wrap { display:flex; gap:16px; align-items: flex-start; }
-    canvas { border:2px solid #1f2933; background:#ffffff; box-shadow: 0 10px 25px rgba(0,0,0,0.5); border-radius: 8px; }
-    .panel { font-family: 'Inter', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, sans-serif; font-size:12px; line-height:1.4; width: 220px; background: rgba(31, 41, 51, 0.4); padding: 15px; border-radius: 12px; border: 1px solid #2d3748; }
-    .badge { background:#0ea5e9; color: white; padding:4px 10px; border-radius:20px; font-weight: bold; margin-bottom:12px; display: inline-block; font-size: 10px; letter-spacing: 0.5px; }
-    .stat-line { margin-bottom: 6px; display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding-bottom: 4px; }
-    .stat-val { color: #f8fafc; font-weight: bold; }
-    .legend { margin-top: 15px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); font-size: 11px; }
-    .legend-item { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
-    .dot { width: 8px; height: 8px; border-radius: 50%; }
+    body {
+      background: #0b0f14;
+      color: #e5e7eb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    #wrap {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    canvas {
+      border: 2px solid #1f2933;
+      background: #ffffff;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+      border-radius: 8px;
+    }
+
+    .panel {
+      font-family: 'Inter', -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, sans-serif;
+      font-size: 12px;
+      line-height: 1.4;
+      width: 220px;
+      background: rgba(31, 41, 51, 0.4);
+      padding: 15px;
+      border-radius: 12px;
+      border: 1px solid #2d3748;
+    }
+
+    .badge {
+      background: #0ea5e9;
+      color: white;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-weight: bold;
+      margin-bottom: 12px;
+      display: inline-block;
+      font-size: 10px;
+      letter-spacing: 0.5px;
+    }
+
+    .stat-line {
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+      padding-bottom: 4px;
+    }
+
+    .stat-val {
+      color: #f8fafc;
+      font-weight: bold;
+    }
+
+    .legend {
+      margin-top: 15px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      font-size: 11px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 4px;
+    }
+
+    .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+    }
   </style>
 </head>
+
 <body>
-<div id="wrap">
-  <canvas id="game" width="400" height="240"></canvas>
-  <div class="panel">
-    <div class="badge">ELITE AI ENGINE v2.0</div>
-    <div id="stats"></div>
-    <div class="legend">
-      <b>Visualization Matrix</b><br/>
-      <div class="legend-item"><div class="dot" style="background:#065f46"></div><span>Snake Neural Core</span></div>
-      <div class="legend-item"><div class="dot" style="background:#34d399"></div><span>Objective Node</span></div>
-      <div class="legend-item"><div class="dot" style="background:rgba(59,130,246,0.6)"></div><span>A* Optimization Path</span></div>
-      <div style="font-size: 10px; color: #94a3b8; margin-top: 10px;">Fallback: Recursive Flood-Fill Safety</div>
+  <div id="wrap">
+    <canvas id="game" width="400" height="240"></canvas>
+    <div class="panel">
+      <div class="badge">ELITE AI ENGINE v2.0</div>
+      <div id="stats"></div>
+      <div class="legend">
+        <b>Visualization Matrix</b><br />
+        <div class="legend-item">
+          <div class="dot" style="background:#065f46"></div><span>Snake Neural Core</span>
+        </div>
+        <div class="legend-item">
+          <div class="dot" style="background:#10b981"></div><span>Objective Node</span>
+        </div>
+        <div class="legend-item">
+          <div class="dot" style="background:rgba(59,130,246,0.6)"></div><span>A* Optimization Path</span>
+        </div>
+        <div style="font-size: 10px; color: #94a3b8; margin-top: 10px;">Fallback: Recursive Flood-Fill Safety</div>
+      </div>
     </div>
   </div>
-</div>
 
-<script>
-const canvas = document.getElementById("game");
-const ctx = canvas.getContext("2d");
-const statsEl = document.getElementById("stats");
+  <script>
+    const canvas = document.getElementById("game");
+    const ctx = canvas.getContext("2d");
+    const statsEl = document.getElementById("stats");
 
-const cols = 20;
-const rows = 12;
-const cell = 20;
-const SPEED = 65;
+    const cols = 20;
+    const rows = 12;
+    const cell = 20;
+    const SPEED = 50;
 
-let snake, food, score, plannedPath;
+    let snake = [];
+    let food = {};
+    let score = 0;
+    let plannedPath = [];
+    let algorithmState = "A* Optimal";
 
-function reset(){
-  // Start in middle
-  snake = [{x:5,y:5},{x:4,y:5},{x:3,y:5}];
-  food = placeFood();
-  score = 0;
-  plannedPath = [];
-}
-
-function placeFood(){
-  let f;
-  do {
-    f = {x:Math.floor(Math.random()*cols), y:Math.floor(Math.random()*rows)};
-  } while (snake.some(s=>s.x===f.x && s.y===f.y));
-  return f;
-}
-
-// ---------- A* PATHFINDING ----------
-function astar(start, goal, blocked){
-  const key = p => p.x + "," + p.y;
-  const open = [start];
-  const came = {};
-  const g = {[key(start)]:0};
-  const f = {[key(start)]:heur(start,goal)};
-
-  while(open.length){
-    open.sort((a,b)=>f[key(a)]-f[key(b)]);
-    const current = open.shift();
-    if(current.x===goal.x && current.y===goal.y){
-      return reconstruct(came, current);
+    // Initialize Game
+    function reset() {
+      snake = [{ x: 5, y: 5 }, { x: 4, y: 5 }, { x: 3, y: 5 }];
+      score = 0;
+      placeFood();
+      plannedPath = [];
     }
-    for(const n of neighbors(current)){
-      if(blocked(n)) continue;
-      const nk = key(n);
-      const tentative = g[key(current)] + 1;
-      if(g[nk]===undefined || tentative < g[nk]){
-        came[nk] = current;
-        g[nk] = tentative;
-        f[nk] = tentative + heur(n,goal);
-        if(!open.some(o=>o.x===n.x && o.y===n.y)){
-          open.push(n);
-        }
+
+    // Place Food Randomly (not on snake)
+    function placeFood() {
+      let valid = false;
+      while (!valid) {
+        food = {
+          x: Math.floor(Math.random() * cols),
+          y: Math.floor(Math.random() * rows)
+        };
+        valid = !snake.some(s => s.x === food.x && s.y === food.y);
       }
     }
-  }
-  return null;
-}
 
-function reconstruct(came, current){
-  const path = [current];
-  const key = p => p.x + "," + p.y;
-  while(came[key(current)]){
-    current = came[key(current)];
-    path.push(current);
-  }
-  return path.reverse();
-}
+    // ---------------- ALGORITHM CORE ----------------
 
-function heur(a,b){ return Math.abs(a.x-b.x)+Math.abs(a.y-b.y); }
-
-function neighbors(p){
-  return [
-    {x:p.x+1,y:p.y},
-    {x:p.x-1,y:p.y},
-    {x:p.x,y:p.y+1},
-    {x:p.x,y:p.y-1}
-  ].filter(n=>n.x>=0&&n.y>=0&&n.x<cols&&n.y<rows);
-}
-
-// ---------- SAFETY ----------
-function blockedCell(n){
-  // Blocked if in snake body
-  for(let i=0;i<snake.length-1;i++){
-    if(snake[i].x===n.x && snake[i].y===n.y) return true;
-  }
-  return false;
-}
-
-// Flood fill to estimate free space
-function floodFillCount(start, limit){
-  const stack=[start];
-  const seen = new Set([start.x+","+start.y]);
-  let count=0;
-  while(stack.length && count<limit){
-    const p = stack.pop();
-    count++;
-    for(const n of neighbors(p)){
-      const k=n.x+","+n.y;
-      if(seen.has(k) || blockedCell(n)) continue;
-      seen.add(k);
-      stack.push(n);
+    // 1. Heuristic (Manhattan Distance)
+    function heuristic(a, b) {
+      return Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
     }
-  }
-  return count;
-}
 
-// ---------- AI DECISION CORE ----------
-function computeMove(){
-  const head = snake[0];
-  plannedPath = [];
-
-  // 1. Try A* to Food
-  const path = astar(head, food, blockedCell);
-  if(path && path.length>1){
-    plannedPath = path;
-    return {x:path[1].x-head.x, y:path[1].y-head.y};
-  }
-
-  // 2. Fallback: Survival (Move to cell with most free space)
-  let best = null;
-  let bestScore = -1;
-  for(const n of neighbors(head)){
-    if(blockedCell(n)) continue;
-    const space = floodFillCount(n, 100);
-    if(space > bestScore){
-      bestScore = space;
-      best = {x:n.x-head.x, y:n.y-head.y};
+    // 2. Neighbors (Up, Down, Left, Right)
+    function getNeighbors(node) {
+      const dirs = [
+        { x: 0, y: -1 }, { x: 0, y: 1 },
+        { x: -1, y: 0 }, { x: 1, y: 0 }
+      ];
+      return dirs.map(d => ({ x: node.x + d.x, y: node.y + d.y }));
     }
-  }
-  
-  if(best) return best;
-  
-  // 3. Absolute Fallback: Random move (will likely die)
-  for(const n of neighbors(head)){
-    if(!blockedCell(n)) return {x:n.x-head.x, y:n.y-head.y};
-  }
-  return {x:1, y:0};
-}
 
-// ---------- GAME ENGINE ----------
-function step(){
-  const move = computeMove();
-  const head = {x:snake[0].x+move.x, y:snake[0].y+move.y};
+    // 3. Collision Check
+    function isBlocked(node, ignoreTail = false) {
+      // Walls
+      if (node.x < 0 || node.x >= cols || node.y < 0 || node.y >= rows) return true;
 
-  // Check collision
-  if(head.x<0||head.y<0||head.x>=cols||head.y>=rows ||
-     snake.some(s=>s.x===head.x && s.y===head.y)){
-    reset();
-    return;
-  }
-
-  snake.unshift(head);
-  if(head.x===food.x && head.y===food.y){
-    score++;
-    food = placeFood();
-  } else {
-    snake.pop();
-  }
-  draw();
-}
-
-// ---------- RENDER ENGINE ----------
-function draw(){
-  // Clear with crisp background
-  ctx.fillStyle="#ffffff";
-  ctx.fillRect(0,0,canvas.width,canvas.height);
-
-  // Grid
-  ctx.beginPath();
-  for(let x=0;x<=cols;x++){
-    ctx.moveTo(x*cell,0);
-    ctx.lineTo(x*cell,rows*cell);
-  }
-  for(let y=0;y<=rows;y++){
-    ctx.moveTo(0,y*cell);
-    ctx.lineTo(cols*cell,y*cell);
-  }
-  ctx.strokeStyle="#f1f5f9";
-  ctx.stroke();
-
-  // Draw Planned Path (A*)
-  if(plannedPath && plannedPath.length > 0){
-    ctx.fillStyle="rgba(59,130,246,0.35)";
-    plannedPath.forEach(p=>{
-      ctx.fillRect(p.x*cell,p.y*cell,cell,cell);
-    });
-  }
-
-  // Food
-  ctx.fillStyle="#10b981";
-  ctx.beginPath();
-  ctx.roundRect(food.x*cell+2, food.y*cell+2, cell-4, cell-4, 4);
-  ctx.fill();
-
-  // Snake
-  snake.forEach((s, i)=>{
-    ctx.fillStyle = i === 0 ? "#064e3b" : "#065f46";
-    ctx.beginPath();
-    ctx.roundRect(s.x*cell+1, s.y*cell+1, cell-2, cell-2, 3);
-    ctx.fill();
-    
-    // Eyes for head
-    if(i === 0){
-        ctx.fillStyle = "white";
-        ctx.fillRect(s.x*cell+14, s.y*cell+4, 3, 3);
-        ctx.fillRect(s.x*cell+14, s.y*cell+13, 3, 3);
+      // Snake Body
+      // We ignore the tail if we are NOT growing, because the tail will move.
+      // However, for robust safety, treating the tail as blocked is safer.
+      // Let's treat full snake as blocked for A* to ensure we don't trap ourselves.
+      for (let i = 0; i < snake.length; i++) {
+        if (ignoreTail && i === snake.length - 1) continue;
+        if (node.x === snake[i].x && node.y === snake[i].y) return true;
+      }
+      return false;
     }
-  });
 
-  // UI Updates
-  statsEl.innerHTML = `
+    // 4. A* Pathfinding
+    function findPath(start, target) {
+      const openSet = [start];
+      const cameFrom = new Map();
+      const gScore = new Map();
+      const fScore = new Map();
+
+      const key = n => `${n.x},${n.y}`;
+
+      gScore.set(key(start), 0);
+      fScore.set(key(start), heuristic(start, target));
+
+      while (openSet.length > 0) {
+        // Get node with lowest fScore
+        openSet.sort((a, b) => (fScore.get(key(a)) || Infinity) - (fScore.get(key(b)) || Infinity));
+        const current = openSet.shift();
+
+        if (current.x === target.x && current.y === target.y) {
+          return reconstructPath(cameFrom, current);
+        }
+
+        for (const neighbor of getNeighbors(current)) {
+          if (isBlocked(neighbor)) continue;
+
+          const tentativeG = (gScore.get(key(current)) || Infinity) + 1;
+
+          if (tentativeG < (gScore.get(key(neighbor)) || Infinity)) {
+            cameFrom.set(key(neighbor), current);
+            gScore.set(key(neighbor), tentativeG);
+            fScore.set(key(neighbor), tentativeG + heuristic(neighbor, target));
+
+            if (!openSet.some(n => n.x === neighbor.x && n.y === neighbor.y)) {
+              openSet.push(neighbor);
+            }
+          }
+        }
+      }
+      return null; // No path found
+    }
+
+    function reconstructPath(cameFrom, current) {
+      const totalPath = [current];
+      const key = n => `${n.x},${n.y}`;
+      while (cameFrom.has(key(current))) {
+        current = cameFrom.get(key(current));
+        totalPath.unshift(current);
+      }
+      return totalPath;
+    }
+
+    // 5. Flood Fill (Safety Check)
+    function countFreeSpace(startNode, depth = 100) {
+      const stack = [startNode];
+      const visited = new Set();
+      visited.add(`${startNode.x},${startNode.y}`);
+      let count = 0;
+
+      while (stack.length > 0 && count < depth) {
+        const current = stack.pop();
+        count++;
+
+        for (const neighbor of getNeighbors(current)) {
+          const k = `${neighbor.x},${neighbor.y}`;
+          if (!isBlocked(neighbor) && !visited.has(k)) {
+            visited.add(k);
+            stack.push(neighbor);
+          }
+        }
+      }
+      return count;
+    }
+
+    // ---------------- AI LOGIC ----------------
+
+    function getNextMove() {
+      const head = snake[0];
+
+      // Strategy 1: A* to Food
+      const path = findPath(head, food);
+
+      if (path && path.length > 1) {
+        // Check safety of the path (simplified)
+        // If we follow this, will we be trapped?
+        // In a real elite AI, we would check if path endpoint leaves room to reach tail.
+        // For this demo, A* + flood fill fallback is usually sufficient.
+        plannedPath = path;
+        algorithmState = "A* Optimal";
+        return { x: path[1].x - head.x, y: path[1].y - head.y };
+      }
+
+      // Strategy 2: Fallback - Gradient Descent / Flood Fill
+      // If A* fails (e.g., path blocked by body), pick the neighbor with most free space
+      plannedPath = [];
+      algorithmState = "Safety Fallback";
+
+      let bestMove = null;
+      let maxSpace = -1;
+
+      for (const neighbor of getNeighbors(head)) {
+        if (isBlocked(neighbor)) continue;
+
+        const space = countFreeSpace(neighbor);
+        if (space > maxSpace) {
+          maxSpace = space;
+          bestMove = { x: neighbor.x - head.x, y: neighbor.y - head.y };
+        }
+      }
+
+      if (bestMove) return bestMove;
+
+      // Strategy 3: Last Resort (Any valid move)
+      for (const neighbor of getNeighbors(head)) {
+        if (!isBlocked(neighbor)) {
+          algorithmState = "Desperation";
+          return { x: neighbor.x - head.x, y: neighbor.y - head.y };
+        }
+      }
+
+      return { x: 1, y: 0 }; // Suicide move
+    }
+
+    // ---------------- GAME LOOP ----------------
+
+    function update() {
+      const move = getNextMove();
+      const newHead = { x: snake[0].x + move.x, y: snake[0].y + move.y };
+
+      // Collision Death Check
+      if (isBlocked(newHead)) {
+        reset();
+        return;
+      }
+
+      // Move Snake
+      snake.unshift(newHead);
+
+      // Check Eat
+      if (newHead.x === food.x && newHead.y === food.y) {
+        score++;
+        placeFood();
+        // Don't pop tail (grow)
+      } else {
+        snake.pop(); // Remove tail
+      }
+
+      draw();
+    }
+
+    function draw() {
+      // Clear
+      ctx.fillStyle = "#ffffff";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+      // Grid (Subtle)
+      ctx.beginPath();
+      ctx.strokeStyle = "#f3f4f6";
+      ctx.lineWidth = 1;
+      for (let x = 0; x <= cols; x++) ctx.moveTo(x * cell, 0), ctx.lineTo(x * cell, rows * cell);
+      for (let y = 0; y <= rows; y++) ctx.moveTo(0, y * cell), ctx.lineTo(cols * cell, y * cell);
+      ctx.stroke();
+
+      // Draw Path (Visual Debug)
+      if (plannedPath.length > 1) {
+        ctx.fillStyle = "rgba(59, 130, 246, 0.2)";
+        for (let i = 1; i < plannedPath.length; i++) {
+          ctx.fillRect(plannedPath[i].x * cell, plannedPath[i].y * cell, cell, cell);
+        }
+      }
+
+      // Draw Food
+      ctx.fillStyle = "#10b981";
+      ctx.beginPath();
+      if (ctx.roundRect) {
+        ctx.roundRect(food.x * cell + 3, food.y * cell + 3, cell - 6, cell - 6, 4);
+      } else {
+        ctx.fillRect(food.x * cell + 3, food.y * cell + 3, cell - 6, cell - 6);
+      }
+      ctx.fill();
+
+      // Draw Snake
+      for (let i = 0; i < snake.length; i++) {
+        const s = snake[i];
+        ctx.fillStyle = i === 0 ? "#064e3b" : "#059669"; // Dark head, green body
+
+        const margin = 1;
+        if (ctx.roundRect) {
+          ctx.beginPath();
+          ctx.roundRect(s.x * cell + margin, s.y * cell + margin, cell - margin * 2, cell - margin * 2, 4);
+          ctx.fill();
+        } else {
+          ctx.fillRect(s.x * cell + margin, s.y * cell + margin, cell - margin * 2, cell - margin * 2);
+        }
+
+        // Eyes for Head
+        if (i === 0) {
+          ctx.fillStyle = "#ffffff";
+          ctx.beginPath();
+          ctx.arc(s.x * cell + 6, s.y * cell + 6, 2, 0, Math.PI * 2);
+          ctx.arc(s.x * cell + 14, s.y * cell + 6, 2, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      // Update Stats Panel
+      statsEl.innerHTML = `
     <div class="stat-line"><span>Iteration Score</span> <span class="stat-val">${score}</span></div>
     <div class="stat-line"><span>Neural Segments</span> <span class="stat-val">${snake.length}</span></div>
-    <div class="stat-line"><span>Path Clarity</span> <span class="stat-val">${plannedPath.length > 0 ? 'High' : 'Computing...'}</span></div>
-    <div class="stat-line"><span>Compute Path</span> <span class="stat-val">${plannedPath.length}px</span></div>
+    <div class="stat-line"><span>Algorithm</span> <span class="stat-val" style="color:${algorithmState === 'A* Optimal' ? '#4ade80' : '#fbbf24'}">${algorithmState}</span></div>
+    <div class="stat-line"><span>Compute Path</span> <span class="stat-val">${plannedPath.length} nodes</span></div>
   `;
-}
+    }
 
-reset();
-setInterval(step, SPEED);
-draw();
-</script>
+    // Start
+    reset();
+    setInterval(update, SPEED);
+  </script>
 </body>
+
 </html>
