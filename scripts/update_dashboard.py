@@ -22,7 +22,7 @@ def generate_dashboard():
     # Time in SAST (UTC+2)
     sast_offset = timezone(timedelta(hours=2))
     now = datetime.now(sast_offset)
-    current_time = "04:07"
+    current_time = "04:18"
     current_date = now.strftime("%A, %d %b %Y")
     
     # Weather Data
