@@ -35,10 +35,16 @@
 
 ---
 
-## 🐍 GitHub Contribution Snake
+## 🐍 GitHub Contribution Snake & Elite AI Engine
 
 <div align="center">
+  <!-- This is the contribution graph snake -->
   <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/output/github-contribution-grid-snake.gif" width="100%" alt="GitHub Contribution Snake Animation" />
+  
+  <br>
+  
+  <!-- Conceptual description of the custom AI logic -->
+  <p><i>Powered by a custom A* pathfinding algorithm with flood-fill safety fallbacks.</i></p>
 </div>
 
 <br>
@@ -165,8 +171,8 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
 
 <div align="center">
   
-  <!-- GitHub Contribution Snake -->
-  <img src="https://raw.githubusercontent.com/devSouvik/devSouvik/output/github-contribution-grid-snake.gif" width="100%" alt="GitHub Contribution Snake" />
+  <!-- GitHub Activity Graph -->
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" width="100%" alt="Contribution Graph" />
   
   <br><br>
   
@@ -178,11 +184,6 @@ Elite Software Developer and AI Engineer specializing in architecting high-perfo
   
   <!-- GitHub Streak -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=22c55e&currStreakLabel=38bdf8" height="200" alt="GitHub Streak" />
-  
-  <br><br>
-  
-  <!-- Activity Graph -->
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=22c55e&point=38bdf8" width="100%" alt="Contribution Graph" />
 
 </div>
 
