@@ -1,0 +1,235 @@
+<svg width="1000" height="120" viewBox="0 0 1000 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    INFINITE HORIZONTAL MARQUEE
+    DIRECTION: Right to Left
+    SPEED: 60s (Slow/Prestige)
+    LOOP: Double-track 50% translation
+  -->
+  <defs>
+    <style>
+      .cert-track {
+        animation: scroll-left 60s linear infinite;
+      }
+      @keyframes scroll-left {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-2420px); } /* Exactly 11 cards * 220px */
+      }
+      .cert-pill {
+        fill: #161b22;
+        stroke: #30363d;
+        stroke-width: 1;
+        transition: all 0.3s ease;
+      }
+      .cert-pill:hover {
+        stroke: #38bdf8;
+        fill: #1c2128;
+      }
+      .cert-text {
+        fill: #c9d1d9;
+        font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+      }
+      .cert-subtext {
+        fill: #8b949e;
+        font-family: 'Segoe UI', Roboto, -apple-system, sans-serif;
+        font-size: 10px;
+      }
+      .icon-bg {
+        fill: #0d1117;
+        stroke: #38bdf8;
+        stroke-width: 1;
+      }
+    </style>
+    
+    <!-- Edge Fading Gradients -->
+    <linearGradient id="edge-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
+      <stop offset="10%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="90%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="1" />
+    </linearGradient>
+
+    <mask id="track-mask">
+      <rect width="1000" height="120" fill="white" />
+    </mask>
+  </defs>
+  
+  <rect width="1000" height="120" fill="#0d1117" rx="12"/>
+  
+  <g mask="url(#track-mask)">
+    <g class="cert-track">
+      <!-- SET 1 (11 Badges, spaced at 220px horizontally) -->
+      <!-- Card 1 -->
+      <g transform="translate(10, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">BSc Information Tech</text>
+        <text x="70" y="52" class="cert-subtext">Richfield Graduate Inst.</text>
+      </g>
+      <!-- Card 2 -->
+      <g transform="translate(230, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">Introduction to AI</text>
+        <text x="70" y="52" class="cert-subtext">IBM / Coursera</text>
+      </g>
+      <!-- Card 3 -->
+      <g transform="translate(450, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">Data Analytics</text>
+        <text x="70" y="52" class="cert-subtext">Google Professional</text>
+      </g>
+      <!-- Card 4 -->
+      <g transform="translate(670, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⚡</text>
+        <text x="70" y="38" class="cert-text">Intro to Cyber</text>
+        <text x="70" y="52" class="cert-subtext">Cisco Academy</text>
+      </g>
+      <!-- Card 5 -->
+      <g transform="translate(890, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">CAPACITI Certificate</text>
+        <text x="70" y="52" class="cert-subtext">Fire4s Team Excellence</text>
+      </g>
+      <!-- Card 6 -->
+      <g transform="translate(1110, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">YES4Youth Cert</text>
+        <text x="70" y="52" class="cert-subtext">Workforce Readiness</text>
+      </g>
+      <!-- Card 7 -->
+      <g transform="translate(1330, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">UX Design Prof.</text>
+        <text x="70" y="52" class="cert-subtext">Google / Coursera</text>
+      </g>
+      <!-- Card 8 -->
+      <g transform="translate(1550, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⚡</text>
+        <text x="70" y="38" class="cert-text">AI Engineering</text>
+        <text x="70" y="52" class="cert-subtext">IBM Professional</text>
+      </g>
+      <!-- Card 9 -->
+      <g transform="translate(1770, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">Machine Learning</text>
+        <text x="70" y="52" class="cert-subtext">DeepLearning.AI</text>
+      </g>
+      <!-- Card 10 -->
+      <g transform="translate(1990, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">Professional Dev</text>
+        <text x="70" y="52" class="cert-subtext">Coursera / Google</text>
+      </g>
+      <!-- Card 11 -->
+      <g transform="translate(2210, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">Python for All</text>
+        <text x="70" y="52" class="cert-subtext">Uni Michigan</text>
+      </g>
+
+      <!-- SET 2 (Identical duplicate for seamless looping) -->
+      <g transform="translate(2430, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">BSc Information Tech</text>
+        <text x="70" y="52" class="cert-subtext">Richfield Graduate Inst.</text>
+      </g>
+      <g transform="translate(2650, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">Introduction to AI</text>
+        <text x="70" y="52" class="cert-subtext">IBM / Coursera</text>
+      </g>
+      <g transform="translate(2870, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">Data Analytics</text>
+        <text x="70" y="52" class="cert-subtext">Google Professional</text>
+      </g>
+      <g transform="translate(3090, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⚡</text>
+        <text x="70" y="38" class="cert-text">Intro to Cyber</text>
+        <text x="70" y="52" class="cert-subtext">Cisco Academy</text>
+      </g>
+      <g transform="translate(3310, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">CAPACITI Certificate</text>
+        <text x="70" y="52" class="cert-subtext">Fire4s Team Excellence</text>
+      </g>
+      <g transform="translate(3530, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">YES4Youth Cert</text>
+        <text x="70" y="52" class="cert-subtext">Workforce Readiness</text>
+      </g>
+      <g transform="translate(3750, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">UX Design Prof.</text>
+        <text x="70" y="52" class="cert-subtext">Google / Coursera</text>
+      </g>
+      <g transform="translate(3970, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⚡</text>
+        <text x="70" y="38" class="cert-text">AI Engineering</text>
+        <text x="70" y="52" class="cert-subtext">IBM Professional</text>
+      </g>
+      <g transform="translate(4190, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⬢</text>
+        <text x="70" y="38" class="cert-text">Machine Learning</text>
+        <text x="70" y="52" class="cert-subtext">DeepLearning.AI</text>
+      </g>
+      <g transform="translate(4410, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">◈</text>
+        <text x="70" y="38" class="cert-text">Professional Dev</text>
+        <text x="70" y="52" class="cert-subtext">Coursera / Google</text>
+      </g>
+      <g transform="translate(4630, 25)">
+        <rect class="cert-pill" width="200" height="70" rx="35"/>
+        <circle class="icon-bg" cx="35" cy="35" r="22"/>
+        <text x="35" y="41" text-anchor="middle" font-size="18" fill="#38bdf8">⌘</text>
+        <text x="70" y="38" class="cert-text">Python for All</text>
+        <text x="70" y="52" class="cert-subtext">Uni Michigan</text>
+      </g>
+    </g>
+  </g>
+  
+  <!-- Overlay Fade for Soft Entry/Exit -->
+  <rect width="1000" height="120" fill="url(#edge-fade)" pointer-events="none" rx="12"/>
+</svg>

@@ -1,0 +1,88 @@
+<svg width="420" height="220" viewBox="0 0 420 220" xmlns="http://www.w3.org/2000/svg" style="background: black;">
+  <defs>
+    <!-- Dot Pattern -->
+    <pattern id="dotPat" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="2" fill="white" opacity="0.6" />
+    </pattern>
+    <rect id="W" width="20" height="20" fill="blue" stroke="black" stroke-width="2" />
+    
+    <!-- Dynamic Mask for Eaten Dots -->
+    <mask id="eatMask">
+      <rect x="0" y="0" width="420" height="220" fill="white" />
+      <!-- Black circles follow Pacman to 'erase' dots -->
+      <!-- DURATIONS: Total Cycle 4s. 
+           Path 1 (Top Row): 0 to 1.6s
+           Path 2 (Right Col): 1.6s to 2.4s
+           Path 3 (Bottom Row): 2.4s to 4s
+      -->
+      <circle r="12" fill="black">
+        <animateTransform attributeName="transform" type="translate" values="30,30; 390,30" dur="1.6s" begin="0s" fill="freeze" />
+      </circle>
+      <rect width="24" height="24" x="-12" y="-12" fill="black">
+         <animateTransform attributeName="transform" type="translate" values="390,30; 390,210" dur="0.8s" begin="1.6s" fill="freeze" />
+      </rect>
+      <circle r="12" fill="black">
+        <animateTransform attributeName="transform" type="translate" values="390,210; 210,210" dur="1.6s" begin="2.4s" fill="freeze" />
+      </circle>
+    </mask>
+  </defs>
+
+  <!-- MAP RENDERING -->
+  <use href="#W" x="0" y="0"/><use href="#W" x="20" y="0"/><use href="#W" x="40" y="0"/><use href="#W" x="60" y="0"/><use href="#W" x="80" y="0"/><use href="#W" x="100" y="0"/><use href="#W" x="120" y="0"/><use href="#W" x="140" y="0"/><use href="#W" x="160" y="0"/><use href="#W" x="180" y="0"/><use href="#W" x="200" y="0"/><use href="#W" x="220" y="0"/><use href="#W" x="240" y="0"/><use href="#W" x="260" y="0"/><use href="#W" x="280" y="0"/><use href="#W" x="300" y="0"/><use href="#W" x="320" y="0"/><use href="#W" x="340" y="0"/><use href="#W" x="360" y="0"/><use href="#W" x="380" y="0"/><use href="#W" x="400" y="0"/>
+  <use href="#W" x="0" y="20"/><use href="#W" x="200" y="20"/><use href="#W" x="220" y="20"/><use href="#W" x="400" y="20"/>
+  <use href="#W" x="0" y="40"/> <use href="#W" x="40" y="40"/><use href="#W" x="60" y="40"/><use href="#W" x="80" y="40"/> <use href="#W" x="120" y="40"/><use href="#W" x="140" y="40"/><use href="#W" x="160" y="40"/> <use href="#W" x="220" y="40"/><use href="#W" x="240" y="40"/> <use href="#W" x="280" y="40"/><use href="#W" x="300" y="40"/><use href="#W" x="320" y="40"/> <use href="#W" x="360" y="40"/><use href="#W" x="380" y="40"/> <use href="#W" x="400" y="40"/>
+  <use href="#W" x="0" y="60"/> <use href="#W" x="400" y="60"/>
+  <use href="#W" x="0" y="80"/> <use href="#W" x="40" y="80"/><use href="#W" x="60" y="80"/><use href="#W" x="80" y="80"/> <use href="#W" x="120" y="80"/> <use href="#W" x="160" y="80"/><use href="#W" x="180" y="80"/><use href="#W" x="200" y="80"/><use href="#W" x="220" y="80"/><use href="#W" x="240" y="80"/> <use href="#W" x="280" y="80"/> <use href="#W" x="320" y="80"/><use href="#W" x="340" y="80"/><use href="#W" x="360" y="80"/> <use href="#W" x="400" y="80"/>
+  <use href="#W" x="0" y="100"/> <use href="#W" x="120" y="100"/> <use href="#W" x="220" y="100"/><use href="#W" x="240" y="100"/> <use href="#W" x="340" y="100"/> <use href="#W" x="400" y="100"/>
+  <use href="#W" x="0" y="120"/><use href="#W" x="20" y="120"/><use href="#W" x="40" y="120"/><use href="#W" x="60" y="120"/><use href="#W" x="80" y="120"/> <use href="#W" x="120" y="120"/> <use href="#W" x="160" y="120"/><use href="#W" x="180" y="120"/><use href="#W" x="200" y="120"/><use href="#W" x="220" y="120"/><use href="#W" x="240" y="120"/> <use href="#W" x="280" y="120"/><use href="#W" x="300" y="120"/><use href="#W" x="320" y="120"/> <use href="#W" x="360" y="120"/><use href="#W" x="380" y="120"/><use href="#W" x="400" y="120"/>
+  <use href="#W" x="0" y="140"/> <use href="#W" x="400" y="140"/>
+  <use href="#W" x="0" y="160"/> <use href="#W" x="40" y="160"/><use href="#W" x="60" y="160"/><use href="#W" x="80" y="160"/> <use href="#W" x="120" y="160"/><use href="#W" x="140" y="160"/><use href="#W" x="160" y="160"/> <use href="#W" x="220" y="160"/><use href="#W" x="240" y="160"/> <use href="#W" x="280" y="160"/><use href="#W" x="300" y="160"/><use href="#W" x="320" y="160"/> <use href="#W" x="360" y="160"/><use href="#W" x="380" y="160"/> <use href="#W" x="400" y="160"/>
+  <use href="#W" x="0" y="180"/> <use href="#W" x="200" y="180"/><use href="#W" x="220" y="180"/> <use href="#W" x="400" y="180"/>
+  <use href="#W" x="0" y="200" /><use href="#W" x="20" y="200"/><use href="#W" x="40" y="200"/><use href="#W" x="60" y="200"/><use href="#W" x="80" y="200"/><use href="#W" x="100" y="200"/><use href="#W" x="120" y="200"/><use href="#W" x="140" y="200"/><use href="#W" x="160" y="200"/><use href="#W" x="180" y="200"/><use href="#W" x="200" y="200"/><use href="#W" x="220" y="200"/><use href="#W" x="240" y="200"/><use href="#W" x="260" y="200"/><use href="#W" x="280" y="200"/><use href="#W" x="300" y="200"/><use href="#W" x="320" y="200"/><use href="#W" x="340" y="200"/><use href="#W" x="360" y="200"/><use href="#W" x="380" y="200"/><use href="#W" x="400" y="200"/>
+
+  <!-- Dots Layer with Masking logic -->
+  <rect x="0" y="0" width="420" height="220" fill="url(#dotPat)" mask="url(#eatMask)" style="mix-blend-mode: screen;" />
+
+  <!-- Pacman: Moves FAST (4s total) -->
+  <g transform="translate(30,30)">
+    <!-- Path: Top -> Right -> Bottom Center -->
+    <animateTransform attributeName="transform" type="translate" 
+       values="30,30; 390,30; 390,210; 210,210" 
+       keyTimes="0; 0.4; 0.6; 1" dur="4s" repeatCount="indefinite" />
+       
+    <path fill="yellow">
+       <animate attributeName="d" values="M0,0 L10,-5 A11,11 0 1,0 10,5 Z; M0,0 L10,-1 A11,11 0 1,0 10,1 Z" dur="0.1s" repeatCount="indefinite" />
+       <!-- Rotate: 0 -> 90 -> 180 -->
+       <animateTransform attributeName="transform" type="rotate"
+         values="0;0; 90;90; 180;180"
+         keyTimes="0;0.39;0.4;0.59;0.6;1"
+         dur="4s" repeatCount="indefinite" />
+    </path>
+  </g>
+
+  <!-- Red Ghost: Flees Fast, Caught at 4s -->
+  <g transform="translate(150,30)">
+    <animateTransform attributeName="transform" type="translate" 
+       values="150,30; 390,30; 390,210; 210,210; 210,210" 
+       keyTimes="0; 0.35; 0.65; 1; 1" dur="4s" repeatCount="indefinite" />
+       
+    <g>
+       <!-- Vanish on caught -->
+       <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.98;0.99;1" dur="4s" repeatCount="indefinite" />
+       
+        <path d="M-10,0 L-10,-8 A10,10 0 1,1 10,-8 L10,0 L6,-3 L3,0 L0,-3 L-3,0 L-6,-3 Z" fill="red" />
+        <circle cx="-4" cy="-6" r="3" fill="white" />
+        <circle cx="4" cy="-6" r="3" fill="white" />
+        <circle cx="-4" cy="-6" r="1.5" fill="blue" />
+        <circle cx="4" cy="-6" r="1.5" fill="blue" />
+    </g>
+  </g>
+  
+  <!-- WIN EFFECT -->
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;0" keyTimes="0;0.99;0.995;1" dur="4s" repeatCount="indefinite" />
+    <text x="50%" y="50%" fill="#0f0" font-family="Arial" font-weight="bold" font-size="40" text-anchor="middle" stroke="black" stroke-width="3">WIN!</text>
+  </g>
+
+  <text x="350" y="215" fill="yellow" font-family="Arial" font-size="10" opacity="0.6">LIVE PREVIEW</text>
+</svg>

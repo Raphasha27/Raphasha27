@@ -1,0 +1,29 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .card { fill: #0d1117; stroke: #30363d; stroke-width: 1px; rx: 6px; }
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 600; fill: #a371f7; }
+    .item-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #c9d1d9; }
+    .highlight { fill: #58a6ff; font-weight: 600; }
+  </style>
+  
+  <rect x="0.5" y="0.5" width="399" height="249" class="card" />
+  
+  <text x="25" y="35" class="title">Academic Foundation</text>
+  
+  <g transform="translate(25, 70)">
+    <text x="0" y="0" class="item-text">Co-founder @ <tspan class="highlight">Kivoc Dynamics Technology</tspan></text>
+  </g>
+
+  <g transform="translate(25, 100)">
+    <text x="0" y="0" class="item-text">Bachelor of IT @ <tspan class="highlight">Richfield Graduate Institute</tspan></text>
+    <text x="0" y="20" class="item-text" font-size="11" fill="#8b949e">(Class of 2025)</text>
+  </g>
+
+  <g transform="translate(25, 150)">
+    <text x="0" y="0" class="item-text"><tspan class="highlight">Distinction</tspan> in Mobile App Development</text>
+  </g>
+
+  <g transform="translate(25, 180)">
+    <text x="0" y="0" class="item-text"><tspan class="highlight">CAPACITI</tspan> &amp; <tspan class="highlight">YES4Youth</tspan> Alumni</text>
+  </g>
+</svg>

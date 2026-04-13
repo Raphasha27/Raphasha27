@@ -1,0 +1,121 @@
+<svg fill="none" viewBox="0 0 1000 1000" width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&amp;display=swap');
+    .bg { fill: #0b1117; }
+    .card { fill: #161b22; stroke: #30363d; stroke-width: 1.5; rx: 20; }
+    .title { font-family: 'Inter', sans-serif; font-weight: 900; font-size: 56px; text-transform: uppercase; letter-spacing: -1px; }
+    .section-label { fill: #8b949e; font-family: 'Inter', sans-serif; font-weight: 700; font-size: 16px; text-transform: uppercase; letter-spacing: 1px; }
+    .item-bg { fill: rgba(255, 255, 255, 0.03); stroke: rgba(255, 255, 255, 0.1); stroke-width: 1; rx: 35; }
+    .item-title { fill: #f0f6fc; font-family: 'Inter', sans-serif; font-weight: 600; font-size: 18px; }
+    .accent-green { stroke: #10b981; stroke-width: 2; }
+    .accent-blue { stroke: #0ea5e9; stroke-width: 2; }
+    .accent-cyan { stroke: #22d3ee; stroke-width: 2; }
+    .overlay { fill: none; pointer-events: none; }
+  </style>
+
+  <defs>
+    <linearGradient id="title-grad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#8b949e" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1000" height="1000" class="bg" />
+  
+  <text x="500" y="100" text-anchor="middle" fill="url(#title-grad)" class="title">THE 2026</text>
+  <text x="500" y="160" text-anchor="middle" fill="url(#title-grad)" class="title">DEVELOPER'S ARSENAL</text>
+
+  <!-- Left Column: Language Heavyweights -->
+  <rect x="50" y="220" width="440" height="730" class="card accent-cyan" />
+  <text x="75" y="265" class="section-label">Language Heavyweights</text>
+  
+  <!-- C# -->
+  <g transform="translate(75, 290)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">C#: Enterprise &amp; .NET Mastery</text>
+  </g>
+
+  <!-- C++ -->
+  <g transform="translate(75, 385)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">C++: High-Performance Systems</text>
+  </g>
+
+  <!-- Python -->
+  <g transform="translate(75, 480)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">Python: AI &amp; Neural Computing</text>
+  </g>
+
+  <!-- Java -->
+  <g transform="translate(75, 575)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">Java: Distributed Architectures</text>
+  </g>
+
+  <!-- Kotlin/Android -->
+  <g transform="translate(75, 670)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">Kotlin: Native Mobile Engineering</text>
+  </g>
+
+  <!-- Rust -->
+  <g transform="translate(75, 765)">
+    <rect width="390" height="74" class="item-bg" />
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" x="15" y="12" width="50" height="50" />
+    <text x="80" y="45" class="item-title">Rust: Memory-Safe Innovation</text>
+  </g>
+
+  <!-- Right Column -->
+  <!-- Web Infrastructure -->
+  <rect x="520" y="220" width="430" height="230" class="card accent-blue" />
+  <text x="545" y="265" class="section-label">Web Ecosystem</text>
+  <g transform="translate(545, 290)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Next.js 15: Server Components</text>
+  </g>
+  <g transform="translate(545, 350)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">jQuery: Legacy Dominance</text>
+  </g>
+  <g transform="translate(545, 410)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">HTML5: Semantic Standards</text>
+  </g>
+
+  <!-- AI & Data Toolkit -->
+  <rect x="520" y="470" width="430" height="170" class="card accent-green" />
+  <text x="545" y="515" class="section-label">Data &amp; Persistence</text>
+  <g transform="translate(545, 540)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">MySQL / PHP: Fullstack Core</text>
+  </g>
+  <g transform="translate(545, 600)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">MongoDB: Schema-less Growth</text>
+  </g>
+
+  <!-- Dev Environment -->
+  <rect x="520" y="660" width="430" height="230" class="card accent-cyan" />
+  <text x="545" y="705" class="section-label">Runtime &amp; Tools</text>
+  <g transform="translate(545, 730)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Node.js: V8 Performance</text>
+  </g>
+  <g transform="translate(545, 790)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Android SDK: Mobile Reach</text>
+  </g>
+  <g transform="translate(545, 850)">
+    <image href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" x="0" y="0" width="35" height="35" />
+    <text x="45" y="25" class="item-title">Linux: Infrastructure Kernel</text>
+  </g>
+
+  <!-- Sparkle flourish -->
+  <path d="M930 930 L940 910 L950 930 L970 940 L950 950 L940 970 L930 950 L910 940 Z" fill="#ffffff" opacity="0.8" />
+</svg>

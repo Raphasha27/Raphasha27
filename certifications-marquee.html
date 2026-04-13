@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certifications Marquee | Koketso Raphasha</title>
+    <style>
+        body {
+            background: #0d1117;
+            margin: 0;
+            padding: 20px;
+            overflow: hidden;
+            font-family: 'Inter', -apple-system, sans-serif;
+        }
+
+        .marquee-container {
+            width: 100%;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+        }
+
+        .marquee-content {
+            display: flex;
+            white-space: nowrap;
+            gap: 60px;
+            animation: scroll 20s linear infinite;
+            padding: 10px;
+        }
+
+        .cert-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-width: 120px;
+            transition: transform 0.3s ease;
+        }
+
+        .cert-item:hover {
+            transform: scale(1.1);
+        }
+
+        .cert-item img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
+            margin-bottom: 10px;
+        }
+
+        .cert-item span {
+            color: #c9d1d9;
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-50%);
+            }
+        }
+
+        /* Duplicate content for seamless loop */
+        .marquee-content::after {
+            content: attr(data-content);
+            display: flex;
+            gap: 60px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="marquee-container">
+        <div class="marquee-content" id="marquee">
+            <!-- Google -->
+            <div class="cert-item">
+                <img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" alt="Google">
+                <span>Google</span>
+            </div>
+            <!-- IBM -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM">
+                <span>IBM AI</span>
+            </div>
+            <!-- Michigan -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                    alt="University of Michigan">
+                <span>Michigan</span>
+            </div>
+            <!-- DeepLearning -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/Tensorflow_logo.svg"
+                    alt="DeepLearning.AI">
+                <span>DeepLearning</span>
+            </div>
+            <!-- Cisco -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Cisco_logo.svg" alt="Cisco">
+                <span>Cisco Cyber</span>
+            </div>
+            <!-- Azure -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg" alt="Azure">
+                <span>Azure Cloud</span>
+            </div>
+            <!-- CapaCiTi -->
+            <div class="cert-item">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Digital_Ocean_logo.svg" alt="CapaCiTi">
+                <span>CapaCiTi</span>
+            </div>
+            <!-- YES4Youth -->
+            <div class="cert-item">
+                <img src="https://www.gstatic.com/images/branding/product/2x/googleg_48dp.png" alt="YES4Youth"
+                    style="filter: hue-rotate(120deg);">
+                <span>YES4Youth</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const marquee = document.getElementById('marquee');
+        // Duplicate the inner content for seamless infinite scroll
+        marquee.innerHTML += marquee.innerHTML;
+    </script>
+</body>
+
+</html>
