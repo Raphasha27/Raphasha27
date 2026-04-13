@@ -142,12 +142,12 @@ function gameOver() {
     }, 1000);
 }
 
-// --- AI LOGIC (BFS) ---
+// --- ELITE AI ENGINE (A* PATHFINDING + FLOOD-FILL) ---
 
 function getAIMove() {
-    // Simple recalculate path if empty or invalid
+    // 1. Primary Algorithm: A* to target food
     if (path.length === 0) {
-        path = bfs(snake[0], food);
+        path = aStar(snake[0], food);
     }
 
     if (path.length > 0) {
@@ -155,66 +155,101 @@ function getAIMove() {
         return { x: nextMove.x - snake[0].x, y: nextMove.y - snake[0].y };
     }
 
-    // Fallback: If no path to food, try any safe move (Survival Mode)
-    statusText.innerText = "SURVIVAL MODE (NO PATH)";
+    // 2. Safety Fallback: Flood-Fill Analysis
+    // If no path to food, find the move that leads to the largest open area
+    statusText.innerText = "SURVIVAL MODE: FLOOD-FILL ACTIVE";
+    statusText.style.color = "#fbbf24";
+    
     const safeMoves = getSafeMoves(snake[0]);
-    if (safeMoves.length > 0) {
-        // Pick one that is furthest from body or simply random for now
-        // A better heuristic would be "follow tail"
-        return safeMoves[0]; 
+    let bestMove = null;
+    let maxArea = -1;
+
+    for (let move of safeMoves) {
+        const area = calculateSafeArea(move);
+        if (area > maxArea) {
+            maxArea = area;
+            bestMove = move;
+        }
+    }
+
+    if (bestMove) {
+        return { x: bestMove.x - snake[0].x, y: bestMove.y - snake[0].y };
     }
 
     return null; // Death inevitable
 }
 
-function bfs(start, target) {
-    let queue = [{ pos: start, path: [] }];
-    let visited = new Set();
-    visited.add(`${start.x},${start.y}`);
+function aStar(start, target) {
+    let openSet = [{ pos: start, g: 0, h: heuristic(start, target), f: heuristic(start, target), path: [] }];
+    let closedSet = new Set();
 
-    // Create a virtual grid of the snake body to block paths
-    // BUT we must consider the tail moving!
-    // For simplicity in this version, we treat current body as static obstacles
-    
-    while (queue.length > 0) {
-        const { pos, path } = queue.shift();
+    while (openSet.length > 0) {
+        // Sort by F score (G + H)
+        openSet.sort((a, b) => a.f - b.f);
+        const current = openSet.shift();
 
-        if (pos.x === target.x && pos.y === target.y) {
-            statusText.innerText = "PATH LOCKED";
-            return path;
+        if (current.pos.x === target.x && current.pos.y === target.y) {
+            statusText.innerText = "PATH LOCKED (A*)";
+            statusText.style.color = "#4ade80";
+            return current.path;
         }
 
-        const neighbors = getSafeMoves(pos);
+        closedSet.add(`${current.pos.x},${current.pos.y}`);
+
+        const neighbors = getSafeMoves(current.pos);
         for (let next of neighbors) {
-            const key = `${next.x},${next.y}`;
-            if (!visited.has(key)) {
-                visited.add(key);
-                queue.push({
-                    pos: { x: next.x, y: next.y },
-                    path: [...path, { x: next.x, y: next.y }]
-                });
+            if (closedSet.has(`${next.x},${next.y}`)) continue;
+
+            const g = current.g + 1;
+            const h = heuristic(next, target);
+            const f = g + h;
+
+            const existing = openSet.find(o => o.pos.x === next.x && o.pos.y === next.y);
+            if (!existing || g < existing.g) {
+                if (!existing) {
+                    openSet.push({ pos: next, g, h, f, path: [...current.path, next] });
+                } else {
+                    existing.g = g;
+                    existing.f = f;
+                    existing.path = [...current.path, next];
+                }
             }
         }
     }
-    return []; // No path found
+    return [];
 }
 
-function getSafeMoves(head) {
-    const moves = [
-        { x: 0, y: -1 }, // Up
-        { x: 0, y: 1 },  // Down
-        { x: -1, y: 0 }, // Left
-        { x: 1, y: 0 }   // Right
-    ];
+function heuristic(a, b) {
+    return Math.abs(a.x - b.x) + Math.abs(a.y - b.y);
+}
 
-    return moves.map(m => ({ x: head.x + m.x, y: head.y + m.y }))
-        .filter(pt => {
-            // Check bounds
-            if (pt.x < 0 || pt.x >= TILE_COUNT || pt.y < 0 || pt.y >= TILE_COUNT) return false;
-            // Check collision with *current* snake body
-            if (isCollision(pt)) return false;
-            return true;
-        });
+function calculateSafeArea(start) {
+    let queue = [start];
+    let visited = new Set();
+    visited.add(`${start.x},${start.y}`);
+    let area = 0;
+
+    const obstacles = new Set(snake.map(s => `${s.x},${s.y}`));
+
+    while (queue.length > 0 && area < 100) { // Cap at 100 for performance
+        const curr = queue.shift();
+        area++;
+
+        const neighbors = [
+            { x: curr.x + 1, y: curr.y }, { x: curr.x - 1, y: curr.y },
+            { x: curr.x, y: curr.y + 1 }, { x: curr.x, y: curr.y - 1 }
+        ];
+
+        for (let next of neighbors) {
+            const key = `${next.x},${next.y}`;
+            if (next.x >= 0 && next.x < TILE_COUNT && next.y >= 0 && next.y < TILE_COUNT &&
+                !obstacles.has(key) && !visited.has(key)) {
+                visited.add(key);
+                queue.push(next);
+            }
+        }
+    }
+    return area;
 }
 
 // Start
