@@ -11,17 +11,20 @@
   [![GitHub Stars](https://img.shields.io/github/stars/Raphasha27?label=Total%20Stars&style=for-the-badge&color=ffd700&labelColor=0d1117)](https://github.com/Raphasha27?tab=stars)
   [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
   
+  <br/>
+  <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="600" alt="Coding Animation" />
+  
   </div>
   
   ---
   
-  ## Snake Mock Game --- AI Pathfinding Demo
+  ##  Snake Mock Game - AI Pathfinding Demo
   
   <div align="center">
   
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/snake_game.svg" width="600" alt="Snake Mock Game --- AI Pathfinding" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/snake_game.svg" width="600" alt="Snake Mock Game - AI Pathfinding" />
   
-  > [GAME] Custom animated **Snake game** --- the snake navigates autonomously via **A* pathfinding** and **Greedy BFS** strategies.
+  > Custom animated Snake game - the snake navigates autonomously via A* pathfinding and Greedy BFS strategies.
   
   </div>
   
@@ -31,31 +34,36 @@
   
   <img align="right" alt="Coding" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
   
-  I'm an **Elite Software Developer, AI Engineer, and Co-founder of Kirov Dynamics Technology**. I specialise in architecting high-performance systems and intelligent automation solutions from **Braamfontein, Johannesburg**.
+  I am an Elite Software Developer, AI Engineer, and Co-founder of Kirov Dynamics Technology. I specialise in architecting high-performance systems and intelligent automation solutions from Braamfontein, Johannesburg.
   
-  My mission is to build **sovereign AI infrastructure** that empowers communities and businesses with data privacy and mathematical precision.
+  Expertise spans full-stack web development with modern frameworks (React, Next.js), mobile engineering (React Native, Flutter), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record leading projects like KasiPass and building scalable enterprise platforms. 
+  
+  My mission is to build sovereign AI infrastructure that empowers communities and businesses with data privacy and mathematical precision to solve complex challenges at scale.
   
   <br clear="right"/>
   
   ---
   
-  ## Recent Innovation Showcase
+  ## Innovation Showcase and Featured Projects
   
-  ### [BOX] [KasiPass](https://github.com/Raphasha27/KasiPass) --- Community OS Hub
-  *   **Mission:** Digitising the township economy starting with Atteridgeville.
-  *   *   **Architecture:** React Native (Expo) Mobile interface coupled with a Python FastAPI backend.
-  *   *   **Database:** PostgreSQL with SQLAlchemy ORM.
-
-### [SHIELD] [Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App) --- Digital Trust Infrastructure
-*   **Mission:** Building a decentralised trust ecosystem for identity and fraud prevention.
-*   *   **Core Logic:** AI Fraud Detection via **Scikit-learn** and custom Blockchain Hashing.
-*   *   **Infrastructure:** Kubernetes (K8s) orchestration and Supabase integration.
-
----
-
-## Education & Credentials
-
-<div align="center">
+  <div align="center">
+  
+  | Project | Description | Tech Stack |
+  |---------|-------------|------------|
+  | **[KasiPass](https://github.com/Raphasha27/KasiPass)** | Community OS Hub digitising the township economy starting with Atteridgeville. | React Native (Expo), Python FastAPI, PostgreSQL, SQLAlchemy |
+  | **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | Digital Trust Infrastructure building a decentralised trust ecosystem for identity and fraud prevention. | Scikit-learn, K8s, Supabase, Blockchain Hashing |
+  | **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | Enterprise distributed rate-limiting engine with Redis Lua scripting & OpenTelemetry observability. | .NET 8, Redis, Docker, Lua |
+  | **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | Healthcare ML prediction platform reducing no-shows with predictive analytics. | C#, PyTorch, PostgreSQL, FastAPI |
+  | **[AI Job Market Intelligence](https://github.com/Raphasha27/AI-Job-Market)** | Real-time job analytics dashboard with AI-powered resume matching. | React, FastAPI, OpenAI, Tailwind |
+  | **[CyberShield Modern](https://github.com/Raphasha27/CyberShield)** | Next-gen SOC dashboard with AI Sentinel integration and real-time threat monitoring. | Angular, D3.js, WebSockets |
+  
+  </div>
+  
+  ---
+  
+  ## Education and Credentials
+  
+  <div align="center">
     <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/academic_card.svg" width="850" />
   </div>
   
@@ -65,15 +73,15 @@
   <tr>
     <td>
       
-      [GRAD] **Bachelor of Science in Information Technology**  
-      Richfield Graduate Institute of Technology *(2025)*  
-      [AWARD] **DISTINCTON** in Mobile App Development
+      Bachelor of Science in Information Technology
+      Richfield Graduate Institute of Technology (2025)
+      DISTINCTON in Mobile App Development
       
     </td>
     <td>
       
-      [WORK] **CAPACITI Program Graduate**  
-      Enterprise Software Development Track  
+      CAPACITI Program Graduate
+      Enterprise Software Development Track
       Johannesburg, South Africa
       
     </td>
@@ -86,24 +94,44 @@
   
   ---
   
-  ## [TOOLS] Tech Stack, IDEs & AI Tools
+  ## Tech Stack, IDEs and AI Tools
   
-  ### [AI] AI Engineering & Agents
+  ### AI Engineering and Agents
   ![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white)
   ![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)
   ![Claude AI](https://img.shields.io/badge/Claude_AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
   ![Gemini](https://img.shields.io/badge/Google_Gemini-8E75C2?style=for-the-badge&logo=googlegemini&logoColor=white)
   
-  ### [PC] IDEs & Productivity
+  ### Mobile and Web App
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+  ![Expo](https://img.shields.io/badge/Expo_Go-000020?style=for-the-badge&logo=expo&logoColor=white)
+  ![EAS](https://img.shields.io/badge/Expo_EAS-4630EB?style=for-the-badge&logo=expo&logoColor=white)
+  ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+  
+  ### Backend and Frameworks
+  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+  ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
+  ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+  
+  ### IDEs and Productivity
   ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
   ![Cursor](https://img.shields.io/badge/Cursor_AI-58a6ff?style=for-the-badge&logo=cursor&logoColor=white)
   ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white)
   ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
   ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
   
+  ### Databases and DevOps
+  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+  ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+  ![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+  ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+  
   ---
   
-  ## [STATS] GitHub Analytics
+  ## GitHub Analytics
   
   <div align="center">
   
@@ -119,13 +147,42 @@
   
   ---
   
+  ## Connect and Collaborate
+  
+  <div align="center">
+    <table border="0">
+          <tr>
+                  <td><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/qr_code.png" width="150" alt="QR Code"></td>
+                  <td valign="middle">
+                            <a href="mailto:raphashakokets69@gmail.com">
+                                        <img src="https://img.shields.io/badge/Personal-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email"/>
+                    </a><br>
+                            <a href="mailto:koketso.raphasha@capaciti.org.za">
+                                        <img src="https://img.shields.io/badge/Work-Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Work Email"/>
+                    </a><br>
+                            <a href="tel:+27781172479">
+                                        <img src="https://img.shields.io/badge/Phone-Contact-34D399?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
+                    </a>
+            </td>
+      </tr>
+  </table>
+  </div>
+  
+  <div align="center" style="margin-top: 20px;">
+    <a href="https://linkedin.com/in/koketso-raphasha-27"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+    <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github-logo&logoColor=white" alt="GitHub"></a>
+    <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+    <a href="https://x.com/Raphasha27"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"></a>
+  </div>
+  
+  ---
+  
   <div align="center">
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:0077D4,100:0d1117&height=120&section=footer" width="100%"/>
   
-  *"The best way to predict the future is to build it."*
+  *The best way  to predict the future is to build it.*
   
-  **[BOLT] Raphasha27 --- Co-founder, Kirov Dynamics | Building the future, one commit at a time.**
+  ** Raphasha27 - Co-founder, Kirov Dynamics | Built by Koketso Raphasha**
   
   </div>
-  
