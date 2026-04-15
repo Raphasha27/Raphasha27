@@ -160,28 +160,8 @@ Johannesburg, South Africa
 
 ## 📊 GitHub Analytics
 
-### 🔥 My Stats
-
 <div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&background=0d1117&fire=FF9D00&ring=FF9D00&currStreakNum=FF9D00&currStreakLabel=FF9D00&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&border=444" width="800" alt="Streak Stats"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=10&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=444" alt="Top Languages"/>
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img height="200em" src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=444&include_all_commits=true&count_private=true" alt="GitHub Stats"/>
-
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/elite_stats.svg" width="1000" alt="Elite GitHub Analytics"/>
 </div>
 
 ---

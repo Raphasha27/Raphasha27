@@ -1,85 +1,120 @@
-<svg fill="none" viewBox="0 0 920 620" width="920" height="620" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .card-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 12; }
-    .card-hover:hover .card-bg { stroke: #38bdf8; }
-    .title { fill: #f0f6fc; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 14px; font-weight: 600; }
-    .subtitle { fill: #8b949e; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 11px; }
-    .icon-bg { fill: #0d1117; stroke: #30363d; stroke-width: 1; rx: 12; }
-    .icon-symbol { fill: #38bdf8; font-family: 'Segoe UI', Roboto, sans-serif; font-size: 32px; font-weight: bold; }
-  </style>
-
-  <!-- Row 1 -->
-  <g class="card-hover" transform="translate(10, 10)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⬢</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Data Analytics</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">Google Professional</text>
-  </g>
-
-  <g class="card-hover" transform="translate(315, 10)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">◈</text>
-    <text x="145" y="135" text-anchor="middle" class="title">UX Design</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">Google Professional</text>
-  </g>
-
-  <g class="card-hover" transform="translate(620, 10)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⌘</text>
-    <text x="145" y="135" text-anchor="middle" class="title">AI Engineering</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">IBM Professional</text>
-  </g>
-
-  <!-- Row 2 -->
-  <g class="card-hover" transform="translate(10, 215)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⚡</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Professional Development</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">YES4Youth / CapaCiTi</text>
-  </g>
-
-  <g class="card-hover" transform="translate(315, 215)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⬢</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Python for Everybody</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">University of Michigan</text>
-  </g>
-
-  <g class="card-hover" transform="translate(620, 215)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">◈</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Machine Learning</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">DeepLearning.AI</text>
-  </g>
-
-  <!-- Row 3 -->
-  <g class="card-hover" transform="translate(10, 420)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⌘</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Generative AI Specialist</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">Applied Intelligence</text>
-  </g>
-
-  <g class="card-hover" transform="translate(315, 420)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⚡</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Cybersecurity Specialist</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">Cisco Academy</text>
-  </g>
-
-  <g class="card-hover" transform="translate(620, 420)">
-    <rect class="card-bg" width="290" height="190" />
-    <rect class="icon-bg" x="25" y="25" width="240" height="70" />
-    <text x="145" y="70" text-anchor="middle" class="icon-symbol">⬢</text>
-    <text x="145" y="135" text-anchor="middle" class="title">Cloud Infrastructure</text>
-    <text x="145" y="155" text-anchor="middle" class="subtitle">Azure Solution Associate</text>
-  </g>
+<svg fill="none" viewBox="0 0 1000 600" width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          background: #0d1117;
+          width: 998px;
+          height: 598px;
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-rows: repeat(3, 1fr);
+          gap: 20px;
+          padding: 20px;
+          box-sizing: border-box;
+          border-radius: 16px;
+        }
+        .card {
+          background: #161b22;
+          border: 1px solid #30363d;
+          border-radius: 12px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          padding: 15px;
+          transition: transform 0.2s;
+        }
+        .card:hover { border-color: #58a6ff; transform: translateY(-5px); }
+        .logo-box {
+          background: #0d1117;
+          width: 200px;
+          height: 80px;
+          border-radius: 8px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 15px;
+          padding: 10px;
+        }
+        .title { color: #f0f6fc; font-family: sans-serif; font-size: 16px; font-weight: bold; margin-bottom: 5px; text-align: center; }
+        .subtitle { color: #8b949e; font-family: sans-serif; font-size: 12px; text-align: center; }
+      </style>
+      <div class="container">
+        <!-- 1. Data Analytics (Google) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" width="60"/>
+          </div>
+          <div class="title">Data Analytics</div>
+          <div class="subtitle">Google Professional</div>
+        </div>
+        <!-- 2. UX Design (Google) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://www.gstatic.com/images/branding/googlelogo/svg/google_logo_clr_74x24dp.svg" width="100"/>
+          </div>
+          <div class="title">UX Design</div>
+          <div class="subtitle">Google Professional</div>
+        </div>
+        <!-- 3. AI Engineering (IBM) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ibm/ibm-original.svg" width="80" style="filter: brightness(0) invert(1);"/>
+          </div>
+          <div class="title">AI Engineering</div>
+          <div class="subtitle">IBM Professional</div>
+        </div>
+        <!-- 4. Prof Development (CapaCiTi) -->
+        <div class="card">
+          <div class="logo-box">
+             <div style="color:white; font-weight:bold; font-size:18px;">YES4Youth / CapaCiTi</div>
+          </div>
+          <div class="title">Professional Development</div>
+          <div class="subtitle">Enterprise Track</div>
+        </div>
+        <!-- 5. Python (U-Michigan) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/University_of_Michigan_Official_Logo.svg" width="60"/>
+          </div>
+          <div class="title">Python for Everybody</div>
+          <div class="subtitle">University of Michigan</div>
+        </div>
+        <!-- 6. Machine Learning (DeepLearning.AI) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/deeplearning_logo.png" width="120" onerror="this.src='https://www.deeplearning.ai/wp-content/themes/deeplearning-ai/assets/images/logo.png';"/>
+          </div>
+          <div class="title">Machine Learning</div>
+          <div class="subtitle">DeepLearning.AI</div>
+        </div>
+        <!-- 7. Generative AI (Applied Intel) -->
+        <div class="card">
+          <div class="logo-box">
+             <div style="color:#58a6ff; font-weight:bold; font-size:24px;">Ai</div>
+          </div>
+          <div class="title">Generative AI Specialist</div>
+          <div class="subtitle">Applied Intelligence</div>
+        </div>
+        <!-- 8. Cybersecurity (Cisco) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cisco/cisco-original.svg" width="60" style="filter: brightness(0) invert(1);"/>
+          </div>
+          <div class="title">Cybersecurity Specialist</div>
+          <div class="subtitle">Cisco Academy</div>
+        </div>
+        <!-- 9. Cloud (Azure) -->
+        <div class="card">
+          <div class="logo-box">
+             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="50"/>
+             <span style="color:white; margin-left:10px; font-weight:bold;">Azure</span>
+          </div>
+          <div class="title">Cloud Infrastructure</div>
+          <div class="subtitle">Azure Solution Associate</div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
 </svg>
