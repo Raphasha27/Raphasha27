@@ -17,6 +17,11 @@
 
 <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="600" alt="Coding Animation"/>
 
+<br/>
+
+### 🌌 Live AI Orchestration Dashboard
+<img src="assets/dashboard.svg" width="850" alt="Live AI Dashboard"/>
+
 </div>
 
 ---
@@ -159,6 +164,12 @@ Johannesburg, South Africa
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Godot](https://img.shields.io/badge/Godot_Engine-478CBF?style=for-the-badge&logo=godotengine&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+
+<br/>
+
+<div align="center">
+  <img src="assets/horizontal_marquee.svg" width="850" alt="Tech Stack Marquee"/>
+</div>
 
 ---
 
