@@ -1,120 +1,86 @@
-<svg fill="none" viewBox="0 0 1000 600" width="1000" height="600" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
-      <style>
-        .container {
-          background: #0d1117;
-          width: 998px;
-          height: 598px;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          grid-template-rows: repeat(3, 1fr);
-          gap: 20px;
-          padding: 20px;
-          box-sizing: border-box;
-          border-radius: 16px;
-        }
-        .card {
-          background: #161b22;
-          border: 1px solid #30363d;
-          border-radius: 12px;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          padding: 15px;
-          transition: transform 0.2s;
-        }
-        .card:hover { border-color: #58a6ff; transform: translateY(-5px); }
-        .logo-box {
-          background: #0d1117;
-          width: 200px;
-          height: 80px;
-          border-radius: 8px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          margin-bottom: 15px;
-          padding: 10px;
-        }
-        .title { color: #f0f6fc; font-family: sans-serif; font-size: 16px; font-weight: bold; margin-bottom: 5px; text-align: center; }
-        .subtitle { color: #8b949e; font-family: sans-serif; font-size: 12px; text-align: center; }
-      </style>
-      <div class="container">
-        <!-- 1. Data Analytics (Google) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" width="60"/>
-          </div>
-          <div class="title">Data Analytics</div>
-          <div class="subtitle">Google Professional</div>
-        </div>
-        <!-- 2. UX Design (Google) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://www.gstatic.com/images/branding/googlelogo/svg/google_logo_clr_74x24dp.svg" width="100"/>
-          </div>
-          <div class="title">UX Design</div>
-          <div class="subtitle">Google Professional</div>
-        </div>
-        <!-- 3. AI Engineering (IBM) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ibm/ibm-original.svg" width="80" style="filter: brightness(0) invert(1);"/>
-          </div>
-          <div class="title">AI Engineering</div>
-          <div class="subtitle">IBM Professional</div>
-        </div>
-        <!-- 4. Prof Development (CapaCiTi) -->
-        <div class="card">
-          <div class="logo-box">
-             <div style="color:white; font-weight:bold; font-size:18px;">YES4Youth / CapaCiTi</div>
-          </div>
-          <div class="title">Professional Development</div>
-          <div class="subtitle">Enterprise Track</div>
-        </div>
-        <!-- 5. Python (U-Michigan) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/University_of_Michigan_Official_Logo.svg" width="60"/>
-          </div>
-          <div class="title">Python for Everybody</div>
-          <div class="subtitle">University of Michigan</div>
-        </div>
-        <!-- 6. Machine Learning (DeepLearning.AI) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/deeplearning_logo.png" width="120" onerror="this.src='https://www.deeplearning.ai/wp-content/themes/deeplearning-ai/assets/images/logo.png';"/>
-          </div>
-          <div class="title">Machine Learning</div>
-          <div class="subtitle">DeepLearning.AI</div>
-        </div>
-        <!-- 7. Generative AI (Applied Intel) -->
-        <div class="card">
-          <div class="logo-box">
-             <div style="color:#58a6ff; font-weight:bold; font-size:24px;">Ai</div>
-          </div>
-          <div class="title">Generative AI Specialist</div>
-          <div class="subtitle">Applied Intelligence</div>
-        </div>
-        <!-- 8. Cybersecurity (Cisco) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cisco/cisco-original.svg" width="60" style="filter: brightness(0) invert(1);"/>
-          </div>
-          <div class="title">Cybersecurity Specialist</div>
-          <div class="subtitle">Cisco Academy</div>
-        </div>
-        <!-- 9. Cloud (Azure) -->
-        <div class="card">
-          <div class="logo-box">
-             <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/azure/azure-original.svg" width="50"/>
-             <span style="color:white; margin-left:10px; font-weight:bold;">Azure</span>
-          </div>
-          <div class="title">Cloud Infrastructure</div>
-          <div class="subtitle">Azure Solution Associate</div>
-        </div>
-      </div>
-    </div>
-  </foreignObject>
+<svg viewBox="0 0 960 580" width="960" height="580" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="960" height="580" rx="16" fill="#0d1117"/>
+
+  <!-- Row 1, Card 1: Data Analytics / Google -->
+  <rect x="16" y="16" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <!-- Google G logo (simplified colored arcs as rects) -->
+  <text x="164" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#4285F4">G</text>
+  <text x="164" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="transparent">o</text>
+  <text x="109" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#EA4335">G</text>
+  <text x="131" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#FBBC05">o</text>
+  <text x="151" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#4285F4">o</text>
+  <text x="168" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#34A853">g</text>
+  <text x="186" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#EA4335">l</text>
+  <text x="196" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#4285F4">e</text>
+  <text x="164" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">Data Analytics</text>
+  <text x="164" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">Google Professional</text>
+
+  <!-- Row 1, Card 2: UX Design / Google -->
+  <rect x="332" y="16" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="369" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#EA4335">G</text>
+  <text x="391" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#FBBC05">o</text>
+  <text x="411" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#4285F4">o</text>
+  <text x="428" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#34A853">g</text>
+  <text x="446" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#EA4335">l</text>
+  <text x="456" y="82" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#4285F4">e</text>
+  <text x="480" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">UX Design</text>
+  <text x="480" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">Google Professional</text>
+
+  <!-- Row 1, Card 3: AI Engineering / IBM -->
+  <rect x="648" y="16" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="796" y="90" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="44" font-weight="900" fill="#1F70C1" letter-spacing="4">IBM</text>
+  <text x="796" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">AI Engineering</text>
+  <text x="796" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#8b949e">IBM Professional</text>
+
+  <!-- Row 2, Card 1: Professional Development -->
+  <rect x="16" y="206" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <!-- Lightning bolt icon -->
+  <polygon points="164,240 154,268 162,268 150,295 174,264 164,264 176,240" fill="#FF9D00"/>
+  <text x="164" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f0f6fc">Professional Development</text>
+  <text x="164" y="350" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">YES4Youth / CapaCiTi</text>
+
+  <!-- Row 2, Card 2: Python / U-Michigan -->
+  <rect x="332" y="206" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <!-- Python snake icon (two dots = simplified) -->
+  <circle cx="468" cy="258" r="18" fill="#3776AB"/>
+  <circle cx="492" cy="258" r="18" fill="#FFD43B"/>
+  <text x="480" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="white">Py</text>
+  <text x="480" y="325" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">Python for Everybody</text>
+  <text x="480" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">University of Michigan</text>
+
+  <!-- Row 2, Card 3: Machine Learning / DeepLearning.AI -->
+  <rect x="648" y="206" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="796" y="265" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="#FF9D00">Deep</text>
+  <text x="796" y="290" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="22" font-weight="900" fill="white">Learning</text>
+  <text x="796" y="310" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="18" font-weight="900" fill="#FF9D00">.AI</text>
+  <text x="796" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f0f6fc">Machine Learning</text>
+  <text x="796" y="362" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">DeepLearning.AI</text>
+
+  <!-- Row 3, Card 1: Generative AI Specialist -->
+  <rect x="16" y="396" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="164" y="462" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" fill="#58a6ff">Ai</text>
+  <text x="164" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f0f6fc">Generative AI Specialist</text>
+  <text x="164" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">Applied Intelligence</text>
+
+  <!-- Row 3, Card 2: Cybersecurity / Cisco -->
+  <rect x="332" y="396" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="480" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#1BA0D7" letter-spacing="2">cisco</text>
+  <!-- Cisco bridge icon (simplified bars) -->
+  <rect x="453" y="460" width="6" height="18" rx="2" fill="#1BA0D7"/>
+  <rect x="463" y="456" width="6" height="22" rx="2" fill="#1BA0D7"/>
+  <rect x="473" y="453" width="6" height="25" rx="2" fill="#1BA0D7"/>
+  <rect x="483" y="456" width="6" height="22" rx="2" fill="#1BA0D7"/>
+  <rect x="493" y="460" width="6" height="18" rx="2" fill="#1BA0D7"/>
+  <text x="480" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f0f6fc">Cybersecurity Specialist</text>
+  <text x="480" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">Cisco Academy</text>
+
+  <!-- Row 3, Card 3: Cloud / Microsoft Azure -->
+  <rect x="648" y="396" width="296" height="170" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <!-- Azure A letter in blue gradient shape -->
+  <polygon points="796,435 772,485 782,485 770,510 810,475 798,475 820,435" fill="#0078d4" opacity="0.3"/>
+  <text x="796" y="472" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="36" font-weight="900" fill="#0078d4">A</text>
+  <text x="796" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#0078d4">Microsoft Azure</text>
+  <text x="796" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#f0f6fc">Cloud Infrastructure</text>
+  <text x="796" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8b949e">Azure Solution Associate</text>
 </svg>
