@@ -17,12 +17,6 @@
 
 <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="600" alt="Coding Animation"/>
 
-<br/>
-
-## 🌌 Live AI Orchestration Dashboard
-
-<img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/dashboard.svg" width="850" alt="Live AI Dashboard"/>
-
 </div>
 
 ---
