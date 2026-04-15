@@ -1,0 +1,304 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <style>
+      @keyframes snakeMoveBody0 {
+        0%,100% { transform: translate(60px, 80px); }
+        10% { transform: translate(80px, 80px); }
+        20% { transform: translate(100px, 80px); }
+        30% { transform: translate(120px, 80px); }
+        40% { transform: translate(140px, 80px); }
+        50% { transform: translate(160px, 80px); }
+        60% { transform: translate(160px, 100px); }
+        70% { transform: translate(160px, 120px); }
+        80% { transform: translate(140px, 120px); }
+        90% { transform: translate(120px, 120px); }
+      }
+      @keyframes snakeMoveBody1 {
+        0%,100% { transform: translate(40px, 80px); }
+        10% { transform: translate(60px, 80px); }
+        20% { transform: translate(80px, 80px); }
+        30% { transform: translate(100px, 80px); }
+        40% { transform: translate(120px, 80px); }
+        50% { transform: translate(140px, 80px); }
+        60% { transform: translate(160px, 80px); }
+        70% { transform: translate(160px, 100px); }
+        80% { transform: translate(160px, 120px); }
+        90% { transform: translate(140px, 120px); }
+      }
+      @keyframes snakeMoveBody2 {
+        0%,100% { transform: translate(20px, 80px); }
+        10% { transform: translate(40px, 80px); }
+        20% { transform: translate(60px, 80px); }
+        30% { transform: translate(80px, 80px); }
+        40% { transform: translate(100px, 80px); }
+        50% { transform: translate(120px, 80px); }
+        60% { transform: translate(140px, 80px); }
+        70% { transform: translate(160px, 80px); }
+        80% { transform: translate(160px, 100px); }
+        90% { transform: translate(160px, 120px); }
+      }
+      @keyframes snakeMoveBody3 {
+        0%,100% { transform: translate(20px, 60px); }
+        10% { transform: translate(20px, 80px); }
+        20% { transform: translate(40px, 80px); }
+        30% { transform: translate(60px, 80px); }
+        40% { transform: translate(80px, 80px); }
+        50% { transform: translate(100px, 80px); }
+        60% { transform: translate(120px, 80px); }
+        70% { transform: translate(140px, 80px); }
+        80% { transform: translate(160px, 80px); }
+        90% { transform: translate(160px, 100px); }
+      }
+      @keyframes snakeMoveHead {
+        0%,100% { transform: translate(80px, 80px); }
+        10% { transform: translate(100px, 80px); }
+        20% { transform: translate(120px, 80px); }
+        30% { transform: translate(140px, 80px); }
+        40% { transform: translate(160px, 80px); }
+        50% { transform: translate(180px, 80px); }
+        60% { transform: translate(180px, 100px); }
+        70% { transform: translate(180px, 120px); }
+        80% { transform: translate(160px, 120px); }
+        90% { transform: translate(140px, 120px); }
+      }
+      @keyframes foodPulse {
+        0%,100% { opacity: 1; r: 7px; }
+        50% { opacity: 0.5; r: 9px; }
+      }
+      @keyframes scoreUp {
+        0%,49% { opacity: 1; }
+        50%,100% { opacity: 0; }
+      }
+      @keyframes blink {
+        0%,100% { opacity: 1; }
+        50% { opacity: 0; }
+      }
+      @keyframes scanline {
+        0% { transform: translateY(-100%); }
+        100% { transform: translateY(320px); }
+      }
+      @keyframes glowPulse {
+        0%,100% { filter: drop-shadow(0 0 6px #00ff88); }
+        50% { filter: drop-shadow(0 0 14px #00ff88); }
+      }
+    </style>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#0a2a1a" stroke-width="0.5"/>
+    </pattern>
+
+    <!-- Glow filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Snake head gradient -->
+    <radialGradient id="headGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#44ff88"/>
+      <stop offset="100%" stop-color="#00aa44"/>
+    </radialGradient>
+
+    <!-- Body gradient -->
+    <radialGradient id="bodyGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#33cc66"/>
+      <stop offset="100%" stop-color="#007733"/>
+    </radialGradient>
+
+    <!-- Food glow gradient -->
+    <radialGradient id="foodGrad" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ff6666"/>
+      <stop offset="100%" stop-color="#cc0000"/>
+    </radialGradient>
+
+    <!-- Scanline mask -->
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(0,255,136,0)" />
+      <stop offset="50%" stop-color="rgba(0,255,136,0.05)" />
+      <stop offset="100%" stop-color="rgba(0,255,136,0)" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="320" fill="#050f0a" rx="8"/>
+
+  <!-- Grid overlay -->
+  <rect width="600" height="320" fill="url(#grid)" rx="8"/>
+
+  <!-- CRT scanline effect -->
+  <rect width="600" height="60" fill="url(#scanGrad)" rx="0" opacity="0.4">
+    <animateTransform attributeName="transform" type="translate" from="0,-60" to="0,320" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Border glow -->
+  <rect x="30" y="30" width="540" height="260" fill="none" stroke="#00cc55" stroke-width="1.5" rx="4" opacity="0.4"/>
+  <rect x="32" y="32" width="536" height="256" fill="none" stroke="#00ff88" stroke-width="0.5" rx="3" opacity="0.2"/>
+
+  <!-- Top HUD bar -->
+  <rect x="30" y="10" width="540" height="18" fill="#000" rx="2" opacity="0.6"/>
+
+  <!-- Title -->
+  <text x="42" y="23" font-family="'Courier New', monospace" font-size="10" fill="#00ff88" font-weight="bold" filter="url(#glow)">SNAKE.EXE v2.7</text>
+
+  <!-- Score -->
+  <text x="260" y="23" font-family="'Courier New', monospace" font-size="10" fill="#00cc55">SCORE:</text>
+  <text x="302" y="23" font-family="'Courier New', monospace" font-size="10" fill="#ffee00" font-weight="bold">
+    <animate attributeName="textContent" values="0100;0120;0120;0120;0120;0140;0140;0140;0160;0160;0180;0200" dur="8s" repeatCount="indefinite"/>0100
+  </text>
+
+  <!-- Level -->
+  <text x="400" y="23" font-family="'Courier New', monospace" font-size="10" fill="#00cc55">LVL: <tspan fill="#ffee00" font-weight="bold">3</tspan></text>
+
+  <!-- Lives -->
+  <text x="480" y="23" font-family="'Courier New', monospace" font-size="10" fill="#00cc55">LIVES: <tspan fill="#ff4444">♥♥♥</tspan></text>
+
+  <!-- Playing field background -->
+  <rect x="30" y="30" width="540" height="260" fill="none"/>
+
+  <!-- === SNAKE BODY segments (animated, green squares) === -->
+
+  <!-- Tail segment 3 -->
+  <rect width="17" height="17" rx="3" fill="#007733" opacity="0.7">
+    <animateTransform attributeName="transform" type="translate"
+      values="20,80; 20,80; 20,80; 40,80; 60,80; 80,80; 100,80; 120,80; 140,80; 120,80; 20,80"
+      keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Tail segment 2 -->
+  <rect width="17" height="17" rx="3" fill="#00aa44" opacity="0.8">
+    <animateTransform attributeName="transform" type="translate"
+      values="40,80; 20,80; 20,80; 20,80; 40,80; 60,80; 80,80; 100,80; 120,80; 140,80; 40,80"
+      keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Body segment 1 -->
+  <rect width="17" height="17" rx="3" fill="#00cc55" opacity="0.9">
+    <animateTransform attributeName="transform" type="translate"
+      values="60,80; 40,80; 20,80; 20,80; 20,80; 40,80; 60,80; 80,80; 100,80; 120,80; 60,80"
+      keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Body segment 2 -->
+  <rect width="17" height="17" rx="3" fill="#00dd66">
+    <animateTransform attributeName="transform" type="translate"
+      values="80,80; 60,80; 40,80; 20,80; 20,80; 20,80; 40,80; 60,80; 80,80; 100,80; 80,80"
+      keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Body segment 3 (neck) -->
+  <rect width="17" height="17" rx="3" fill="#22ee77">
+    <animateTransform attributeName="transform" type="translate"
+      values="100,80; 80,80; 60,80; 40,80; 20,80; 20,80; 20,80; 40,80; 60,80; 80,80; 100,80"
+      keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+      calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- HEAD (brightest) -->
+  <g filter="url(#glow)">
+    <rect width="17" height="17" rx="3" fill="url(#headGrad)">
+      <animateTransform attributeName="transform" type="translate"
+        values="120,80; 100,80; 80,80; 60,80; 40,80; 20,80; 20,80; 20,80; 40,80; 60,80; 120,80"
+        keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Head eyes -->
+    <circle r="2.5" fill="#ffffff">
+      <animateTransform attributeName="transform" type="translate"
+        values="127,85; 107,85; 87,85; 67,85; 47,85; 27,85; 27,85; 27,85; 47,85; 67,85; 127,85"
+        keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.85; 1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- === FOOD ITEMS === -->
+
+  <!-- Food 1 -->
+  <g filter="url(#glow)">
+    <circle r="7" fill="url(#foodGrad)" opacity="0.9">
+      <animate attributeName="r" values="7;9;7" dur="1s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate"
+        values="400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 200,200; 400,160"
+        keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.86; 1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <text font-family="monospace" font-size="10" fill="#ffaaaa" text-anchor="middle" dy="1">
+      <animateTransform attributeName="transform" type="translate"
+        values="400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 400,160; 200,200; 400,160"
+        keyTimes="0; 0.05; 0.15; 0.25; 0.35; 0.45; 0.55; 0.65; 0.75; 0.86; 1"
+        calcMode="discrete" dur="8s" repeatCount="indefinite"/>🍎
+    </text>
+  </g>
+
+  <!-- Food 2 (static decorative) -->
+  <g filter="url(#glow)">
+    <circle cx="480" cy="220" r="7" fill="#ff4444" opacity="0.6">
+      <animate attributeName="r" values="7;8;7" dur="1.3s" repeatCount="indefinite" begin="0.4s"/>
+    </circle>
+  </g>
+
+  <!-- Food 3 (static decorative) -->
+  <g filter="url(#glow)">
+    <circle cx="200" cy="200" r="7" fill="#aa00aa" opacity="0.5">
+      <animate attributeName="r" values="7;8;7" dur="0.9s" repeatCount="indefinite" begin="0.7s"/>
+    </circle>
+  </g>
+
+  <!-- === SCORE POPUP on eat === -->
+  <text x="410" y="150" font-family="'Courier New', monospace" font-size="14" fill="#ffff00" font-weight="bold" filter="url(#glow)" opacity="0">
+    +20
+    <animate attributeName="opacity" values="0;0;0;0;0;0;0;0;1;0;0" keyTimes="0;0.1;0.2;0.3;0.4;0.5;0.6;0.7;0.8;0.9;1" dur="8s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-20" dur="1s" begin="6.4s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- === GRID DOTTED LINES === -->
+  <g opacity="0.07" stroke="#00ff88" stroke-width="0.5" stroke-dasharray="2,18">
+    <line x1="30" y1="50" x2="570" y2="50"/>
+    <line x1="30" y1="70" x2="570" y2="70"/>
+    <line x1="30" y1="90" x2="570" y2="90"/>
+    <line x1="30" y1="110" x2="570" y2="110"/>
+    <line x1="30" y1="130" x2="570" y2="130"/>
+    <line x1="30" y1="150" x2="570" y2="150"/>
+    <line x1="30" y1="170" x2="570" y2="170"/>
+    <line x1="30" y1="190" x2="570" y2="190"/>
+    <line x1="30" y1="210" x2="570" y2="210"/>
+    <line x1="30" y1="230" x2="570" y2="230"/>
+    <line x1="30" y1="250" x2="570" y2="250"/>
+    <line x1="30" y1="270" x2="570" y2="270"/>
+    <line x1="50" y1="30" x2="50" y2="290"/>
+    <line x1="90" y1="30" x2="90" y2="290"/>
+    <line x1="130" y1="30" x2="130" y2="290"/>
+    <line x1="170" y1="30" x2="170" y2="290"/>
+    <line x1="210" y1="30" x2="210" y2="290"/>
+    <line x1="250" y1="30" x2="250" y2="290"/>
+    <line x1="290" y1="30" x2="290" y2="290"/>
+    <line x1="330" y1="30" x2="330" y2="290"/>
+    <line x1="370" y1="30" x2="370" y2="290"/>
+    <line x1="410" y1="30" x2="410" y2="290"/>
+    <line x1="450" y1="30" x2="450" y2="290"/>
+    <line x1="490" y1="30" x2="490" y2="290"/>
+    <line x1="530" y1="30" x2="530" y2="290"/>
+  </g>
+
+  <!-- === STRATEGY TEXT === -->
+  <text x="42" y="305" font-family="'Courier New', monospace" font-size="9" fill="#00cc55" opacity="0.7">
+    STRATEGY: A*_PATHFINDING
+    <animate attributeName="textContent" values="STRATEGY: A*_PATHFINDING; STRATEGY: SHORTEST_PATH; STRATEGY: GREEDY_BFS; STRATEGY: A*_PATHFINDING" dur="8s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="220" y="296" width="6" height="10" fill="#00ff88">
+    <animate attributeName="opacity" values="1;0;1" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- === STATUS BAR === -->
+  <rect x="30" y="292" width="540" height="18" fill="#000" rx="2" opacity="0.7"/>
+  <text x="350" y="305" font-family="'Courier New', monospace" font-size="9" fill="#00cc55" opacity="0.9">SPEED: TURBO  |  AI: ENABLED  |  STATUS: RUNNING</text>
+</svg>
