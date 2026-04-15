@@ -2,9 +2,9 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0077D4,100:6e40c9&height=200&section=header&text=Raphasha27&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Co-founder%20of%20Kirov%20Dynamics%20Technology%20%7C%20AI%20Architect&descAlignY=60&animation=twinkling" width="100%" alt="Header Banner"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,50:005571,100:0d1117&height=200&section=header&text=Raphasha27&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Systems%20Architect%20%7C%20Building%20Sovereign%20AI%20Infrastructure%20&descAlignY=60&animation=twinkling" width="100%" alt="Header Banner"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=false&width=1000&lines=Co-Founder+at+Kirov+Dynamics+Technology;Elite+Full-Stack+Architect+%26+AI+Engineer;Expert+in+PostgreSQL+%7C+Supabase+%7C+.NET;Building+Sovereign+AI+Infrastructure;KasiPass+%26+Sumbandila-App+Owner)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&multiline=false&width=1000&lines=Systems+Architect+|+Kirov+Dynamics;Building+Sovereign+AI+Infrastructure;Digital+Trust+Systems+for+the+African+Economy;Elite+Developer+v4.0.0;Sumbandila+Founder)](https://git.io/typing-svg)
 
 <br/>
 
@@ -39,13 +39,35 @@
 
 <img align="right" alt="Coding GIF" width="360" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-I'm an **Elite Software Developer, AI Engineer, and Co-founder of Kirov Dynamics Technology** 🚀. I specialise in architecting high-performance systems and intelligent automation solutions from **Braamfontein, Johannesburg 🇿🇦**.
+I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics** 🚀. I specialise in architecting high-integrity distributed systems and sovereign AI infrastructure from **South Africa 🇿🇦**.
 
-Expertise spans full-stack web development with modern frameworks (React, Next.js), mobile engineering (React Native, Flutter), backend engineering (Node.js, .NET, FastAPI), and AI/ML solutions for predictive analytics and autonomous systems. Proven track record leading projects like KasiPass and building scalable enterprise platforms.
+In **Q4 2025**, I transitioned from academic excellence (graduating with Distinction in Mobile App Development) to co-founding Kirov Dynamics, focusing on the design and structural planning of sovereign infrastructure blueprints for the African continent.
 
-My mission is to build **sovereign AI infrastructure** that empowers communities and businesses with data privacy and mathematical precision to solve complex challenges at scale.
+My work focuses on **Digital Trust**, **Sovereign AI**, and **High-Performance Engineering**. I bridge the gap between complex mathematical models and practical engineering to build solutions that solve national-scale challenges with precision.
+
+Through the integration of the **'Sipho' Persona** in Sumbandila, I champion **Humanized Utility**—ensuring that AI-driven infrastructure remains accessible, empathetic, and grounded in ethical interaction. My philosophy is that engineering should not just be sovereign, but also deeply human-centric.
+
+My mission is to develop **Sovereign AI Infrastructure** that empowers the African economy with data privacy, transparency, and ethical machine intelligence. Through Kirov Dynamics, we are building the blueprint for the continent's digital future.
 
 <br clear="right"/>
+
+---
+
+## ⚖️ Leadership & Governance
+
+As the **Lead Architect for Sumbandila**, I oversee the technical governance and security integrity of the entire ecosystem. In 2026, my focus shifted from high-volume contribution to strategic system scaling and delegated governance.
+
+- **50+ Technical Reviews**: Ensuring 99.9% uptime and zero-trust security compliance across distributed repositories.
+- **Architectural Oversight**: Guiding the transition from experimental prototypes to production-grade sovereign assets.
+- **Security Protocols**: Implementation of automated CI/CD security gates and real-time fraud detection strategies.
+
+<div align="center">
+
+[![Governance](https://img.shields.io/badge/Governance-Lead_Architect-002D62?style=for-the-badge&logo=github&labelColor=0d1117)](#)
+[![Audit](https://img.shields.io/badge/Security-Sovereign_Audit-FFD700?style=for-the-badge&logo=shield&labelColor=0d1117)](#)
+[![Reviews](https://img.shields.io/badge/Reviews-50+_Technical_Audits-3fb950?style=for-the-badge&logo=googlesheets&labelColor=0d1117)](#)
+
+</div>
 
 ---
 
@@ -53,14 +75,15 @@ My mission is to build **sovereign AI infrastructure** that empowers communities
 
 <div align="center">
 
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[KasiPass](https://github.com/Raphasha27/KasiPass)** | Community OS Hub digitising the township economy starting with Atteridgeville. | React Native (Expo), Python FastAPI, PostgreSQL, SQLAlchemy |
-| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | Digital Trust Infrastructure building a decentralised trust ecosystem for identity and fraud prevention. | Scikit-learn, K8s, Supabase, Blockchain Hashing |
-| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | Enterprise distributed rate-limiting engine with Redis Lua scripting & OpenTelemetry observability. | .NET 8, Redis, Docker, Lua |
-| **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | Healthcare ML prediction platform reducing no-shows with predictive analytics. | C#, PyTorch, PostgreSQL, FastAPI |
-| **[AI Job Market Intelligence](https://github.com/Raphasha27/AI-Job-Market)** | Real-time job analytics dashboard with AI-powered resume matching. | React, FastAPI, OpenAI, Tailwind |
-| **[CyberShield Modern](https://github.com/Raphasha27/CyberShield)** | Next-gen SOC dashboard with AI Sentinel integration and real-time threat monitoring. | Angular, D3.js, WebSockets |
+| Project | Status | 2026 Milestone | Role / Focus |
+| :--- | :--- | :--- | :--- |
+| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | 🚀 Active | Integrated Decentralized Trust Ecosystem | **Architect (AI & Blockchain)** |
+| **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | 🧪 Beta | Predictive Analytics Engine (PyTorch/FastAPI) | **Lead AI Engineer** |
+| **[KasiPass](https://github.com/Raphasha27/KasiPass)** | 🏗️ Scaling | Digitizing Atteridgeville Township Economy | **Co-founder / Tech Lead** |
+| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | 🚀 Active | High-Performance Edge Protection | **Performance Engineering** |
+| **[CyberShield Modern](https://github.com/Raphasha27/CyberShield)** | 🧪 Beta | Real-time Visualization & SOC v2 | **Security Visualization** |
+| **[SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | 🚀 Active | Mem-Safe Core Infrastructure | **Core Systems Logic** |
+| **[Kirov-Core](https://github.com/Raphasha27/Kirov-Core)** | 🧪 Beta | Sovereign AI Research v1.0 | **AI Sovereignty Research** |
 
 </div>
 

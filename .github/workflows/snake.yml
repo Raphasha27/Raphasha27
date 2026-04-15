@@ -5,7 +5,7 @@ on:
     branches: ["main"]
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
-  workflow_dispatch:        # Allow manual trigger from Actions tab
+  workflow_dispatch:
 
 permissions:
   contents: write
