@@ -1,4 +1,4 @@
-﻿# Raphasha27 — Software Architect & AI Engineer
+# Raphasha27 — Software Architect & AI Engineer
 
 <div align="center">
 
@@ -25,7 +25,11 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%"/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+</picture>
 
 </div>
 
@@ -168,9 +172,9 @@ Johannesburg, South Africa
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=donut&langs_count=8&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d" height="220" alt="Top Languages Donut"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d&include_all_commits=true&count_private=true&hide_border=false&rank_icon=github" height="220" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=github_dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d&cache_seconds=86400" height="200" alt="Top Languages"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=github_dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d&include_all_commits=true&count_private=true&rank_icon=github&cache_seconds=86400" height="200" alt="GitHub Stats"/>
 
 </div>
 
