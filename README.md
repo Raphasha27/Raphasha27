@@ -19,28 +19,19 @@
 
 <br/>
 
-### 🌌 Live AI Orchestration Dashboard
-<img src="assets/dashboard.svg" width="850" alt="Live AI Dashboard"/>
+## 🌌 Live AI Orchestration Dashboard
+
+<img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/dashboard.svg" width="850" alt="Live AI Dashboard"/>
 
 </div>
 
 ---
 
-## 🐍 Snake Contribution Graph & AI Pathfinding Demo
+## 🐍 Snake Contribution Graph
 
 <div align="center">
 
-### Contribution Snake
-
 <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%"/>
-
-<br/>
-
-### AI Pathfinding Mock Game
-
-<img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/snake_game.svg" width="600" alt="Snake Mock Game — AI Pathfinding"/>
-
-> 🎮 Custom animated **Snake game** — the snake navigates autonomously via **A\* pathfinding** and **Greedy BFS** strategies.
 
 </div>
 
@@ -168,7 +159,7 @@ Johannesburg, South Africa
 <br/>
 
 <div align="center">
-  <img src="assets/horizontal_marquee.svg" width="850" alt="Tech Stack Marquee"/>
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/horizontal_marquee.svg" width="850" alt="Tech Stack Marquee"/>
 </div>
 
 ---
@@ -235,8 +226,7 @@ Johannesburg, South Africa
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,50:0077D4,100:0d1117&height=120&section=footer" width="100%" alt="Footer Banner"/>
 
-*"The best way to predict the future is to build it."*
-
-**⚡ Raphasha27 — Co-founder, Kirov Dynamics | Built with ⚡ by Koketso Raphasha**
+<i>"The best way to predict the future is to build it."</i><br><br>
+<b>⚡ Raphasha27 — Co-founder, Kirov Dynamics | Built with ⚡ by Koketso Raphasha</b>
 
 </div>
