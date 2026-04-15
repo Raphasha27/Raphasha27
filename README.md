@@ -90,7 +90,13 @@ Johannesburg, South Africa
 </table>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/specialized_learning.svg" width="850" alt="Specialized Learning"/>
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="https://img.shields.io/badge/Google-Data_Analytics-4285F4?style=flat-square&logo=google&logoColor=white" height="40"/> <br> **Data Analytics** <br> <sub>Google Professional</sub> | <img src="https://img.shields.io/badge/Google-UX_Design-FBBC05?style=flat-square&logo=google&logoColor=white" height="40"/> <br> **UX Design** <br> <sub>Google Professional</sub> | <img src="https://img.shields.io/badge/IBM-AI_Engineering-1F70C1?style=flat-square&logo=ibm&logoColor=white" height="40"/> <br> **AI Engineering** <br> <sub>IBM Professional</sub> |
+| <img src="https://img.shields.io/badge/YES4Youth-Professional_Dev-FF9D00?style=flat-square&logo=checkmarx&logoColor=white" height="40"/> <br> **Professional Development** <br> <sub>YES4Youth / CapaCiTi</sub> | <img src="https://img.shields.io/badge/University_of_Michigan-Python_for_Everybody-FFCB05?style=flat-square&logo=python&logoColor=00274C" height="40"/> <br> **Python for Everybody** <br> <sub>University of Michigan</sub> | <img src="https://img.shields.io/badge/DeepLearning.AI-Machine_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" height="40"/> <br> **Machine Learning** <br> <sub>DeepLearning.AI</sub> |
+| <img src="https://img.shields.io/badge/Applied_Intelligence-Generative_AI-6e40c9?style=flat-square&logo=openai&logoColor=white" height="40"/> <br> **Generative AI Specialist** <br> <sub>Applied Intelligence</sub> | <img src="https://img.shields.io/badge/Cisco-Cybersecurity-1BA0D7?style=flat-square&logo=cisco&logoColor=white" height="40"/> <br> **Cybersecurity Specialist** <br> <sub>Cisco Academy</sub> | <img src="https://img.shields.io/badge/Microsoft_Azure-Cloud_Infra-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" height="40"/> <br> **Cloud Infrastructure** <br> <sub>Azure Solution Associate</sub> |
+
 </div>
 
 ---
@@ -161,7 +167,17 @@ Johannesburg, South Africa
 ## 📊 GitHub Analytics
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/elite_stats.svg" width="1000" alt="Elite GitHub Analytics"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=donut&langs_count=8&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d" height="220" alt="Top Languages Donut"/>
+   
+<img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&bg_color=0d1117&title_color=FF9D00&text_color=FFFFFF&icon_color=FF9D00&border_color=30363d&include_all_commits=true&count_private=true&hide_border=false&rank_icon=github" height="220" alt="GitHub Stats"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&background=0d1117&fire=FF9D00&ring=FF9D00&currStreakNum=FF9D00&currStreakLabel=FF9D00&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&border=30363d" width="800" alt="Streak Stats"/>
+
 </div>
 
 ---
