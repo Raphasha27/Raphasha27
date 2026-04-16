@@ -4,7 +4,8 @@
     "allowed_elements": [
       "div", "img", "br", "table", "tr", "td", "th",
       "a", "p", "b", "strong", "em", "i", "sup", "sub",
-      "details", "summary", "kbd", "code", "pre"
+      "details", "summary", "kbd", "code", "pre",
+      "picture", "source"
     ]
   },
   "MD013": false,
