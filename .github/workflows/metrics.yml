@@ -13,11 +13,12 @@ jobs:
     permissions:
       contents: write
     env:
-      GH_METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ env.GH_METRICS_TOKEN }}
+          # Your GitHub token
+          token: ${{ env.METRICS_TOKEN }}
           user: Raphasha27
           template: classic
           base: header, activity, community, repositories, metadata
