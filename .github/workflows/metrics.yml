@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write
     env:
-      GH_METRICS_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+      GH_METRICS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: lowlighter/metrics@latest
         with:
