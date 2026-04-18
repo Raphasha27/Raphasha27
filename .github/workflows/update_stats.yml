@@ -35,6 +35,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add assets/github_stats.svg assets/dashboard.svg
+          git add assets/github_stats.svg assets/dashboard.svg || echo "Assets missing"
           git commit -m "Updated GitHub stats and AI Dashboard" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
