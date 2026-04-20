@@ -21,15 +21,11 @@
 
 ---
 
-## 🐍 Snake Contribution Graph
+## 🐍 Contribution Graph
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
-</picture>
+<img src="https://metrics.lecoq.io/Raphasha27?template=classic&plugin_isocalendar=1&plugin_isocalendar_duration=full-year&config_timezone=Africa%2FJohannesburg" width="100%" alt="Isometric Contribution Calendar"/>
 
 </div>
 
@@ -63,9 +59,9 @@ As the **Lead Architect for Sumbandila**, I oversee the technical governance and
 
 <div align="center">
 
-[![Governance](https://img.shields.io/badge/Governance-Lead_Architect-002D62?style=for-the-badge&logo=github&labelColor=0d1117)](#)
-[![Audit](https://img.shields.io/badge/Security-Sovereign_Audit-FFD700?style=for-the-badge&logo=shield&labelColor=0d1117)](#)
-[![Reviews](https://img.shields.io/badge/Reviews-50+_Technical_Audits-3fb950?style=for-the-badge&logo=googlesheets&labelColor=0d1117)](#)
+![Governance](https://img.shields.io/badge/Governance-Lead_Architect-002D62?style=for-the-badge&logo=github&labelColor=0d1117)
+![Audit](https://img.shields.io/badge/Security-Sovereign_Audit-FFD700?style=for-the-badge&logo=shield&labelColor=0d1117)
+![Reviews](https://img.shields.io/badge/Reviews-50+_Technical_Audits-3fb950?style=for-the-badge&logo=googlesheets&labelColor=0d1117)
 
 </div>
 
@@ -204,6 +200,16 @@ Johannesburg, South Africa
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&background=0d1117&fire=FF9D00&ring=FF9D00&currStreakNum=FF9D00&currStreakLabel=FF9D00&sideLabels=FFFFFF&sideNums=FFFFFF&dates=FFFFFF&border=30363d" width="800" alt="Streak Stats"/>
+
+</div>
+
+<div align="center">
+
+### 🚀 Advanced Performance Metrics
+
+<sub>*(Powered by Hosted [metrics.lecoq.io](https://metrics.lecoq.io))*</sub>
+
+<img src="https://metrics.lecoq.io/Raphasha27?template=classic&base=header,activity,community,repositories,metadata&plugin_languages=1&plugin_languages_sections=most-used&plugin_languages_indepth=1&plugin_habits=1&plugin_habits_facts=1&plugin_habits_charts=1&plugin_achievements=1&plugin_achievements_display=detailed&config_timezone=Africa%2FJohannesburg" width="800" alt="Advanced Metrics Dashboard"/>
 
 </div>
 
