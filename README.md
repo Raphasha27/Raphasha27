@@ -222,7 +222,7 @@ Johannesburg, South Africa
 
 <sub>*(Powered by Hosted [metrics.lecoq.io](https://metrics.lecoq.io))*</sub>
 
-<img src="https://metrics.lecoq.io/Raphasha27?template=classic&base=header,activity,community,repositories,metadata&plugin_languages=1&plugin_languages_sections=most-used&plugin_languages_indepth=1&plugin_habits=1&plugin_habits_facts=1&plugin_habits_charts=1&plugin_achievements=1&plugin_achievements_display=detailed&config_timezone=Africa%2FJohannesburg" width="800" alt="Advanced Metrics Dashboard"/>
+<img src="github-metrics.svg" width="800" alt="Advanced Metrics Dashboard"/>
 
 </div>
 

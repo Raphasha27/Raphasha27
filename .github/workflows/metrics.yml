@@ -18,12 +18,12 @@ jobs:
 
       - uses: lowlighter/metrics@latest
         with:
-          # Your GitHub token
           token: ${{ secrets.METRICS_TOKEN }}
           user: Raphasha27
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Africa/Johannesburg
+          filename: github-metrics.svg
           
           # Isometric Calendar
           plugin_isocalendar: yes
@@ -49,3 +49,9 @@ jobs:
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
+          
+      - name: Commit metrics
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: update github-metrics.svg"
+          file_pattern: "*.svg"
