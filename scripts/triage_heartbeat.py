@@ -102,6 +102,32 @@ def has_ci_workflow(repo_name: str) -> bool:
         return False
     return workflows.get("total_count", 0) > 0
 
+
+def get_workflow_hardening(repo_name: str) -> dict:
+    """Checks if workflows have workflow_dispatch and triggers on main."""
+    workflows = gh_get(f"/repos/{USERNAME}/{repo_name}/actions/workflows")
+    if not workflows or not isinstance(workflows, dict):
+        return {"has_dispatch": False, "has_main": False}
+    
+    wf_list = workflows.get("workflows", [])
+    has_dispatch = False
+    has_main = False
+    
+    for wf in wf_list:
+        path = wf.get("path")
+        if not path: continue
+        # Get workflow file content
+        content_data = gh_get(f"/repos/{USERNAME}/{repo_name}/contents/{path}")
+        if content_data and isinstance(content_data, dict):
+            import base64
+            content = base64.b64decode(content_data.get("content", "")).decode("utf-8", errors="ignore")
+            if "workflow_dispatch:" in content:
+                has_dispatch = True
+            if "main" in content and "branches:" in content:
+                has_main = True
+                
+    return {"has_dispatch": has_dispatch, "has_main": has_main}
+
 # ─────────────────────────── Report ───────────────────────────
 
 ICON = {
@@ -161,15 +187,17 @@ def run_triage():
 
         run    = get_latest_run(name)
         dep_prs = get_open_dependabot_prs(name)
+        hardened = get_workflow_hardening(name)
 
         if dep_prs:
             open_dep_prs.append((name, dep_prs))
 
         if run is None:
+            status_str = f"{name}"
             if not has_ci_workflow(name):
-                no_ci.append(name)
+                no_ci.append(status_str)
             else:
-                no_ci.append(f"{name} (workflow exists but no runs yet)")
+                no_ci.append(f"{status_str} (no runs)")
             continue
 
         conclusion = run.get("conclusion") or ""
@@ -178,14 +206,19 @@ def run_triage():
         run_url    = run.get("html_url", "")
         branch     = run.get("head_branch", "?")
 
+        # Hardening info
+        h_tag = ""
+        if hardened["has_dispatch"]: h_tag += " ⚙️"
+        if hardened["has_main"]: h_tag += " ⚠️(main)"
+
         if run_status in ("in_progress", "queued", "waiting"):
-            pending_ci.append((name, icon, run_status, branch, run_url))
+            pending_ci.append((name, icon, run_status, branch, run_url, h_tag))
         elif conclusion in ("failure", "timed_out", "action_required"):
-            failing_ci.append((name, icon, conclusion, branch, run_url))
+            failing_ci.append((name, icon, conclusion, branch, run_url, h_tag))
         elif conclusion in ("success", "neutral", "skipped"):
-            all_green.append(name)
+            all_green.append((name, h_tag))
         else:
-            failing_ci.append((name, icon, conclusion or run_status, branch, run_url))
+            failing_ci.append((name, icon, conclusion or run_status, branch, run_url, h_tag))
 
     # ── Print sections ──────────────────────────────────────────
     print(" " * 55)  # clear spinner line
@@ -193,23 +226,23 @@ def run_triage():
     # GREEN
     print(f"\n  {ICON['ok']}  GREEN ({len(all_green)}):")
     if all_green:
-        for name in all_green:
-            print(f"       • {name}")
+        for name, h_tag in all_green:
+            print(f"       • {name:<40} {h_tag}")
     else:
         print("       (none)")
 
     # PENDING
     if pending_ci:
         print(f"\n  {ICON['pending']}  IN PROGRESS ({len(pending_ci)}):")
-        for name, icon, state, branch, url in pending_ci:
-            print(f"       {icon} {name:<40} [{branch}]")
+        for name, icon, state, branch, url, h_tag in pending_ci:
+            print(f"       {icon} {name:<40} [{branch}] {h_tag}")
             print(f"            {url}")
 
     # FAILING
     if failing_ci:
         print(f"\n  {ICON['fail']}  FAILING ({len(failing_ci)}):")
-        for name, icon, conclusion, branch, url in failing_ci:
-            print(f"       {icon} {name:<40} [{branch}] → {conclusion}")
+        for name, icon, conclusion, branch, url, h_tag in failing_ci:
+            print(f"       {icon} {name:<40} [{branch}] → {conclusion} {h_tag}")
             print(f"            {url}")
 
     # NO CI

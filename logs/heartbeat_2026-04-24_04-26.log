@@ -1,0 +1,137 @@
+﻿
+============================================================
+  KIROV DYNAMICS -- CI HEARTBEAT TRIAGE
+  2026-04-24 04:26 SAST
+============================================================
+
+  Fetching repositories...
+  Scanning 41 repositories...
+
+  [OK] GREEN (17):
+       * ai-job-market-intelligence
+       * aura-weather-ai
+       * convo_chat
+       * finaxis-app
+       * flowsentinel
+       * KasiPass
+       * opsly-saas
+       * pharmalink
+       * Portfolio
+       * restaurant_plan
+       * resume_generator
+       * SMD
+       * Sovereign-AI-Nexus-v2
+       * stunning-octo-system
+       * thuto-ai
+       * ticketza
+       * Website-Generator
+
+  [ERR] FAILING (15):
+       [ERR]  afro_fashion_mobile                       [main] -> failure
+            https://github.com/Raphasha27/afro_fashion_mobile/actions/runs/24852541574
+       [ERR]  AI-Agent                                  [main] -> failure
+            https://github.com/Raphasha27/AI-Agent/actions/runs/24821041840
+       [ERR]  CREATIVE-WRITING-GENERATIVE               [main] -> failure
+            https://github.com/Raphasha27/CREATIVE-WRITING-GENERATIVE/actions/runs/24822615598
+       [ERR]  cybershield_soc                           [master] -> failure
+            https://github.com/Raphasha27/cybershield_soc/actions/runs/24847674799
+       [ERR]  EduStream-Pro-ICT                         [master] -> failure
+            https://github.com/Raphasha27/EduStream-Pro-ICT/actions/runs/24847678549
+       [ERR]  Fire4s-AI-Resume-Builder                  [main] -> failure
+            https://github.com/Raphasha27/Fire4s-AI-Resume-Builder/actions/runs/24821047257
+       [ERR]  Health-Que-System                         [main] -> failure
+            https://github.com/Raphasha27/Health-Que-System/actions/runs/24822613144
+       [ERR]  koketso-swing-calculator                  [main] -> failure
+            https://github.com/Raphasha27/koketso-swing-calculator/actions/runs/24864287437
+       [ERR]  Management-System                         [dependabot/npm_and_yarn/eslint-config-next-16.2.4] -> failure
+            https://github.com/Raphasha27/Management-System/actions/runs/24803480893
+       [ERR]  noshowiq                                  [master] -> failure
+            https://github.com/Raphasha27/noshowiq/actions/runs/24848288975
+       [ERR]  noshowiq-fullstack                        [master] -> failure
+            https://github.com/Raphasha27/noshowiq-fullstack/actions/runs/24848286822
+       [ERR]  Raphasha27                                [main] -> failure
+            https://github.com/Raphasha27/Raphasha27/actions/runs/24869058541
+       [ERR]  Small-Business-Assistant                  [main] -> failure
+            https://github.com/Raphasha27/Small-Business-Assistant/actions/runs/24864288857
+       [ERR]  Sumbandila-App                            [main] -> failure
+            https://github.com/Raphasha27/Sumbandila-App/actions/runs/24821814429
+       [ERR]  SupportHive-C                             [main] -> failure
+            https://github.com/Raphasha27/SupportHive-C/actions/runs/24719181548
+
+  [???] NO CI CONFIGURED (9):
+       * ai-chatkit
+       * AI-CONCEPT-CHATBOT
+       * Bicycle_Management_System
+       * CycleSync
+       * dashboard
+       * Fire4s_Project1_Week1
+       * generate-sa-idnumbers
+       * SeatLock
+       * task_manager
+
+  [KEY] OPEN DEPENDABOT PRs (29):
+       * [AI-Agent] PR #1 -- chore(deps-dev): bump vite from 5.4.21 to 8.0.7 in /frontend
+            https://github.com/Raphasha27/AI-Agent/pull/1
+       * [ai-job-market-intelligence] PR #2 -- Build(deps): Bump the npm_and_yarn group across 1 directory 
+            https://github.com/Raphasha27/ai-job-market-intelligence/pull/2
+       * [aura-weather-ai] PR #2 -- Bump the npm_and_yarn group across 1 directory with 4 update
+            https://github.com/Raphasha27/aura-weather-ai/pull/2
+       * [convo_chat] PR #2 -- Bump the npm_and_yarn group across 1 directory with 6 update
+            https://github.com/Raphasha27/convo_chat/pull/2
+       * [EduStream-Pro-ICT] PR #6 -- Bump the npm_and_yarn group across 2 directories with 12 upd
+            https://github.com/Raphasha27/EduStream-Pro-ICT/pull/6
+       * [finaxis-app] PR #6 -- Bump the npm_and_yarn group across 3 directories with 8 upda
+            https://github.com/Raphasha27/finaxis-app/pull/6
+       * [finaxis-app] PR #2 -- Bump the npm_and_yarn group across 2 directories with 3 upda
+            https://github.com/Raphasha27/finaxis-app/pull/2
+       * [flowsentinel] PR #2 -- Bump the nuget group with 1 update
+            https://github.com/Raphasha27/flowsentinel/pull/2
+       * [KasiPass] PR #7 -- build(deps): bump actions/setup-node from 4 to 6
+            https://github.com/Raphasha27/KasiPass/pull/7
+       * [Management-System] PR #10 -- build(deps-dev): Bump eslint-config-next from 16.1.6 to 16.2
+            https://github.com/Raphasha27/Management-System/pull/10
+       * [Management-System] PR #9 -- build(deps-dev): Bump @types/node from 20.19.31 to 25.6.0
+            https://github.com/Raphasha27/Management-System/pull/9
+       * [Management-System] PR #8 -- build(deps): Bump react and @types/react
+            https://github.com/Raphasha27/Management-System/pull/8
+       * [Management-System] PR #7 -- build(deps-dev): Bump eslint from 9.39.2 to 10.2.1
+            https://github.com/Raphasha27/Management-System/pull/7
+       * [Management-System] PR #6 -- build(deps): Bump recharts from 3.7.0 to 3.8.1
+            https://github.com/Raphasha27/Management-System/pull/6
+       * [Management-System] PR #5 -- build(deps): Bump actions/setup-node from 4 to 6
+            https://github.com/Raphasha27/Management-System/pull/5
+       * [Management-System] PR #4 -- build(deps): Bump actions/checkout from 4 to 6
+            https://github.com/Raphasha27/Management-System/pull/4
+       * [Management-System] PR #3 -- build(deps): Bump the npm_and_yarn group across 1 directory 
+            https://github.com/Raphasha27/Management-System/pull/3
+       * [noshowiq] PR #8 -- Bump the npm_and_yarn group across 1 directory with 2 update
+            https://github.com/Raphasha27/noshowiq/pull/8
+       * [noshowiq-fullstack] PR #16 -- Build(deps): Bump the dependencies group across 1 directory 
+            https://github.com/Raphasha27/noshowiq-fullstack/pull/16
+       * [pharmalink] PR #3 -- chore(deps): bump the npm_and_yarn group across 2 directorie
+            https://github.com/Raphasha27/pharmalink/pull/3
+       * [restaurant_plan] PR #3 -- Bump the npm_and_yarn group across 1 directory with 7 update
+            https://github.com/Raphasha27/restaurant_plan/pull/3
+       * [resume_generator] PR #2 -- Bump the npm_and_yarn group across 1 directory with 6 update
+            https://github.com/Raphasha27/resume_generator/pull/2
+       * [Sovereign-AI-Nexus-v2] PR #5 -- Bump the npm_and_yarn group across 8 directories with 3 upda
+            https://github.com/Raphasha27/Sovereign-AI-Nexus-v2/pull/5
+       * [stunning-octo-system] PR #2 -- chore(deps): bump @xmldom/xmldom from 0.8.12 to 0.8.13 in th
+            https://github.com/Raphasha27/stunning-octo-system/pull/2
+       * [Sumbandila-App] PR #244 -- chore(deps): bump uuid from 3.4.0 to 14.0.0 in the npm_and_y
+            https://github.com/Raphasha27/Sumbandila-App/pull/244
+       * [SupportHive-C] PR #1 -- chore(deps): bump actions/checkout from 4 to 6
+            https://github.com/Raphasha27/SupportHive-C/pull/1
+       * [thuto-ai] PR #5 -- Bump the npm_and_yarn group across 3 directories with 10 upd
+            https://github.com/Raphasha27/thuto-ai/pull/5
+       * [ticketza] PR #3 -- build(deps): bump the npm_and_yarn group across 2 directorie
+            https://github.com/Raphasha27/ticketza/pull/3
+       * [Website-Generator] PR #2 -- build(deps-dev): Bump the npm_and_yarn group across 1 direct
+            https://github.com/Raphasha27/Website-Generator/pull/2
+
+============================================================
+  CRITICAL 41%  |  17 OK  15 FAIL  0 RUNNING  9 NO-CI
+  Dependabot PRs pending: 29
+  Log saved: C:\Users\nelso\OneDrive\Desktop\git\profile-repo\scripts\..\logs\heartbeat_2026-04-24_04-26.log
+============================================================
+
