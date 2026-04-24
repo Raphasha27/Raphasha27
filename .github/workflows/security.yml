@@ -1,24 +1,17 @@
 name: Security Audit
 
 on:
-  workflow_dispatch:
 
-  push:
+  push: 
     branches: [ master ]
-  pull_request:
+  pull_request: 
     branches: [ master ]
   schedule:
     - cron:
-  workflow_dispatch:
- '0 0 * * 1' # Weekly scan
 
-jobs:
-  security_scan:
+  security_scan: 
     name: Security Scan (Trivy)
-    runs-on:
-  workflow_dispatch:
- ubuntu-latest
-    steps:
+    runs-on: steps:
       - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
@@ -28,4 +21,3 @@ jobs:
           format: 'table'
           exit-code: '0'
           severity: 'CRITICAL,HIGH'
-

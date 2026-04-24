@@ -265,10 +265,19 @@ def run_triage():
     pct_green    = round(len(all_green) / total * 100) if total else 0
     health_emoji = "🟢" if pct_green >= 90 else ("🟡" if pct_green >= 70 else "🔴")
 
+    # Hardening stats
+    count_dispatch = sum(1 for _, h in all_green if "⚙️" in h) + \
+                     sum(1 for _, _, _, _, _, h in failing_ci if "⚙️" in h) + \
+                     sum(1 for _, _, _, _, _, h in pending_ci if "⚙️" in h)
+    count_main = sum(1 for _, h in all_green if "⚠️" in h) + \
+                 sum(1 for _, _, _, _, _, h in failing_ci if "⚠️" in h) + \
+                 sum(1 for _, _, _, _, _, h in pending_ci if "⚠️" in h)
+
     print()
     print("━" * 60)
     print(f"  {health_emoji}  HEALTH: {pct_green}% green  |  "
           f"{len(all_green)} ✅  {len(failing_ci)} ❌  {len(pending_ci)} 🔄  {len(no_ci)} ℹ️")
+    print(f"  🛡️  HARDENING: {count_dispatch} ⚙️ (dispatch)  |  {count_main} ⚠️ (main triggers)")
     print(f"  📬  Dependabot PRs waiting: "
           f"{sum(len(p) for _, p in open_dep_prs)}")
     print("━" * 60)

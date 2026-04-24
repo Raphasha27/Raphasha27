@@ -1,23 +1,16 @@
 name: 🏛️ Kirov CI Heartbeat
 
 on:
-  schedule:
-    # Run every day at 06:00 UTC (08:00 SAST)
-    - cron: '0 6 * * *'
   workflow_dispatch:
-    inputs:
-      reason:
-        description: 'Manual trigger reason'
-        required: false
-        default: 'Manual health check'
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  triage:
+  triage: 
     name: Repository Health Triage
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
+    runs-on: contents: read
 
     steps:
       - name: Checkout
@@ -26,13 +19,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
-          cache: 'pip'
-
-      - name: Install dependencies
+          python-version: - name: Install dependencies
         run: pip install requests
 
       - name: Run Heartbeat Triage
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        env: 
+    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/triage_heartbeat.py
+  security_scan: 
+    name: Security Scan (Trivy)
+    runs-on: - uses: actions/checkout@v4
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: 'fs'
+          ignore-unfixed: true
+          format: 'table'
+          exit-code: '0'
+          severity: 'CRITICAL,HIGH'
