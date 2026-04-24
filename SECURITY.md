@@ -1,1 +1,3 @@
-﻿Security Policy: Report vulnerabilities via GitHub.
+﻿# Security Policy
+
+Security Policy: Report vulnerabilities via GitHub.

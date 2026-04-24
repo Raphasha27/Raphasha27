@@ -1,1 +1,3 @@
-﻿Standard Code of Conduct applied.
+﻿# Code of Conduct
+
+Standard Code of Conduct applied.
