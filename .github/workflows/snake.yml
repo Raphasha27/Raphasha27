@@ -11,7 +11,7 @@ jobs:
   generate:
     permissions: 
     contents: write
-    runs-on: steps:
+    runs-on: ubuntu-latest
       - name: Checkout repo
         uses: actions/checkout@v4
 
@@ -34,8 +34,9 @@ jobs:
     GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
   security_scan: 
     name: Security Scan (Trivy)
-    runs-on: -
-    uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:

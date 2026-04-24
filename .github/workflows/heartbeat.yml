@@ -1,4 +1,4 @@
-name: ğŸ›ï¸ Kirov CI Heartbeat
+name: ğŸ›ï¸ Kirov CI Heartbeat
 
 on:
   workflow_dispatch:
@@ -10,7 +10,7 @@ on:
 jobs:
   triage: 
     name: Repository Health Triage
-    runs-on: contents: read
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: -
+          python-version: '3.11'
     name: Install dependencies
         run: pip install requests
 
@@ -29,8 +29,9 @@ jobs:
         run: python scripts/triage_heartbeat.py
   security_scan: 
     name: Security Scan (Trivy)
-    runs-on: -
-    uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:

@@ -9,7 +9,7 @@ on:
 
 jobs:
   github-metrics:
-    runs-on: contents: write
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
@@ -53,8 +53,9 @@ jobs:
           file_pattern: "*.svg"
   security_scan: 
     name: Security Scan (Trivy)
-    runs-on: -
-    uses: actions/checkout@v4
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
