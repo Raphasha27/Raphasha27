@@ -45,8 +45,16 @@ function Get-GH {
             throw
         }
         $data = $resp.Content | ConvertFrom-Json
-        if ($data -is [array]) {
-            $results.AddRange($data)
+        # PS5: ConvertFrom-Json returns PSCustomObject even for arrays; check for array wrapper
+        if ($data -is [System.Array]) {
+            $results.AddRange([object[]]$data)
+        } elseif ($data.PSObject.Properties.Name -contains 'workflow_runs' -or
+                  $data.PSObject.Properties.Name -contains 'total_count') {
+            # It's a wrapped object, return as-is
+            return $data
+        } elseif ($null -ne $data -and $data -isnot [string]) {
+            # Could be a single object or array — try treating as array
+            try { $results.AddRange([object[]]$data) } catch { return $data }
         } else {
             return $data
         }
@@ -162,11 +170,11 @@ foreach ($repo in $repos) {
         continue
     }
 
-    $conclusion = $run.conclusion ?? ""
-    $status     = $run.status    ?? ""
+    $conclusion = if ($run.conclusion) { $run.conclusion } else { "" }
+    $status     = if ($run.status)     { $run.status     } else { "" }
     $icon       = Get-StatusIcon $conclusion $status
-    $branch     = $run.head_branch ?? "?"
-    $url        = $run.html_url   ?? ""
+    $branch     = if ($run.head_branch) { $run.head_branch } else { "?" }
+    $url        = if ($run.html_url)    { $run.html_url    } else { "" }
 
     if ($status -in "in_progress","queued","waiting") {
         $pendingCI.Add(@{Name=$name; Icon=$icon; State=$status; Branch=$branch; Url=$url})
