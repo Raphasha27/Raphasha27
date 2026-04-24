@@ -2,8 +2,10 @@
 
 <div align="center">
   <img src="assets/kirov_logo.png" width="120" alt="Kirov Dynamics Logo"/>
-  <h1>Kirov Dynamics Technology</h1>
-  <p><i>The Blueprint for Africa's Digital Future.</i></p>
+
+# Kirov Dynamics Technology
+*The Blueprint for Africa's Digital Future.*
+
 </div>
 
 <div align="center">
