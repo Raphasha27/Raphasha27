@@ -1,8 +1,14 @@
 # Raphasha27 — Software Architect & AI Engineer
 
 <div align="center">
+  <img src="assets/kirov_logo.png" width="120" alt="Kirov Dynamics Logo"/>
+  <h1>Kirov Dynamics Technology</h1>
+  <p><i>The Blueprint for Africa's Digital Future.</i></p>
+</div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:002D62,50:005571,100:0d1117&height=200&section=header&text=Raphasha27&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Systems%20Architect%20%7C%20Building%20Sovereign%20AI%20Infrastructure%20&descAlignY=60&animation=twinkling" width="100%" alt="Header Banner"/>
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=200&section=header&text=Kirov%20Dynamics&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=Sovereign%20AI%20Infrastructure%20&descAlignY=60&animation=twinkling" width="100%" alt="Header Banner"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&multiline=false&width=1000&lines=Systems+Architect+|+Kirov+Dynamics;Building+Sovereign+AI+Infrastructure;Digital+Trust+Systems+for+the+African+Economy;Elite+Developer+v4.0.0;Sumbandila+Founder)](https://git.io/typing-svg)
 
@@ -73,7 +79,7 @@ As the **Lead Architect for Sumbandila**, I oversee the technical governance and
 
 | Project | Status | 2026 Milestone | Role / Focus |
 | :--- | :--- | :--- | :--- |
-| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | 🚀 Active | Integrated Decentralized Trust Ecosystem | **Architect (AI & Blockchain)** |
+| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | 🚀 Production | Next.js Modern Portal & TensorFlow Engine | **Architect (Neural Sentinel)** |
 | **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | 🧪 Beta | Predictive Analytics Engine (PyTorch/FastAPI) | **Lead AI Engineer** |
 | **[KasiPass](https://github.com/Raphasha27/KasiPass)** | 🏗️ Scaling | Digitizing Atteridgeville Township Economy | **Co-founder / Tech Lead** |
 | **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | 🚀 Active | High-Performance Edge Protection | **Performance Engineering** |
