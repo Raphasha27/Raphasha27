@@ -34,7 +34,8 @@ jobs:
     GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
   security_scan: 
     name: Security Scan (Trivy)
-    runs-on: - uses: actions/checkout@v4
+    runs-on: -
+    uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:

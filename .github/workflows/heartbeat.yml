@@ -19,7 +19,8 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: - name: Install dependencies
+          python-version: -
+    name: Install dependencies
         run: pip install requests
 
       - name: Run Heartbeat Triage
@@ -28,7 +29,8 @@ jobs:
         run: python scripts/triage_heartbeat.py
   security_scan: 
     name: Security Scan (Trivy)
-    runs-on: - uses: actions/checkout@v4
+    runs-on: -
+    uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
