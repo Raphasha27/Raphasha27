@@ -22,6 +22,7 @@ on:
   security_scan: 
     name: Security Scan (Trivy)
     runs-on: ubuntu-latest
+    steps:
       - uses: actions/checkout@v4
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
