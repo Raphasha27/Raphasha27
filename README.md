@@ -235,7 +235,7 @@ Johannesburg, South Africa
     <tr>
       <td><img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/main/assets/qr_code.png" width="150" alt="QR Code"></td>
       <td valign="middle">
-        <a href="mailto:raphashakokets69@gmail.com">
+        <a href="mailto:raphashakoketso69@gmail.com">
           <img src="https://img.shields.io/badge/Personal-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email"/>
         </a><br>
         <a href="mailto:koketso.raphasha@capaciti.org.za">
