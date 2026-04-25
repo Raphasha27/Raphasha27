@@ -29,11 +29,13 @@
 I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technology 🚀** based in Johannesburg, South Africa.
 
 **Education & Training:**
+
 - 🎓 **BSc Information Technology** — Richfield Graduate Institute of Technology *(2025 Graduate)*
 - 🏅 **Distinction in Mobile App Development**
 - 📋 **12-Month CAPACITI ICT Learnership Programme** — Industry-integrated software engineering with real-world project delivery
 
 **Currently:**
+
 - 🏢 **Co-Founder & Systems Architect** @ Kirov Dynamics Technology
 - 💼 **Freelance Developer** — Available for full-stack, AI/ML, and DevOps projects
 - 🎯 **Open to Employment** — Full-time and remote roles in software engineering
@@ -55,7 +57,7 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ## 🌍 Industries
 
-```
+```text
 🏦 FinTech & Digital Payments      🏥 HealthTech (Queuing Systems)
 🔐 Cybersecurity & SOC             🎓 EdTech (EduStream Pro)
 🚗 Mobility & Logistics            🌾 AgriTech (Sovereign Supply Chains)
