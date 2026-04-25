@@ -1,4 +1,4 @@
-# Koketso Raphasha — Systems Architect & AI Engineer
+﻿# Koketso Raphasha â€” Systems Architect & AI Engineer
 
 <div align="center">
 
@@ -25,27 +25,27 @@
 
 ---
 
-## 👨‍💻 About Me
+## ðŸ‘¨â€ðŸ’» About Me
 
 <img align="right" alt="Coding GIF" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technology 🚀** based in Johannesburg, South Africa.
+I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technology ðŸš€** based in Johannesburg, South Africa.
 
 **Education & Training:**
 
-- 🎓 **BSc Information Technology** — Richfield Graduate Institute of Technology *(2025 Graduate)*
-- 🏅 **Distinction in Mobile App Development**
-- 📋 **12-Month CAPACITI ICT Learnership Programme** — Industry-integrated software engineering with real-world project delivery
+- ðŸŽ“ **BSc Information Technology** â€” Richfield Graduate Institute of Technology *(2025 Graduate)*
+- ðŸ… **Distinction in Mobile App Development**
+- ðŸ“‹ **12-Month CAPACITI ICT Learnership Programme** â€” Industry-integrated software engineering with real-world project delivery
 
 **Currently:**
 
-- 🏢 **Co-Founder & Systems Architect** @ Kirov Dynamics Technology
-- 💼 **Freelance Developer** — Available for full-stack, AI/ML, and DevOps projects
-- 🎯 **Open to Employment** — Full-time and remote roles in software engineering
+- ðŸ¢ **Co-Founder & Systems Architect** @ Kirov Dynamics Technology
+- ðŸ’¼ **Freelance Developer** â€” Available for full-stack, AI/ML, and DevOps projects
+- ðŸŽ¯ **Open to Employment** â€” Full-time and remote roles in software engineering
 
 ---
 
-## 🏗️ What I Build
+## ðŸ—ï¸ What I Build
 
 | Domain | Technologies | Products |
 | :--- | :--- | :--- |
@@ -58,31 +58,31 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## 🌍 Industries
+## ðŸŒ Industries
 
 ```text
-🏦 FinTech & Digital Payments      🏥 HealthTech (Queuing Systems)
-🔐 Cybersecurity & SOC             🎓 EdTech (EduStream Pro)
-🚗 Mobility & Logistics            🌾 AgriTech (Sovereign Supply Chains)
-⚡ Energy (Solar Grid Sentinel)    🛒 Retail & Hospitality (SaaS)
+ðŸ¦ FinTech & Digital Payments      ðŸ¥ HealthTech (Queuing Systems)
+ðŸ” Cybersecurity & SOC             ðŸŽ“ EdTech (EduStream Pro)
+ðŸš— Mobility & Logistics            ðŸŒ¾ AgriTech (Sovereign Supply Chains)
+âš¡ Energy (Solar Grid Sentinel)    ðŸ›’ Retail & Hospitality (SaaS)
 ```
 
 ---
 
-## 🚀 Flagship Projects
+## ðŸš€ Flagship Projects
 
 | Project | Stack | Status |
 | :--- | :--- | :--- |
-| [**Opsly SaaS**](https://github.com/Raphasha27/opsly-saas) | Next.js · FastAPI · AI Risk Engine | 🟢 Live |
-| [**Sumbandila Platform**](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14 · Neural Sentinel · Sovereign APIs | 🟢 Live |
-| [**FlowSentinel**](https://github.com/Raphasha27/flowsentinel) | C# · .NET · Security Monitoring | 🟡 Beta |
-| [**Kirov DataLab**](https://github.com/Raphasha27/kirov-datalab) | Python · Streamlit · Scikit-Learn | 🟢 Live |
-| [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | D3.js · SIEM · Threat Maps | 🟢 Live |
-| [**SeatLock**](https://github.com/Raphasha27/SeatLock) | C++ · High-Performance Engine | 🟡 Beta |
+| [**Opsly SaaS**](https://github.com/Raphasha27/opsly-saas) | Next.js Â· FastAPI Â· AI Risk Engine | ðŸŸ¢ Live |
+| [**Sumbandila Platform**](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14 Â· Neural Sentinel Â· Sovereign APIs | ðŸŸ¢ Live |
+| [**FlowSentinel**](https://github.com/Raphasha27/flowsentinel) | C# Â· .NET Â· Security Monitoring | ðŸŸ¡ Beta |
+| [**Kirov DataLab**](https://github.com/Raphasha27/kirov-datalab) | Python Â· Streamlit Â· Scikit-Learn | ðŸŸ¢ Live |
+| [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | D3.js Â· SIEM Â· Threat Maps | ðŸŸ¢ Live |
+| [**SeatLock**](https://github.com/Raphasha27/SeatLock) | C++ Â· High-Performance Engine | ðŸŸ¡ Beta |
 
 ---
 
-## 🛠️ Tech Stack
+## ðŸ› ï¸ Tech Stack
 
 <div align="center">
 
@@ -109,7 +109,7 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## 📊 GitHub Activity
+## ðŸ“Š GitHub Activity
 
 <div align="center">
 
@@ -126,7 +126,7 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## 🐍 Contribution Graph
+## ðŸ Contribution Graph
 
 <div align="center">
 
@@ -140,23 +140,23 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## 🎓 Credentials & Experience
+## ðŸŽ“ Credentials & Experience
 
 ```text
-🏛️  BSc Information Technology                     Richfield Graduate Institute of Technology, 2025
-🏅  Distinction — Mobile App Development            Richfield Graduate Institute of Technology, 2025
-📋  12-Month CAPACITI ICT Learnership               CAPACITI, Johannesburg (Industry-Integrated Programme)
-🏢  Co-Founder & Systems Architect                  Kirov Dynamics Technology, 2025–Present
-💼  Freelance Full-Stack & AI Engineer              Available — Remote & Johannesburg-based
+ðŸ›ï¸  BSc Information Technology                     Richfield Graduate Institute of Technology, 2025
+ðŸ…  Distinction â€” Mobile App Development            Richfield Graduate Institute of Technology, 2025
+ðŸ“‹  12-Month CAPACITI ICT Learnership               CAPACITI, Johannesburg (Industry-Integrated Programme)
+ðŸ¢  Co-Founder & Systems Architect                  Kirov Dynamics Technology, 2025â€“Present
+ðŸ’¼  Freelance Full-Stack & AI Engineer              Available â€” Remote & Johannesburg-based
 ```
 
 ---
 
-## 📬 Connect
+## ðŸ“¬ Connect
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/ðŸŒ%20Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/koketso-raphasha)
 [![GitHub](https://img.shields.io/badge/GitHub-Raphasha27-181717?style=for-the-badge&logo=github)](https://github.com/Raphasha27)
 [![Email](https://img.shields.io/badge/Email-Available-EA4335?style=for-the-badge&logo=gmail)](mailto:koketso.raphasha@kirov.local)
@@ -165,17 +165,17 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## 🧭 Philosophy & Vision
+## ðŸ§­ Philosophy & Vision
 
 <img align="right" alt="Coding GIF" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
 
-I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics** 🚀. I specialise in architecting high-integrity distributed systems and sovereign AI infrastructure from **South Africa 🇿🇦**.
+I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics** ðŸš€. I specialise in architecting high-integrity distributed systems and sovereign AI infrastructure from **South Africa ðŸ‡¿ðŸ‡¦**.
 
-In **Q4 2025**, I transitioned from academic excellence — graduating with a **Distinction in Mobile App Development** from Richfield Graduate Institute of Technology and completing a **12-month CAPACITI ICT Learnership** — to co-founding Kirov Dynamics Technology, focusing on sovereign infrastructure blueprints for the African continent.
+In **Q4 2025**, I transitioned from academic excellence â€” graduating with a **Distinction in Mobile App Development** from Richfield Graduate Institute of Technology and completing a **12-month CAPACITI ICT Learnership** â€” to co-founding Kirov Dynamics Technology, focusing on sovereign infrastructure blueprints for the African continent.
 
 My work focuses on **Digital Trust**, **Sovereign AI**, and **High-Performance Engineering**. I bridge the gap between complex mathematical models and practical engineering to build solutions that solve national-scale challenges with precision.
 
-Through the integration of the **'Sipho' Persona** in Sumbandila, I champion **Humanized Utility** — ensuring that AI-driven infrastructure remains accessible, empathetic, and grounded in ethical interaction. My philosophy is that engineering should not just be sovereign, but also deeply human-centric.
+Through the integration of the **'Sipho' Persona** in Sumbandila, I champion **Humanized Utility** â€” ensuring that AI-driven infrastructure remains accessible, empathetic, and grounded in ethical interaction. My philosophy is that engineering should not just be sovereign, but also deeply human-centric.
 
 <br clear="right"/>
 
