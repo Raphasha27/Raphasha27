@@ -1,4 +1,7 @@
+# Koketso Raphasha — Systems Architect & AI Engineer
+
 <div align="center">
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=220&section=header&text=Kirov%20Dynamics&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Sovereign%20AI%20Infrastructure%20%7C%20African%20Digital%20Future&descAlignY=60&animation=twinkling" width="100%" alt="Kirov Dynamics Header"/>
 
