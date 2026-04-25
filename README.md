@@ -142,7 +142,7 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ## 🎓 Credentials & Experience
 
-```
+```text
 🏛️  BSc Information Technology                     Richfield Graduate Institute of Technology, 2025
 🏅  Distinction — Mobile App Development            Richfield Graduate Institute of Technology, 2025
 📋  12-Month CAPACITI ICT Learnership               CAPACITI, Johannesburg (Industry-Integrated Programme)
