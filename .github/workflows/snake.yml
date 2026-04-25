@@ -1,48 +1,36 @@
-name: Generate Snake
+name: Generate Contribution Snake
 
 on:
+  schedule:
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    branches:
+      - main
+
+permissions:
+  contents: write
 
 jobs:
   generate:
-    permissions: 
-    contents: write
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk@v3
-        with: 
-    github_user_name: ${{ github.repository_owner }}
+      - name: Generate snake animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Raphasha27
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env: 
-    GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
 
-      - name: push github-contribution-grid-snake.svg to the output branch
+      - name: Push snake to output branch
         uses: crazy-max/ghaction-github-pages@v4
-        with: 
-    target_branch: output
-          build_dir: dist
-        env: 
-    GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
-  security_scan: 
-    name: Security Scan (Trivy)
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@master
         with:
-          scan-type: 'fs'
-          ignore-unfixed: true
-          format: 'table'
-          exit-code: '0'
-          severity: 'CRITICAL,HIGH'
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
