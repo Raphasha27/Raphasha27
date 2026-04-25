@@ -1,19 +1,8 @@
-﻿# Koketso Raphasha â€” Systems Architect & AI Engineer
+# Koketso Raphasha - Systems Architect & AI Engineer
 
-<div align="center">
+![Kirov Dynamics Header](https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=220&section=header&text=Kirov%20Dynamics&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Sovereign%20AI%20Infrastructure%20%7C%20African%20Digital%20Future&descAlignY=60&animation=twinkling)
 
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=220&section=header&text=Kirov%20Dynamics&fontSize=65&fontColor=ffffff&fontAlignY=38&desc=Sovereign%20AI%20Infrastructure%20%7C%20African%20Digital%20Future&descAlignY=60&animation=twinkling" width="100%" alt="Kirov Dynamics Header"/>
-
-</div>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&multiline=false&width=1000&lines=Systems+Architect+%7C+Kirov+Dynamics+Co-Founder;BSc+IT+Graduate+%7C+Richfield+2025+%F0%9F%8E%93;Distinction+in+Mobile+App+Development;12-Month+CAPACITI+ICT+Programme+Alumni;Building+Sovereign+AI+for+Africa+%F0%9F%87%BF%F0%9F%87%A6;Open+to+Employment+%26+Freelance+Opportunities)](https://github.com/Raphasha27)
-
-</div>
-
-<div align="center">
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=FFD700&center=true&vCenter=true&multiline=false&width=1000&lines=Systems+Architect+%7C+Kirov+Dynamics+Co-Founder;BSc+IT+Graduate+%7C+Richfield+2025;Distinction+in+Mobile+App+Development;12-Month+CAPACITI+ICT+Programme+Alumni;Building+Sovereign+AI+for+Africa;Open+to+Employment+%26+Freelance+Opportunities)](https://github.com/Raphasha27)
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&label=Profile+Views&color=0077D4&style=for-the-badge)](https://github.com/Raphasha27)
 [![GitHub followers](https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=58a6ff&labelColor=0d1117)](https://github.com/Raphasha27?tab=followers)
@@ -21,31 +10,27 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
 [![Available for Hire](https://img.shields.io/badge/Status-Open%20to%20Work-00c853?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
 
-</div>
-
 ---
 
-## ðŸ‘¨â€ðŸ’» About Me
+## About Me
 
-<img align="right" alt="Coding GIF" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
-
-I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technology ðŸš€** based in Johannesburg, South Africa.
+I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technology** based in Johannesburg, South Africa.
 
 **Education & Training:**
 
-- ðŸŽ“ **BSc Information Technology** â€” Richfield Graduate Institute of Technology *(2025 Graduate)*
-- ðŸ… **Distinction in Mobile App Development**
-- ðŸ“‹ **12-Month CAPACITI ICT Learnership Programme** â€” Industry-integrated software engineering with real-world project delivery
+- BSc Information Technology -- Richfield Graduate Institute of Technology *(2025 Graduate)*
+- Distinction in Mobile App Development
+- 12-Month CAPACITI ICT Learnership Programme -- Industry-integrated software engineering
 
 **Currently:**
 
-- ðŸ¢ **Co-Founder & Systems Architect** @ Kirov Dynamics Technology
-- ðŸ’¼ **Freelance Developer** â€” Available for full-stack, AI/ML, and DevOps projects
-- ðŸŽ¯ **Open to Employment** â€” Full-time and remote roles in software engineering
+- Co-Founder & Systems Architect @ Kirov Dynamics Technology
+- Freelance Developer -- Available for full-stack, AI/ML, and DevOps projects
+- Open to Employment -- Full-time and remote roles in software engineering
 
 ---
 
-## ðŸ—ï¸ What I Build
+## What I Build
 
 | Domain | Technologies | Products |
 | :--- | :--- | :--- |
@@ -58,33 +43,33 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 ---
 
-## ðŸŒ Industries
+## Industries
 
 ```text
-ðŸ¦ FinTech & Digital Payments      ðŸ¥ HealthTech (Queuing Systems)
-ðŸ” Cybersecurity & SOC             ðŸŽ“ EdTech (EduStream Pro)
-ðŸš— Mobility & Logistics            ðŸŒ¾ AgriTech (Sovereign Supply Chains)
-âš¡ Energy (Solar Grid Sentinel)    ðŸ›’ Retail & Hospitality (SaaS)
+FinTech & Digital Payments      HealthTech (Queuing Systems)
+Cybersecurity & SOC             EdTech (EduStream Pro)
+Mobility & Logistics            AgriTech (Sovereign Supply Chains)
+Energy (Solar Grid Sentinel)    Retail & Hospitality (SaaS)
 ```
 
 ---
 
-## ðŸš€ Flagship Projects
+## Flagship Projects
+
+> All projects are stored on GitHub as future deployments. Code is clean, tested, and ready for production once funded.
 
 | Project | Stack | Status |
 | :--- | :--- | :--- |
-| [**Opsly SaaS**](https://github.com/Raphasha27/opsly-saas) | Next.js Â· FastAPI Â· AI Risk Engine | ðŸŸ¢ Live |
-| [**Sumbandila Platform**](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14 Â· Neural Sentinel Â· Sovereign APIs | ðŸŸ¢ Live |
-| [**FlowSentinel**](https://github.com/Raphasha27/flowsentinel) | C# Â· .NET Â· Security Monitoring | ðŸŸ¡ Beta |
-| [**Kirov DataLab**](https://github.com/Raphasha27/kirov-datalab) | Python Â· Streamlit Â· Scikit-Learn | ðŸŸ¢ Live |
-| [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | D3.js Â· SIEM Â· Threat Maps | ðŸŸ¢ Live |
-| [**SeatLock**](https://github.com/Raphasha27/SeatLock) | C++ Â· High-Performance Engine | ðŸŸ¡ Beta |
+| [Opsly SaaS](https://github.com/Raphasha27/opsly-saas) | Next.js, FastAPI, AI Risk Engine | In Development |
+| [Sumbandila Platform](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14, Neural Sentinel | In Development |
+| [FlowSentinel](https://github.com/Raphasha27/flowsentinel) | C#, .NET, Security Monitoring | In Development |
+| [Kirov DataLab](https://github.com/Raphasha27/kirov-datalab) | Python, Streamlit, Scikit-Learn | In Development |
+| [CyberShield SOC](https://github.com/Raphasha27/cybershield_soc) | D3.js, SIEM, Threat Maps | In Development |
+| [SeatLock](https://github.com/Raphasha27/SeatLock) | C++, High-Performance Engine | In Development |
 
 ---
 
-## ðŸ› ï¸ Tech Stack
-
-<div align="center">
+## Tech Stack
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -92,43 +77,25 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-</div>
 
 ---
 
-## ðŸ“Š GitHub Activity
+## GitHub Activity
 
-<div align="center">
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=ffd700&text_color=c9d1d9)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=ffd700&fire=ff6b6b&currStreakLabel=58a6ff)
 
-<img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=ffd700&text_color=c9d1d9" width="49%" alt="GitHub Stats"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=ffd700&fire=ff6b6b&currStreakLabel=58a6ff" width="49%" alt="GitHub Streak"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10" width="49%" alt="Top Languages"/>
-
-</div>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=10)
 
 ---
 
-## ðŸ Contribution Graph
-
-<div align="center">
+## Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg"/>
@@ -136,51 +103,34 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
   <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg"/>
 </picture>
 
-</div>
-
 ---
 
-## ðŸŽ“ Credentials & Experience
+## Credentials & Experience
 
 ```text
-ðŸ›ï¸  BSc Information Technology                     Richfield Graduate Institute of Technology, 2025
-ðŸ…  Distinction â€” Mobile App Development            Richfield Graduate Institute of Technology, 2025
-ðŸ“‹  12-Month CAPACITI ICT Learnership               CAPACITI, Johannesburg (Industry-Integrated Programme)
-ðŸ¢  Co-Founder & Systems Architect                  Kirov Dynamics Technology, 2025â€“Present
-ðŸ’¼  Freelance Full-Stack & AI Engineer              Available â€” Remote & Johannesburg-based
+BSc Information Technology         Richfield Graduate Institute of Technology, 2025
+Distinction - Mobile App Dev       Richfield Graduate Institute of Technology, 2025
+12-Month CAPACITI ICT Learnership  CAPACITI, Johannesburg (Industry-Integrated Programme)
+Co-Founder & Systems Architect     Kirov Dynamics Technology, 2025-Present
+Freelance Full-Stack & AI Engineer Available - Remote & Johannesburg-based
 ```
 
 ---
 
-## ðŸ“¬ Connect
+## Connect
 
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/ðŸŒ%20Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/koketso-raphasha)
 [![GitHub](https://img.shields.io/badge/GitHub-Raphasha27-181717?style=for-the-badge&logo=github)](https://github.com/Raphasha27)
-[![Email](https://img.shields.io/badge/Email-Available-EA4335?style=for-the-badge&logo=gmail)](mailto:koketso.raphasha@kirov.local)
-
-</div>
 
 ---
 
-## ðŸ§­ Philosophy & Vision
+## Philosophy & Vision
 
-<img align="right" alt="Coding GIF" width="340" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics** based in South Africa.
 
-I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics** ðŸš€. I specialise in architecting high-integrity distributed systems and sovereign AI infrastructure from **South Africa ðŸ‡¿ðŸ‡¦**.
+In **Q4 2025**, I transitioned from academic excellence -- graduating with a **Distinction in Mobile App Development** from Richfield Graduate Institute of Technology and completing a **12-month CAPACITI ICT Learnership** -- to co-founding Kirov Dynamics Technology.
 
-In **Q4 2025**, I transitioned from academic excellence â€” graduating with a **Distinction in Mobile App Development** from Richfield Graduate Institute of Technology and completing a **12-month CAPACITI ICT Learnership** â€” to co-founding Kirov Dynamics Technology, focusing on sovereign infrastructure blueprints for the African continent.
+My work focuses on **Digital Trust**, **Sovereign AI**, and **High-Performance Engineering** for the African continent. Through the **Sipho Persona** in Sumbandila, I champion Humanized Utility -- ensuring AI infrastructure remains accessible, empathetic, and deeply human-centric.
 
-My work focuses on **Digital Trust**, **Sovereign AI**, and **High-Performance Engineering**. I bridge the gap between complex mathematical models and practical engineering to build solutions that solve national-scale challenges with precision.
-
-Through the integration of the **'Sipho' Persona** in Sumbandila, I champion **Humanized Utility** â€” ensuring that AI-driven infrastructure remains accessible, empathetic, and grounded in ethical interaction. My philosophy is that engineering should not just be sovereign, but also deeply human-centric.
-
-<br clear="right"/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=120&section=footer" width="100%" alt="Footer"/>
-
-</div>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:003366,50:005571,100:0d1117&height=120&section=footer)
