@@ -25,8 +25,8 @@ jobs:
 
           # Isometric Calendar
           plugin_isocalendar: yes
-          plugin_isocalendar_duration:
-   plugin_languages: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
           plugin_languages_ignored: html, css
           plugin_languages_details: lines, percentage
           plugin_languages_sections: most-used
@@ -49,7 +49,7 @@ jobs:
       - name: Commit metrics
         uses: stefanzweifel/git-auto-commit-action@v5
         with: 
-    commit_message: "docs: update github-metrics.svg"
+          commit_message: "docs: update github-metrics.svg"
           file_pattern: "*.svg"
   security_scan: 
     name: Security Scan (Trivy)

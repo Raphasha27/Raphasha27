@@ -3,23 +3,14 @@ name: Security Audit
 on:
   workflow_dispatch:
   push:
-    branches: [ master ]
+    branches: [ master, main ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, main ]
+  schedule:
+    - cron: '0 0 * * 1' # Weekly audit
 
 jobs:
-name: Security Audit
-
-on:
-
-  push: 
-    branches: [ master ]
-  pull_request: 
-    branches: [ master ]
-  schedule:
-    - cron:
-
-  security_scan: 
+  security_scan:
     name: Security Scan (Trivy)
     runs-on: ubuntu-latest
     steps:
