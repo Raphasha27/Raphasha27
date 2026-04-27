@@ -9,6 +9,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/Raphasha27?label=Total%20Stars&style=for-the-badge&color=ffd700&labelColor=0d1117)](https://github.com/Raphasha27?tab=stars)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
 [![Available for Hire](https://img.shields.io/badge/Status-Open%20to%20Work-00c853?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
+[![Vercel Community](https://img.shields.io/badge/Vercel-Community%20Member-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://community.vercel.com/t/welcome-to-the-vercel-community/39601?u=raphashakoketso69-32)
 
 ---
 
