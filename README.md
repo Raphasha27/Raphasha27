@@ -123,6 +123,7 @@ Freelance Full-Stack & AI Engineer Available - Remote & Johannesburg-based
 [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/koketso-raphasha)
 [![GitHub](https://img.shields.io/badge/GitHub-Raphasha27-181717?style=for-the-badge&logo=github)](https://github.com/Raphasha27)
+[![Slack Community](https://img.shields.io/badge/Slack-Kirov%20Dynamics%20Community-4A154B?style=for-the-badge&logo=slack&logoColor=white)](https://kirovdynamicstech.slack.com)
 
 ---
 
