@@ -35,10 +35,11 @@ I'm a **Systems Architect, AI Engineer, and Co-founder of Kirov Dynamics Technol
 
 | Domain | Technologies | Products |
 | :--- | :--- | :--- |
+| **Agentic AI & Vector DBs** | Golang, PostgreSQL (pgvector), OpenAI | Go-RAG-System, Autonomous Agents |
+| **Cybersecurity & SOC** | Python, C#, CodeQL, ML Anomaly Det. | Kirov Cybersecurity Lab, CyberShield |
+| **Systems Programming** | C, C++, Rust | SeatLock Engine, SupportHive-C |
 | **SaaS Platforms** | Next.js, FastAPI, Supabase | Opsly SaaS, NoShowIQ |
 | **AI / ML Systems** | TensorFlow, Scikit-Learn, Pandas | Neural Sentinel, Kirov DataLab |
-| **Cybersecurity** | C#, CodeQL, SIEM patterns | FlowSentinel, CyberShield SOC |
-| **Systems Programming** | C, C++ | SeatLock Engine, SupportHive |
 | **Digital Trust Infrastructure** | Next.js 14, Sovereign APIs | Sumbandila Platform |
 | **Mobile Apps** | React Native, Android | 2025 Distinction Project |
 
@@ -61,12 +62,13 @@ Energy (Solar Grid Sentinel)    Retail & Hospitality (SaaS)
 
 | Project | Stack | Status |
 | :--- | :--- | :--- |
+| [Kirov Cybersecurity Lab](https://github.com/Raphasha27/Github-Harden) | Python, Scikit-Learn, SIEM, YARA | Active (16+ Advanced Security Tools) |
+| [Go-RAG-System](https://github.com/Raphasha27/Go-RAG-System) | Golang, PostgreSQL (pgvector), OpenAI | Active (Agentic RAG Architecture) |
+| [SupportHive-C](https://github.com/Raphasha27/Github-Harden/tree/main/SupportHive-C) | C, epoll, Custom Memory Management | In Development (Systems Engineering) |
+| [Sumbandila Platform](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14, Neural Sentinel | Deployed & Maintained via CI/CD |
 | [Opsly SaaS](https://github.com/Raphasha27/opsly-saas) | Next.js, FastAPI, AI Risk Engine | In Development |
-| [Sumbandila Platform](https://github.com/Raphasha27/Sumbandila-App) | Next.js 14, Neural Sentinel | In Development |
-| [FlowSentinel](https://github.com/Raphasha27/flowsentinel) | C#, .NET, Security Monitoring | In Development |
-| [Kirov DataLab](https://github.com/Raphasha27/kirov-datalab) | Python, Streamlit, Scikit-Learn | In Development |
-| [CyberShield SOC](https://github.com/Raphasha27/cybershield_soc) | D3.js, SIEM, Threat Maps | In Development |
 | [SeatLock](https://github.com/Raphasha27/SeatLock) | C++, High-Performance Engine | In Development |
+| [FlowSentinel](https://github.com/Raphasha27/flowsentinel) | C#, .NET, Security Monitoring | In Development |
 
 ---
 
@@ -75,15 +77,42 @@ Energy (Solar Grid Sentinel)    Retail & Hospitality (SaaS)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+---
+
+## 📈 Recent Growth & Skills Acquired
+
+I am actively expanding my capabilities across Systems Engineering and Agentic AI. Recent milestones include:
+
+- **Agentic AI & Vector Databases:** Engineered a complete **Retrieval-Augmented Generation (RAG)** architecture using **Golang**, `pgvector` (PostgreSQL), and OpenAI Tool Calling.
+- **Advanced Threat Detection:** Built the **Kirov Cybersecurity Lab**, featuring 16+ production-grade tools including Machine Learning Log Anomaly Detectors, AI Phishing URL Classifiers, YARA signature scanners, and a safe Ransomware Educational Simulator.
+- **CI/CD Automation:** Standardized my entire ecosystem with automated DevSecOps pipelines, ensuring daily security syncs, branch migrations, and green-graph consistency.
+- **Low-Level Systems:** Developed `SupportHive-C` using pure C, implementing custom memory pools and multi-threaded `epoll` socket architecture for high-performance server handling.
+
+### Architectural Flow: Agentic RAG Pipeline
+```mermaid
+graph TD;
+    A[User Query] --> B[Embedding Model]
+    B --> C[(PostgreSQL + pgvector)]
+    C --> D[Semantic Similarity Search]
+    D --> E[Augmented Prompt + Context]
+    E --> F{LLM Agent}
+    F -->|Tool Calling| G[External API / Calculator]
+    G --> F
+    F --> H[Final Contextual Answer]
+    style C fill:#316192,stroke:#fff,color:#fff
+    style F fill:#10a37f,stroke:#fff,color:#fff
+```
 
 ---
 
