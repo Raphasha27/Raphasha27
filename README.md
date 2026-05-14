@@ -7,7 +7,7 @@
 [![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&label=Profile+Views&color=00FF9C&style=for-the-badge)](https://github.com/Raphasha27)
 [![GitHub followers](https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=00FF9C&labelColor=0d1117)](https://github.com/Raphasha27?tab=followers)
 [![GitHub Stars](https://img.shields.io/github/stars/Raphasha27?label=Total%20Stars&style=for-the-badge&color=00FF9C&labelColor=0d1117)](https://github.com/Raphasha27?tab=stars)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-00FF9C?style=for-the-badge&labelColor=0d1117)](https://portfolio-react-zeta-black-48.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-00FF9C?style=for-the-badge&labelColor=0d1117)](https://portfolio-iota-eight-90.vercel.app/)
 
 ---
 
@@ -93,7 +93,7 @@ I've fixed the broken stats layout to use reliable Vercel-hosted metrics, reflec
 ---
 
 ## 🔗 Connect With Me
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-react-zeta-black-48.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-003366?style=for-the-badge)](https://portfolio-iota-eight-90.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/koketso-raphasha)
 [![GitHub](https://img.shields.io/badge/GitHub-Raphasha27-181717?style=for-the-badge&logo=github)](https://github.com/Raphasha27)
 
