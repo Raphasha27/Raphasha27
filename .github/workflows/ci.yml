@@ -1,5 +1,5 @@
 
-name: CI/CD Pipeline
+name: Standard CI
 
 on:
   push:
@@ -8,9 +8,9 @@ on:
     branches: [ develop, main ]
 
 jobs:
-  build-and-test:
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - name: Run Tests
-      run: echo "Replace with actual tests"
+    - name: Run Generic Build
+      run: echo "Generic build/test step. Update this with your project commands."
