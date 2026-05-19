@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pac-Man AI Hunter | Raphasha27</title>
+  <meta name="description"
+    content="Pac-Man AI Hunter by Koketso Raphasha. A cinematic arcade demo showcasing heuristic pursuit, dynamic ghost behavior, and sovereign game AI aesthetics.">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap');
+
+    :root {
+      --bg: #050816;
+      --panel: rgba(10, 16, 32, 0.82);
+      --border: rgba(255, 255, 255, 0.08);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --gold: #facc15;
+      --cyan: #22d3ee;
+      --pink: #fb7185;
+      --lime: #4ade80;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: 'Outfit', sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(34, 211, 238, 0.18), transparent 35%),
+        radial-gradient(circle at bottom right, rgba(250, 204, 21, 0.14), transparent 35%),
+        linear-gradient(180deg, #030712 0%, #050816 50%, #02040b 100%);
+    }
+
+    .shell {
+      width: min(1180px, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 2rem 0 3rem;
+    }
+
+    .topbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .brand {
+      font-weight: 800;
+      letter-spacing: 0.16em;
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    .home-link {
+      color: var(--muted);
+      text-decoration: none;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.75rem 1rem;
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 1.5rem;
+      align-items: stretch;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(18px);
+      overflow: hidden;
+    }
+
+    .content {
+      padding: 2rem;
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      background: rgba(250, 204, 21, 0.1);
+      color: var(--gold);
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    h1 {
+      margin: 1rem 0 0.75rem;
+      font-size: clamp(2.8rem, 7vw, 5rem);
+      line-height: 0.95;
+    }
+
+    .lede {
+      max-width: 58ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.85rem;
+      margin: 1.5rem 0;
+    }
+
+    .stat {
+      padding: 1rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 1.4rem;
+      color: var(--gold);
+    }
+
+    .stat span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .actions {
+      display: flex;
+      gap: 0.9rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.9rem 1.2rem;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .button-primary {
+      background: linear-gradient(135deg, var(--gold), #f59e0b);
+      color: #111827;
+    }
+
+    .button-secondary {
+      color: var(--text);
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.03);
+    }
+
+    .visual {
+      display: flex;
+      flex-direction: column;
+      min-height: 100%;
+    }
+
+    .visual-frame {
+      position: relative;
+      flex: 1;
+      min-height: 420px;
+      background:
+        radial-gradient(circle at center, rgba(34, 211, 238, 0.08), transparent 45%),
+        linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+    }
+
+    .visual-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .visual-note {
+      padding: 1rem 1.25rem 1.25rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .feature {
+      padding: 1.1rem;
+      border-radius: 22px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .feature h2 {
+      margin: 0 0 0.5rem;
+      font-size: 1rem;
+      color: var(--cyan);
+    }
+
+    .feature p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .footer-note {
+      margin-top: 1.25rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 900px) {
+      .hero,
+      .grid,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .visual-frame {
+        min-height: 320px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <a class="brand" href="index.html">RAPHASHA.AI</a>
+      <a class="home-link" href="index.html">Back to Portfolio</a>
+    </div>
+
+    <section class="hero">
+      <div class="panel content">
+        <div class="eyebrow">AI Arcade Demo</div>
+        <h1>Pac-Man AI Hunter</h1>
+        <p class="lede">
+          A cinematic arcade proof-of-concept focused on heuristic pursuit, lane control, and readable AI motion.
+          This page turns the portfolio card into a real destination instead of a dead link on GitHub Pages.
+        </p>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>A*</strong>
+            <span>Pathfinding core</span>
+          </div>
+          <div class="stat">
+            <strong>60 FPS</strong>
+            <span>Animation-ready render</span>
+          </div>
+          <div class="stat">
+            <strong>Ghost AI</strong>
+            <span>Dynamic chase logic</span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="button button-primary" href="assets/pacman_ai_animate.svg">Open Animated Render</a>
+          <a class="button button-secondary" href="snake_ai.html">Try Snake AI</a>
+        </div>
+
+        <div class="footer-note">
+          The interactive portfolio already included the visuals for this concept in `assets/`; this page completes the
+          experience and gives GitHub Pages a valid landing target.
+        </div>
+      </div>
+
+      <div class="panel visual">
+        <div class="visual-frame">
+          <img src="assets/pacman_ai_animate.svg" alt="Animated Pac-Man AI visualization">
+        </div>
+        <div class="visual-note">
+          Visualization loop: Pac-Man scans shortest routes, predicts viable turns, and pressures ghosts through
+          constrained corridors.
+        </div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="feature panel">
+        <h2>Pursuit Engine</h2>
+        <p>Heuristic route scoring prioritizes fast interception while avoiding over-commitment in narrow corridors.</p>
+      </article>
+      <article class="feature panel">
+        <h2>Readable Motion</h2>
+        <p>The SVG animation keeps the AI behavior legible for portfolio visitors without needing extra build tooling.</p>
+      </article>
+      <article class="feature panel">
+        <h2>Portfolio Ready</h2>
+        <p>The arcade card now opens a complete showcase page that works cleanly on GitHub Pages and mobile screens.</p>
+      </article>
+    </section>
+  </div>
+</body>
+
+</html>
