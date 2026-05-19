@@ -190,7 +190,7 @@ From raw memory management in C (`SupportHive-C`) to high-level multi-agent refl
 
 <div align="center">
 
-**🌍 Johannesburg, South Africa &nbsp;|&nbsp; 📧 raphashakoketso69@gmail.com &nbsp;|&nbsp; 🏢 CAPACITI Learner**
+**🌍 Johannesburg, South Africa &nbsp;|&nbsp; 📧 raphashakoketso69@gmail.com &nbsp;|&nbsp; 🏢 CAPACITI Learnership(12 Months)/Yes4Youth Programme/Richfield Graduate Institute of Technology(Pretoria Campus)**
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366f1,100:a855f7&height=100&section=footer" width="100%"/>
 
