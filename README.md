@@ -14,7 +14,7 @@
   <a href="https://github.com/Raphasha27?tab=stars">
     <img src="https://img.shields.io/github/stars/Raphasha27?label=Total%20Stars&style=for-the-badge&color=ffd700&labelColor=0d1117" alt="Stars" />
   </a>
-  <a href="https://portfolio-react-zeta-black-48.vercel.app/">
+  <a href="https://portfolio-iota-eight-90.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Live-22c55e?style=for-the-badge&labelColor=0d1117&logo=vercel" alt="Portfolio" />
   </a>
   <a href="https://www.linkedin.com/in/koketso-raphasha/">
@@ -122,7 +122,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 
 | Project | Status | Focus / 2026 Direction | My Role |
 | :--- | :--- | :--- | :--- |
-| **[Personal Portfolio](https://portfolio-react-zeta-black-48.vercel.app/)** | **Deployed (Live)** | Immersive, modern portfolio showcasing my engineering philosophy | Full-Stack Developer |
+| **[Personal Portfolio](https://portfolio-iota-eight-90.vercel.app/)** | **Deployed (Live)** | Immersive, modern portfolio showcasing my engineering philosophy | Full-Stack Developer |
 | **[RepoPulse](https://github.com/Raphasha27/RepoPulse)** | **Deployed** | AI OS for GitHub portfolios; autonomous CI analysis & self-healing | Lead AI Engineer |
 | **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | **Deployed** | Integrated trust ecosystem & socio-economic growth | Architect, AI & Blockchain |
 | **[CyberShield](https://github.com/Raphasha27/CyberShield)** | **Deployed** | Security operations modernization and SOC tooling | Security Visualization |
