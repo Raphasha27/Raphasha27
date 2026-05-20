@@ -68,14 +68,6 @@ graph TD
 ## 🛠️ Technology Stack & Ecosystem
 
 <div align="center">
-  <marquee direction="left" scrollamount="12" behavior="scroll">
-    <img src="https://skillicons.dev/icons?i=py,go,rust,ts,js,react,nextjs,fastapi,postgres,docker,kubernetes,linux,aws,gcp,git,github,bash,vercel,tailwind&perline=20" alt="Tech Stack Sliding Marquee" />
-  </marquee>
-</div>
-
-<br/>
-
-<div align="center">
   
 **Languages & Core Tech**<br/>
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -97,6 +89,14 @@ graph TD
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic_AI-FFD700?style=for-the-badge&logo=openai&logoColor=black)
 
+</div>
+
+<br/>
+
+<div align="center">
+  <marquee direction="left" scrollamount="12" behavior="scroll">
+    <img src="https://skillicons.dev/icons?i=py,go,rust,ts,js,react,nextjs,fastapi,postgres,docker,kubernetes,linux,aws,gcp,git,github,bash,vercel,tailwind&perline=20&theme=dark" alt="Tech Stack Sliding Marquee" />
+  </marquee>
 </div>
 
 ---
