@@ -132,6 +132,14 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 
 ---
 
+## 🤝 Open Source Contributions
+
+| Project | Status | Contribution Focus | My Role |
+| :--- | :--- | :--- | :--- |
+| **[ai-chatkit](https://github.com/princedev-toptal/ai-chatkit)** | ![Contribution](https://img.shields.io/badge/Status-Contribution_Made-cf222e?style=for-the-badge) | Initialized core project infrastructure, CI/CD workflows, and added MIT License | Open Source Contributor |
+
+---
+
 ## 📈 Activity & Impact
 
 <div align="center">
