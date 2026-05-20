@@ -149,8 +149,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="48%" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117" width="48%" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117" width="100%" alt="GitHub Streak"/>
 </div>
 
 ---
