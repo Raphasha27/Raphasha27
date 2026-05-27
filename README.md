@@ -48,21 +48,20 @@ My architectural approach translates vision into durable, secure, and explainabl
 
 ```mermaid
 graph TD
-    classDef primary fill:#002D62,stroke:#58a6ff,stroke-width:2px,color:#ffffff;
-    classDef secondary fill:#005571,stroke:#FFD700,stroke-width:2px,color:#ffffff;
-    classDef decision fill:#161b22,stroke:#22c55e,stroke-width:2px,color:#ffffff;
-    classDef output fill:#0d1117,stroke:#FFD700,stroke-width:3px,color:#FFD700;
-
-    A["🔭 Vision & Strategy"]:::primary --> B["📐 Architecture Blueprint"]:::secondary
-    B --> C{"🛡️ Zero-Trust Security Gate"}:::decision
-
-    C -->|"✅ Verified"| D["🤖 Build Sovereign AI Core"]:::primary
-    C -->|"❌ Failed"| E["🔄 Refine Security Posture"]:::secondary
+    %% Define styles for nodes
+    classDef primary fill:#002D62,stroke:#58a6ff,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    classDef secondary fill:#005571,stroke:#FFD700,stroke-width:2px,color:#ffffff,rx:10px,ry:10px;
+    classDef decision fill:#0d1117,stroke:#22c55e,stroke-width:2px,color:#ffffff;
+    
+    A["Vision & Strategy"]:::primary --> B["Architecture Blueprint"]:::secondary
+    B --> C{"Zero-Trust Security?"}:::decision
+    
+    C -->|Verified| D["Build Sovereign AI Core"]:::primary
+    C -->|Failed| E["Refine Security Posture"]:::secondary
     E --> B
-
-    D --> F["🔧 Deploy Self-Healing Infrastructure"]:::secondary
-    F --> G["📡 RepoPulse CI/CD Analysis"]:::primary
-    G --> H["🌍 Production Scale & Social Impact"]:::output
+    
+    D --> F["Deploy Self-Healing Infrastructure"]:::secondary
+    F --> G["Production Scale & Social Impact"]:::primary
 ```
 
 ---
@@ -103,9 +102,7 @@ graph TD
 
 <!-- Scrolling tech stack icons — right to left -->
 <div align="center">
-  <marquee direction="left" scrollamount="10" behavior="scroll">
-    <img src="https://skillicons.dev/icons?i=py,go,rust,ts,js,react,nextjs,fastapi,postgres,docker,kubernetes,linux,aws,gcp,git,github,bash,vercel,tailwind,pytorch,redis,nginx&perline=25&theme=dark" alt="Tech Stack Sliding Icons" />
-  </marquee>
+  <img src="https://skillicons.dev/icons?i=py,go,rust,ts,js,react,nextjs,fastapi,postgres,docker,kubernetes,linux,aws,gcp,git,github,bash,vercel,tailwind&perline=20&theme=dark" alt="Tech Stack Icons" />
 </div>
 
 ---
