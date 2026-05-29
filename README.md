@@ -88,7 +88,6 @@ graph TD
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **Infrastructure & Databases**<br/>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -147,6 +146,34 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[🏙️ KasiPass](https://github.com/Raphasha27/KasiPass)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Township economy digitization & access infrastructure | Co-founder & Tech Lead |
 | **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
+
+---
+
+## 📊 Data Engineering & Kaggle
+
+<div align="center">
+  <a href="https://kaggle.com/Raphasha27">
+    <img src="https://kaggle.com/static/images/open-kaggle.svg" height="40" alt="Kaggle Profile"/>
+  </a>
+  <br/><br/>
+  <a href="https://kaggle.com/Raphasha27">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Kaggle&query=%24&url=https://www.kaggle.com/api/v1/users/Raphasha27&color=20BEFF&style=for-the-badge&logo=kaggle" alt="Kaggle Stats"/>
+  </a>
+</div>
+
+I am actively expanding into **data engineering** — building end-to-end data pipelines, exploring real-world datasets, and competing in Kaggle competitions. My focus areas:
+
+- 🗄️ **Data Pipeline Engineering** — ETL/ELT workflows, data cleaning, and feature engineering
+- 📈 **Exploratory Data Analysis** — Deep dives into complex datasets using pandas, numpy, and visualization
+- 🤖 **ML & Predictive Modeling** — scikit-learn, feature selection, and model evaluation
+- 🏆 **Kaggle Competitions** — Entering Tabular Playground, Titanic, Housing, and advancing into NLP/Time Series
+
+### 📌 Current Kaggle Goals
+
+- [ ] Enter first Kaggle competition (Tabular Playground Series)
+- [ ] Build a data engineering project portfolio on GitHub
+- [ ] Achieve Kaggle Contributor badge
+- [ ] Publish at least 3 Kaggle notebooks with EDA + modeling
 
 ---
 
