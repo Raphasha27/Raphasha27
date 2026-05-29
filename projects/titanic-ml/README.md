@@ -12,7 +12,8 @@ End-to-end machine learning solution for the Titanic: Machine Learning from Disa
 titanic-ml/
 ├── titanic_kaggle.py          # v1 notebook-style script for Kaggle
 ├── titanic_kaggle_v2.py       # v2 optimized with hyperparameter tuning
-├── submission.csv             # Generated predictions (83.2% estimated)
+├── titanic_kaggle_v3.py       # v3 stacking ensemble + meta learner
+├── submission.csv             # Generated predictions
 ├── dashboard/                 # Streamlit interactive web app
 │   ├── app.py
 │   ├── requirements.txt
@@ -21,18 +22,19 @@ titanic-ml/
 
 ## Results
 
-| Version | CV Accuracy | Validation Accuracy | Features |
-|---------|:-----------:|:------------------:|----------|
-| v1      | 82.6%       | 81.0%              | 14 features, 5 models, soft ensemble |
-| v2      | **83.1%**   | **83.2%**          | 17 features, hyperparameter tuning, weighted ensemble |
+| Version | CV Accuracy | Kaggle LB | Approach |
+|---------|:-----------:|:---------:|----------|
+| v1      | 82.6%       | —         | 5-model soft ensemble, 14 features |
+| v2      | 83.1%       | 76.3%     | Hyperparameter tuning, weighted ensemble, 17 features |
+| v3      | **83.5%**   | **79.0%** | Stacking (7 models + meta LR), 13 robust features, full 891 train |
 
 ## Approach
 
 1. **Exploratory Data Analysis** — Visualize distributions, correlations, and missing values
-2. **Feature Engineering** — Title extraction, family grouping, cabin decoding, age imputation, ticket prefix, fare-per-person
-3. **Modeling** — Logistic Regression, Random Forest, XGBoost, Gradient Boosting, SVC
-4. **Ensemble** — Weighted soft voting (weighted by CV performance)
-5. **Submission** — Generate predictions in competition format
+2. **Feature Engineering** — Title extraction, family grouping, cabin decoding, age imputation
+3. **Modeling** — 7 base models with 10-fold cross-validation (LR, Ridge, RF, GB, ET, XGB, KNN)
+4. **Stacking** — LogisticRegression meta-learner trained on OOF probabilities
+5. **Submission** — Generate predictions leveraging all 891 training samples
 
 ## Usage
 
@@ -42,8 +44,11 @@ pip install -r requirements.txt
 # v1 (basic)
 python titanic_kaggle.py
 
-# v2 (optimized - recommended)
+# v2 (optimized)
 python titanic_kaggle_v2.py
+
+# v3 (best - stacking ensemble)
+python titanic_kaggle_v3.py
 ```
 
 ## Author
