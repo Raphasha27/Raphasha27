@@ -21,6 +21,9 @@
 <a href="https://www.linkedin.com/in/koketso-raphasha/">
   <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&labelColor=0d1117" alt="LinkedIn" />
 </a>
+<a href="https://kaggle.com/Raphasha27">
+  <img src="https://img.shields.io/badge/Kaggle-Follow-20BEFF?style=for-the-badge&logo=kaggle&labelColor=0d1117" alt="Kaggle" />
+</a>
 
 </div>
 
@@ -39,6 +42,7 @@ My engineering philosophy centers around **"Sovereign Infrastructure"** and **"A
 - 🌐 **Distributed Architecture** — Resilient, planet-scale systems
 - ⚡ **Performance Engineering** — Edge protection and deep observability
 - 🧠 **Human-Centered AI** — AI that serves people, not just machines
+- 📊 **Data Engineering & Analytics** — Building pipelines, exploring datasets, and competing on Kaggle
 
 ---
 
@@ -84,7 +88,6 @@ graph TD
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
 **Infrastructure & Databases**<br/>
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
@@ -95,6 +98,13 @@ graph TD
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Agentic AI](https://img.shields.io/badge/Agentic_AI-FFD700?style=for-the-badge&logo=openai&logoColor=black)
+
+**Data Engineering & Analytics**<br/>
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169e1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 </div>
 
@@ -136,6 +146,34 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[🏙️ KasiPass](https://github.com/Raphasha27/KasiPass)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Township economy digitization & access infrastructure | Co-founder & Tech Lead |
 | **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
+
+---
+
+## 📊 Data Engineering & Kaggle
+
+<div align="center">
+  <a href="https://kaggle.com/Raphasha27">
+    <img src="https://kaggle.com/static/images/open-kaggle.svg" height="40" alt="Kaggle Profile"/>
+  </a>
+  <br/><br/>
+  <a href="https://kaggle.com/Raphasha27">
+    <img src="https://img.shields.io/badge/dynamic/json?label=Kaggle&query=%24&url=https://www.kaggle.com/api/v1/users/Raphasha27&color=20BEFF&style=for-the-badge&logo=kaggle" alt="Kaggle Stats"/>
+  </a>
+</div>
+
+I am actively expanding into **data engineering** — building end-to-end data pipelines, exploring real-world datasets, and competing in Kaggle competitions. My focus areas:
+
+- 🗄️ **Data Pipeline Engineering** — ETL/ELT workflows, data cleaning, and feature engineering
+- 📈 **Exploratory Data Analysis** — Deep dives into complex datasets using pandas, numpy, and visualization
+- 🤖 **ML & Predictive Modeling** — scikit-learn, feature selection, and model evaluation
+- 🏆 **Kaggle Competitions** — Entering Tabular Playground, Titanic, Housing, and advancing into NLP/Time Series
+
+### 📌 Current Kaggle Goals
+
+- [ ] Enter first Kaggle competition (Tabular Playground Series)
+- [ ] Build a data engineering project portfolio on GitHub
+- [ ] Achieve Kaggle Contributor badge
+- [ ] Publish at least 3 Kaggle notebooks with EDA + modeling
 
 ---
 
