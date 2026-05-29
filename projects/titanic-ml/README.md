@@ -13,9 +13,10 @@ titanic-ml/
 ├── titanic_kaggle.py          # v1 notebook-style script
 ├── titanic_kaggle_v2.py       # v2 hyperparameter tuning, weighted ensemble
 ├── titanic_kaggle_v3.py       # v3 stacking (7 models + meta LR)
-├── titanic_kaggle_v4.py       # v4 ★ BEST: KNN impute + interaction features (77.5%)
+├── titanic_kaggle_v4.py       # v4 KNN impute + interaction features (77.5%)
 ├── titanic_kaggle_v5.py       # v5 23 features, 8-model blend
-├── submission.csv             # Best predictions (v4)
+├── titanic_kaggle_v6.py       # v6 ★ BEST: tuned GB/XGB, 14 features (78.5%)
+├── submission.csv             # Best predictions (v6)
 ├── dashboard/                 # Streamlit interactive web app
 │   ├── app.py
 │   ├── requirements.txt
@@ -29,24 +30,23 @@ titanic-ml/
 | v1      | 82.6%       | —         | 5-model soft ensemble, 14 features |
 | v2      | 83.1%       | 76.3%     | Hyperparameter tuning, weighted ensemble, 17 features |
 | v3      | 83.5%       | 77.0%     | Stacking (7 models + meta LR), 13 features, full 891 train |
-| **v4**  | **81.7%**   | **77.5%** | **KNN imputation, Age×Pclass/Fare×Pclass, LR_CV** |
+| v4      | 81.7%       | 77.5%     | KNN imputation, Age×Pclass/Fare×Pclass, LR_CV |
 | v5      | 82.8%       | 77.0%     | 23 features (ticket/cabin/deck), 8-model blend |
-
-**Key insight**: Simpler regularized models (v4) generalize better than complex ensembles (v3/v5). KNN age imputation (n=5) preserves non-linear relationships. Age×Pclass interaction captures strong class-dependent survival rates.
+| **v6**  | **83.6%**   | **78.5%** | **Tuned GB/XGB (n=180, lr=0.04, subsample=0.75), 14 core features** |
 
 ## Usage
 
 ```bash
 pip install -r requirements.txt
 
-# v4 (best - recommended)
+# v6 (best - 78.5% public LB)
+python titanic_kaggle_v6.py
+
+# v4 (77.5% - simplest approach)
 python titanic_kaggle_v4.py
 
-# v1 (basic)
+# v1 / v2 / v3 / v5 (alternative approaches)
 python titanic_kaggle.py
-
-# v2 / v3 / v5 (alternative approaches)
-python titanic_kaggle_v2.py
 ```
 
 ## Author
