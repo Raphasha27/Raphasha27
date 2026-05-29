@@ -148,6 +148,8 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
 | **[📊 Titanic ML](projects/titanic-ml/)** | ![Kaggle Ready](https://img.shields.io/badge/-KAGGLE_READY-20BEFF?style=flat-square) | End-to-end ML pipeline for Titanic competition with ensemble stacking | Data Scientist |
 | **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
+| **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
+| **[📈 Titanic Dashboard](projects/titanic-ml/dashboard/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Interactive Streamlit dashboard for Titanic predictions | ML Engineer |
 
 ---
 
@@ -174,12 +176,13 @@ I am actively expanding into **data engineering** — building end-to-end data p
 
 - [x] Build Titanic ML competition notebook (EDA + feature engineering + ensemble)
 - [x] Build ETL pipeline project (CSV → PostgreSQL with validation & cleaning)
+- [x] Build PySpark ETL pipeline (distributed big data processing)
+- [x] Build Streamlit dashboard (interactive Titanic ML predictions)
 - [x] Add Kaggle badge & profile links to portfolio
 - [x] Kaggle notebook (.ipynb) created and ready for upload
-- [ ] Submit first Kaggle competition entry (see guide below)
+- [ ] Submit first Kaggle competition entry
 - [ ] Achieve Kaggle Contributor badge
 - [ ] Publish 3+ Kaggle notebooks with EDA + modeling
-- [ ] Expand data engineering portfolio with Spark/pipeline projects
 
 ---
 

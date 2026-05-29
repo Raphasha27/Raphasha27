@@ -364,10 +364,10 @@
     <p>&copy; 2026 Raphasha27. Built with precision and passion.</p>
   </footer>
   <!-- Interactive Terminal Widget -->
-  <div class="terminal-toggle" onclick="toggleTerminal()">⌨️</div>
+  <div class="terminal-toggle" id="terminal-toggle-btn">⌨️</div>
   <div class="terminal-window terminal-widget glass" id="terminal-widget">
     <div class="terminal-header">
-      <div class="dot red" onclick="toggleTerminal()"></div>
+      <div class="dot red" id="terminal-close"></div>
       <div class="dot yellow"></div>
       <div class="dot green"></div>
       <span style="font-size: 0.7rem; color: #888; margin-left: 10px;">guest@raphasha.ai: ~</span>
@@ -379,59 +379,72 @@
     <div class="terminal-body" style="padding-top: 5px;">
       <div class="terminal-input-row">
         <span class="terminal-prompt">$</span>
-        <input type="text" class="terminal-command-input" id="terminal-input" autofocus
-          onkeydown="handleCommand(event)">
+        <input type="text" class="terminal-command-input" id="terminal-input" autofocus>
       </div>
     </div>
   </div>
 
   <script>
-    function toggleTerminal() {
-      const widget = document.getElementById("terminal-widget");
-      widget.classList.toggle("active");
-      if (widget.classList.contains("active")) {
-        document.getElementById("terminal-input").focus();
-      }
-    }
-
     function escapeHtml(str) {
       const div = document.createElement('div');
       div.textContent = str;
       return div.innerHTML;
     }
 
-    function handleCommand(e) {
-      if (e.key === "Enter") {
-        const input = document.getElementById("terminal-input");
-        const cmd = input.value.toLowerCase().trim();
-        const escapedCmd = escapeHtml(input.value);
-        const output = document.getElementById("widget-output");
+    document.addEventListener('DOMContentLoaded', function () {
+      const widget = document.getElementById("terminal-widget");
+      const toggleBtn = document.getElementById("terminal-toggle-btn");
+      const closeBtn = document.getElementById("terminal-close");
+      const terminalInput = document.getElementById("terminal-input");
+      const output = document.getElementById("widget-output");
 
-        output.innerHTML += `<div><span class="terminal-prompt">$</span> ${escapedCmd}</div>`;
-
-        if (cmd === "help") {
-          output.innerHTML += `<div>Available: <span class="code-func">projects, whoami, skills, education, clear, contact</span></div>`;
-        } else if (cmd === "whoami") {
-          output.innerHTML += `<div>Koketso Raphasha | Systems Architect | AI Engineer</div>`;
-        } else if (cmd === "projects") {
-          output.innerHTML += `<div>- CyberShield SOC<br>- Sovereign AI Nexus<br>- Go RAG System<br>- AI Agent Framework<br>- autonomous-dev-factory</div>`;
-        } else if (cmd === "skills") {
-          output.innerHTML += `<div>Python | Go | Rust | TypeScript | React | FastAPI | Docker | Kubernetes</div>`;
-        } else if (cmd === "education") {
-          output.innerHTML += `<div>BSc IT (Distinction) @ Richfield | CAPACITI Learnership @ 2024</div>`;
-        } else if (cmd === "contact") {
-          output.innerHTML += `<div>E: <span class="code-str">koketso.raphasha27@gmail.com</span></div>`;
-        } else if (cmd === "clear") {
-          output.innerHTML = "";
-        } else {
-          const notFound = escapeHtml(cmd);
-          output.innerHTML += `<div>Command not found: ${notFound}. Type <span class="code-func">help</span> for available commands.</div>`;
+      function toggleTerminal() {
+        widget.classList.toggle("active");
+        if (widget.classList.contains("active")) {
+          terminalInput.focus();
         }
-
-        input.value = "";
-        output.scrollTop = output.scrollHeight;
       }
-    }
+
+      toggleBtn.addEventListener("click", toggleTerminal);
+      if (closeBtn) closeBtn.addEventListener("click", toggleTerminal);
+
+      terminalInput.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          const cmd = this.value.toLowerCase().trim();
+          const escapedCmd = escapeHtml(this.value);
+
+          output.innerHTML += `<div><span class="terminal-prompt">$</span> ${escapedCmd}</div>`;
+
+          switch (cmd) {
+            case "help":
+              output.innerHTML += `<div>Available: <span class="code-func">projects, whoami, skills, education, clear, contact</span></div>`;
+              break;
+            case "whoami":
+              output.innerHTML += `<div>Koketso Raphasha | Systems Architect | AI Engineer</div>`;
+              break;
+            case "projects":
+              output.innerHTML += `<div>- CyberShield SOC<br>- Sovereign AI Nexus<br>- Go RAG System<br>- AI Agent Framework<br>- autonomous-dev-factory</div>`;
+              break;
+            case "skills":
+              output.innerHTML += `<div>Python | Go | Rust | TypeScript | React | FastAPI | Docker | Kubernetes</div>`;
+              break;
+            case "education":
+              output.innerHTML += `<div>BSc IT (Distinction) @ Richfield | CAPACITI Learnership @ 2024</div>`;
+              break;
+            case "contact":
+              output.innerHTML += `<div>E: <span class="code-str">koketso.raphasha27@gmail.com</span></div>`;
+              break;
+            case "clear":
+              output.innerHTML = "";
+              break;
+            default:
+              output.innerHTML += `<div>Command not found: ${escapedCmd}. Type <span class="code-func">help</span> for available commands.</div>`;
+          }
+
+          this.value = "";
+          output.scrollTop = output.scrollHeight;
+        }
+      });
 
     // Typewriter Effect
     const texts = [

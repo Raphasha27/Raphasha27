@@ -11,6 +11,7 @@ Collection of data engineering projects showcasing ETL pipelines, data cleaning,
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | `etl-pipeline/` | CSV to PostgreSQL ETL with data validation | pandas, SQLAlchemy, psycopg2 |
+| `spark-etl/` | Distributed PySpark ETL for big data processing | PySpark, Parquet, Delta Lake |
 
 ## Author
 
