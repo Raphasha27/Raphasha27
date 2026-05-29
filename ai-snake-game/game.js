@@ -144,6 +144,21 @@ function gameOver() {
 
 // --- ELITE AI ENGINE (A* PATHFINDING + FLOOD-FILL) ---
 
+function getNeighbors(pos) {
+  return [
+    { x: pos.x + 1, y: pos.y }, { x: pos.x - 1, y: pos.y },
+    { x: pos.x, y: pos.y + 1 }, { x: pos.x, y: pos.y - 1 }
+  ];
+}
+
+function getSafeMoves(pos) {
+  const snakeSet = new Set(snake.map(s => `${s.x},${s.y}`));
+  return getNeighbors(pos).filter(n =>
+    n.x >= 0 && n.x < TILE_COUNT && n.y >= 0 && n.y < TILE_COUNT &&
+    !snakeSet.has(`${n.x},${n.y}`)
+  );
+}
+
 function getAIMove() {
     // 1. Primary Algorithm: A* to target food
     if (path.length === 0) {
@@ -224,26 +239,20 @@ function heuristic(a, b) {
 }
 
 function calculateSafeArea(start) {
-    let queue = [start];
-    let visited = new Set();
+    const queue = [start];
+    const visited = new Set();
+    const snakeSet = new Set(snake.map(s => `${s.x},${s.y}`));
     visited.add(`${start.x},${start.y}`);
     let area = 0;
 
-    const obstacles = new Set(snake.map(s => `${s.x},${s.y}`));
-
-    while (queue.length > 0 && area < 100) { // Cap at 100 for performance
+    while (queue.length > 0 && area < 200) {
         const curr = queue.shift();
         area++;
 
-        const neighbors = [
-            { x: curr.x + 1, y: curr.y }, { x: curr.x - 1, y: curr.y },
-            { x: curr.x, y: curr.y + 1 }, { x: curr.x, y: curr.y - 1 }
-        ];
-
-        for (let next of neighbors) {
+        for (const next of getNeighbors(curr)) {
             const key = `${next.x},${next.y}`;
             if (next.x >= 0 && next.x < TILE_COUNT && next.y >= 0 && next.y < TILE_COUNT &&
-                !obstacles.has(key) && !visited.has(key)) {
+                !snakeSet.has(key) && !visited.has(key)) {
                 visited.add(key);
                 queue.push(next);
             }

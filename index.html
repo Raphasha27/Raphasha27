@@ -7,6 +7,14 @@
   <title>Koketso Raphasha | AI Specialist & Software Architect</title>
   <meta name="description"
     content="Official portfolio of Koketso Raphasha - Elite Software Developer and AI Specialist specializing in high-performance systems and intelligent automation.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://skillicons.dev; font-src 'self' https://fonts.gstatic.com; img-src 'self' https: data:; script-src 'self' https://skillicons.dev; connect-src 'self';">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Koketso Raphasha">
+  <meta property="og:title" content="Koketso Raphasha | AI Specialist & Software Architect">
+  <meta property="og:description" content="Systems Architect, AI Engineer, and Co-founder building sovereign AI infrastructure.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://raphasha27.github.io/Raphasha27/">
+  <link rel="canonical" href="https://raphasha27.github.io/Raphasha27/">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -189,14 +197,30 @@
             style="filter: brightness(0.7) hue-rotate(80deg);">
           <div class="card-content">
             <div class="card-tags">
-              <span class="tag" style="color: #eab308; border-color: #eab308;">Neural Agent</span>
+              <span class="tag" style="color: #eab308; border-color: #eab308;">A* Pathfinding</span>
               <span class="tag">Canvas API</span>
             </div>
-            <h3>Snake AI: Hard Mode</h3>
-            <p>Challenge a high-frequency autonomous agent in a classic game of survival, optimized for maximum length
-              and speed.</p>
+            <h3>Snake AI: Elite Engine</h3>
+            <p>Autonomous agent with A* pathfinding and flood-fill safety logic. Watch the AI navigate and optimize routes in real time.</p>
             <div class="card-links">
-              <a href="snake_ai.html" class="btn-primary btn-arcade">Play Now &rarr;</a>
+              <a href="snake_ai.html" class="btn-primary btn-arcade">Watch AI &rarr;</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- AI Snake Game (Full) -->
+        <article class="card glass arcade-card">
+          <img src="assets/snake_game.svg" alt="AI Snake Full Game" class="card-img"
+            style="filter: brightness(0.7) hue-rotate(200deg);">
+          <div class="card-content">
+            <div class="card-tags">
+              <span class="tag" style="color: #eab308; border-color: #eab308;">Autonomous</span>
+              <span class="tag">Full Game</span>
+            </div>
+            <h3>AI Snake: Full Simulation</h3>
+            <p>Complete autonomous snake simulation with high-score tracking, cyber-glow rendering, and survival AI logic.</p>
+            <div class="card-links">
+              <a href="ai-snake-game/index.html" class="btn-primary btn-arcade">Launch &rarr;</a>
             </div>
           </div>
         </article>
@@ -341,26 +365,38 @@
       }
     }
 
+    function escapeHtml(str) {
+      const div = document.createElement('div');
+      div.textContent = str;
+      return div.innerHTML;
+    }
+
     function handleCommand(e) {
       if (e.key === "Enter") {
         const input = document.getElementById("terminal-input");
         const cmd = input.value.toLowerCase().trim();
+        const escapedCmd = escapeHtml(input.value);
         const output = document.getElementById("widget-output");
 
-        output.innerHTML += `<div><span class="terminal-prompt">$</span> ${input.value}</div>`;
+        output.innerHTML += `<div><span class="terminal-prompt">$</span> ${escapedCmd}</div>`;
 
         if (cmd === "help") {
-          output.innerHTML += `<div>Available: <span class="code-func">projects, whoami, clear, contact</span></div>`;
+          output.innerHTML += `<div>Available: <span class="code-func">projects, whoami, skills, education, clear, contact</span></div>`;
         } else if (cmd === "whoami") {
-          output.innerHTML += `<div>Koketso Raphasha | AI Specialist | Elite Engineer</div>`;
+          output.innerHTML += `<div>Koketso Raphasha | Systems Architect | AI Engineer</div>`;
         } else if (cmd === "projects") {
-          output.innerHTML += `<div>- FlowSentinel<br>- AI JobSphere<br>- Sovereign AI Nexus</div>`;
+          output.innerHTML += `<div>- CyberShield SOC<br>- Sovereign AI Nexus<br>- Go RAG System<br>- AI Agent Framework<br>- autonomous-dev-factory</div>`;
+        } else if (cmd === "skills") {
+          output.innerHTML += `<div>Python | Go | Rust | TypeScript | React | FastAPI | Docker | Kubernetes</div>`;
+        } else if (cmd === "education") {
+          output.innerHTML += `<div>BSc IT (Distinction) @ Richfield | CAPACITI Learnership @ 2024</div>`;
         } else if (cmd === "contact") {
           output.innerHTML += `<div>E: <span class="code-str">koketso.raphasha27@gmail.com</span></div>`;
         } else if (cmd === "clear") {
           output.innerHTML = "";
         } else {
-          output.innerHTML += `<div>Command not found: ${cmd}</div>`;
+          const notFound = escapeHtml(cmd);
+          output.innerHTML += `<div>Command not found: ${notFound}. Type <span class="code-func">help</span> for available commands.</div>`;
         }
 
         input.value = "";

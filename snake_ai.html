@@ -2,7 +2,13 @@
 <html>
 
 <head>
-  <title>Elite Snake AI - A* + Safety + Debug</title>
+  <title>Elite Snake AI - A* Pathfinding | Raphasha27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Elite Snake AI with A* pathfinding, flood-fill safety, and autonomous gameplay by Koketso Raphasha.">
   <style>
     body {
       background: #0b0f14;
@@ -87,7 +93,11 @@
 </head>
 
 <body>
-  <div id="wrap">
+  <nav style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:1rem 2rem;background:rgba(11,15,20,0.85);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,0.08);">
+    <a href="index.html" style="font-weight:800;font-size:1.2rem;background:linear-gradient(135deg,#0ea5e9,#00f2ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none;">RAPHASHA.AI</a>
+    <a href="index.html" style="color:#94a3b8;text-decoration:none;border:1px solid rgba(255,255,255,0.1);border-radius:999px;padding:0.5rem 1rem;font-size:0.85rem;">Back to Portfolio</a>
+  </nav>
+  <div id="wrap" style="margin-top:40px;">
     <canvas id="game" width="400" height="240"></canvas>
     <div class="panel">
       <div class="badge">ELITE AI ENGINE v2.0</div>

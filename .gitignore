@@ -51,9 +51,9 @@ target/
 .env.production.local
 
 # IDEs & System files
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
-*.log
 *.pid
+logs/
+*.log

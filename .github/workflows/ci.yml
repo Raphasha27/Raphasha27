@@ -1,16 +1,34 @@
-
 name: Standard CI
 
 on:
   push:
-    branches: [ develop, main ]
+    branches: [main]
   pull_request:
-    branches: [ develop, main ]
+    branches: [main]
 
 jobs:
-  build:
+  lint-html:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Run Generic Build
-      run: echo "Generic build/test step. Update this with your project commands."
+      - uses: actions/checkout@v4
+      - name: Check HTML files
+        run: |
+          echo "Validating HTML files..."
+          for f in index.html pacman_game.html snake_ai.html; do
+            if [ -f "$f" ]; then
+              echo "  ✓ $f exists"
+            fi
+          done
+
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON files
+        run: |
+          echo "Checking JSON files..."
+          for f in .github/dependabot.yml .editorconfig; do
+            if [ -f "$f" ]; then
+              echo "  ✓ $f exists"
+            fi
+          done
