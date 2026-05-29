@@ -57,3 +57,5 @@ Thumbs.db
 *.pid
 logs/
 *.log
+runs*.json
+*.svg.bak

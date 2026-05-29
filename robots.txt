@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://raphasha27.github.io/Raphasha27/sitemap.xml
