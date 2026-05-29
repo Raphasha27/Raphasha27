@@ -27,7 +27,7 @@ jobs:
             dist/ocean.gif?color_snake=#FFD700&color_dots=#0d1117,#002D62,#005571,#58a6ff,#FFD700&color_background=#0d1117
 
       - name: Push generated files to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: output
           build_dir: dist
