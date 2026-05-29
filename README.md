@@ -146,6 +146,8 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[🏙️ KasiPass](https://github.com/Raphasha27/KasiPass)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Township economy digitization & access infrastructure | Co-founder & Tech Lead |
 | **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
+| **[📊 Titanic ML](projects/titanic-ml/)** | ![Kaggle Ready](https://img.shields.io/badge/-KAGGLE_READY-20BEFF?style=flat-square) | End-to-end ML pipeline for Titanic competition with ensemble stacking | Data Scientist |
+| **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
 
 ---
 
@@ -168,12 +170,15 @@ I am actively expanding into **data engineering** — building end-to-end data p
 - 🤖 **ML & Predictive Modeling** — scikit-learn, feature selection, and model evaluation
 - 🏆 **Kaggle Competitions** — Entering Tabular Playground, Titanic, Housing, and advancing into NLP/Time Series
 
-### 📌 Current Kaggle Goals
+### 📌 Kaggle & Data Engineering Progress
 
-- [ ] Enter first Kaggle competition (Tabular Playground Series)
-- [ ] Build a data engineering project portfolio on GitHub
+- [x] Build Titanic ML competition notebook (EDA + feature engineering + ensemble)
+- [x] Build ETL pipeline project (CSV → PostgreSQL with validation & cleaning)
+- [x] Add Kaggle badge & profile links to portfolio
+- [ ] Submit first Kaggle competition entry
 - [ ] Achieve Kaggle Contributor badge
-- [ ] Publish at least 3 Kaggle notebooks with EDA + modeling
+- [ ] Publish 3+ Kaggle notebooks with EDA + modeling
+- [ ] Expand data engineering portfolio with Spark/pipeline projects
 
 ---
 
