@@ -1,0 +1,17 @@
+{
+  "source": "https://restcountries.com/v3.1/all",
+  "output": "countries.parquet",
+  "rate_limit": 0.5,
+  "pagination": { "type": "page", "size": 50, "max_pages": 5 },
+  "transforms": {
+    "name": { "lower": true },
+    "name.common": { "rename": "country_name" },
+    "population": { "dtype": "int64" },
+    "area": { "dtype": "float64" }
+  },
+  "schema": {
+    "country_name": { "required": true, "dtype": "str" },
+    "population": { "dtype": "int64" },
+    "area": { "dtype": "float64" }
+  }
+}

@@ -149,6 +149,7 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[📊 Titanic ML](projects/titanic-ml/)** | [![Kaggle](https://img.shields.io/badge/78.5%25-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/c/titanic/submissions) | End-to-end ML pipeline for Titanic competition (78.5% public LB) | Data Scientist |
 | **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
 | **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
+| **[🌐 API Pipeline](projects/data-engineering/api-pipeline/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | REST API data extraction with pagination, transformation, and loading | Data Engineer |
 | **[📈 Titanic Dashboard](projects/titanic-ml/dashboard/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Interactive Streamlit dashboard for Titanic predictions | ML Engineer |
 
 ---
@@ -180,9 +181,23 @@ I am actively expanding into **data engineering** — building end-to-end data p
 - [x] Build Streamlit dashboard (interactive Titanic ML predictions)
 - [x] Add Kaggle badge & profile links to portfolio
 - [x] Kaggle notebook (.ipynb) created and ready for upload
-- [ ] Submit first Kaggle competition entry
+- [x] Submit first Kaggle competition entry ✅ **78.5% public LB**
+- [x] Submit 5 competition entries (v2→v7, best: v6 at 78.5%)
+- [x] Build API Data Pipeline project (public API → transformation → load)
 - [ ] Achieve Kaggle Contributor badge
 - [ ] Publish 3+ Kaggle notebooks with EDA + modeling
+
+<!-- GitHub Stats -->
+## 📈 GitHub Analytics
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top Languages" />
+  <br/>
+  <img src="https://github-contributor-stats.vercel.app/api?username=Raphasha27&theme=github_dark&hide_border=true&combine_all_yearly_contributions=true" alt="Contributor Stats" />
+  <br/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=react-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Activity Graph" width="95%"/>
+</div>
 
 ---
 
