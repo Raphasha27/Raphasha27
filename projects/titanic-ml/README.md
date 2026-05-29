@@ -10,10 +10,12 @@ End-to-end machine learning solution for the Titanic: Machine Learning from Disa
 
 ```
 titanic-ml/
-├── titanic_kaggle.py          # v1 notebook-style script for Kaggle
-├── titanic_kaggle_v2.py       # v2 optimized with hyperparameter tuning
-├── titanic_kaggle_v3.py       # v3 stacking ensemble + meta learner
-├── submission.csv             # Generated predictions
+├── titanic_kaggle.py          # v1 notebook-style script
+├── titanic_kaggle_v2.py       # v2 hyperparameter tuning, weighted ensemble
+├── titanic_kaggle_v3.py       # v3 stacking (7 models + meta LR)
+├── titanic_kaggle_v4.py       # v4 ★ BEST: KNN impute + interaction features (77.5%)
+├── titanic_kaggle_v5.py       # v5 23 features, 8-model blend
+├── submission.csv             # Best predictions (v4)
 ├── dashboard/                 # Streamlit interactive web app
 │   ├── app.py
 │   ├── requirements.txt
@@ -26,31 +28,27 @@ titanic-ml/
 |---------|:-----------:|:---------:|----------|
 | v1      | 82.6%       | —         | 5-model soft ensemble, 14 features |
 | v2      | 83.1%       | 76.3%     | Hyperparameter tuning, weighted ensemble, 17 features |
-| v3      | **83.5%**   | **79.0%** | Stacking (7 models + meta LR), 13 robust features, full 891 train |
+| v3      | 83.5%       | 77.0%     | Stacking (7 models + meta LR), 13 features, full 891 train |
+| **v4**  | **81.7%**   | **77.5%** | **KNN imputation, Age×Pclass/Fare×Pclass, LR_CV** |
+| v5      | 82.8%       | 77.0%     | 23 features (ticket/cabin/deck), 8-model blend |
 
-## Approach
-
-1. **Exploratory Data Analysis** — Visualize distributions, correlations, and missing values
-2. **Feature Engineering** — Title extraction, family grouping, cabin decoding, age imputation
-3. **Modeling** — 7 base models with 10-fold cross-validation (LR, Ridge, RF, GB, ET, XGB, KNN)
-4. **Stacking** — LogisticRegression meta-learner trained on OOF probabilities
-5. **Submission** — Generate predictions leveraging all 891 training samples
+**Key insight**: Simpler regularized models (v4) generalize better than complex ensembles (v3/v5). KNN age imputation (n=5) preserves non-linear relationships. Age×Pclass interaction captures strong class-dependent survival rates.
 
 ## Usage
 
 ```bash
 pip install -r requirements.txt
 
+# v4 (best - recommended)
+python titanic_kaggle_v4.py
+
 # v1 (basic)
 python titanic_kaggle.py
 
-# v2 (optimized)
+# v2 / v3 / v5 (alternative approaches)
 python titanic_kaggle_v2.py
-
-# v3 (best - stacking ensemble)
-python titanic_kaggle_v3.py
 ```
 
 ## Author
 
-**Koketso Raphasha** — [Kaggle](https://kaggle.com/Raphasha27)
+**Koketso Raphasha** — [Kaggle](https://kaggle.com/Raphasha27) | [Portfolio](https://github.com/Raphasha27)
