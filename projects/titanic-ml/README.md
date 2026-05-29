@@ -10,26 +10,40 @@ End-to-end machine learning solution for the Titanic: Machine Learning from Disa
 
 ```
 titanic-ml/
-├── titanic_kaggle.py          # Main notebook-style script for Kaggle
-├── README.md                  # This file
-├── requirements.txt           # Dependencies
-└── output/
-    └── submission.csv         # Generated predictions
+├── titanic_kaggle.py          # v1 notebook-style script for Kaggle
+├── titanic_kaggle_v2.py       # v2 optimized with hyperparameter tuning
+├── submission.csv             # Generated predictions (83.2% estimated)
+├── dashboard/                 # Streamlit interactive web app
+│   ├── app.py
+│   ├── requirements.txt
+│   └── README.md
 ```
+
+## Results
+
+| Version | CV Accuracy | Validation Accuracy | Features |
+|---------|:-----------:|:------------------:|----------|
+| v1      | 82.6%       | 81.0%              | 14 features, 5 models, soft ensemble |
+| v2      | **83.1%**   | **83.2%**          | 17 features, hyperparameter tuning, weighted ensemble |
 
 ## Approach
 
 1. **Exploratory Data Analysis** — Visualize distributions, correlations, and missing values
-2. **Feature Engineering** — Title extraction, family grouping, cabin decoding, age imputation
-3. **Modeling** — Random Forest, XGBoost, Logistic Regression, Gradient Boosting
-4. **Ensemble** — Soft voting classifier combining top models
+2. **Feature Engineering** — Title extraction, family grouping, cabin decoding, age imputation, ticket prefix, fare-per-person
+3. **Modeling** — Logistic Regression, Random Forest, XGBoost, Gradient Boosting, SVC
+4. **Ensemble** — Weighted soft voting (weighted by CV performance)
 5. **Submission** — Generate predictions in competition format
 
 ## Usage
 
 ```bash
 pip install -r requirements.txt
+
+# v1 (basic)
 python titanic_kaggle.py
+
+# v2 (optimized - recommended)
+python titanic_kaggle_v2.py
 ```
 
 ## Author
