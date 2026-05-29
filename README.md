@@ -175,7 +175,8 @@ I am actively expanding into **data engineering** — building end-to-end data p
 - [x] Build Titanic ML competition notebook (EDA + feature engineering + ensemble)
 - [x] Build ETL pipeline project (CSV → PostgreSQL with validation & cleaning)
 - [x] Add Kaggle badge & profile links to portfolio
-- [ ] Submit first Kaggle competition entry
+- [x] Kaggle notebook (.ipynb) created and ready for upload
+- [ ] Submit first Kaggle competition entry (see guide below)
 - [ ] Achieve Kaggle Contributor badge
 - [ ] Publish 3+ Kaggle notebooks with EDA + modeling
 - [ ] Expand data engineering portfolio with Spark/pipeline projects
