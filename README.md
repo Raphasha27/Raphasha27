@@ -244,37 +244,7 @@ graph TB
 - 📝 **AI README Studio** — Automated documentation generation
 - ⏰ **Contribution Orchestrator** — Smart scheduling & rotation
 
----
-
-## 📊 Data Engineering & Kaggle
-
-<div align="center">
-  <a href="https://kaggle.com/Raphasha27">
-    <img src="https://kaggle.com/static/images/open-kaggle.svg" height="40" alt="Kaggle Profile"/>
-  </a>
-  <br/><br/>
-  <a href="https://kaggle.com/Raphasha27">
-    <img src="https://img.shields.io/badge/dynamic/json?label=Kaggle&query=%24&url=https://www.kaggle.com/api/v1/users/Raphasha27&color=20BEFF&style=for-the-badge&logo=kaggle" alt="Kaggle Stats"/>
-  </a>
-</div>
-
-I am actively expanding into **data engineering** — building end-to-end data pipelines, exploring real-world datasets, and competing in Kaggle competitions. My focus areas:
-
-- 🗄️ **Data Pipeline Engineering** — ETL/ELT workflows, data cleaning, and feature engineering
-- 📈 **Exploratory Data Analysis** — Deep dives into complex datasets using pandas, numpy, and visualization
-- 🤖 **ML & Predictive Modeling** — scikit-learn, feature selection, and model evaluation
-- 🏆 **Kaggle Competitions** — Entering Tabular Playground, Titanic, Housing, and advancing into NLP/Time Series
-
-### 📌 Current Kaggle Goals
-
-- [ ] Enter first Kaggle competition (Tabular Playground Series)
-- [ ] Build a data engineering project portfolio on GitHub
-- [ ] Achieve Kaggle Contributor badge
-- [ ] Publish at least 3 Kaggle notebooks with EDA + modeling
-
----
-
-## 🤝 Open Source Contributions
+---## 🤝 Open Source Contributions
 
 | Project | Contribution |
 | :--- | :--- |
