@@ -147,6 +147,9 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
 | **[📊 Titanic ML](projects/titanic-ml/)** | [![Kaggle](https://img.shields.io/badge/78.5%25-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/c/titanic/submissions) | End-to-end ML pipeline for Titanic competition (78.5% public LB). [Notebook](https://www.kaggle.com/code/raphasha27/titanic-eda-ensemble-78-5) | Data Scientist |
+| **[🏠 House Prices](projects/data-engineering/house-prices/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/house-prices-regression-ensemble) | Regression ensemble with Ridge/Lasso/GB/XGB for housing prices | Data Scientist |
+| **[🚀 Spaceship Titanic](projects/data-engineering/spaceship-titanic/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/spaceship-titanic-classification-ensemble) | KNN imputation + ensemble for spaceship passenger transport | Data Scientist |
+| **[🏎️ F1 Pit Stops](projects/data-engineering/f1-pit-stops/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/predicting-f1-pit-stops-roc-auc) | Playground Series S6E5 — ROC AUC ensemble for pit stop prediction | Data Scientist |
 | **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
 | **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
 | **[🌐 API Pipeline](projects/data-engineering/api-pipeline/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | REST API data extraction with pagination, transformation, and loading | Data Engineer |
@@ -185,8 +188,10 @@ I am actively expanding into **data engineering** — building end-to-end data p
 - [x] Submit 5 competition entries (v2→v7, best: v6 at 78.5%)
 - [x] Build API Data Pipeline project (public API → transformation → load)
 - [x] Publish Kaggle notebook — [Titanic EDA + Ensemble 78.5%](https://www.kaggle.com/code/raphasha27/titanic-eda-ensemble-78-5)
-- [ ] Publish 2 more Kaggle notebooks
-- [ ] Achieve Kaggle Contributor badge
+- [x] Publish Kaggle notebook — [House Prices Regression](https://www.kaggle.com/code/raphasha27/house-prices-regression-ensemble)
+- [x] Publish Kaggle notebook — [Spaceship Titanic Classification](https://www.kaggle.com/code/raphasha27/spaceship-titanic-classification-ensemble)
+- [x] Publish Kaggle notebook — [F1 Pit Stops ROC AUC](https://www.kaggle.com/code/raphasha27/predicting-f1-pit-stops-roc-auc)
+- [ ] Achieve Kaggle Contributor badge (need 2 more competitions)
 
 <!-- GitHub Stats -->
 ## 📈 GitHub Analytics
