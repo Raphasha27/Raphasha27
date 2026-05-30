@@ -146,7 +146,7 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[🏙️ KasiPass](https://github.com/Raphasha27/KasiPass)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Township economy digitization & access infrastructure | Co-founder & Tech Lead |
 | **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
 | **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
-| **[📊 Titanic ML](projects/titanic-ml/)** | [![Kaggle](https://img.shields.io/badge/78.5%25-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/c/titanic/submissions) | End-to-end ML pipeline for Titanic competition (78.5% public LB) | Data Scientist |
+| **[📊 Titanic ML](projects/titanic-ml/)** | [![Kaggle](https://img.shields.io/badge/78.5%25-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/c/titanic/submissions) | End-to-end ML pipeline for Titanic competition (78.5% public LB). [Notebook](https://www.kaggle.com/code/raphasha27/titanic-eda-ensemble-78-5) | Data Scientist |
 | **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
 | **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
 | **[🌐 API Pipeline](projects/data-engineering/api-pipeline/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | REST API data extraction with pagination, transformation, and loading | Data Engineer |
@@ -184,8 +184,9 @@ I am actively expanding into **data engineering** — building end-to-end data p
 - [x] Submit first Kaggle competition entry ✅ **78.5% public LB**
 - [x] Submit 5 competition entries (v2→v7, best: v6 at 78.5%)
 - [x] Build API Data Pipeline project (public API → transformation → load)
+- [x] Publish Kaggle notebook — [Titanic EDA + Ensemble 78.5%](https://www.kaggle.com/code/raphasha27/titanic-eda-ensemble-78-5)
+- [ ] Publish 2 more Kaggle notebooks
 - [ ] Achieve Kaggle Contributor badge
-- [ ] Publish 3+ Kaggle notebooks with EDA + modeling
 
 <!-- GitHub Stats -->
 ## 📈 GitHub Analytics
