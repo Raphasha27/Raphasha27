@@ -1,0 +1,40 @@
+name: RepoPulse Stats Generator
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate repo stats
+        run: |
+          cat > REPOS.md << 'EOF'
+          # Repository Ecosystem
+
+          Auto-generated overview of all active repositories.
+
+          | Repository | Language | Description |
+          | :--- | :---: | :--- |
+          EOF
+          curl -s "https://api.github.com/users/Raphasha27/repos?per_page=100&sort=updated" | \
+          python3 -c "
+          import json, sys
+          repos = json.load(sys.stdin)
+          for r in sorted(repos, key=lambda x: x['updated_at'], reverse=True):
+              lang = r['language'] or '-'
+              desc = (r['description'] or '').replace('|', '/').replace('\n', ' ')
+              print(f\"| [{r['name']}]({r['html_url']}) | {lang} | {desc} |\")
+          " >> REPOS.md
+      - name: Commit stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add REPOS.md
+          git diff --staged --quiet || git commit -m "chore: auto-update repo stats [skip ci]"
+          git push

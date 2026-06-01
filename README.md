@@ -154,6 +154,10 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 | **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
 | **[🌐 API Pipeline](projects/data-engineering/api-pipeline/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | REST API data extraction with pagination, transformation, and loading | Data Engineer |
 | **[📈 Titanic Dashboard](projects/titanic-ml/dashboard/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Interactive Streamlit dashboard for Titanic predictions | ML Engineer |
+| **[🤖 AI Prompt CLI](https://github.com/Raphasha27/ai-prompt-cli)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | AI-powered prompt engineering CLI tool | AI Engineer |
+| **[📊 Structured Logging](https://github.com/Raphasha27/structured-logging-system)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Production-grade structured logging for observability | Backend Engineer |
+| **[🐳 Docker Deploy Templates](https://github.com/Raphasha27/docker-deployment-templates)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Reusable Docker deployment blueprints | DevOps Engineer |
+| **[🔐 Secure Auth RBAC](https://github.com/Raphasha27/secure-auth-rbac-template)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Role-based access control template with security hardening | Security Engineer |
 
 ---
 
@@ -300,6 +304,17 @@ graph TB
 | :--- | :--- | :--- |
 | **BSc in Information Technology** *(Distinction — Mobile App Development)* | Richfield Graduate Institute of Technology | 2025 |
 | **12-Month ICT Learnership Programme** | CAPACITI | 2024 |
+
+---
+
+---
+
+## 📊 Latest Repository Activity
+
+<!-- REPO_STATS:START -->
+<!-- REPO_STATS:END -->
+
+*Updated weekly via [RepoPulse Stats Generator](.github/workflows/repo-stats.yml)*
 
 ---
 
