@@ -15,7 +15,7 @@
 <a href="https://github.com/Raphasha27?tab=stars">
   <img src="https://img.shields.io/github/stars/Raphasha27?label=Total%20Stars&style=for-the-badge&color=ffd700&labelColor=0d1117" alt="Stars" />
 </a>
-<a href="https://portfolio-react-zeta-black-48.vercel.app/">
+<a href="https://portfolio-iota-eight-90.vercel.app/">
   <img src="https://img.shields.io/badge/Portfolio-Live-22c55e?style=for-the-badge&labelColor=0d1117&logo=vercel" alt="Portfolio" />
 </a>
 <a href="https://www.linkedin.com/in/koketso-raphasha/">
@@ -139,25 +139,25 @@ As **Lead Architect** across Kirov Dynamics initiatives, I drive platform direct
 
 | Project | Status | Focus & Direction | Role |
 | :--- | :---: | :--- | :--- |
-| **[🌐 Personal Portfolio](https://portfolio-react-zeta-black-48.vercel.app/)** | ![Live](https://img.shields.io/badge/-LIVE-22c55e?style=flat-square) | Immersive modern portfolio — engineering philosophy & work | Full-Stack Developer |
-| **[🤖 RepoPulse](https://github.com/Raphasha27/RepoPulse)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | AI OS for GitHub portfolios; autonomous CI analysis & self-healing pipelines | Lead AI Engineer |
-| **[🌍 Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Integrated trust ecosystem & socio-economic growth platform | Architect, AI & Blockchain |
-| **[🛡️ CyberShield](https://github.com/Raphasha27/CyberShield)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Security operations modernization and SOC visualization tooling | Security Visualization |
-| **[🏙️ KasiPass](https://github.com/Raphasha27/KasiPass)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Township economy digitization & access infrastructure | Co-founder & Tech Lead |
-| **[📡 FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Edge protection, traffic analysis & deep observability | Performance Engineering |
-| **[🦀 SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | ![Deployed](https://img.shields.io/badge/-DEPLOYED-58a6ff?style=flat-square) | Memory-safe core infrastructure in C | Core Systems Logic |
-| **[📊 Titanic ML](projects/titanic-ml/)** | [![Kaggle](https://img.shields.io/badge/78.5%25-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/c/titanic/submissions) | End-to-end ML pipeline for Titanic competition (78.5% public LB). [Notebook](https://www.kaggle.com/code/raphasha27/titanic-eda-ensemble-78-5) | Data Scientist |
-| **[🏠 House Prices](projects/data-engineering/house-prices/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/house-prices-regression-ensemble) | Regression ensemble with Ridge/Lasso/GB/XGB for housing prices | Data Scientist |
-| **[🚀 Spaceship Titanic](projects/data-engineering/spaceship-titanic/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/spaceship-titanic-classification-ensemble) | KNN imputation + ensemble for spaceship passenger transport | Data Scientist |
-| **[🏎️ F1 Pit Stops](projects/data-engineering/f1-pit-stops/)** | [![Kaggle](https://img.shields.io/badge/-NOTEBOOK-20BEFF?style=flat-square&logo=kaggle)](https://www.kaggle.com/code/raphasha27/predicting-f1-pit-stops-roc-auc) | Playground Series S6E5 — ROC AUC ensemble for pit stop prediction | Data Scientist |
-| **[🗄️ ETL Pipeline](projects/data-engineering/etl-pipeline/)** | ![Portfolio](https://img.shields.io/badge/-PORTFOLIO-22c55e?style=flat-square) | Production-style CSV to PostgreSQL ETL with validation and reporting | Data Engineer |
-| **[⚡ Spark ETL](projects/data-engineering/spark-etl/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Distributed PySpark ETL pipeline for big data processing | Data Engineer |
-| **[🌐 API Pipeline](projects/data-engineering/api-pipeline/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | REST API data extraction with pagination, transformation, and loading | Data Engineer |
-| **[📈 Titanic Dashboard](projects/titanic-ml/dashboard/)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Interactive Streamlit dashboard for Titanic predictions | ML Engineer |
-| **[🤖 AI Prompt CLI](https://github.com/Raphasha27/ai-prompt-cli)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | AI-powered prompt engineering CLI tool | AI Engineer |
-| **[📊 Structured Logging](https://github.com/Raphasha27/structured-logging-system)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Production-grade structured logging for observability | Backend Engineer |
-| **[🐳 Docker Deploy Templates](https://github.com/Raphasha27/docker-deployment-templates)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Reusable Docker deployment blueprints | DevOps Engineer |
-| **[🔐 Secure Auth RBAC](https://github.com/Raphasha27/secure-auth-rbac-template)** | ![New](https://img.shields.io/badge/-NEW-22c55e?style=flat-square) | Role-based access control template with security hardening | Security Engineer |
+| **[🌐 Personal Portfolio](https://portfolio-iota-eight-90.vercel.app/)** | ![Live](https://img.shields.io/badge/-LIVE-22c55e?style=flat-square) | Immersive 3D portfolio — engineering philosophy & work | Full-Stack Developer |
+| **[🛡️ Github-Harden](https://github.com/Raphasha27/Github-Harden)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Multi-language security framework for repo hardening & automated auditing | Lead Security Engineer |
+| **[🤖 AI-Agent](https://github.com/Raphasha27/AI-Agent)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Autonomous agentic framework for cross-repo orchestration | Lead AI Engineer |
+| **[🏭 autonomous-dev-factory-v7](https://github.com/Raphasha27/autonomous-dev-factory-v7)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Multi-agent autonomous engineering swarm platform | Systems Architect |
+| **[🔐 secure-auth-rbac-template](https://github.com/Raphasha27/secure-auth-rbac-template)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Production-grade FastAPI auth & RBAC with JWT | Security Engineer |
+| **[🧠 ai-job-market-intelligence](https://github.com/Raphasha27/ai-job-market-intelligence)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | AI job market analytics with heuristic trend forecasting | AI Engineer |
+| **[📊 Nexus-Quant](https://github.com/Raphasha27/Nexus-Quant)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Quantitative trading & market analytics engine | Quant Developer |
+| **[💼 SaaS Multi-Tenant Backend](https://github.com/Raphasha27/saas-multitenant-backend)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Enterprise multi-tenant FastAPI with tenant isolation | Backend Architect |
+| **[🚀 enterprise-fastapi-starter](https://github.com/Raphasha27/enterprise-fastapi-starter)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Production-ready FastAPI starter with Docker, PostgreSQL & CI/CD | Backend Architect |
+| **[🔍 repo-audit-bot](https://github.com/Raphasha27/repo-audit-bot)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | CLI tool that audits repos for missing security files | Security Engineer |
+| **[🦀 Kirov-AI-SDK](https://github.com/Raphasha27/Kirov-AI-SDK)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Python SDK for building & deploying AI agents with tool calling | AI Engineer |
+| **[📝 ai-prompt-cli](https://github.com/Raphasha27/ai-prompt-cli)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | CLI for crafting & executing AI prompts across LLM providers | AI Engineer |
+| **[📊 structured-logging-system](https://github.com/Raphasha27/structured-logging-system)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Enterprise-grade structured JSON logging for Python | Backend Engineer |
+| **[🐳 docker-deployment-templates](https://github.com/Raphasha27/docker-deployment-templates)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Production-ready Docker Compose templates for common stacks | DevOps Engineer |
+| **[🔎 sec-audit-cli](https://github.com/Raphasha27/sec-audit-cli)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | CLI dependency vulnerability scanner for requirements.txt | Security Engineer |
+| **[📋 task_manager](https://github.com/Raphasha27/task_manager)** | ![Active](https://img.shields.io/badge/-ACTIVE-58a6ff?style=flat-square) | Professional task orchestration & productivity engine | Full-Stack Developer |
+| **[🧪 InsightForge-AI](https://github.com/Raphasha27/InsightForge-AI)** | ![Lab](https://img.shields.io/badge/-LAB-22c55e?style=flat-square) | AI-powered analytics for pattern detection & BI workflows | Data Scientist |
+| **[📈 Predictive-Core-Lab](https://github.com/Raphasha27/Predictive-Core-Lab)** | ![Lab](https://img.shields.io/badge/-LAB-22c55e?style=flat-square) | Predictive modeling & ML experimentation lab | ML Engineer |
+| **[📦 VectorFlow-Studio-Lab](https://github.com/Raphasha27/VectorFlow-Studio-Lab)** | ![Lab](https://img.shields.io/badge/-LAB-22c55e?style=flat-square) | Vector search & RAG pipeline experimentation lab | AI Engineer |
 
 ---
 
@@ -224,15 +224,16 @@ graph TB
     end
 
     subgraph Intelligence["AI & Intelligence Layer"]
-        RAG[Go-RAG-System] -->|Powers RAG| NQ[Nexus-Quant]
+        KSDK[Kirov-AI-SDK] -->|Powers| NQ[Nexus-Quant]
         NQ -->|Forecasts| IF[InsightForge-AI]
         IF -->|Analyzes| PCL[Predictive-Core-Lab]
+        VFS[VectorFlow-Studio-Lab] -->|RAG Pipeline| KSDK
     end
 
     subgraph Security["Security & Infrastructure Layer"]
-        CS[cybershield_soc] -->|Monitors| GH2[Github-Harden2]
-        GH2 -->|Scans| SEC[sec-audit-cli]
+        GH2[Github-Harden] -->|Scans| SEC[sec-audit-cli]
         SEC -->|Hardens| SAT[secure-auth-rbac-template]
+        RAB[repo-audit-bot] -->|Audits| GH2
     end
 
     subgraph Backend["Backend & SaaS Layer"]
@@ -242,8 +243,8 @@ graph TB
     end
 
     subgraph Frontend["Frontend & Portfolio Layer"]
-        PORT[Portfolio] -->|Showcases| RPD[raphasha-dev-portfolio]
-        RAD[react-admin-dashboard-pro] -->|Dashboard| ALL
+        PORT[Portfolio] -->|Showcases| TASK[task_manager]
+        JMI[ai-job-market-intelligence] -->|Analytics| PORT
     end
 ```
 
@@ -254,33 +255,21 @@ graph TB
 - 📝 **AI README Studio** — Automated documentation generation
 - ⏰ **Contribution Orchestrator** — Smart scheduling & rotation
 
----## 🤝 Open Source Contributions
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=onedark&column=7&no-frame=true&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
+</div>
+
+---
+
+## 🤝 Open Source Contributions
 
 | Project | Contribution |
 | :--- | :--- |
 | **[ai-chatkit](https://github.com/princedev-toptal/ai-chatkit)** | Initialized core infrastructure, CI/CD workflows & MIT License |
-
----
-
-## 📈 Activity & Impact
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&bg_color=0d1117&color=58a6ff&line=FFD700&point=ffffff&area=true&hide_border=true" width="100%" alt="Contribution Activity Graph"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&icon_color=58a6ff&text_color=ffffff" height="165" alt="GitHub Stats"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFD700&text_color=ffffff" height="165" alt="Top Languages"/>
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&background=0d1117&ring=FFD700&fire=58a6ff&currStreakLabel=FFD700" width="60%" alt="GitHub Streak Stats"/>
-</div>
 
 ---
 
