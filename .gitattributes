@@ -1,0 +1,19 @@
+* text=auto
+
+# Go
+*.go text diff=golang
+
+# Python
+*.py text diff=python
+*.pyc binary
+
+# JavaScript
+*.js text
+*.ts text
+
+# Docker
+Dockerfile text
+
+# Shell
+*.sh text
+*.ps1 text
