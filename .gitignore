@@ -45,10 +45,24 @@ target/
 
 # Environment Configs
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*
+!.env.example
+!.env.template
+secrets.*
+credentials*
+*.key
+*.pem
+*.pfx
+*.p12
+
+# IDE & Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
 # IDEs & System files
 .idea/
