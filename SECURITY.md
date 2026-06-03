@@ -1,17 +1,39 @@
 ﻿# Security Policy
 
-## Reporting a Vulnerability
+## 🔒 Reporting a Vulnerability
 
-If you discover a security vulnerability in this repository, please report it via **[GitHub Security Advisories](https://github.com/Raphasha27/Raphasha27/security/advisories/new)**.
+I take the security of my projects seriously. If you discover a security vulnerability, please **do NOT** open a public issue.
 
-Please do **not** open public issues for confirmed or suspected security vulnerabilities.
+Instead, **report privately** by emailing **402106633@my.richfield.ac.za**
 
-## Responsible Disclosure
+You will receive a response within **48 hours** with the plan for addressing the issue.
 
-We take security seriously. We will acknowledge receipt of your report within 48 hours and strive to resolve critical issues within 7 days.
+### What to include:
+- Description of the vulnerability
+- Steps to reproduce
+- Affected versions (if known)
+- Potential impact
 
-## Supported Versions
+## 🛡️ Security Features
+
+This repository uses:
+- **Trivy** — Weekly automated vulnerability scanning (dependencies, secrets, IaC)
+- **Dependabot** — Automated dependency updates
+- **Branch Protection** — `main` branch requires PR review
+- **Secret Scanning** — GitHub Advanced Security (if enabled)
+- **CodeQL Analysis** — Automated code quality and security analysis
+
+## ✅ Best Practices
+
+- Never commit `.env` files, API keys, or credentials
+- Use environment variables or GitHub Secrets for sensitive data
+- Keep dependencies up to date
+- Use 2FA on your GitHub account
+- Review code before merging
+
+## 📋 Supported Versions
 
 | Version | Supported |
-|---------|-----------|
-| main    | ✅ Yes    |
+| ------- | --------- |
+| Latest  | ✅ Yes    |
+| Older   | ❌ No     |
