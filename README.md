@@ -212,4 +212,8 @@
   <a href="https://portfolio-iota-eight-90.vercel.app/">portfolio-iota-eight-90.vercel.app</a>
   <br /><br />
   <i>"Strive not to be a success, but rather to be of value." — Einstein</i>
+  <br /><br />
+  <div style="font-size:12px; color:#6366F1;">
+    🙏 Special thanks to <a href="https://opencode.ai" style="color:#0EA5E9;">Opencode</a> &amp; <a href="https://antigravity.google" style="color:#0EA5E9;">Google Antigravity</a> — powering the agentic workflows behind this profile.
+  </div>
 </div>
