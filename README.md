@@ -9,10 +9,15 @@
 <br />
 
 <div align="center">
-  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Koketso_Raphasha-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Deployed-0EA5E9?style=flat&logo=vercel&logoColor=white" /></a>
-  <a href="https://kaggle.com/Raphasha27"><img src="https://img.shields.io/badge/Kaggle-Competitions-20BEFF?style=flat&logo=kaggle&logoColor=white" /></a>
-  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Koketso_Raphasha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:402106633@my.richfield.ac.za"><img src="https://img.shields.io/badge/Email-402106633%40my.richfield.ac.za-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Deployed-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://wa.me/27763452678"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+  <br />
+  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://kaggle.com/Raphasha27"><img src="https://img.shields.io/badge/Kaggle-Competitions-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
+  <a href="https://stackoverflow.com/users/402106633"><img src="https://img.shields.io/badge/Stack_Overflow-Q%26A-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white" /></a>
+  <a href="https://discord.com/users/raphasha27"><img src="https://img.shields.io/badge/Discord-Chat-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
 </div>
 
 <br />
@@ -20,16 +25,16 @@
 <table align="center">
   <tr>
     <td align="center" width="33%">
-      <div><b style="color:#0EA5E9;">🎓</b> BSc IT Graduate</div>
+      <div><b style="color:#0EA5E9;">BSc IT Graduate</b></div>
       <div style="font-size:12px; color:#6366F1;">Richfield 2025</div>
     </td>
     <td align="center" width="33%">
-      <div><b style="color:#22C55E;">💼</b> CAPACITI</div>
+      <div><b style="color:#22C55E;">CAPACITI</b></div>
       <div style="font-size:12px; color:#6366F1;">Enterprise Dev</div>
     </td>
     <td align="center" width="33%">
-      <div><b style="color:#F59E0B;">📍</b> Johannesburg</div>
-      <div style="font-size:12px; color:#6366F1;">South Africa 🇿🇦</div>
+      <div><b style="color:#F59E0B;">Johannesburg</b></div>
+      <div style="font-size:12px; color:#6366F1;">South Africa</div>
     </td>
   </tr>
 </table>
@@ -41,14 +46,14 @@
   <br />
   <b>Hey, I'm Koketso</b>
   <br />
-  I build full-stack applications and AI-powered systems. Every project ships — from concept to deployment.
+  I build full-stack applications and AI-powered systems. Every project ships - from concept to deployment.
 </div>
 
 <br />
 
 ---
 
-<h2 align="center">🚀 Live Deployments</h2>
+<h2 align="center">Live Deployments</h2>
 
 <table align="center">
   <tr>
@@ -75,13 +80,25 @@
     <td align="center"><a href="https://github.com/Raphasha27/Go-RAG-System"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
     <td align="center"><a href="https://github.com/Raphasha27/afro_fashion_mobile"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
+  <tr>
+    <td align="center" width="50%"><b>Kirov Scanner</b></td>
+    <td align="center" width="50%"><b>KasiPass</b></td>
+  </tr>
+  <tr>
+    <td align="center">Next.js, TypeScript, Security</td>
+    <td align="center">Digital Identity & Payments</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Raphasha27/kirov-scanner"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/KasiPass"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+  </tr>
 </table>
 
 <br />
 
 ---
 
-<h2 align="center">📊 GitHub Stats</h2>
+<h2 align="center">GitHub Stats</h2>
 
 <p align="center">
   <img src="https://readme-stats.abhisheksuresh.me/api?username=Raphasha27&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=0EA5E9&icon_color=8B5CF6&text_color=F8FAFC&ring_color=22C55E&border_radius=12" width="48%" />
@@ -95,7 +112,7 @@
 
 ---
 
-<h2 align="center">🛠️ Stack</h2>
+<h2 align="center">Tech Stack</h2>
 
 <details open>
 <summary><b>Languages</b></summary>
@@ -173,28 +190,28 @@
 
 ---
 
-<h2 align="center">🌿 Contribution Activity</h2>
+<h2 align="center">Contribution Activity</h2>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&theme=github-dark&hide_border=true&bg_color=0D1117&color=0EA5E9&line=8B5CF6&point=22C55E&area=true&area_color=0EA5E9&radius=8&custom_title=Activity+Graph" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contribution Snake" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-snake.svg" width="100%" alt="Contribution Snake" />
 </p>
 
 <br />
 
 ---
 
-<h2 align="center">🎓 Education & Certifications</h2>
+<h2 align="center">Education & Certifications</h2>
 
 | Year | Qualification | Institution |
 |------|-------------|------------|
-| 2025 | BSc IT — Mobile App Engineering (Distinction) | Richfield Graduate Institute |
+| 2025 | BSc IT - Mobile App Engineering (Distinction) | Richfield Graduate Institute |
 | 2024 | Enterprise Software Development | CAPACITI |
 | 2024 | Google Data Analytics Certificate | Google |
-| 2024 | Advanced ML & AI — TensorFlow, PyTorch | DeepLearning.AI |
+| 2024 | Advanced ML & AI - TensorFlow, PyTorch | DeepLearning.AI |
 | 2023 | Cisco SOC Analyst | Cisco |
 | 2023 | Microsoft Azure Fundamentals | Microsoft |
 
@@ -207,13 +224,16 @@
 </div>
 
 <div align="center">
-  Johannesburg, South Africa 🇿🇦
+  Johannesburg, South Africa
   <br />
-  <a href="https://portfolio-iota-eight-90.vercel.app/">portfolio-iota-eight-90.vercel.app</a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/">portfolio-iota-eight-90.vercel.app</a> |
+  <a href="mailto:402106633@my.richfield.ac.za">Email</a> |
+  <a href="https://wa.me/27763452678">WhatsApp</a> |
+  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387">LinkedIn</a>
   <br /><br />
-  <i>"Strive not to be a success, but rather to be of value." — Einstein</i>
+  <i>"Strive not to be a success, but rather to be of value." - Einstein</i>
   <br /><br />
   <div style="font-size:12px; color:#6366F1;">
-    🙏 Special thanks to <a href="https://opencode.ai" style="color:#0EA5E9;">Opencode</a> &amp; <a href="https://antigravity.google" style="color:#0EA5E9;">Google Antigravity</a> — powering the agentic workflows behind this profile.
+    Powered by <a href="https://opencode.ai" style="color:#0EA5E9;">Opencode</a> & <a href="https://github.com/Raphasha27" style="color:#0EA5E9;">Raphasha27</a>
   </div>
 </div>
