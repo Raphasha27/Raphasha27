@@ -84,8 +84,8 @@
 <h2 align="center">📊 GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=0EA5E9&icon_color=8B5CF6&text_color=F8FAFC&ring_color=22C55E&border_radius=12" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=0EA5E9&text_color=F8FAFC&border_radius=12" width="48%" />
+  <img src="https://readme-stats.abhisheksuresh.me/api?username=Raphasha27&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=0EA5E9&icon_color=8B5CF6&text_color=F8FAFC&ring_color=22C55E&border_radius=12" width="48%" />
+  <img src="https://readme-stats.abhisheksuresh.me/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=0EA5E9&text_color=F8FAFC&border_radius=12" width="48%" />
 </p>
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=transparent&hide_border=true&background=0D1117&stroke=30363D&ring=0EA5E9&fire=F59E0B&currStreakNum=F8FAFC&sideNums=22C55E&sideLabels=94A3B8&dates=94A3B8" width="70%" />
@@ -97,7 +97,7 @@
 
 <h2 align="center">🛠️ Stack</h2>
 
-<details>
+<details open>
 <summary><b>Languages</b></summary>
 <br />
 <div align="center">
@@ -112,7 +112,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary><b>Frameworks & Libraries</b></summary>
 <br />
 <div align="center">
@@ -127,7 +127,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary><b>AI & ML</b></summary>
 <br />
 <div align="center">
@@ -141,7 +141,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary><b>Cloud & DevOps</b></summary>
 <br />
 <div align="center">
@@ -155,7 +155,7 @@
 </div>
 </details>
 
-<details>
+<details open>
 <summary><b>Databases</b></summary>
 <br />
 <div align="center">
