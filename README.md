@@ -82,15 +82,15 @@
   </tr>
   <tr>
     <td align="center" width="50%"><b>Kirov Scanner</b></td>
-    <td align="center" width="50%"><b>KasiPass</b></td>
+    <td align="center" width="50%"><b>Titanic Kaggle</b></td>
   </tr>
   <tr>
     <td align="center">Next.js, TypeScript, Security</td>
-    <td align="center">Digital Identity & Payments</td>
+    <td align="center">ML, Python, Ensemble</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Raphasha27/kirov-scanner"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
-    <td align="center"><a href="https://github.com/Raphasha27/KasiPass"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/kaggle-titanic"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
 </table>
 
@@ -101,11 +101,11 @@
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
-  <img src="https://readme-stats.abhisheksuresh.me/api?username=Raphasha27&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=0EA5E9&icon_color=8B5CF6&text_color=F8FAFC&ring_color=22C55E&border_radius=12" width="48%" />
-  <img src="https://readme-stats.abhisheksuresh.me/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=0EA5E9&text_color=F8FAFC&border_radius=12" width="48%" />
+  <img src="https://github-readme-stats-jet-psi.vercel.app/api?username=Raphasha27&show_icons=true&count_private=true&theme=transparent&hide_border=true&title_color=0EA5E9&icon_color=8B5CF6&text_color=F8FAFC&ring_color=22C55E&border_radius=12" width="48%" />
+  <img src="https://github-readme-stats-jet-psi.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=transparent&hide_border=true&title_color=0EA5E9&text_color=F8FAFC&border_radius=12" width="48%" />
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=transparent&hide_border=true&background=0D1117&stroke=30363D&ring=0EA5E9&fire=F59E0B&currStreakNum=F8FAFC&sideNums=22C55E&sideLabels=94A3B8&dates=94A3B8" width="70%" />
+  <img src="https://github-readme-streak-stats-rosy-eight.vercel.app/?user=Raphasha27&theme=transparent&hide_border=true&background=0D1117&stroke=30363D&ring=0EA5E9&fire=F59E0B&currStreakNum=F8FAFC&sideNums=22C55E&sideLabels=94A3B8&dates=94A3B8" width="70%" />
 </p>
 
 <br />
