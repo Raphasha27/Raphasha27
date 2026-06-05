@@ -46,7 +46,7 @@
   <br />
   <b>Hey, I'm Koketso</b>
   <br />
-  I build full-stack applications and AI-powered systems. Every project ships - from concept to deployment.
+  I build full-stack applications, AI-powered dashboards, and open-source tools for real-world problems. Every project ships - from concept to deployment. Passionate about transport intelligence, sustainable packaging, and local AI for South African communities.
 </div>
 
 <br />
@@ -81,6 +81,18 @@
     <td align="center"><a href="https://github.com/Raphasha27/afro_fashion_mobile"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
   <tr>
+    <td align="center" width="50%"><b>Smart Packaging Platform</b></td>
+    <td align="center" width="50%"><b>Gauteng Transport Dashboard</b></td>
+  </tr>
+  <tr>
+    <td align="center">Streamlit, AI, Sustainable Materials</td>
+    <td align="center">Streamlit, ML, Geospatial, AI</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Raphasha27/smart-packaging-platform"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/gauteng-transport-dashboard"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+  </tr>
+  <tr>
     <td align="center" width="50%"><b>Kirov Scanner</b></td>
     <td align="center" width="50%"><b>Titanic Kaggle</b></td>
   </tr>
@@ -91,6 +103,18 @@
   <tr>
     <td align="center"><a href="https://github.com/Raphasha27/kirov-scanner"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
     <td align="center"><a href="https://github.com/Raphasha27/kaggle-titanic"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><b>SA Local AI Toolkit</b></td>
+    <td align="center" width="50%"><b>ZA Local AI Toolkit</b></td>
+  </tr>
+  <tr>
+    <td align="center">Ollama, Python, Docker, RAG</td>
+    <td align="center">Ollama, Python, Docker, RAG</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Raphasha27/za-local-ai-toolkit"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/za-local-ai-toolkit"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
 </table>
 
