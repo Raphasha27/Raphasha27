@@ -1,139 +1,135 @@
-:root {
-    --bg-color: #0d1117;
-    --grid-color: #161b22;
-    --snake-color: #22c55e;
-    --food-color: #ef4444;
-    --text-color: #c9d1d9;
-    --accent-color: #38bdf8;
-    --orbitron: 'Orbitron', sans-serif;
-}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    background-color: var(--bg-color);
-    color: var(--text-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
+  background: #0d1117;
+  color: #e5e7eb;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-    text-align: center;
-    width: 100%;
-    max-width: 800px;
+  width: 100%;
+  max-width: 680px;
+  padding: 20px;
 }
 
-header {
-    margin-bottom: 20px;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
-h1 {
-    font-family: var(--orbitron);
-    color: var(--accent-color);
-    text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
-    margin: 0 0 20px;
-    letter-spacing: 2px;
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #0ea5e9, #22c55e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .stats {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  gap: 16px;
 }
 
-.stat-box {
-    background: #1f2937;
-    padding: 10px 20px;
-    border-radius: 8px;
-    border: 1px solid #374151;
-    min-width: 120px;
+.stat {
+  text-align: right;
 }
 
-.label {
-    display: block;
-    font-size: 0.8rem;
-    color: #9ca3af;
-    margin-bottom: 5px;
+.stat-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6366f1;
 }
 
-.value {
-    font-family: var(--orbitron);
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #f3f4f6;
+.stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #f8fafc;
+  font-variant-numeric: tabular-nums;
 }
 
-.value.active {
-    color: var(--snake-color);
-    text-shadow: 0 0 8px rgba(34, 197, 94, 0.6);
-    animation: pulse 2s infinite;
-}
+.stat-value.green { color: #22c55e; }
+.stat-value.blue { color: #0ea5e9; }
+.stat-value.active { animation: pulse 1.5s ease-in-out infinite; }
 
 .game-wrapper {
-    position: relative;
-    display: inline-block;
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
-    border-radius: 4px;
-    overflow: hidden;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 40px rgba(14, 165, 233, 0.1), 0 0 80px rgba(34, 197, 94, 0.05);
+  border: 1px solid #21262d;
 }
 
 canvas {
-    background-color: var(--grid-color);
-    border: 2px solid #30363d;
-    display: block;
+  display: block;
+  width: 100%;
+  height: auto;
+  background: #161b22;
 }
 
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(13, 17, 23, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s;
-    backdrop-filter: blur(4px);
+.status-bar {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: #161b22;
+  border-radius: 8px;
+  border: 1px solid #21262d;
 }
 
-.game-wrapper:hover .overlay {
-    /* opacity: 1; */
-    /* Optional: Show on hover logic if needed */
+.status-indicator {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: #8b949e;
 }
 
-footer {
-    margin-top: 20px;
-    font-size: 0.9rem;
-    color: #8b949e;
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: pulse 2s ease-in-out infinite;
 }
 
-.highlight {
-    color: var(--accent-color);
-    font-weight: bold;
+.status-dot.warning { background: #fbbf24; }
+.status-dot.error { background: #ef4444; }
+
+#status-text {
+  font-family: 'Courier New', monospace;
+  color: #6b7280;
 }
 
-.status {
-    font-family: monospace;
-    color: #6b7280;
+.game-count {
+  font-size: 12px;
+  color: #6366f1;
 }
+
+.footer {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.footer a {
+  color: #0ea5e9;
+  text-decoration: none;
+  font-size: 12px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.footer a:hover { opacity: 1; }
 
 @keyframes pulse {
-    0% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.5;
-    }
-
-    100% {
-        opacity: 1;
-    }
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
 }

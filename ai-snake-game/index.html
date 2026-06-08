@@ -1,47 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Autonomous AI Snake game with A* pathfinding and flood-fill safety logic by Koketso Raphasha.">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data:; script-src 'self' 'unsafe-inline';">
-    <title>AI Snake - Autonomous Showcase | Raphasha27</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Snake - Autonomous pathfinding demo by Koketso Raphasha">
+  <title>AI Snake - Raphasha27</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav style="position:fixed;top:0;left:0;right:0;z-index:100;display:flex;justify-content:space-between;align-items:center;padding:0.75rem 2rem;background:rgba(13,17,23,0.85);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,0.08);">
-        <a href="../index.html" style="font-weight:800;font-size:1.1rem;background:linear-gradient(135deg,#0ea5e9,#00f2ff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;text-decoration:none;font-family:'Orbitron',sans-serif;">RAPHASHA.AI</a>
-        <a href="../index.html" style="color:#94a3b8;text-decoration:none;border:1px solid rgba(255,255,255,0.1);border-radius:999px;padding:0.4rem 0.9rem;font-size:0.8rem;">Back to Portfolio</a>
-    </nav>
-    <div class="container" style="margin-top:60px;">
-        <header>
-            <h1>🐍 AI Snake Autonomous</h1>
-            <div class="stats">
-                <div class="stat-box">
-                    <span class="label">SCORE</span>
-                    <span id="score" class="value">0</span>
-                </div>
-                <div class="stat-box">
-                    <span class="label">HIGH SCORE</span>
-                    <span id="high-score" class="value">0</span>
-                </div>
-                <div class="stat-box">
-                    <span class="label">AI MODE</span>
-                    <span class="value active">ACTIVE</span>
-                </div>
-            </div>
-        </header>
-        
-        <div class="game-wrapper">
-            <canvas id="gameCanvas" width="600" height="600"></canvas>
+  <div class="container">
+    <div class="header">
+      <div class="title">🐍 AI Snake</div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-label">Score</div>
+          <div class="stat-value green" id="score">0</div>
         </div>
-
-        <footer>
-            <p>Developed by <span class="highlight">Koketso Raphasha</span></p>
-            <p class="status">Status: <span id="status-text">CALCULATING PATH...</span></p>
-        </footer>
+        <div class="stat">
+          <div class="stat-label">Best</div>
+          <div class="stat-value blue" id="high-score">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">AI</div>
+          <div class="stat-value green active" id="ai-status">● Active</div>
+        </div>
+      </div>
     </div>
-    <script src="game.js"></script>
+
+    <div class="game-wrapper">
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+    </div>
+
+    <div class="status-bar">
+      <div class="status-indicator">
+        <span class="status-dot" id="status-dot"></span>
+        <span>Status:</span>
+        <span id="status-text">Initializing...</span>
+      </div>
+      <span class="game-count" id="game-count">Game #1</span>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/Raphasha27">github.com/Raphasha27</a>
+    </div>
+  </div>
+  <script src="game.js"></script>
 </body>
 </html>
