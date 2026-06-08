@@ -247,12 +247,16 @@
 <h2 align="center">🐍 AI Snake — Play Live</h2>
 
 <div align="center">
-  Autonomous Snake AI with A* pathfinding & flood-fill safety logic. Plays itself — just watch!<br/>
-  Built with JavaScript (HTML5 Canvas). Also available as an <b>Opendot Engine</b> project.
-  <br/><br/>
-  <a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/"><img src="https://img.shields.io/badge/▶_Play_Live-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white" /></a>
-  &nbsp;
-  <a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/Opendot_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
+
+[![](assets/snake-game-preview.svg)](https://raphasha27.github.io/Raphasha27/ai-snake-game/)
+
+Autonomous Snake AI with A* pathfinding & flood-fill safety logic — **plays itself!**<br/>
+Built with JavaScript (HTML5 Canvas). Also available as an <b>Opendot Engine</b> project.
+
+<a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/"><img src="https://img.shields.io/badge/▶_Play_Live-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+&nbsp;
+<a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/Opendot_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
+
 </div>
 
 ---

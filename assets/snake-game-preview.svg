@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 540" width="100%" height="100%" style="max-width:500px;">
+  <defs>
+    <style>
+      .seg { animation-duration:2s; animation-iteration-count:infinite; animation-timing-function:steps(1); }
+    </style>
+  </defs>
+  <!-- Background -->
+  <rect width="500" height="540" rx="12" fill="#0d1117"/>
+  <rect x="40" y="60" width="420" height="420" rx="4" fill="#161b22" stroke="#30363d" stroke-width="2"/>
+  <!-- Grid -->
+  <g stroke="#21262d" stroke-width="1">
+    <line x1="45" y1="60" x2="465" y2="60"/><line x1="45" y1="480" x2="465" y2="480"/>
+    <line x1="45" y1="60" x2="45" y2="480"/><line x1="465" y1="60" x2="465" y2="480"/>
+    <line x1="87" y1="60" x2="87" y2="480"/><line x1="129" y1="60" x2="129" y2="480"/>
+    <line x1="171" y1="60" x2="171" y2="480"/><line x1="213" y1="60" x2="213" y2="480"/>
+    <line x1="255" y1="60" x2="255" y2="480"/><line x1="297" y1="60" x2="297" y2="480"/>
+    <line x1="339" y1="60" x2="339" y2="480"/><line x1="381" y1="60" x2="381" y2="480"/>
+    <line x1="423" y1="60" x2="423" y2="480"/>
+    <line x1="45" y1="102" x2="465" y2="102"/><line x1="45" y1="144" x2="465" y2="144"/>
+    <line x1="45" y1="186" x2="465" y2="186"/><line x1="45" y1="228" x2="465" y2="228"/>
+    <line x1="45" y1="270" x2="465" y2="270"/><line x1="45" y1="312" x2="465" y2="312"/>
+    <line x1="45" y1="354" x2="465" y2="354"/><line x1="45" y1="396" x2="465" y2="396"/>
+    <line x1="45" y1="438" x2="465" y2="438"/>
+  </g>
+  <!-- Snake: 5 segments moving right across the grid -->
+  <rect class="seg" x="100" y="270" width="38" height="38" rx="4" fill="#22c55e" opacity="0.95">
+    <animate attributeName="x" values="100;120;140;160;180;200;220;240" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="seg" x="80" y="270" width="38" height="38" rx="4" fill="#22c55e" opacity="0.85">
+    <animate attributeName="x" values="80;100;120;140;160;180;200;220" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="seg" x="60" y="270" width="38" height="38" rx="4" fill="#1a9e4a" opacity="0.75">
+    <animate attributeName="x" values="60;80;100;120;140;160;180;200" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="seg" x="60" y="270" width="38" height="38" rx="4" fill="#1a9e4a" opacity="0.65">
+    <animate attributeName="x" values="60;60;80;100;120;140;160;180" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect class="seg" x="60" y="270" width="38" height="38" rx="4" fill="#15753a" opacity="0.55">
+    <animate attributeName="x" values="60;60;60;80;100;120;140;160" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Food 1 - appears then gets eaten -->
+  <circle cx="380" cy="270" r="16" fill="#ef4444">
+    <animate attributeName="opacity" values="1;1;1;1;0;0;0;0" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="16;16;16;16;0;0;0;0" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Food 2 - appears later -->
+  <circle cx="380" cy="270" r="16" fill="#ef4444" opacity="0">
+    <animate attributeName="opacity" values="0;0;0;0;0;0;1;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <!-- Title -->
+  <text x="250" y="35" font-family="monospace" font-size="20" font-weight="bold" fill="#0ea5e9" text-anchor="middle">🐍 AI Snake — Playing Live</text>
+  <!-- Status bar -->
+  <rect x="40" y="490" width="420" height="28" rx="4" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+  <text x="55" y="509" font-family="monospace" font-size="13" fill="#8b949e">Score: <tspan fill="#22c55e">30</tspan></text>
+  <text x="250" y="509" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="middle">AI: <tspan fill="#22c55e">● ACTIVE</tspan></text>
+  <text x="445" y="509" font-family="monospace" font-size="13" fill="#8b949e" text-anchor="end">Best: <tspan fill="#0ea5e9">120</tspan></text>
+  <!-- URL -->
+  <text x="250" y="533" font-family="monospace" font-size="10" fill="#30363d" text-anchor="middle">raphasha27.github.io/Raphasha27/ai-snake-game/</text>
+</svg>
