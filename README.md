@@ -126,7 +126,7 @@
   </tr>
   <tr>
     <td align="center"><a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/Project-22C55E?style=flat&logo=godot&logoColor=white" /></a></td>
-    <td align="center"><a href="ai-snake-game/"><img src="https://img.shields.io/badge/Play-0EA5E9?style=flat&logo=javascript&logoColor=white" /></a></td>
+    <td align="center"><a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/"><img src="https://img.shields.io/badge/▶_Play_Live-0EA5E9?style=flat&logo=javascript&logoColor=white" /></a></td>
   </tr>
 </table>
 
@@ -244,14 +244,15 @@
 
 ---
 
-<h2 align="center">🐍 Opendot Snake Game</h2>
+<h2 align="center">🐍 AI Snake — Play Live</h2>
 
 <div align="center">
-  Classic Snake built with the <b>Opendot Engine</b> (Godot 4.x fork by <a href="https://github.com/integrate-your-mind/opendot">integrate-your-mind</a>).<br/>
-  20×20 grid — Arrow keys / WASD — +10 per food — Wall & self collision — Press Enter to restart.<br/>
-  3 difficulty levels: <b>1</b>=Easy <b>2</b>=Medium <b>3</b>=Hard — High scores saved per difficulty.
+  Autonomous Snake AI with A* pathfinding & flood-fill safety logic. Plays itself — just watch!<br/>
+  Built with JavaScript (HTML5 Canvas). Also available as an <b>Opendot Engine</b> project.
   <br/><br/>
-  <a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/View_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
+  <a href="https://raphasha27.github.io/Raphasha27/ai-snake-game/"><img src="https://img.shields.io/badge/▶_Play_Live-0EA5E9?style=for-the-badge&logo=javascript&logoColor=white" /></a>
+  &nbsp;
+  <a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/Opendot_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
 </div>
 
 ---
