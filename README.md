@@ -248,7 +248,7 @@
 
 <div align="center">
 
-[![](assets/snake-game-preview.svg)](https://raphasha27.github.io/Raphasha27/ai-snake-game/)
+[![](assets/snake-game-preview.svg?v=3)](https://raphasha27.github.io/Raphasha27/ai-snake-game/)
 
 Autonomous Snake AI with A* pathfinding & flood-fill safety logic — **plays itself!**<br/>
 Built with JavaScript (HTML5 Canvas). Also available as an <b>Opendot Engine</b> project.
