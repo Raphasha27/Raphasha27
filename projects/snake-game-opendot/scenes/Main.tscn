@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://snakegame_main"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_7q3hd"]
+[ext_resource type="Script" path="res://scripts/snake.gd" id="2_6f8kq"]
+[ext_resource type="Script" path="res://scripts/food.gd" id="3_9h2pz"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="4_1m5bn"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_7q3hd")
+
+[node name="Snake" type="Node2D" parent="."]
+script = ExtResource("2_6f8kq")
+
+[node name="MoveTimer" type="Timer" parent="Snake"]
+wait_time = 0.15
+autostart = false
+one_shot = false
+
+[node name="Food" type="Node2D" parent="."]
+script = ExtResource("3_9h2pz")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("4_1m5bn")
+
+[node name="ScoreLabel" type="Label" parent="HUD"]
+offset_left = 16
+offset_top = 16
+offset_right = 300
+offset_bottom = 48
+theme_override_colors/font_color = Color(1, 1, 1)
+theme_override_font_sizes/font_size = 24
+text = "Score: 0"
+
+[node name="GameOverLabel" type="Label" parent="."]
+visible = false
+offset_left = 80
+offset_top = 280
+offset_right = 560
+offset_bottom = 360
+theme_override_colors/font_color = Color(1, 0.2, 0.2)
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+vertical_alignment = 1
+text = "GAME OVER\nPress Enter to Restart"
+
+[connection signal="timeout" from="Snake/MoveTimer" to="Snake" method="_on_move_timer_timeout"]

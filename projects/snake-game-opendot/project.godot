@@ -1,0 +1,19 @@
+; Snake Game - Opendot Engine
+; Created by integrate-your-mind
+; Based on the Godot Engine (opendotengine.org)
+
+config_version=5
+
+[application]
+
+config/name="Snake Game - Opendot"
+config/description="Classic Snake game created with the Opendot Engine"
+run/main_scene="res://scenes/Main.tscn"
+config/windows_title="Snake Game - Opendot"
+
+[display]
+
+window/size/viewport_width=640
+window/size/viewport_height=640
+window/size/mode=0
+window/dpi/allow_hidpi=true

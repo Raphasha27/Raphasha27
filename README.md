@@ -116,6 +116,18 @@
     <td align="center"><a href="https://github.com/Raphasha27/za-local-ai-toolkit"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
     <td align="center"><a href="https://github.com/Raphasha27/kaggle-titanic"><img src="https://img.shields.io/badge/Repo-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
+  <tr>
+    <td align="center" width="50%"><b>🐍 Opendot Snake Game</b></td>
+    <td align="center" width="50%"><b>AI Snake Game</b></td>
+  </tr>
+  <tr>
+    <td align="center">Opendot Engine (Godot 4.x fork), GDScript</td>
+    <td align="center">A* Pathfinding, Flood-fill, JavaScript</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/Project-22C55E?style=flat&logo=godot&logoColor=white" /></a></td>
+    <td align="center"><a href="ai-snake-game/"><img src="https://img.shields.io/badge/Play-0EA5E9?style=flat&logo=javascript&logoColor=white" /></a></td>
+  </tr>
 </table>
 
 <br />
@@ -229,6 +241,17 @@
 </p>
 
 <br />
+
+---
+
+<h2 align="center">🐍 Opendot Snake Game</h2>
+
+<div align="center">
+  Classic Snake built with the <b>Opendot Engine</b> (Godot 4.x fork by <a href="https://github.com/integrate-your-mind/opendot">integrate-your-mind</a>).<br/>
+  20×20 grid — Arrow keys / WASD — +10 per food — Wall & self collision — Press Enter to restart.
+  <br/><br/>
+  <a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/View_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
+</div>
 
 ---
 
