@@ -248,7 +248,8 @@
 
 <div align="center">
   Classic Snake built with the <b>Opendot Engine</b> (Godot 4.x fork by <a href="https://github.com/integrate-your-mind/opendot">integrate-your-mind</a>).<br/>
-  20×20 grid — Arrow keys / WASD — +10 per food — Wall & self collision — Press Enter to restart.
+  20×20 grid — Arrow keys / WASD — +10 per food — Wall & self collision — Press Enter to restart.<br/>
+  3 difficulty levels: <b>1</b>=Easy <b>2</b>=Medium <b>3</b>=Hard — High scores saved per difficulty.
   <br/><br/>
   <a href="projects/snake-game-opendot/"><img src="https://img.shields.io/badge/View_Project-22C55E?style=for-the-badge&logo=godot&logoColor=white" /></a>
 </div>

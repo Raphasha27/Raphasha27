@@ -2,7 +2,6 @@ extends Node2D
 
 enum { UP, DOWN, LEFT, RIGHT }
 
-const MOVE_INTERVAL := 0.15
 const SEGMENT_SIZE := 31
 
 var direction: int = RIGHT
@@ -32,9 +31,13 @@ func reset() -> void:
 	for s in segments:
 		game.occupy_cell(s.x, s.y)
 
-	move_timer.start(MOVE_INTERVAL)
+	move_timer.start()
 	moving = true
 	queue_redraw()
+
+
+func set_speed(speed: float) -> void:
+	move_timer.wait_time = speed
 
 
 func _unhandled_input(event: InputEvent) -> void:

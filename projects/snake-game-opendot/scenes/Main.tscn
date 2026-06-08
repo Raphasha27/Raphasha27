@@ -31,6 +31,16 @@ theme_override_colors/font_color = Color(1, 1, 1)
 theme_override_font_sizes/font_size = 24
 text = "Score: 0"
 
+[node name="InfoLabel" type="Label" parent="HUD"]
+offset_left = 16
+offset_top = 600
+offset_right = 624
+offset_bottom = 632
+theme_override_colors/font_color = Color(0.6, 0.6, 0.6)
+theme_override_font_sizes/font_size = 14
+horizontal_alignment = 0
+text = "Best: 0  |  Medium  |  1-2-3: Difficulty"
+
 [node name="GameOverLabel" type="Label" parent="."]
 visible = false
 offset_left = 80
