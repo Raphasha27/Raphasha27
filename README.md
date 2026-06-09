@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=20&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;AI+%26+Emerging+Tech;BSc+IT+Graduate+%E2%80%A2+Richfield;CAPACITI+Alumnus" alt="Headline Rotator" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=20&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=500&lines=Practical+AI+for+Africa;Founder+%40+Kirov+Dynamics;BSc+IT+%28Distinction%29;Systems+Engineer" alt="Headline Rotator" />
 </div>
 
 <br />
@@ -134,6 +134,37 @@
 
 ---
 
+
+<h2 align="center">Proof of Work</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%"><b>Built enterprise RAG systems</b><br/>Go · PostgreSQL · OpenAI</td>
+      <td align="center" width="33%"><b>AI-powered attendance intelligence</b><br/>Python · ML · Computer Vision</td>
+      <td align="center" width="33%"><b>Mobile commerce in Flutter</b><br/>Dart · Firebase · Africa-first</td>
+    </tr>
+    <tr>
+      <td align="center" width="33%"><b>Transport analytics dashboards</b><br/>Streamlit · ML · Geospatial</td>
+      <td align="center" width="33%"><b>Township digital identity (KasiPass)</b><br/>JavaScript · QR · Offline-first</td>
+      <td align="center" width="33%"><b>Local AI for SA schools</b><br/>Ollama · RAG · Offline</td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+<h2 align="center">Wins</h2>
+
+<div align="center">
+  <code>BSc IT (Distinction)</code> ·
+  <code>CAPACITI Graduate</code> ·
+  <code>4,000+ Contributions</code> ·
+  <code>Founder, Kirov Dynamics</code> ·
+  <code>Open Source Contributor</code>
+</div>
+
+<br />
 <h2 align="center">GitHub Stats</h2>
 
 <p align="center">
