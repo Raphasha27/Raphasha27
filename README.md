@@ -12,6 +12,7 @@
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Koketso_Raphasha-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:402106633@my.richfield.ac.za"><img src="https://img.shields.io/badge/Email-402106633%40my.richfield.ac.za-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Deployed-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href='https://github.com/Raphasha27/kirov-dynamics'><img src='https://img.shields.io/badge/Kirov_Ecosystem-0D1117?style=for-the-badge&logo=github&logoColor=white' /></a>
   <a href="https://wa.me/27763452678"><img src="https://img.shields.io/badge/WhatsApp-Chat-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
   <br />
   <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -322,6 +323,6 @@ Built with JavaScript (HTML5 Canvas). Also available as an <b>Opendot Engine</b>
   <i>"Strive not to be a success, but rather to be of value." - Einstein</i>
   <br /><br />
   <div style="font-size:12px; color:#6366F1;">
-    Powered by <a href="https://opencode.ai" style="color:#0EA5E9;">Opencode</a> & <a href="https://github.com/Raphasha27" style="color:#0EA5E9;">Raphasha27</a>
+    Ecosystem: <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#22C55E;">Kirov Dynamics</a> · Portfolio: <a href="https://raphasha27.github.io/raphasha-dev-portfolio" style="color:#0EA5E9;">raphasha27.dev</a>
   </div>
 </div>
