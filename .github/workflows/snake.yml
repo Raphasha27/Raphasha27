@@ -1,8 +1,11 @@
-name: Generate Snake Animation
+name: 🐍 Generate Contribution Snake
+
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *"   # Every day at midnight UTC
   workflow_dispatch:
+  push:
+    branches: [main]
 
 jobs:
   generate:
@@ -10,6 +13,7 @@ jobs:
     permissions:
       contents: write
     timeout-minutes: 10
+
     steps:
       - uses: actions/checkout@v4
 
@@ -20,12 +24,12 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake-ocean.gif?color_snake=#FFD700&color_dots=#0d1117,#002D62,#005571,#58a6ff,#FFD700&color_background=#0d1117
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v5
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "chore: regenerate contribution snake [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

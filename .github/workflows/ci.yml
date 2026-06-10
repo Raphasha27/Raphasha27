@@ -7,28 +7,24 @@ on:
     branches: [main]
 
 jobs:
-  lint-html:
+  validate:
+    name: Validate Repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Check HTML files
         run: |
           echo "Validating HTML files..."
           for f in index.html pacman_game.html snake_ai.html; do
-            if [ -f "$f" ]; then
-              echo "  ✓ $f exists"
-            fi
+            [ -f "$f" ] && echo "  ✓ $f exists" || echo "  - $f not present"
           done
 
-  validate-json:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-      - name: Validate JSON files
+      - name: Validate YAML workflows
         run: |
-          echo "Checking JSON files..."
-          for f in .github/dependabot.yml .editorconfig; do
-            if [ -f "$f" ]; then
-              echo "  ✓ $f exists"
-            fi
+          echo "Checking workflow YAML syntax..."
+          for f in .github/workflows/*.yml; do
+            python3 -c "import yaml; yaml.safe_load(open('$f'))" \
+              && echo "  ✓ $f" \
+              || { echo "  ✗ $f — invalid YAML"; exit 1; }
           done

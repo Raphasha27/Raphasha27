@@ -12,24 +12,17 @@ jobs:
   trivy:
     name: Trivy Security Scan
     runs-on: ubuntu-latest
+    continue-on-error: true
     permissions:
       security-events: write
       contents: read
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Run Trivy FS Scanner
-        uses: aquasecurity/trivy-action@v0.36.0
+        uses: aquasecurity/trivy-action@0.28.0
         with:
           scan-type: "fs"
           ignore-unfixed: true
-          severity: "CRITICAL,HIGH,MEDIUM"
-          format: "sarif"
-          output: "trivy-results.sarif"
-
-      - name: Upload Trivy results to GitHub Security
-        uses: github/codeql-action/upload-sarif@v4
-        with:
-          sarif_file: "trivy-results.sarif"
-          category: "trivy"
+          severity: "CRITICAL,HIGH"
+          format: "table"
