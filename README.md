@@ -60,7 +60,7 @@
 
 ---
 
-<h2 align="center">ðŸš€ Core Infrastructure & Deployments</h2>
+<h2 align="center">🚀 Core Infrastructure & Deployments</h2>
 
 <table align="center">
   <tr>
@@ -93,43 +93,43 @@
 
 ---
 
-<h2 align="center">ðŸ”¥ Current Build Cycle</h2>
+<h2 align="center">🔥 Current Build Cycle</h2>
 
 <div align="center">
   <table>
     <tr>
       <td align="center" width="25%">
-        <a href="https://github.com/Raphasha27/kirov-central-hub"><b>ðŸ•¸ï¸ Kirov Central Hub</b></a>
+        <a href="https://github.com/Raphasha27/kirov-central-hub"><b>🕸️ Kirov Central Hub</b></a>
         <br/><sub>Ecosystem Portal</sub>
       </td>
       <td align="center" width="25%">
-        <a href="https://github.com/Raphasha27/kirov-cli"><b>âš¡ Kirov CLI</b></a>
+        <a href="https://github.com/Raphasha27/kirov-cli"><b>⚡ Kirov CLI</b></a>
         <br/><sub>Rust CLI</sub>
       </td>
       <td align="center" width="25%">
-        <a href="https://github.com/Raphasha27/ironclad-sandbox"><b>ðŸ›¡ï¸ Ironclad Sandbox</b></a>
+        <a href="https://github.com/Raphasha27/ironclad-sandbox"><b>🛡️ Ironclad Sandbox</b></a>
         <br/><sub>Secure Execution</sub>
       </td>
       <td align="center" width="25%">
-        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>ðŸ§  InsightForge AI</b></a>
+        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>🧠 InsightForge AI</b></a>
         <br/><sub>Analytics Engine</sub>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <a href="https://github.com/Raphasha27/kirov-observability-platform"><b>ðŸ“Š Observability</b></a>
+        <a href="https://github.com/Raphasha27/kirov-observability-platform"><b>📊 Observability</b></a>
         <br/><sub>Grafana Stack</sub>
       </td>
       <td align="center">
-        <a href="https://github.com/Raphasha27/kirov-security-core"><b>ðŸ” Security Core</b></a>
+        <a href="https://github.com/Raphasha27/kirov-security-core"><b>🔐 Security Core</b></a>
         <br/><sub>Unified Auth</sub>
       </td>
       <td align="center">
-        <a href="https://github.com/Raphasha27/Go-RAG-System"><b>ðŸ“š Go RAG System</b></a>
+        <a href="https://github.com/Raphasha27/Go-RAG-System"><b>📚 Go RAG System</b></a>
         <br/><sub>Production RAG</sub>
       </td>
       <td align="center">
-        <a href="https://github.com/Raphasha27/SupportHive-C"><b>ðŸ SupportHive-C</b></a>
+        <a href="https://github.com/Raphasha27/SupportHive-C"><b>🐝 SupportHive-C</b></a>
         <br/><sub>Event-Driven C</sub>
       </td>
     </tr>
@@ -140,7 +140,7 @@
 
 ---
 
-<h2 align="center">ðŸ† GitHub Achievements</h2>
+<h2 align="center">🏆 GitHub Achievements</h2>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
@@ -150,7 +150,7 @@
 
 ---
 
-<h2 align="center">ðŸ“Š Telemetry & Analytics</h2>
+<h2 align="center">📊 Telemetry & Analytics</h2>
 
 <p align="center">
   <img src="https://github-readme-stats-jet-psi.vercel.app/api?username=Raphasha27&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9&border_radius=10&include_all_commits=true" width="49%" />
@@ -159,7 +159,6 @@
 
 <p align="center">
   <img src="https://github-readme-stats-jet-psi.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=8B5CF6&border_radius=10&size_weight=0.5&count_weight=0.5" width="49%" />
-  <img src="https://github-readme-stats-jet-psi.vercel.app/api/wakatime?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&title_color=8B5CF6&border_radius=10&langs_count=6" width="49%" />
 </p>
 
 <p align="center">
@@ -178,7 +177,7 @@
 
 ---
 
-<h2 align="center">âš¡ Technology Stack</h2>
+<h2 align="center">⚡ Technology Stack</h2>
 
 <div align="center">
   <b>Languages & Core</b><br/><br/>
@@ -233,7 +232,7 @@
 
 ---
 
-<h2 align="center">ðŸ“Œ Pinned Ecosystem</h2>
+<h2 align="center">📌 Pinned Ecosystem</h2>
 
 <div align="center">
   <a href="https://github.com/Raphasha27/autonomous-dev-factory-v7">
@@ -257,7 +256,7 @@
 
 ---
 
-<h2 align="center">ðŸ’– Support the Mission</h2>
+<h2 align="center">💖 Support the Mission</h2>
 
 <div align="center">
   <a href="https://github.com/sponsors/Raphasha27"><img src="https://img.shields.io/badge/GitHub_Sponsors-Support-30363D?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=8B5CF6" /></a>
@@ -277,7 +276,7 @@
   <i>"Strive not to be a success, but rather to be of value." - Einstein</i>
   <br /><br />
   <div style="font-size:12px; color:#94A3B8;">
-    Â© 2026 <b>Koketso Raphasha</b> Â· Founder @ <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#8B5CF6;">Kirov Dynamics</a>
+    (c) 2026 <b>Koketso Raphasha</b> - Founder @ <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#8B5CF6;">Kirov Dynamics</a>
   </div>
   <br />
   <div style="font-size:11px; color:#636D7D;">
