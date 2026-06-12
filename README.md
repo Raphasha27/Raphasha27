@@ -18,6 +18,15 @@
 
 <br />
 
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=PROFILE+VIEWS&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/Raphasha27?style=for-the-badge&logo=github&label=Followers&color=22C55E" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/Raphasha27?style=for-the-badge&logo=github&label=Total+Stars&color=F59E0B" alt="Stars" />
+  <img src="https://img.shields.io/badge/Last_Updated-June_2026-0EA5E9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Last Updated" />
+</div>
+
+<br />
+
 <table align="center" style="border: 1px solid #30363D; border-radius: 8px;">
   <tr>
     <td align="center" width="33%">
@@ -51,7 +60,7 @@
 
 ---
 
-<h2 align="center">🚀 Core Infrastructure & Deployments</h2>
+<h2 align="center">ðŸš€ Core Infrastructure & Deployments</h2>
 
 <table align="center">
   <tr>
@@ -84,11 +93,73 @@
 
 ---
 
-<h2 align="center">📊 Telemetry & Analytics</h2>
+<h2 align="center">ðŸ”¥ Current Build Cycle</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/kirov-central-hub"><b>ðŸ•¸ï¸ Kirov Central Hub</b></a>
+        <br/><sub>Ecosystem Portal</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/kirov-cli"><b>âš¡ Kirov CLI</b></a>
+        <br/><sub>Rust CLI</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/ironclad-sandbox"><b>ðŸ›¡ï¸ Ironclad Sandbox</b></a>
+        <br/><sub>Secure Execution</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>ðŸ§  InsightForge AI</b></a>
+        <br/><sub>Analytics Engine</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/kirov-observability-platform"><b>ðŸ“Š Observability</b></a>
+        <br/><sub>Grafana Stack</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/kirov-security-core"><b>ðŸ” Security Core</b></a>
+        <br/><sub>Unified Auth</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/Go-RAG-System"><b>ðŸ“š Go RAG System</b></a>
+        <br/><sub>Production RAG</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/SupportHive-C"><b>ðŸ SupportHive-C</b></a>
+        <br/><sub>Event-Driven C</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">ðŸ† GitHub Achievements</h2>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
+</div>
+
+<br />
+
+---
+
+<h2 align="center">ðŸ“Š Telemetry & Analytics</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats-jet-psi.vercel.app/api?username=Raphasha27&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9&border_radius=10" width="48%" />
-  <img src="https://github-readme-stats-jet-psi.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=8B5CF6&border_radius=10" width="48%" />
+  <img src="https://github-readme-stats-jet-psi.vercel.app/api?username=Raphasha27&show_icons=true&count_private=true&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9&border_radius=10&include_all_commits=true" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=tokyonight&hide_border=true&fire=8B5CF6&ring=0EA5E9&currStreakLabel=22C55E" width="49%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-jet-psi.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&title_color=8B5CF6&border_radius=10&size_weight=0.5&count_weight=0.5" width="49%" />
+  <img src="https://github-readme-stats-jet-psi.vercel.app/api/wakatime?username=Raphasha27&layout=compact&theme=tokyonight&hide_border=true&title_color=8B5CF6&border_radius=10&langs_count=6" width="49%" />
 </p>
 
 <p align="center">
@@ -107,7 +178,7 @@
 
 ---
 
-<h2 align="center">⚡ Technology Stack</h2>
+<h2 align="center">âš¡ Technology Stack</h2>
 
 <div align="center">
   <b>Languages & Core</b><br/><br/>
@@ -116,6 +187,10 @@
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </div>
 
 <br/>
@@ -126,6 +201,19 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
   <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/SciKit_Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
+</div>
+
+<br/>
+
+<div align="center">
+  <b>Frameworks & Frontend</b><br/><br/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 </div>
 
 <br/>
@@ -137,6 +225,44 @@
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
   <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
   <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" />
+</div>
+
+<br />
+
+---
+
+<h2 align="center">ðŸ“Œ Pinned Ecosystem</h2>
+
+<div align="center">
+  <a href="https://github.com/Raphasha27/autonomous-dev-factory-v7">
+    <img src="https://github-readme-stats-jet-psi.vercel.app/api/pin/?username=Raphasha27&repo=autonomous-dev-factory-v7&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9" width="45%" />
+  </a>
+  <a href="https://github.com/Raphasha27/kirov-security-core">
+    <img src="https://github-readme-stats-jet-psi.vercel.app/api/pin/?username=Raphasha27&repo=kirov-security-core&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9" width="45%" />
+  </a>
+</div>
+
+<div align="center">
+  <a href="https://github.com/Raphasha27/cybershield_soc">
+    <img src="https://github-readme-stats-jet-psi.vercel.app/api/pin/?username=Raphasha27&repo=cybershield_soc&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9" width="45%" />
+  </a>
+  <a href="https://github.com/Raphasha27/Go-RAG-System">
+    <img src="https://github-readme-stats-jet-psi.vercel.app/api/pin/?username=Raphasha27&repo=Go-RAG-System&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9" width="45%" />
+  </a>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">ðŸ’– Support the Mission</h2>
+
+<div align="center">
+  <a href="https://github.com/sponsors/Raphasha27"><img src="https://img.shields.io/badge/GitHub_Sponsors-Support-30363D?style=for-the-badge&logo=githubsponsors&logoColor=white&labelColor=8B5CF6" /></a>
+  <a href="https://ko-fi.com/raphasha27"><img src="https://img.shields.io/badge/Ko--fi-Buy_Me_A_Coffee-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" /></a>
+  <a href="https://www.buymeacoffee.com/raphasha27"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-Support-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black" /></a>
 </div>
 
 <br />
@@ -151,6 +277,10 @@
   <i>"Strive not to be a success, but rather to be of value." - Einstein</i>
   <br /><br />
   <div style="font-size:12px; color:#94A3B8;">
-    © 2026 <b>Koketso Raphasha</b> · Founder @ <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#8B5CF6;">Kirov Dynamics</a>
+    Â© 2026 <b>Koketso Raphasha</b> Â· Founder @ <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#8B5CF6;">Kirov Dynamics</a>
+  </div>
+  <br />
+  <div style="font-size:11px; color:#636D7D;">
+    <sub>Profile automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
   </div>
 </div>
