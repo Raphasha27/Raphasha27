@@ -14,6 +14,7 @@
   <a href="mailto:402106633@my.richfield.ac.za"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27/kirov-dynamics"><img src="https://img.shields.io/badge/Kirov_Ecosystem-Explore-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://discord.com/users/raphasha27"><img src="https://img.shields.io/badge/Discord-Ping_Me-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
+  <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad-Shop-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
 </div>
 
 <br />
@@ -171,6 +172,20 @@
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" />
     <img alt="Contribution Snake Animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
+</p>
+
+<br />
+
+---
+
+<h2 align="center">🛒 Digital Store</h2>
+
+<p align="center">
+  <b>Professional tools, templates, and services for AI engineers and developers.</b>
+  <br /><br />
+  <a href="https://portfolio-iota-eight-90.vercel.app/#store"><img src="https://img.shields.io/badge/Browse_Store-00FF9C?style=for-the-badge&logo=vercel&logoColor=black" /></a>
+  <a href="https://paypal.me/Raphasha27"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" /></a>
+  <a href="https://ko-fi.com/raphasha27"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" /></a>
 </p>
 
 <br />
