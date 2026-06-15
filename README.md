@@ -61,6 +61,68 @@
 
 ---
 
+<h2 align="center">🎯 Current Mission: Agentic Engineering</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b>Stage 1</b><br/>
+        <sub>Vibe Coding</sub><br/>
+        <sub style="color:#22C55E;">✅ Legacy</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>Stage 2</b><br/>
+        <sub>Flow Engineering</sub><br/>
+        <sub style="color:#22C55E;">✅ Intermediate</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>Stage 3</b><br/>
+        <sub>Agentic Engineering</sub><br/>
+        <sub style="color:#F59E0B;">🚀 Future AGI Standard</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>Stage 4</b><br/>
+        <sub>Autonomous Swarms</sub><br/>
+        <sub style="color:#8B5CF6;">🔮 Research</sub>
+      </td>
+    </tr>
+  </table>
+  <p style="color:#94A3B8; max-width: 800px; margin: 20px auto;">
+    Building Teams of Agents with specific Jobs, Memory, and Tools. 
+    Orchestration, Memory Management, Tool Integration & Reliability.
+  </p>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📝 Latest From The Lab</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/AI-Agent"><b>🤖 AI Agent Framework</b></a>
+        <br/><sub>Autonomous agentic framework for cross-repository orchestration</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>🧠 InsightForge AI</b></a>
+        <br/><sub>Advanced analytics engine with predictive modeling</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/kirov-security-core"><b>🔐 Kirov Security Core</b></a>
+        <br/><sub>Unified authentication & authorization framework</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
 <h2 align="center">🚀 Core Infrastructure & Deployments</h2>
 
 <table align="center">
@@ -89,6 +151,41 @@
     <td align="center"><a href="https://github.com/Raphasha27/za-local-ai-toolkit"><img src="https://img.shields.io/badge/Offline_AI-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
 </table>
+
+<br />
+
+---
+
+<h2 align="center">🌐 Community & Open Source</h2>
+
+<div align="center">
+  <a href="https://github.com/Raphasha27?tab=repositories&q=&type=source"><img src="https://img.shields.io/badge/Open_Source-Projects-22C55E?style=for-the-badge&logo=opensourceinitiative&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27?tab=repositories&q=&type=fork"><img src="https://img.shields.io/badge/Forks_Accepted-8B5CF6?style=for-the-badge&logo=git&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27?tab=packages"><img src="https://img.shields.io/badge/Packages-0EA5E9?style=for-the-badge&logo=githubpackages&logoColor=white" /></a>
+</div>
+
+<br />
+
+<div align="center">
+  <i>"The power of open source is the power of the people. The people win."</i>
+  <br/><br/>
+  <p style="color:#94A3B8; max-width: 700px;">
+    I believe in building in the open. All my projects are open for contribution, 
+    feedback, and collaboration. PRs are always welcome!
+  </p>
+</div>
+
+<br />
+
+<div align="center">
+  <h3>💬 Let's Collaborate</h3>
+  <p style="color:#94A3B8;">
+    Whether you want to contribute to a project, discuss ideas, or just connect — 
+    the digital door is always open.
+  </p>
+  <a href="https://github.com/Raphasha27/Raphasha27/issues"><img src="https://img.shields.io/badge/Open_Issue-Ideas_FR-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27/Raphasha27/discussions"><img src="https://img.shields.io/badge/Start_Discussion-22C55E?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
 
 <br />
 
@@ -145,6 +242,35 @@
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=15&margin-h=15" width="100%" alt="GitHub Trophies" />
+</div>
+
+<br />
+
+---
+
+<h2 align="center">🎵 Current Dev Vibe</h2>
+
+<div align="center">
+  <a href="https://open.spotify.com/">
+    <img src="https://img.shields.io/badge/Spotify-Listening-1DB954?style=for-the-badge&logo=spotify&logoColor=white" />
+  </a>
+  <a href="https://music.apple.com/">
+    <img src="https://img.shields.io/badge/Apple_Music-Logic-FA243A?style=for-the-badge&logo=applemusic&logoColor=white" />
+  </a>
+</div>
+
+<br />
+
+<div align="center">
+  <details>
+    <summary><b>🎧 Currently Vibe To</b></summary>
+    <br/>
+    <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=raphasha27&cover_image=true&theme=compact&show_offline=true&background_color=0d1117&interchange=true&bar_color=8B5CF6&bar_color_cover=true" width="40%" />
+    <br/><br/>
+    <p style="color:#94A3B8; font-size: 14px;">
+      Building the future, one track at a time. 🚀
+    </p>
+  </details>
 </div>
 
 <br />
@@ -271,6 +397,18 @@
 
 ---
 
+<h2 align="center">⏱️ WakaTime Coding Activity</h2>
+
+<div align="center">
+  <a href="https://wakatime.com/@Raphasha27">
+    <img src="https://github-readme-stats-jet-psi.vercel.app/api/wakatime?username=Raphasha27&theme=tokyonight&hide_border=true&title_color=8B5CF6&icon_color=0EA5E9&border_radius=10&layout=compact&langs_count=8" width="60%" />
+  </a>
+</div>
+
+<br />
+
+---
+
 <h2 align="center">💖 Support the Mission</h2>
 
 <div align="center">
@@ -295,6 +433,6 @@
   </div>
   <br />
   <div style="font-size:11px; color:#636D7D;">
-    <sub>Profile automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
+    <sub>Profile enhanced by <a href="https://opencode.ai" style="color:#00FF9C;">opencode</a> · Automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
   </div>
 </div>
