@@ -171,6 +171,60 @@
 
 ---
 
+<h2 align="center">💰 Zero-Capital Business Engine</h2>
+
+<div align="center">
+  <a href="https://github.com/Raphasha27/AI-Business-Engine">
+    <img src="https://img.shields.io/badge/AI_Business_Engine-Start_Making_Money-00FF9C?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    5 ready-to-launch AI-powered businesses requiring zero capital. Complete playbooks with free tools,<br/>
+    pricing models, and 30-day launch plans for each. Start side-hustling today.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine/tree/main/businesses/01-ai-content-studio"><b>✍️ AI Content Studio</b></a>
+        <br/><sub>R5K-R30K/month</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine/tree/main/businesses/02-ai-automation-agency"><b>⚙️ AI Automation Agency</b></a>
+        <br/><sub>R10K-R50K/month</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine/tree/main/businesses/03-ai-digital-products"><b>🛒 AI Digital Products</b></a>
+        <br/><sub>R2K-R20K/month</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine/tree/main/businesses/04-ai-consulting-smmes"><b>🏪 AI SMME Consulting</b></a>
+        <br/><sub>R5K-R25K/month</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine/tree/main/businesses/05-ai-training-workshops"><b>🎓 AI Training Workshops</b></a>
+        <br/><sub>R5K-R40K/month</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/AI-Business-Engine"><b>📊 Income Calculator</b></a>
+        <br/><sub>Stack all 5 → R50K+/month</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
 <h2 align="center">🚀 Core Infrastructure & Deployments</h2>
 
 <table align="center">
