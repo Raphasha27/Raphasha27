@@ -171,6 +171,26 @@
 
 ---
 
+<h2 align="center">🟢 CI Status Dashboard</h2>
+
+<div align="center">
+
+| Project | Status |
+|---------|--------|
+| **EskomSense AI** | [![CI](https://github.com/Raphasha27/EskomSense-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/EskomSense-AI/actions/workflows/ci.yml) |
+| **Townships Market AI** | [![CI](https://github.com/Raphasha27/Townships-Market-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Townships-Market-AI/actions/workflows/ci.yml) |
+| **YouthCode ZA** | [![CI](https://github.com/Raphasha27/YouthCode-ZA/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/YouthCode-ZA/actions/workflows/ci.yml) |
+| **SA Language AI** | [![CI](https://github.com/Raphasha27/SA-Language-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/SA-Language-AI/actions/workflows/ci.yml) |
+| **WaterWatch SA** | [![CI](https://github.com/Raphasha27/WaterWatch-SA/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/WaterWatch-SA/actions/workflows/ci.yml) |
+| **Mzansi AgriAI** | [![CI](https://github.com/Raphasha27/Mzansi-AgriAI/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Mzansi-AgriAI/actions/workflows/ci.yml) |
+| **AI Business Engine** | [![CI](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml) |
+
+</div>
+
+<br />
+
+---
+
 <h2 align="center">💰 Zero-Capital Business Engine</h2>
 
 <div align="center">
