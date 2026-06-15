@@ -123,6 +123,54 @@
 
 ---
 
+<h2 align="center">🇿🇦 SA Innovation Projects</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    Open-source projects purpose-built to solve South Africa's biggest challenges —<br/>
+    energy, education, township economy, water infrastructure, and agricultural resilience.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/EskomSense-AI"><b>⚡ EskomSense AI</b></a>
+        <br/><sub>ML-powered load shedding predictor & backup energy optimizer for homes and businesses</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Townships-Market-AI"><b>🏪 Townships Market AI</b></a>
+        <br/><sub>AI marketplace connecting township SMMEs to customers with smart inventory & delivery routing</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/SA-Language-AI"><b>🗣️ SA Language AI</b></a>
+        <br/><sub>NLP toolkit for Zulu, Xhosa, Afrikaans, Sotho — translation, transcription & chatbots</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/WaterWatch-SA"><b>💧 WaterWatch SA</b></a>
+        <br/><sub>IoT sensor network + AI for detecting leaks and predicting pipe failures in municipalities</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Mzansi-AgriAI"><b>🌾 Mzansi AgriAI</b></a>
+        <br/><sub>AI advisory for small-scale farmers: crop prediction, weather alerts, market pricing</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/YouthCode-ZA"><b>👨‍💻 YouthCode ZA</b></a>
+        <br/><sub>Offline-first coding education platform for underserved SA youth with AI mentorship</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
 <h2 align="center">🚀 Core Infrastructure & Deployments</h2>
 
 <table align="center">
@@ -149,6 +197,22 @@
   <tr>
     <td align="center"><a href="https://github.com/Raphasha27/gauteng-transport-dashboard"><img src="https://img.shields.io/badge/ML_Analytics-181717?style=flat&logo=github&logoColor=white" /></a></td>
     <td align="center"><a href="https://github.com/Raphasha27/za-local-ai-toolkit"><img src="https://img.shields.io/badge/Offline_AI-181717?style=flat&logo=github&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><b>EskomSense AI</b><br/><code>Python / ML / IoT</code></td>
+    <td align="center" width="50%"><b>Townships Market AI</b><br/><code>React / Python</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Raphasha27/EskomSense-AI"><img src="https://img.shields.io/badge/Energy_AI-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/Townships-Market-AI"><img src="https://img.shields.io/badge/Township_Economy-181717?style=flat&logo=github&logoColor=white" /></a></td>
+  </tr>
+  <tr>
+    <td align="center" width="50%"><b>SA Language AI</b><br/><code>Python / NLP</code></td>
+    <td align="center" width="50%"><b>YouthCode ZA</b><br/><code>Flutter / Offline</code></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Raphasha27/SA-Language-AI"><img src="https://img.shields.io/badge/Local_NLP-181717?style=flat&logo=github&logoColor=white" /></a></td>
+    <td align="center"><a href="https://github.com/Raphasha27/YouthCode-ZA"><img src="https://img.shields.io/badge/Code_Education-181717?style=flat&logo=github&logoColor=white" /></a></td>
   </tr>
 </table>
 
@@ -229,6 +293,51 @@
       <td align="center">
         <a href="https://github.com/Raphasha27/SupportHive-C"><b>🐝 SupportHive-C</b></a>
         <br/><sub>Event-Driven C</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+<h3 align="center" style="color:#00FF9C;">🇿🇦 SA Innovation Builds</h3>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/EskomSense-AI"><b>⚡ EskomSense AI</b></a>
+        <br/><sub>Load Shedding Predictor</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/Townships-Market-AI"><b>🏪 Townships Market</b></a>
+        <br/><sub>SMME Marketplace</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/SA-Language-AI"><b>🗣️ SA Language AI</b></a>
+        <br/><sub>Local NLP Models</sub>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/Raphasha27/WaterWatch-SA"><b>💧 WaterWatch SA</b></a>
+        <br/><sub>Leak Detection</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/Mzansi-AgriAI"><b>🌾 Mzansi AgriAI</b></a>
+        <br/><sub>Smart Farming</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/YouthCode-ZA"><b>👨‍💻 YouthCode ZA</b></a>
+        <br/><sub>Code Education</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/kirov-dynamics"><b>🔗 Kirov Hub</b></a>
+        <br/><sub>Portal</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/Raphasha27/Raphasha27"><b>📋 Profile</b></a>
+        <br/><sub>Meta Repo</sub>
       </td>
     </tr>
   </table>
