@@ -11,7 +11,7 @@
 <div align="center">
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="mailto:402106633@my.richfield.ac.za"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-View_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27/kirov-dynamics"><img src="https://img.shields.io/badge/Kirov_Ecosystem-Explore-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://discord.com/users/raphasha27"><img src="https://img.shields.io/badge/Discord-Ping_Me-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad-Shop-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
@@ -92,6 +92,64 @@
     Building Teams of Agents with specific Jobs, Memory, and Tools. 
     Orchestration, Memory Management, Tool Integration & Reliability.
   </p>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">🛡️ Cybersecurity Labs</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    Professional cybersecurity tools for ethical security research, SOC training, and awareness —<br/>
+    built with Python, defensive focus, and recruiter-ready documentation.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Network-Port-Scanner"><b>🔌 Network Port Scanner</b></a>
+        <br/><sub>Multi-threaded scanning with banner grabbing, CSV/JSON export, and secure coding</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Password-Analyzer"><b>🔑 Password Analyzer</b></a>
+        <br/><sub>Entropy calculation, dictionary attack simulation & NIST SP 800-63B scoring</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Password-Hasher"><b>🔐 Password Hasher</b></a>
+        <br/><sub>Argon2id, bcrypt & PBKDF2 comparison with detailed security reports</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Suspicious-URL-Checker"><b>🌐 Suspicious URL Checker</b></a>
+        <br/><sub>Phishing URL detection with homograph analysis and risk scoring</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Phishing-Awareness-Game"><b>🎣 Phishing Awareness Game</b></a>
+        <br/><sub>Gamified security awareness training with realistic scenarios</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/DDOS-Detection-Simulator"><b>🌊 DDoS Detection Simulator</b></a>
+        <br/><sub>Traffic simulation, anomaly detection & real-time alert generation</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Insider-Threat-Detector"><b>👁️ Insider Threat Detector</b></a>
+        <br/><sub>Behavioral analytics for nation-state & negligent insider simulation</sub>
+      </td>
+      <td align="center" colspan="2">
+        <a href="https://github.com/Raphasha27/kirov-dynamics"><b>🔬 Explore All Security Projects →</b></a>
+        <br/><sub>Kirov Security Core, Threat SDK, Scanner, Observability Platform & more</sub>
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br />
@@ -184,6 +242,13 @@
 | **WaterWatch SA** | [![CI](https://github.com/Raphasha27/WaterWatch-SA/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/WaterWatch-SA/actions/workflows/ci.yml) |
 | **Mzansi AgriAI** | [![CI](https://github.com/Raphasha27/Mzansi-AgriAI/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Mzansi-AgriAI/actions/workflows/ci.yml) |
 | **AI Business Engine** | [![CI](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml) |
+| **Network Port Scanner** | [![CI](https://github.com/Raphasha27/Network-Port-Scanner/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Network-Port-Scanner/actions/workflows/ci.yml) |
+| **Password Analyzer** | [![CI](https://github.com/Raphasha27/Password-Analyzer/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Password-Analyzer/actions/workflows/ci.yml) |
+| **Password Hasher** | [![CI](https://github.com/Raphasha27/Password-Hasher/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Password-Hasher/actions/workflows/ci.yml) |
+| **Suspicious URL Checker** | [![CI](https://github.com/Raphasha27/Suspicious-URL-Checker/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Suspicious-URL-Checker/actions/workflows/ci.yml) |
+| **Phishing Awareness Game** | [![CI](https://github.com/Raphasha27/Phishing-Awareness-Game/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Phishing-Awareness-Game/actions/workflows/ci.yml) |
+| **DDoS Detection Simulator** | [![CI](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml) |
+| **Insider Threat Detector** | [![CI](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml) |
 
 </div>
 
