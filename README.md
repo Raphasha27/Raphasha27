@@ -9,6 +9,12 @@
 <br />
 
 <div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
+</div>
+
+<br />
+
+<div align="center">
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-View_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
