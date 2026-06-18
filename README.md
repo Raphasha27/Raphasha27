@@ -105,6 +105,102 @@
 
 ---
 
+<h2 align="center">🏦 Flagship: SmartBank Enterprise Platform</h2>
+
+<div align="center">
+  <a href="https://github.com/Raphasha27/smartbank-enterprise-platform">
+    <img src="https://img.shields.io/badge/SmartBank_Enterprise-★_FEATURED_PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/#featured">
+    <img src="https://img.shields.io/badge/Live_Portfolio-View_Architecture-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://render.com/deploy?repo=https://github.com/Raphasha27/smartbank-enterprise-platform">
+    <img src="https://img.shields.io/badge/Deploy_to_Render-One_Click-46E3B7?style=for-the-badge&logo=render&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 750px;">
+    A production-grade distributed banking backend simulating real-world fintech infrastructure —<br/>
+    microservices, event-driven architecture, enterprise security, and financial data integrity.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b>🌐 API Gateway</b><br/>
+        <sub>:8080 — JWT routing, rate limiting, request validation</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🔐 Auth Service</b><br/>
+        <sub>:8081 — BCrypt, JWT, RBAC, Spring Security</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>💳 Account Service</b><br/>
+        <sub>:8082 — Multi-account management, balance engine</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>💸 Transaction Service</b><br/>
+        <sub>:8083 — ACID transfers, idempotency keys</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>🏦 Loan Service</b><br/>
+        <sub>:8084 — Origination, amortization, repayment</sub>
+      </td>
+      <td align="center">
+        <b>📋 Audit Service</b><br/>
+        <sub>:8085 — Immutable audit trail, Kafka consumer</sub>
+      </td>
+      <td align="center">
+        <b>🔔 Notification Service</b><br/>
+        <sub>:8086 — Event-driven alerts, email/SMS</sub>
+      </td>
+      <td align="center">
+        <b>📒 Ledger Service</b><br/>
+        <sub>:8087 — Double-entry bookkeeping, reconciliation</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Java_21-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot_3.4-6DB33F?style=flat-square&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker_Swarm-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenTelemetry-3D348B?style=flat-square&logo=opentelemetry&logoColor=white" />
+  <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white" />
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">✅ <b>Saga Pattern</b><br/><sub>Distributed transaction management</sub></td>
+      <td align="center">✅ <b>Optimistic Locking</b><br/><sub>@Version prevents race conditions</sub></td>
+      <td align="center">✅ <b>Idempotency Keys</b><br/><sub>Safe transaction retries</sub></td>
+      <td align="center">✅ <b>OpenTelemetry</b><br/><sub>Cross-service distributed tracing</sub></td>
+    </tr>
+  </table>
+</div>
+
+<br/>
+
+---
+
 <h2 align="center">🛡️ Cybersecurity Labs</h2>
 
 <div align="center">
