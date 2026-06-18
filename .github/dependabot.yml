@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
       day: "monday"
     labels:
       - "dependencies"
@@ -13,5 +13,5 @@ updates:
     commit-message:
       prefix: "chore"
       include: "scope"
-    # Auto-merge patch and minor updates only
-    open-pull-requests-limit: 5
+    # Reduced to prevent spam-like behavior
+    open-pull-requests-limit: 2
