@@ -12,6 +12,7 @@
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-View_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://bitbucket.org/raphasha27"><img src="https://img.shields.io/badge/Bitbucket-Mirror-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27/kirov-dynamics"><img src="https://img.shields.io/badge/Kirov_Ecosystem-Explore-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://discord.com/users/raphasha27"><img src="https://img.shields.io/badge/Discord-Ping_Me-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
   <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad-Shop-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
