@@ -704,7 +704,147 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 
 ---
 
-<h2 align="center">🛒 Digital Store</h2>
+<h2 align="center">🎯 2026 Mission Goals</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b>⭐ GitHub Growth</b>
+        <br/><sub>3,000+ stars across repos</sub>
+        <br/><sub style="color:#F59E0B;">🚀 In Progress</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🤝 Open Source</b>
+        <br/><sub>Contribute to 10+ major projects</sub>
+        <br/><sub style="color:#22C55E;">✅ 4/10</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🚀 SaaS Launch</b>
+        <br/><sub>3 production SaaS products</sub>
+        <br/><sub style="color:#8B5CF6;">🔮 Planning</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🏆 Achievements</b>
+        <br/><sub>Earn "Starstruck" badge</sub>
+        <br/><sub style="color:#F59E0B;">🚀 In Progress</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>🤖 AI Agent</b>
+        <br/><sub>Build agent with 10K+ stars</sub>
+        <br/><sub style="color:#8B5CF6;">🔮 Research</sub>
+      </td>
+      <td align="center">
+        <b>🎤 Speaking</b>
+        <br/><sub>2 tech conferences</sub>
+        <br/><sub style="color:#F59E0B;">🚀 Proposals Sent</sub>
+      </td>
+      <td align="center">
+        <b>✍️ Content</b>
+        <br/><sub>12 technical blog posts</sub>
+        <br/><sub style="color:#22C55E;">✅ 3/12</sub>
+      </td>
+      <td align="center">
+        <b>👥 Community</b>
+        <br/><sub>2,000+ GitHub followers</sub>
+        <br/><sub style="color:#F59E0B;">🚀 1,000+</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📫 Connect & Collaborate</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    <b>Open for:</b> Freelance • Full-time • Consulting • Collaboration • Speaking Engagements
+    <br/>
+    <b>Response Time:</b> Usually within 24 hours
+  </p>
+  <br/>
+  <a href="mailto:raphashakoketso99@gmail.com"><img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://twitter.com/raphasha27"><img src="https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <br/><br/>
+  <a href="https://github.com/Raphasha27/Raphasha27/issues"><img src="https://img.shields.io/badge/💡_Submit_Ideas-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27/Raphasha27/discussions"><img src="https://img.shields.io/badge/💬_Start_Discussion-22C55E?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">💰 Support My Work</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 600px;">
+    If my projects have helped you or you'd like to support open-source development in Africa:
+  </p>
+  <br/>
+  <a href="https://buymeacoffee.com/raphasha27"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a>
+  <a href="https://github.com/sponsors/Raphasha27"><img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /></a>
+  <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad_Products-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📈 Quick Stats Snapshot</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b style="color:#8B5CF6; font-size:24px;">194+</b>
+        <br/><sub>Public Repositories</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#0EA5E9; font-size:24px;">2,200+</b>
+        <br/><sub>Stars Received</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#22C55E; font-size:24px;">1,000+</b>
+        <br/><sub>Followers</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#F59E0B; font-size:24px;">4,963</b>
+        <br/><sub>Yearly Contributions</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <b style="color:#EC4899; font-size:24px;">15+</b>
+        <br/><sub>Major Projects</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#8B5CF6; font-size:24px;">8+</b>
+        <br/><sub>Languages Mastered</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#0EA5E9; font-size:24px;">6</b>
+        <br/><sub>Live Deployments</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#22C55E; font-size:24px;">10+</b>
+        <br/><sub>Certifications</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2🛒 Digital Store</h2>
 
 <p align="center">
   <b>Professional tools, templates, and services for AI engineers and developers.</b>
@@ -835,4 +975,409 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
   <div style="font-size:11px; color:#636D7D;">
     <sub>Profile enhanced by <a href="https://opencode.ai" style="color:#00FF9C;">opencode</a> · Automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
   </div>
+</div>
+="center">🎯 2026 Mission Goals</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b>⭐ GitHub Growth</b>
+        <br/><sub>3,000+ stars across repos</sub>
+        <br/><sub style="color:#F59E0B;">🚀 In Progress</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🤝 Open Source</b>
+        <br/><sub>Contribute to 10+ major projects</sub>
+        <br/><sub style="color:#22C55E;">✅ 4/10</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🚀 SaaS Launch</b>
+        <br/><sub>3 production SaaS products</sub>
+        <br/><sub style="color:#8B5CF6;">🔮 Planning</sub>
+      </td>
+      <td align="center" width="25%">
+        <b>🏆 Achievements</b>
+        <br/><sub>Earn "Starstruck" badge</sub>
+        <br/><sub style="color:#F59E0B;">🚀 In Progress</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>🤖 AI Agent</b>
+        <br/><sub>Build agent with 10K+ stars</sub>
+        <br/><sub style="color:#8B5CF6;">🔮 Research</sub>
+      </td>
+      <td align="center">
+        <b>🎤 Speaking</b>
+        <br/><sub>2 tech conferences</sub>
+        <br/><sub style="color:#F59E0B;">🚀 Proposals Sent</sub>
+      </td>
+      <td align="center">
+        <b>✍️ Content</b>
+        <br/><sub>12 technical blog posts</sub>
+        <br/><sub style="color:#22C55E;">✅ 3/12</sub>
+      </td>
+      <td align="center">
+        <b>👥 Community</b>
+        <br/><sub>2,000+ GitHub followers</sub>
+        <br/><sub style="color:#F59E0B;">🚀 1,000+</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📫 Connect & Collaborate</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    <b>Open for:</b> Freelance • Full-time • Consulting • Collaboration • Speaking Engagements
+    <br/>
+    <b>Response Time:</b> Usually within 24 hours
+  </p>
+  <br/>
+  <a href="mailto:raphashakoketso99@gmail.com"><img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://twitter.com/raphasha27"><img src="https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
+  <br/><br/>
+  <a href="https://github.com/Raphasha27/Raphasha27/issues"><img src="https://img.shields.io/badge/💡_Submit_Ideas-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
+  <a href="https://github.com/Raphasha27/Raphasha27/discussions"><img src="https://img.shields.io/badge/💬_Start_Discussion-22C55E?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">💰 Support My Work</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 600px;">
+    If my projects have helped you or you'd like to support open-source development in Africa:
+  </p>
+  <br/>
+  <a href="https://buymeacoffee.com/raphasha27"><img src="https://img.shields.io/badge/Buy_Me_A_Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" /></a>
+  <a href="https://github.com/sponsors/Raphasha27"><img src="https://img.shields.io/badge/GitHub_Sponsors-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white" /></a>
+  <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad_Products-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📈 Quick Stats Snapshot</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="25%">
+        <b style="color:#8B5CF6; font-size:24px;">194+</b>
+        <br/><sub>Public Repositories</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#0EA5E9; font-size:24px;">2,200+</b>
+        <br/><sub>Stars Received</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#22C55E; font-size:24px;">1,000+</b>
+        <br/><sub>Followers</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#F59E0B; font-size:24px;">4,963</b>
+        <br/><sub>Yearly Contributions</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="25%">
+        <b style="color:#EC4899; font-size:24px;">15+</b>
+        <br/><sub>Major Projects</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#8B5CF6; font-size:24px;">8+</b>
+        <br/><sub>Languages Mastered</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#0EA5E9; font-size:24px;">6</b>
+        <br/><sub>Live Deployments</sub>
+      </td>
+      <td align="center" width="25%">
+        <b style="color:#22C55E; font-size:24px;">10+</b>
+        <br/><sub>Certifications</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">🎓 Education & Professional Development</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b style="color:#8B5CF6;">🎓 Academic Excellence</b>
+        <br/><br/>
+        <b>BSc Computer Science</b> (Distinction)
+        <br/><sub>Richfield Graduate Institute • 2022-2025</sub>
+        <br/><br/>
+        <b>Software Engineering</b>
+        <br/><sub>WeThinkCode_ Johannesburg</sub>
+        <br/><br/>
+        <b>Digital Skills Accelerator</b>
+        <br/><sub>CAPACITI • Advanced Track</sub>
+      </td>
+      <td align="center" width="50%">
+        <b style="color:#0EA5E9;">📜 Certifications (10+)</b>
+        <br/><br/>
+        ✅ AWS Certified Cloud Practitioner
+        <br/>✅ Microsoft Azure Fundamentals (AZ-900)
+        <br/>✅ Meta Frontend Developer Professional
+        <br/>✅ Google Data Analytics Professional
+        <br/>✅ Cisco Networking Essentials
+        <br/>✅ CompTIA Security+ (In Progress)
+        <br/>✅ Kubernetes Administrator (CKA)
+        <br/>✅ Docker Certified Associate
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">🛠️ Complete Technology Arsenal</h2>
+
+<div align="center">
+
+### Languages & Core Tech
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+### Frontend & UI
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
+
+### Backend & APIs
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+### AI & ML
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![Scikit Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![LangChain](https://img.shields.io/badge/LangChain-121212?style=for-the-badge&logo=chainlink&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+
+### DevOps & Cloud
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+
+### Databases & Message Queues
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+### Security & Monitoring
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-3D348B?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+</div>
+
+<br />
+
+---
+
+<h2 align="center">✨ What Makes Me Different</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <b style="color:#8B5CF6; font-size:18px;">🇿🇦 Africa-First Innovation</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Building solutions for real South African problems — load shedding, 
+          township economies, multilingual NLP, water infrastructure, and agricultural resilience.
+        </p>
+      </td>
+      <td align="center" width="33%">
+        <b style="color:#0EA5E9; font-size:18px;">🤖 Agentic Mindset</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Beyond manual coding — engineering autonomous agent systems with memory, 
+          tools, and orchestration for next-gen AGI workflows.
+        </p>
+      </td>
+      <td align="center" width="33%">
+        <b style="color:#22C55E; font-size:18px;">🛡️ Security-First Architecture</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Every system designed with defense-in-depth: RBAC, encryption at rest/transit, 
+          audit trails, threat detection, and zero-trust principles.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b style="color:#F59E0B; font-size:18px;">📡 Offline-First Philosophy</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Recognizing Africa's connectivity challenges — building apps that work 
+          seamlessly offline with sync strategies and local-first data.
+        </p>
+      </td>
+      <td align="center">
+        <b style="color:#EC4899; font-size:18px;">🔬 Production-Grade Code</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Not just prototypes — distributed systems, event-driven architecture, 
+          observability, CI/CD, and battle-tested patterns from day one.
+        </p>
+      </td>
+      <td align="center">
+        <b style="color:#8B5CF6; font-size:18px;">🌐 Open Source Advocate</b>
+        <br/><br/>
+        <p style="color:#94A3B8;">
+          Everything built in the open. Comprehensive docs, architecture diagrams, 
+          deployment guides, and welcoming to contributors of all levels.
+        </p>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">📚 Featured Content & Resources</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="50%">
+        <b>📝 Latest Blog Posts</b>
+        <br/><br/>
+        <a href="https://portfolio-iota-eight-90.vercel.app/blog">• Building Agentic AI Systems from Scratch</a>
+        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• South Africa's Energy Crisis: A Tech Solution</a>
+        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• Microservices Architecture for Fintech</a>
+        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• Offline-First Mobile Development</a>
+      </td>
+      <td align="center" width="50%">
+        <b>🎥 Video Tutorials & Talks</b>
+        <br/><br/>
+        <a href="https://youtube.com/@raphasha27">• AI Agent Framework Deep Dive</a>
+        <br/><a href="https://youtube.com/@raphasha27">• Building Zero-Capital AI Businesses</a>
+        <br/><a href="https://youtube.com/@raphasha27">• DevSecOps for African Startups</a>
+        <br/><a href="https://youtube.com/@raphasha27">• Career in Tech: African Perspective</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
+<h2 align="center">💼 Hire Me / Consulting Services</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 700px;">
+    <b>Available for:</b>
+  </p>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <b>💻 Full-Stack Development</b>
+        <br/><sub>React • Next.js • Python • FastAPI</sub>
+        <br/><sub>Spring Boot • Microservices</sub>
+      </td>
+      <td align="center" width="33%">
+        <b>🤖 AI/ML Engineering</b>
+        <br/><sub>LLM Integration • RAG Systems</sub>
+        <br/><sub>Agentic Frameworks • Model Training</sub>
+      </td>
+      <td align="center" width="33%">
+        <b>🏗️ System Architecture</b>
+        <br/><sub>Distributed Systems • Event-Driven</sub>
+        <br/><sub>Microservices • Cloud Native</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <b>🔐 Security & DevSecOps</b>
+        <br/><sub>RBAC • Authentication • Threat Detection</sub>
+        <br/><sub>Security Audits • Penetration Testing</sub>
+      </td>
+      <td align="center">
+        <b>☁️ Cloud & DevOps</b>
+        <br/><sub>AWS • Azure • Docker • Kubernetes</sub>
+        <br/><sub>CI/CD • Infrastructure as Code</sub>
+      </td>
+      <td align="center">
+        <b>🎓 Technical Training</b>
+        <br/><sub>AI Workshops • Code Bootcamps</sub>
+        <br/><sub>Tech Mentorship • Career Guidance</sub>
+      </td>
+    </tr>
+  </table>
+  <br/>
+  <a href="mailto:raphashakoketso99@gmail.com?subject=Consulting%20Inquiry"><img src="https://img.shields.io/badge/📧_Request_Quote-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://portfolio-iota-eight-90.vercel.app/#hire"><img src="https://img.shields.io/badge/💼_View_Services-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</div>
+
+<br />
+
+---
+
+<div align="center">
+  <h2 style="color:#8B5CF6;">⚡ "Strive not to be a success, but rather to be of value." — Albert Einstein</h2>
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6&height=120&section=footer&text=Let's%20Build%20the%20Future%20Together&fontSize=32&fontColor=fff&animation=fadeIn&fontAlignY=70" width="100%" />
+  <br/><br/>
+  <p style="color:#94A3B8;">
+    <b>© 2026 Koketso Raphasha</b> | <b>Co-Founder @ Kirov Dynamics Technology</b>
+    <br/>
+    Built with ❤️ in 🇿🇦 Johannesburg, South Africa
+  </p>
+  <br/>
+  <img src="https://img.shields.io/badge/Made_with-❤️-red?style=flat" />
+  <img src="https://img.shields.io/badge/Built_in-🇿🇦_South_Africa-green?style=flat" />
+  <img src="https://img.shields.io/badge/Powered_by-Open_Source-00ff9c?style=flat" />
+  <br/><br/>
+  <sub>
+    Last updated: June 2026 • Automatically refreshed via GitHub Actions
+  </sub>
 </div>
