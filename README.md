@@ -128,6 +128,55 @@
   </p>
 </div>
 
+---
+
+## 🚀 Leadership & Current Focus
+
+As the **Lead Architect** across core initiatives, my oversight includes platform direction, technical review quality, and system security posture.
+
+*   Architecting sovereign infrastructure blueprints through **Kirov Dynamics**.
+*   Leading technical governance and AI integrations for **Sumbandila**.
+*   Building AI-assisted systems that balance utility, empathy, and security.
+*   Advancing project maturity from prototype energy into robust production discipline.
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Governance-Lead_Architect-002D62?style=for-the-badge&logo=github&labelColor=0d1117" alt="Governance"/>
+  <img src="https://img.shields.io/badge/Security-Trust_First-FFD700?style=for-the-badge&logo=shield&labelColor=0d1117" alt="Security"/>
+  <img src="https://img.shields.io/badge/Technical_Reviews-50%2B-3fb950?style=for-the-badge&logo=googlesheets&labelColor=0d1117" alt="Reviews"/>
+</div>
+
+---
+
+## 💼 Featured Projects
+
+| Project | Status | Focus / 2026 Direction | My Role |
+| :--- | :--- | :--- | :--- |
+| **[AI-Business-Engine](https://web-gamma-nine-c2cqi2h058.vercel.app)** | **Live Demo** | Zero-capital AI playbooks & monetization strategies for SA entrepreneurs | Business Architect |
+| **[Mzansi-AgriAI](https://mzansi-agriai-demo.vercel.app)** | **Live Demo** | Precision agriculture platform w/ Smart Irrigation & localized ZAR pricing gates | AgriTech Dev |
+| **[Personal Portfolio](https://portfolio-react-zeta-black-48.vercel.app/)** | **Deployed (Live)** | Immersive, modern portfolio showcasing my engineering philosophy | Full-Stack Developer |
+| **[RepoPulse](https://github.com/Raphasha27/RepoPulse)** | **Deployed** | AI OS for GitHub portfolios; autonomous CI analysis & self-healing | Lead AI Engineer |
+| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | **Deployed** | Integrated trust ecosystem & socio-economic growth | Architect, AI & Blockchain |
+| **[CyberShield](https://github.com/Raphasha27/CyberShield)** | **Deployed** | Security operations modernization and SOC tooling | Security Visualization |
+| **[KasiPass](https://github.com/Raphasha27/KasiPass)** | **Deployed** | Township economy digitization & access | Co-founder & Tech Lead |
+| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | **Deployed** | Edge protection and deep observability | Performance Engineering |
+| **[SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | **Deployed** | Memory-safe core infrastructure | Core Systems Logic |
+
+---
+
+## 🤝 Open Source Contributions
+
+| Project | Status | Contribution Focus | My Role |
+| :--- | :--- | :--- | :--- |
+| **[ai-chatkit](https://github.com/princedev-toptal/ai-chatkit)** | ![Contribution](https://img.shields.io/badge/Status-Contribution_Made-8957e5?style=for-the-badge) | Initialized core project infrastructure, CI/CD workflows, and added MIT License | Open Source Contributor |
+
+---
+
+## 📈 Activity & Impact
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Raphasha27&bg_color=0d1117&color=58a6ff&line=FFD700&point=ffffff&area=true&hide_border=true" width="100%" alt="Activity Graph"/>
+</div>
+
 <br/>
 
 <div align="center">
