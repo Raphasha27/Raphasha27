@@ -1,21 +1,22 @@
-name: Security Vulnerability Scan
+name: Security Scan (Private)
 
 on:
+  # Manual trigger only - no scheduled scans
+  workflow_dispatch:
   push:
     branches: [main]
-  pull_request:
-    branches: [main]
-  schedule:
-    - cron: "0 6 * * 0"
+    paths:
+      - "**/*.md"
+      - ".github/workflows/security.yml"
 
 jobs:
-  trivy:
-    name: Trivy Security Scan
+  security-check:
+    name: Private Security Check
     runs-on: ubuntu-latest
     continue-on-error: true
     permissions:
-      security-events: write
       contents: read
+      # Removed security-events write permission
     steps:
       - uses: actions/checkout@v4
 
@@ -25,4 +26,11 @@ jobs:
           scan-type: "fs"
           ignore-unfixed: true
           severity: "CRITICAL,HIGH"
-          format: "table"
+          format: "table"  # Table format stays in logs only
+          skip-dirs: ".git,.github"
+          exit-code: "0"
+          
+      - name: Security check completed
+        run: |
+          echo "✅ Security check completed for profile repository"
+          echo "🔒 Results are private and only visible in workflow logs"

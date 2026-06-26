@@ -16,7 +16,7 @@
 
 <div align="center">
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://koketso-raphasha.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-View_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://bitbucket.org/raphasha27"><img src="https://img.shields.io/badge/Bitbucket-Mirror-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" /></a>
   <a href="https://github.com/Raphasha27/kirov-dynamics"><img src="https://img.shields.io/badge/Kirov_Ecosystem-Explore-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -111,7 +111,7 @@
   <a href="https://github.com/Raphasha27/smartbank-enterprise-platform">
     <img src="https://img.shields.io/badge/SmartBank_Enterprise-★_FEATURED_PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/#featured">
+  <a href="https://koketso-raphasha.vercel.app/#featured">
     <img src="https://img.shields.io/badge/Live_Portfolio-View_Architecture-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://render.com/deploy?repo=https://github.com/Raphasha27/smartbank-enterprise-platform">
@@ -770,7 +770,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
   <br/>
   <a href="mailto:raphashakoketso99@gmail.com"><img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://koketso-raphasha.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://twitter.com/raphasha27"><img src="https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
   <br/><br/>
   <a href="https://github.com/Raphasha27/Raphasha27/issues"><img src="https://img.shields.io/badge/💡_Submit_Ideas-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -849,7 +849,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 <p align="center">
   <b>Professional tools, templates, and services for AI engineers and developers.</b>
   <br /><br />
-  <a href="https://portfolio-iota-eight-90.vercel.app/#store"><img src="https://img.shields.io/badge/Browse_Store-00FF9C?style=for-the-badge&logo=vercel&logoColor=black" /></a>
+  <a href="https://koketso-raphasha.vercel.app/#store"><img src="https://img.shields.io/badge/Browse_Store-00FF9C?style=for-the-badge&logo=vercel&logoColor=black" /></a>
   <a href="https://paypal.me/Raphasha27"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" /></a>
   <a href="https://ko-fi.com/raphasha27"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" /></a>
 </p>
@@ -1042,7 +1042,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
   <br/>
   <a href="mailto:raphashakoketso99@gmail.com"><img src="https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://koketso-raphasha.vercel.app/"><img src="https://img.shields.io/badge/🌐_Portfolio-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://twitter.com/raphasha27"><img src="https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" /></a>
   <br/><br/>
   <a href="https://github.com/Raphasha27/Raphasha27/issues"><img src="https://img.shields.io/badge/💡_Submit_Ideas-0EA5E9?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -1289,10 +1289,10 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
       <td align="center" width="50%">
         <b>📝 Latest Blog Posts</b>
         <br/><br/>
-        <a href="https://portfolio-iota-eight-90.vercel.app/blog">• Building Agentic AI Systems from Scratch</a>
-        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• South Africa's Energy Crisis: A Tech Solution</a>
-        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• Microservices Architecture for Fintech</a>
-        <br/><a href="https://portfolio-iota-eight-90.vercel.app/blog">• Offline-First Mobile Development</a>
+        <a href="https://koketso-raphasha.vercel.app/blog">• Building Agentic AI Systems from Scratch</a>
+        <br/><a href="https://koketso-raphasha.vercel.app/blog">• South Africa's Energy Crisis: A Tech Solution</a>
+        <br/><a href="https://koketso-raphasha.vercel.app/blog">• Microservices Architecture for Fintech</a>
+        <br/><a href="https://koketso-raphasha.vercel.app/blog">• Offline-First Mobile Development</a>
       </td>
       <td align="center" width="50%">
         <b>🎥 Video Tutorials & Talks</b>
@@ -1355,7 +1355,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
   </table>
   <br/>
   <a href="mailto:raphashakoketso99@gmail.com?subject=Consulting%20Inquiry"><img src="https://img.shields.io/badge/📧_Request_Quote-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/#hire"><img src="https://img.shields.io/badge/💼_View_Services-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://koketso-raphasha.vercel.app/#hire"><img src="https://img.shields.io/badge/💼_View_Services-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </div>
 
 <br />
