@@ -30,7 +30,7 @@
   <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=PROFILE+VIEWS&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/Raphasha27?style=for-the-badge&logo=github&label=Followers&color=22C55E" alt="Followers" />
   <img src="https://img.shields.io/github/stars/Raphasha27?style=for-the-badge&logo=github&label=Total+Stars&color=F59E0B" alt="Stars" />
-  <img src="https://img.shields.io/badge/Last_Updated-June_2026-0EA5E9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Last Updated" />
+  <img src="https://img.shields.io/badge/Last_Updated-July_2026-0EA5E9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Last Updated" />
 </div>
 
 <br />
@@ -55,7 +55,7 @@
 <br />
 
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/110734842?v=4" style="border-radius:50%; border:3px solid #8B5CF6; width:100px; height:100px; box-shadow: 0 0 15px #8B5CF6;" />
+  <img src="https://raw.githubusercontent.com/Raphasha27/Portfolio/main/public/profile.jpg" style="border-radius:50%; border:3px solid #8B5CF6; width:120px; height:120px; box-shadow: 0 0 20px #8B5CF6; object-fit: cover;" />
   <br /><br />
   <b>Mission Directive // 2026</b>
   <br />
@@ -149,17 +149,16 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
 
 ## 💼 Featured Projects
 
-| Project | Status | Focus / 2026 Direction | My Role |
+| Project | Live Demo | Focus / 2026 Direction | My Role |
 | :--- | :--- | :--- | :--- |
-| **[AI-Business-Engine](https://web-gamma-nine-c2cqi2h058.vercel.app)** | **Live Demo** | Zero-capital AI playbooks & monetization strategies for SA entrepreneurs | Business Architect |
-| **[Mzansi-AgriAI](https://mzansi-agriai-demo.vercel.app)** | **Live Demo** | Precision agriculture platform w/ Smart Irrigation & localized ZAR pricing gates | AgriTech Dev |
-| **[Personal Portfolio](https://portfolio-react-zeta-black-48.vercel.app/)** | **Deployed (Live)** | Immersive, modern portfolio showcasing my engineering philosophy | Full-Stack Developer |
-| **[RepoPulse](https://github.com/Raphasha27/RepoPulse)** | **Deployed** | AI OS for GitHub portfolios; autonomous CI analysis & self-healing | Lead AI Engineer |
-| **[Sumbandila-App](https://github.com/Raphasha27/Sumbandila-App)** | **Deployed** | Integrated trust ecosystem & socio-economic growth | Architect, AI & Blockchain |
-| **[CyberShield](https://github.com/Raphasha27/CyberShield)** | **Deployed** | Security operations modernization and SOC tooling | Security Visualization |
-| **[KasiPass](https://github.com/Raphasha27/KasiPass)** | **Deployed** | Township economy digitization & access | Co-founder & Tech Lead |
-| **[FlowSentinel](https://github.com/Raphasha27/FlowSentinel)** | **Deployed** | Edge protection and deep observability | Performance Engineering |
-| **[SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | **Deployed** | Memory-safe core infrastructure | Core Systems Logic |
+| **[AI Business Engine](https://github.com/Raphasha27/AI-Business-Engine)** | [🌐 Live](https://web-gamma-nine-c2cqi2h058.vercel.app) | Zero-capital AI playbooks & monetization strategies for SA entrepreneurs | Business Architect |
+| **[Mzansi AgriAI](https://github.com/Raphasha27/Mzansi-AgriAI)** | [🌐 Live](https://mzansi-agriai-demo.vercel.app) | Precision agriculture platform w/ crop AI, weather alerts & ZAR pricing | AgriTech Dev |
+| **[EskomSense AI](https://github.com/Raphasha27/EskomSense-AI)** | [🌐 Live](https://eskomsense-ai-demo.vercel.app) | ML-powered load shedding predictor & battery optimizer for SA homes | Energy AI Lead |
+| **[NoShowIQ](https://github.com/Raphasha27/NoShowIQ)** | [🌐 Live](https://noshowiq.vercel.app) | Fullstack ML app predicting patient appointment no-shows | ML Specialist |
+| **[Sumbandila](https://github.com/Raphasha27/Sumbandila-App)** | [🌐 Live](https://landing-five-orcin-61.vercel.app) | Digital identity verification with biometric & document authentication | Full Stack Dev |
+| **[Portfolio](https://koketso-raphasha.vercel.app/)** | [🌐 Live](https://koketso-raphasha.vercel.app) | Immersive, modern portfolio showcasing engineering philosophy & projects | Full-Stack Dev |
+| **[CyberShield SOC](https://github.com/Raphasha27/cybershield_soc)** | GitHub | Next-gen SOC dashboard with WebSocket event streams & WebGL visualisation | SOC Engineer |
+| **[SupportHive-C](https://github.com/Raphasha27/SupportHive-C)** | GitHub | Memory-safe background monitoring engine built in C for CI/CD enforcement | Systems Architect |
 
 ---
 
@@ -318,12 +317,26 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
         <br/><sub>Autonomous agentic framework for cross-repository orchestration</sub>
       </td>
       <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>🧠 InsightForge AI</b></a>
-        <br/><sub>Advanced analytics engine with predictive modeling</sub>
+        <a href="https://github.com/Raphasha27/BugBountyHub"><b>🏴‍☠️ Bug Bounty Hub</b></a>
+        <br/><sub>HackerOne recon toolkit — subdomain enumeration, scope mapping & report templates</sub>
       </td>
       <td align="center" width="33%">
         <a href="https://github.com/Raphasha27/kirov-security-core"><b>🔐 Kirov Security Core</b></a>
         <br/><sub>Unified authentication & authorization framework</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/InsightForge-AI"><b>🧠 InsightForge AI</b></a>
+        <br/><sub>Advanced analytics engine with predictive modeling</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Go-RAG-System"><b>📚 Go RAG System</b></a>
+        <br/><sub>Production-grade Retrieval-Augmented Generation pipeline in Go</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/devforge-ai"><b>⚙️ DevForge AI</b></a>
+        <br/><sub>Self-healing autonomous workflow engine with AI scaffolding</sub>
       </td>
     </tr>
   </table>
@@ -973,7 +986,7 @@ As the **Lead Architect** across core initiatives, my oversight includes platfor
   </div>
   <br />
   <div style="font-size:11px; color:#636D7D;">
-    <sub>Profile enhanced by <a href="https://opencode.ai" style="color:#00FF9C;">opencode</a> · Automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
+    <sub>Automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a> · Last pushed July 2026</sub>
   </div>
 </div>
 ="center">🎯 2026 Mission Goals</h2>
