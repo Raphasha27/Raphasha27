@@ -12,7 +12,7 @@
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0d47a1?style=for-the-badge&logoColor=white)](https://koketso-raphasha.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27000000000)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27781172470)
 
 <br/>
 
@@ -366,7 +366,7 @@ I believe in **building in the open**. All my projects are:
 [![Portfolio](https://img.shields.io/badge/🌐%20Visit%20Portfolio-0d47a1?style=for-the-badge)](https://koketso-raphasha.vercel.app)
 [![Email](https://img.shields.io/badge/📧%20Email%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27000000000)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/27781172470)
 [![Twitter](https://img.shields.io/badge/🐦%20Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raphasha27)
 
 **Response time:** Usually within 24 hours
