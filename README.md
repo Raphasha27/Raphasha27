@@ -7,13 +7,17 @@
 
 <div align="left">
 
-### 👋🏾 Hey, I'm Koketso!
+### Hey, I'm Koketso! 👋🏾
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=800&color=4A90D9&width=480&lines=Building+AI-powered+systems+for+Africa+🌍;Full-stack+developer+%26+system+architect;BSc+IT+with+Distinction+—+Richfield;Founder+%40+Kirov+Dynamics;Open+to+freelance+%26+collaboration+🚀" alt="Typing SVG" />
+> 🌍 Building AI-powered systems for Africa  
+> 💻 Full-stack developer & system architect  
+> 🎓 BSc IT with Distinction — Richfield  
+> 🏢 Founder @ Kirov Dynamics  
+> 🚀 Open to freelance & collaboration  
 
-<br/><br/>
+<br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0d47a1?style=for-the-badge&logoColor=white)](https://portfolio-iota-eight-90.vercel.app)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d47a1?style=for-the-badge&logo=vercel&logoColor=white)](https://koketso-raphasha.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphasha27)
@@ -35,7 +39,7 @@
 
 ---
 
-## 👨🏾‍💻 About Me
+## About Me
 
 ```typescript
 const koketso = {
@@ -43,7 +47,7 @@ const koketso = {
   role: "Full-Stack Developer & System Architect",
   company: "Kirov Dynamics",
   education: "BSc IT (Distinction) — Richfield Graduate Institute",
-  location: "South Africa 🇿🇦",
+  location: "South Africa",
   focus: "AI-powered systems for the African digital economy",
   languages: ["Python", "TypeScript", "Java", "Go", "Rust"],
   currentlyBuilding: [
@@ -58,17 +62,17 @@ const koketso = {
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
 <div align="center">
 
-| 🏗️ Project | 📋 Description | 🛠️ Stack |
-|:-----------|:---------------|:---------|
+| Project | Description | Stack |
+|:--------|:------------|:------|
 | [**Portfolio**](https://github.com/Raphasha27/Portfolio) | 3D interactive portfolio with immersive animations | React · Framer Motion · Vite |
 | [**SmartBank Platform**](https://github.com/Raphasha27/smartbank-enterprise-platform) | 8-microservice banking backend — Saga, Kafka, OpenTelemetry | Java · Spring Boot |
 | [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | SOC dashboard with real-time WebSocket threat detection | Angular · Node.js |
-| [**EskomSense AI**](https://github.com/Raphasha27/EskomSense) | Load shedding predictor & battery optimizer for South Africa | Python · FastAPI |
-| [**Sumbandila App**](https://github.com/Raphasha27/Sumbandila-App) | Integrated digital infrastructure platform for youth employment | React · Django |
+| [**EskomSense AI**](https://github.com/Raphasha27/EskomSense-AI) | Load shedding predictor & battery optimizer for South Africa | Python · FastAPI |
+| [**Sumbandila App**](https://github.com/Raphasha27/Sumbandila-App) | Digital infrastructure platform for youth employment | React · Django |
 | [**Go RAG System**](https://github.com/Raphasha27/go-rag-system) | RAG pipeline with pgvector and agentic patterns | Go · PostgreSQL |
 | [**Ironclad Sandbox**](https://github.com/Raphasha27/ironclad-sandbox) | Python sandbox for secure AI agent code execution | Python |
 | [**YouthCode ZA**](https://github.com/Raphasha27/YouthCode-ZA) | Offline-first digital skills platform for South African youth | TypeScript · PWA |
@@ -77,7 +81,7 @@ const koketso = {
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -88,7 +92,6 @@ const koketso = {
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 
 ### Frontend & Mobile
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -99,22 +102,19 @@ const koketso = {
 ### Backend & Infrastructure
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Apache Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
 
 ### Data & AI
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![LangChain](https://img.shields.io/badge/🦜_LangChain-1C3C3C?style=for-the-badge)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)
 
 </div>
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -134,23 +134,23 @@ const koketso = {
 
 ---
 
-## 🎯 Current Focus
+## Current Focus
 
 <div align="center">
 
 ```
-🔬  Autonomous AI agent frameworks & agentic pipelines
-🌍  Offline-first ecosystems for the African digital economy  
-🔐  AI-native security operations (SOC) tooling
-🧠  NLP models for African languages (Zulu · Xhosa · Sotho · Afrikaans)
-📡  Distributed systems with Kafka · Kubernetes · OpenTelemetry
+Autonomous AI agent frameworks & agentic pipelines
+Offline-first ecosystems for the African digital economy
+AI-native security operations (SOC) tooling
+NLP models for African languages (Zulu · Xhosa · Sotho · Afrikaans)
+Distributed systems with Kafka · Kubernetes · OpenTelemetry
 ```
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## GitHub Trophies
 
 <div align="center">
 
@@ -162,9 +162,9 @@ const koketso = {
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,100:0d1117&height=120&section=footer&text=Let's%20build%20something%20extraordinary&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" alt="footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,100:0d1117&height=120&section=footer&text=Let%27s%20build%20something%20extraordinary&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" alt="footer"/>
 
-**💬 Open for freelance, full-time roles, and meaningful collaborations.**  
-**📬 Response within 24 hours — [raphashakoketso99@gmail.com](mailto:raphashakoketso99@gmail.com)**
+**Open for freelance, full-time roles, and meaningful collaborations.**
+**Response within 24 hours — raphashakoketso99@gmail.com**
 
 </div>
