@@ -1,14 +1,18 @@
-<div align="center">
-
 <!-- Animated capsule header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d47a1&height=220&section=header&text=Koketso%20Raphasha&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d47a1&height=200&section=header&text=Koketso%20Raphasha&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
 
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=4A90D9&center=true&vCenter=true&width=600&lines=Building+AI-powered+systems+for+Africa+🌍;Full-stack+developer+%26+system+architect;BSc+IT+with+Distinction+—+Richfield;Founder+%40+Kirov+Dynamics;Open+to+freelance+%26+collaboration+🚀" alt="Typing SVG" />
+<table align="center" width="100%">
+<tr>
+<td valign="middle" width="55%">
 
-<br/>
+<div align="left">
 
-<!-- Social links -->
+### 👋🏾 Hey, I'm Koketso!
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=3500&pause=800&color=4A90D9&width=480&lines=Building+AI-powered+systems+for+Africa+🌍;Full-stack+developer+%26+system+architect;BSc+IT+with+Distinction+—+Richfield;Founder+%40+Kirov+Dynamics;Open+to+freelance+%26+collaboration+🚀" alt="Typing SVG" />
+
+<br/><br/>
+
 [![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-0d47a1?style=for-the-badge&logoColor=white)](https://portfolio-iota-eight-90.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
@@ -19,6 +23,15 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&color=0d47a1&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
+
+</td>
+<td valign="middle" width="45%" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320" alt="Developer coding GIF"/>
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -142,18 +155,6 @@ const koketso = {
 <div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=Raphasha27&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" alt="GitHub Trophies"/>
-
-</div>
-
----
-
-## 📈 Contribution Snapshot
-
-<div align="center">
-
-> **5,200+ contributions** in the last year — building in public, shipping consistently.
-
-[![@Raphasha27's Holopin board](https://holopin.me/Raphasha27)](https://holopin.io/@Raphasha27)
 
 </div>
 
