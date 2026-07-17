@@ -3,11 +3,8 @@
 <!-- Animated capsule header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d47a1&height=220&section=header&text=Koketso%20Raphasha&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Koketso Raphasha — AI Engineer & Systems Architect"/>
 
-<!-- Animated developer at keyboard -->
-<img src="assets/bot_animated.svg" width="480" alt="Developer typing at keyboard"/>
-
-<!-- Typing animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3500&pause=800&color=4A90D9&center=true&vCenter=true&width=700&lines=Building+AI-powered+systems+for+Africa+🌍;Full-stack+developer+%26+system+architect;BSc+IT+with+Distinction+—+Richfield;Founder+%40+Kirov+Dynamics;5%2C200%2B+contributions+in+the+last+year+🚀" alt="Typing SVG"/>
+<!-- Animated developer and Typing animation side-by-side -->
+<a href="https://koketso-raphasha.vercel.app"><img src="assets/bot_animated.svg" width="420" alt="Developer typing at keyboard"/></a><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=800&color=4A90D9&center=false&vCenter=true&width=430&lines=Building+AI-powered+systems+for+Africa;Full-stack+developer+%26+system+architect;BSc+IT+with+Distinction+—+Richfield;Founder+%40+Kirov+Dynamics;5%2C200%2B+contributions+🚀" alt="Typing SVG"/>
 
 <br/>
 
@@ -96,8 +93,6 @@ graph LR
 ![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
 
-<img src="assets/dashboard.svg" width="100%" alt="CyberShield SOC Dashboard"/>
-
 Real-time SOC dashboard with WebSocket threat streams, behavioral analytics, and SIEM integration.
 
 ---
@@ -158,11 +153,6 @@ Offline-first coding education for South African youth
 </td>
 </tr>
 </table>
-
-<div align="center">
-<img src="assets/aura_weather.png" width="48%" alt="Aura Weather AI"/>&nbsp;
-<img src="assets/jobsphere_dashboard.png" width="48%" alt="AI Job Market Intelligence"/>
-</div>
 
 ---
 
