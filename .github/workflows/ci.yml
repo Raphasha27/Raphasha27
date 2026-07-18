@@ -11,7 +11,7 @@ jobs:
     name: Validate Repository
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v4
 
       - name: Check HTML files
         run: |
