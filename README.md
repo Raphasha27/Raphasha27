@@ -1,11 +1,7 @@
 <!-- Animated capsule header -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f35,100:0d47a1&height=200&section=header&text=Koketso%20Raphasha&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20System%20Architect%20%7C%20AI%20Engineer&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="header"/>
 
-<table align="center" width="100%">
-<tr>
-<td valign="middle" width="55%">
-
-<div align="left">
+<div align="center">
 
 ### Hey, I'm Koketso! 👋🏾
 
@@ -26,16 +22,11 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&color=0d47a1&style=for-the-badge&label=PROFILE+VIEWS)
 
-</div>
-
-</td>
-<td valign="middle" width="45%" align="center">
+<br/>
 
 <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320" alt="Developer coding GIF"/>
 
-</td>
-</tr>
-</table>
+</div>
 
 ---
 
@@ -46,7 +37,7 @@ const koketso = {
   name: "Koketso Raphasha",
   role: "Full-Stack Developer & System Architect",
   company: "Kirov Dynamics",
-  education: "BSc IT (Distinction) — Richfield Graduate Institute",
+  education: "BSc IT (Distinction) - Richfield Graduate Institute",
   location: "South Africa",
   focus: "AI-powered systems for the African digital economy",
   languages: ["Python", "TypeScript", "Java", "Go", "Rust"],
@@ -68,14 +59,14 @@ const koketso = {
 
 | Project | Description | Stack |
 |:--------|:------------|:------|
-| [**Portfolio**](https://github.com/Raphasha27/Portfolio) | 3D interactive portfolio with immersive animations | React · Framer Motion · Vite |
-| [**SmartBank Platform**](https://github.com/Raphasha27/smartbank-enterprise-platform) | 8-microservice banking backend — Saga, Kafka, OpenTelemetry | Java · Spring Boot |
-| [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | SOC dashboard with real-time WebSocket threat detection | Angular · Node.js |
-| [**EskomSense AI**](https://github.com/Raphasha27/EskomSense-AI) | Load shedding predictor & battery optimizer for South Africa | Python · FastAPI |
-| [**Sumbandila App**](https://github.com/Raphasha27/Sumbandila-App) | Digital infrastructure platform for youth employment | React · Django |
-| [**Go RAG System**](https://github.com/Raphasha27/go-rag-system) | RAG pipeline with pgvector and agentic patterns | Go · PostgreSQL |
+| [**Portfolio**](https://github.com/Raphasha27/Portfolio) | 3D interactive portfolio with immersive animations | React • Framer Motion • Vite |
+| [**SmartBank Platform**](https://github.com/Raphasha27/smartbank-enterprise-platform) | 8-microservice banking backend - Saga, Kafka, OpenTelemetry | Java • Spring Boot |
+| [**CyberShield SOC**](https://github.com/Raphasha27/cybershield_soc) | SOC dashboard with real-time WebSocket threat detection | Angular • Node.js |
+| [**EskomSense AI**](https://github.com/Raphasha27/EskomSense-AI) | Load shedding predictor & battery optimizer for South Africa | Python • FastAPI |
+| [**Sumbandila App**](https://github.com/Raphasha27/Sumbandila-App) | Digital infrastructure platform for youth employment | React • Django |
+| [**Go RAG System**](https://github.com/Raphasha27/go-rag-system) | RAG pipeline with pgvector and agentic patterns | Go • PostgreSQL |
 | [**Ironclad Sandbox**](https://github.com/Raphasha27/ironclad-sandbox) | Python sandbox for secure AI agent code execution | Python |
-| [**YouthCode ZA**](https://github.com/Raphasha27/YouthCode-ZA) | Offline-first digital skills platform for South African youth | TypeScript · PWA |
+| [**YouthCode ZA**](https://github.com/Raphasha27/YouthCode-ZA) | Offline-first digital skills platform for South African youth | TypeScript • PWA |
 
 </div>
 
@@ -142,8 +133,8 @@ const koketso = {
 Autonomous AI agent frameworks & agentic pipelines
 Offline-first ecosystems for the African digital economy
 AI-native security operations (SOC) tooling
-NLP models for African languages (Zulu · Xhosa · Sotho · Afrikaans)
-Distributed systems with Kafka · Kubernetes · OpenTelemetry
+NLP models for African languages (Zulu • Xhosa • Sotho • Afrikaans)
+Distributed systems with Kafka • Kubernetes • OpenTelemetry
 ```
 
 </div>
@@ -164,7 +155,7 @@ Distributed systems with Kafka · Kubernetes · OpenTelemetry
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,100:0d1117&height=120&section=footer&text=Let%27s%20build%20something%20extraordinary&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" alt="footer"/>
 
-**Open for freelance, full-time roles, and meaningful collaborations.**
+**Open for freelance, full-time roles, and meaningful collaborations.**  
 **Response within 24 hours — raphashakoketso99@gmail.com**
 
 </div>
