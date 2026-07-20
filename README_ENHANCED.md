@@ -5,7 +5,7 @@
 ![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&color=00ff9c&style=for-the-badge&label=PROFILE+VIEWS)
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-Live-00ff9c?style=for-the-badge)](https://koketso-raphasha.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/koketso-raphasha-517954387)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:raphashakoketso99@gmail.com)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail)](mailto:raphashakoketso69@gmail.com)
 
 </div>
 
@@ -306,7 +306,7 @@ I believe in **building in the open**. All my projects are:
 <div align="center">
 
 [![Portfolio](https://img.shields.io/badge/🌐_Visit_Portfolio-00ff9c?style=for-the-badge)](https://koketso-raphasha.vercel.app)
-[![Email](https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
+[![Email](https://img.shields.io/badge/📧_Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso69@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/koketso-raphasha-517954387)
 [![Twitter](https://img.shields.io/badge/🐦_Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raphasha27)
 
