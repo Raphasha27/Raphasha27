@@ -13,18 +13,18 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d47a1?style=for-the-badge&logo=vercel&logoColor=white)](https://koketso-raphasha.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso69@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphasha27)
+<a href="https://koketso-raphasha.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0d47a1?style=flat-square&logo=vercel&logoColor=white"></a>
+<a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
+<a href="mailto:raphashakoketso69@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"></a>
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Raphasha27&color=0d47a1&style=for-the-badge&label=PROFILE+VIEWS)
+<img src="https://komarev.com/ghpvc/?username=Raphasha27&color=0d47a1&style=flat-square&label=PROFILE+VIEWS">
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="320" alt="Developer coding GIF"/>
+<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" style="max-width:100%;height:auto;width:320px" alt="Developer coding GIF"/>
 
 </div>
 
@@ -159,3 +159,4 @@ Distributed systems with Kafka • Kubernetes • OpenTelemetry
 **Response within 24 hours — raphashakoketso69@gmail.com**
 
 </div>
+
