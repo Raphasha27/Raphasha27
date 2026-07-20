@@ -15,7 +15,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-0d47a1?style=for-the-badge&logo=vercel&logoColor=white)](https://koketso-raphasha.vercel.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://za.linkedin.com/in/koketso-raphasha-517954387)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso99@gmail.com)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raphashakoketso69@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Raphasha27)
 
 <br/>
@@ -156,6 +156,6 @@ Distributed systems with Kafka • Kubernetes • OpenTelemetry
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,100:0d1117&height=120&section=footer&text=Let%27s%20build%20something%20extraordinary&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" alt="footer"/>
 
 **Open for freelance, full-time roles, and meaningful collaborations.**  
-**Response within 24 hours — raphashakoketso99@gmail.com**
+**Response within 24 hours — raphashakoketso69@gmail.com**
 
 </div>
