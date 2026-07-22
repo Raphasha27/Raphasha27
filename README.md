@@ -152,7 +152,8 @@ Distributed systems with Kafka • Kubernetes • OpenTelemetry
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d47a1,100:0d1117&height=120&section=footer&text=Let%27s%20build%20something%20extraordinary&fontSize=20&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%" alt="footer"/>
 
-**Open for freelance, full-time roles, and meaningful collaborations.**  
+**Open for freelance, full-time roles, and meaningful collaborations.
+**Collaborators:** [@DkMash](https://github.com/DkMash) | [@KirovDynamicsTechnology](https://github.com/KirovDynamicsTechnology)**  
 **Response within 24 hours — raphashakoketso69@gmail.com**
 
 </div>
