@@ -49,6 +49,5 @@ Inspired by **GitHub contribution graphs** and continuous activity — symbolizi
 - 🟩 Continuous execution
 
 ## 👨‍💻 Author
-**Koketso Raphasha**
+[**Koketso Raphasa**](https://koketso-raphasha.vercel.app/)
 *Full-Stack Engineer | System Architect | AI & Automation Builder*
-[GitHub](https://github.com/Raphasha27) | [LinkedIn](https://www.linkedin.com/in/koketso-raphasha-27)

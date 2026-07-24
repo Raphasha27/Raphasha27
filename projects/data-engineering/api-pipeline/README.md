@@ -50,4 +50,4 @@ python api_pipeline.py --source https://api.example.com/data --output output.csv
 
 ## Author
 
-**Koketso Raphasha** — [Kaggle](https://kaggle.com/Raphasha27) | [GitHub](https://github.com/Raphasha27)
+[**Koketso Raphasa**](https://koketso-raphasha.vercel.app/)

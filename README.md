@@ -15,13 +15,7 @@
 <br />
 
 <div align="center">
-  <a href="https://za.linkedin.com/in/koketso-raphasha-517954387"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/3D_Portfolio-Live-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://github.com/Raphasha27"><img src="https://img.shields.io/badge/GitHub-View_Profile-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://bitbucket.org/raphasha27"><img src="https://img.shields.io/badge/Bitbucket-Mirror-0052CC?style=for-the-badge&logo=bitbucket&logoColor=white" /></a>
-  <a href="https://github.com/Raphasha27/kirov-dynamics"><img src="https://img.shields.io/badge/Kirov_Ecosystem-Explore-0D1117?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://discord.com/users/raphasha27"><img src="https://img.shields.io/badge/Discord-Ping_Me-5865F2?style=for-the-badge&logo=discord&logoColor=white" /></a>
-  <a href="https://raphashakoketso.gumroad.com"><img src="https://img.shields.io/badge/Gumroad-Shop-FF90E8?style=for-the-badge&logo=gumroad&logoColor=white" /></a>
+  <a href="https://koketso-raphasha.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Koketso_Raphasha-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </div>
 
 <br />
@@ -111,7 +105,7 @@
   <a href="https://github.com/Raphasha27/smartbank-enterprise-platform">
     <img src="https://img.shields.io/badge/SmartBank_Enterprise-★_FEATURED_PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=white" />
   </a>
-  <a href="https://portfolio-iota-eight-90.vercel.app/#featured">
+  <a href="https://koketso-raphasha.vercel.app/">
     <img src="https://img.shields.io/badge/Live_Portfolio-View_Architecture-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
   </a>
   <a href="https://render.com/deploy?repo=https://github.com/Raphasha27/smartbank-enterprise-platform">
@@ -660,7 +654,7 @@
 <p align="center">
   <b>Professional tools, templates, and services for AI engineers and developers.</b>
   <br /><br />
-  <a href="https://portfolio-iota-eight-90.vercel.app/#store"><img src="https://img.shields.io/badge/Browse_Store-00FF9C?style=for-the-badge&logo=vercel&logoColor=black" /></a>
+  <a href="https://koketso-raphasha.vercel.app/"><img src="https://img.shields.io/badge/Browse_Store-00FF9C?style=for-the-badge&logo=vercel&logoColor=black" /></a>
   <a href="https://paypal.me/Raphasha27"><img src="https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" /></a>
   <a href="https://ko-fi.com/raphasha27"><img src="https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white" /></a>
 </p>
@@ -780,7 +774,7 @@
   <i>"Strive not to be a success, but rather to be of value." - Einstein</i>
   <br /><br />
   <div style="font-size:12px; color:#94A3B8;">
-    (c) 2026 <b>Koketso Raphasha</b> - Founder @ <a href="https://github.com/Raphasha27/kirov-dynamics" style="color:#8B5CF6;">Kirov Dynamics</a>
+    (c) 2026 <b>Koketso Raphasha</b> - <a href="https://koketso-raphasha.vercel.app/" style="color:#8B5CF6;">Portfolio</a>
   </div>
   <br />
   <div style="font-size:11px; color:#636D7D;">

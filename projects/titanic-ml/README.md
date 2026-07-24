@@ -51,4 +51,4 @@ python titanic_kaggle.py
 
 ## Author
 
-**Koketso Raphasha** — [Kaggle](https://kaggle.com/Raphasha27) | [Portfolio](https://github.com/Raphasha27)
+[**Koketso Raphasa**](https://koketso-raphasha.vercel.app/)

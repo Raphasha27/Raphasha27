@@ -17,4 +17,4 @@ Collection of data engineering projects showcasing ETL pipelines, data cleaning,
 
 ## Author
 
-**Koketso Raphasha** — [Kaggle](https://kaggle.com/Raphasha27) | [GitHub](https://github.com/Raphasha27)
+[**Koketso Raphasa**](https://koketso-raphasha.vercel.app/)
