@@ -779,5 +779,7 @@
   <br />
   <div style="font-size:11px; color:#636D7D;">
     <sub>Profile enhanced by <a href="https://opencode.ai" style="color:#00FF9C;">opencode</a> · Automatically updated via <a href="https://github.com/Raphasha27/Raphasha27" style="color:#8B5CF6;">GitHub Actions</a></sub>
-  </div>
+  
+<div align='center'><sub>Part of <a href='https://github.com/Kirov-Dynamics-Technology'>Kirov Dynamics Technology</a> ecosystem · Collaborator: <a href='https://github.com/DkMash'>@DkMash</a></sub></div>
+</div>
 </div>
