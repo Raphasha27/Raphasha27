@@ -77,6 +77,73 @@
       </td>
     </tr>
   </table>
+
+<br/>
+
+---
+
+<h2 align="center">🚀 Featured Projects & Organizations</h2>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Kirov-Dynamics-Technology/kirov-dynamics"><b>Kirov Dynamics (Website)</b></a><br/>
+        <sub>Official Website Deployment</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Kirov-Dynamics-Technology/Kirov-AI-SDK"><b>Kirov AI SDK</b></a><br/>
+        <sub>Core AI Infrastructure SDK</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/CyberMesh-Labs"><b>CyberMesh Labs</b></a><br/>
+        <sub>Security & Infrastructure R&D</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Kirov-Dynamics-Technology/kirov-central-hub"><b>Kirov Central Hub</b></a><br/>
+        <sub>Central Management Dashboard</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Kirov-Dynamics-Technology/innovation-roadmap"><b>Innovation Roadmap</b></a><br/>
+        <sub>Strategic Tracking & Planning</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Kirov-Dynamics-Technology/kirov-cli"><b>Kirov CLI</b></a><br/>
+        <sub>Developer Command Line Tool</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/sec-audit-cli"><b>Sec Audit CLI</b></a><br/>
+        <sub>Security Auditing Utilities</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/docker-deployment-templates"><b>Docker Templates</b></a><br/>
+        <sub>Containerized Deployment Setups</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/raphasha-dev-portfolio"><b>Dev Portfolio</b></a><br/>
+        <sub>React & Tailwind Portfolio</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Automata-Stack-Lab"><b>Automata Stack Lab</b></a><br/>
+        <sub>Automation Research</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/PhantomGrid-OSINT-Lab"><b>PhantomGrid OSINT</b></a><br/>
+        <sub>Open Source Intelligence</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Raphasha27/Predictive-Core-Lab"><b>Predictive Core Lab</b></a><br/>
+        <sub>Core Predictive Models</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 </div>
 
 <br />
