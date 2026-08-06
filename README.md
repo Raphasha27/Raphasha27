@@ -14,6 +14,13 @@
 
 <br />
 
+
+<div align="center">
+  <a href="https://github.com/Kirov-Dynamics-Technology">
+    <img src="https://img.shields.io/badge/Kirov_Dynamics_Technology-Official_Founder-0D1117?style=for-the-badge&logo=github&logoColor=8B5CF6&labelColor=0D1117&border=8B5CF6" />
+  </a>
+</div>
+<br />
 <div align="center">
   <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Koketso_Raphasha-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 </div>
@@ -192,6 +199,39 @@
 
 ---
 
+<h2 align="center">🌤️ Live Product: Aura Weather AI</h2>
+
+<div align="center">
+  <a href="https://aura-weather-ai.vercel.app">
+    <img src="https://img.shields.io/badge/Aura_Weather_AI-LIVE_APP-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+  <a href="https://github.com/Raphasha27/aura-weather-ai">
+    <img src="https://img.shields.io/badge/Star_on_GitHub-Support-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</div>
+
+<br/>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 750px;">
+    Production weather intelligence app deployed live —<br/>
+    real-time Open-Meteo data, 24h interactive thermal chart, 7-day forecast,<br/>
+    autocomplete city search, saved locations, °C/°F, and AI insights from live data.
+  </p>
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/Open--Meteo_API-1D4ED8?style=flat-square&logo=openstreetmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/SEO_Ready-22C55E?style=flat-square&logo=google&logoColor=white" />
+</div>
+
+<br/>
+
+---
+
 <h2 align="center">🎯 Current Mission: Agentic Engineering</h2>
 
 <div align="center">
@@ -319,39 +359,6 @@
       <td align="center">✅ <b>OpenTelemetry</b><br/><sub>Cross-service distributed tracing</sub></td>
     </tr>
   </table>
-</div>
-
-<br/>
-
----
-
-<h2 align="center">🌤️ Live Product: Aura Weather AI</h2>
-
-<div align="center">
-  <a href="https://aura-weather-ai.vercel.app">
-    <img src="https://img.shields.io/badge/Aura_Weather_AI-LIVE_APP-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://github.com/Raphasha27/aura-weather-ai">
-    <img src="https://img.shields.io/badge/Star_on_GitHub-Support-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
-
-<br/>
-
-<div align="center">
-  <p style="color:#94A3B8; max-width: 750px;">
-    Production weather intelligence app deployed live —<br/>
-    real-time Open-Meteo data, 24h interactive thermal chart, 7-day forecast,<br/>
-    autocomplete city search, saved locations, °C/°F, and AI insights from live data.
-  </p>
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open--Meteo_API-1D4ED8?style=flat-square&logo=openstreetmap&logoColor=white" />
-  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/SEO_Ready-22C55E?style=flat-square&logo=google&logoColor=white" />
 </div>
 
 <br/>
