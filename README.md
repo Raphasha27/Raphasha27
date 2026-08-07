@@ -150,6 +150,124 @@
 
 ---
 
+<h2 align="center">🌐 Comprehensive Ecosystem & Live Deployments</h2>
+
+<div align="center">
+  <p style="color:#94A3B8; max-width: 750px;">
+    An expansive ecosystem of deployed applications, tools, and prototypes. Every project is live and accessible.
+  </p>
+</div>
+
+<br/>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/nexus-command-center/"><b>Nexus Command Center</b></a><br/><sub>DevOps Dashboard</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/cybershield_soc/"><b>CyberShield SOC</b></a><br/><sub>AI Security Operations</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Sovereign-AI-Nexus-v2/"><b>Sovereign AI Nexus v2</b></a><br/><sub>LLM Orchestrator</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/devforge-ai/"><b>DevForge AI</b></a><br/><sub>Autonomous Workflow</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/autonomous-dev-factory-core/"><b>Autonomous Dev Factory</b></a><br/><sub>Agent Task Engine</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/ironclad-sandbox/"><b>Ironclad Sandbox</b></a><br/><sub>Secure VM Execution</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/DDOS-Detection-Simulator/"><b>DDoS Simulator</b></a><br/><sub>SOC Training ML</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/sec-audit-cli/"><b>Sec Audit CLI</b></a><br/><sub>Vulnerability Scanner</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/repo-audit-bot/"><b>Repo Audit Bot</b></a><br/><sub>GitHub Security Action</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Password-Analyzer/"><b>Password Analyzer</b></a><br/><sub>Entropy & Breach Check</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Password-Hasher/"><b>Password Hasher</b></a><br/><sub>Secure Cryptography</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/CyberMesh-Labs/"><b>CyberMesh Labs</b></a><br/><sub>Decentralized Security</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/securebank-360/"><b>SecureBank 360</b></a><br/><sub>Core Banking Prototype</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/saas-multitenant-backend/"><b>SaaS Multi-Tenant</b></a><br/><sub>Enterprise Backend API</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/TradePulse-Terminal-Lab/"><b>TradePulse Terminal</b></a><br/><sub>Quant Finance Data</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Nexus-Quant/"><b>Nexus Quant</b></a><br/><sub>Algorithmic Trading</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/SupplyWaveSA/"><b>SupplyWave SA</b></a><br/><sub>Logistics Optimization</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/pharmalink/"><b>PharmaLink</b></a><br/><sub>Healthcare Supply Chain</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/KasiPass/"><b>KasiPass</b></a><br/><sub>Township Digital Identity</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Mzansi-AgriAI/"><b>Mzansi AgriAI</b></a><br/><sub>Smart Crop Advisory</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/aura-weather-ai/"><b>Aura Weather AI</b></a><br/><sub>Microclimate Forecasting</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/ai-driver-recruitment/"><b>AI Driver Recruitment</b></a><br/><sub>Automated Fleet Screening</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/Management-System/"><b>Management System</b></a><br/><sub>Enterprise Dashboard</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/api-mock-server/"><b>API Mock Server</b></a><br/><sub>FastAPI Stub Generator</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/snake-game/"><b>Snake Game AI</b></a><br/><sub>Pathfinding Visualizer</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/portfolio-website/"><b>Portfolio Engine</b></a><br/><sub>Vite + React Core</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/raphasha-dev-portfolio/"><b>Dev Portfolio</b></a><br/><sub>Modern Vercel Site</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br />
+
+---
+
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=PROFILE+VIEWS&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
   <img src="https://img.shields.io/github/followers/Raphasha27?style=for-the-badge&logo=github&label=Followers&color=22C55E" alt="Followers" />
