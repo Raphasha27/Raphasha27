@@ -953,3 +953,10 @@
 <div align='center'><sub>Part of <a href='https://github.com/Kirov-Dynamics-Technology'>Kirov Dynamics Technology</a> ecosystem · Collaborator: <a href='https://github.com/DkMash'>@DkMash</a></sub></div>
 </div>
 </div>
+
+## Contributors
+
+This project is developed and maintained together with the team:
+- [Raphasha27](https://github.com/Raphasha27) — Project lead & maintainer
+- [KirovDynamicsTechnology](https://github.com/KirovDynamicsTechnology) — Kirov Dynamics (company)
+- [DkMash](https://github.com/DkMash) — Teammate
