@@ -268,6 +268,39 @@
         <a href="https://raphasha27.github.io/raphasha-dev-portfolio/"><b>Dev Portfolio</b></a><br/><sub>Modern Vercel Site</sub>
       </td>
     </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/nexus-command-center/"><b>⚡ Nexus Command Center</b></a><br/><sub>DevSecOps Dashboard · Next.js</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/BugBountyHub/"><b>Bug Bounty Hub</b></a><br/><sub>SecOps Research Platform</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/GitFlowPro/"><b>GitFlow Pro</b></a><br/><sub>Workflow Automation Engine</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/opsly-saas/"><b>Opsly SaaS</b></a><br/><sub>DevOps Infrastructure Platform</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/CycleSync/"><b>CycleSync</b></a><br/><sub>AI Health Tracking</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/vault-keeper/"><b>Vault Keeper</b></a><br/><sub>Secrets Management</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/EduStream-Pro-ICT/"><b>EduStream Pro</b></a><br/><sub>ICT Learning Platform</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/aura-weather-ai/"><b>Aura Weather AI v2</b></a><br/><sub>Microclimate Forecasting</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/thuto-ai/"><b>Thuto AI</b></a><br/><sub>SA Education AI</sub>
+      </td>
+    </tr>
   </table>
 </div>
 
@@ -639,6 +672,9 @@
 | **Phishing Awareness Game** | [![CI](https://github.com/Raphasha27/Phishing-Awareness-Game/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Phishing-Awareness-Game/actions/workflows/ci.yml) |
 | **DDoS Detection Simulator** | [![CI](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml) |
 | **Insider Threat Detector** | [![CI](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml) |
+| **Nexus Command Center** | [![Deploy](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml/badge.svg)](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml) |
+| **Aura Weather AI** | [![CI](https://github.com/Raphasha27/aura-weather-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/aura-weather-ai/actions/workflows/ci.yml) |
+| **Thuto AI** | [![CI](https://github.com/Raphasha27/thuto-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/thuto-ai/actions/workflows/ci.yml) |
 
 </div>
 
