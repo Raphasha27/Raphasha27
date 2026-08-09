@@ -268,6 +268,28 @@
         <a href="https://raphasha27.github.io/raphasha-dev-portfolio/"><b>Dev Portfolio</b></a><br/><sub>Modern Vercel Site</sub>
       </td>
     </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/BugBountyHub/"><b>Bug Bounty Hub</b></a><br/><sub>SecOps Platform</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/GitFlowPro/"><b>GitFlow Pro</b></a><br/><sub>Workflow Engine</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/opsly-saas/"><b>Opsly SaaS</b></a><br/><sub>DevOps Infrastructure</sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/CycleSync/"><b>CycleSync</b></a><br/><sub>Health Tracking</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/vault-keeper/"><b>Vault Keeper</b></a><br/><sub>Secrets Management</sub>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/EduStream-Pro-ICT/"><b>EduStream Pro</b></a><br/><sub>LMS Platform</sub>
+      </td>
+    </tr>
   </table>
 </div>
 
