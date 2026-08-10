@@ -1,12 +1,110 @@
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,11,15&height=200&section=header&text=Koketso%20Raphasha&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=34" width="100%" />
 </div>
 
+---
+
+<h2 align="center">🚀 Live Deployments — Everything Running Free</h2>
+
+<div align="center">
+  <p style="color:#94A3B8;">All products below are LIVE on free tiers — Vercel, Cloudflare Pages, GitHub Pages & Streamlit Community Cloud. Click anything to try it instantly.</p>
+</div>
+
+### 1️⃣ Vercel (FastAPI / Next.js / React / Flutter Web)
+
+| App | URL |
+|-----|-----|
+| **Aura Weather AI** | [aura-weather-ai.vercel.app](https://aura-weather-ai.vercel.app) |
+| **Cybershield SOC** | [cybershieldsoc-raphashakoketso69-3253s-projects.vercel.app](https://cybershieldsoc-raphashakoketso69-3253s-projects.vercel.app) |
+| **EskomSense AI** | [eskomsense-ai-raphashakoketso69-3253s-projects.vercel.app](https://eskomsense-ai-raphashakoketso69-3253s-projects.vercel.app) |
+| **Mzansi AgriAI** | [mzansi-agriai.vercel.app](https://mzansi-agriai.vercel.app) |
+| **Nexus Command Center** | [nexus-command-center-wine.vercel.app](https://nexus-command-center-wine.vercel.app) |
+| **Kirov Dynamics Hub** | [kirov-dynamics.vercel.app](https://kirov-dynamics.vercel.app) |
+| **TradePulse Terminal Lab** | [tradepulse-terminal-lab.vercel.app](https://tradepulse-terminal-lab.vercel.app) |
+| **CyberMesh Labs** | [cybermesh-labs.vercel.app](https://cybermesh-labs.vercel.app) |
+| **Predictive Election Markets Lab** | [predictive-election-markets-lab.vercel.app](https://predictive-election-markets-lab.vercel.app) |
+| **PhantomGrid OSINT Lab** | [phantomgrid-osint-lab.vercel.app](https://phantomgrid-osint-lab.vercel.app) |
+| **Predictive Core Lab** | [predictive-core-lab.vercel.app](https://predictive-core-lab.vercel.app) |
+| **Automata Stack Lab** | [automata-stack-lab.vercel.app](https://automata-stack-lab.vercel.app) |
+| **Nexus Quant** | [nexus-quant-smoky.vercel.app](https://nexus-quant-smoky.vercel.app) |
+| **Snake Game** | [snake-game-ivory-omega.vercel.app](https://snake-game-ivory-omega.vercel.app) |
+| **Task Manager** | [taskmanager-two-phi.vercel.app](https://taskmanager-two-phi.vercel.app) |
+| **Small Business Assistant** | [small-business-assistant-brown.vercel.app](https://small-business-assistant-brown.vercel.app) |
+| **Fire4s AI Resume Builder** | [fire4s-ai-resume-builder.vercel.app](https://fire4s-ai-resume-builder.vercel.app) |
+| **Fire4s End-End AI Solutions** | [fire4s-end-end-ai-solutions.vercel.app](https://fire4s-end-end-ai-solutions.vercel.app) |
+| **Website Generator** | [website-generator-dusky-eight.vercel.app](https://website-generator-dusky-eight.vercel.app) |
+| **SupportHive-C** | [supporthive-c.vercel.app](https://supporthive-c.vercel.app) |
+| **SeatLock** | [seatlock-beta.vercel.app](https://seatlock-beta.vercel.app) |
+| **Trust Ride SA** | [trust-ride-sa.vercel.app](https://trust-ride-sa.vercel.app) |
+| **Management System** | [management-system-raphashakoketso69-3253s-projects.vercel.app](https://management-system-raphashakoketso69-3253s-projects.vercel.app) |
+| **Opsly SaaS** | [opsly-saas.vercel.app](https://opsly-saas.vercel.app) |
+| **NoShowIQ Fullstack** | [noshowiq-fullstack-raphashakoketso69-3253s-projects.vercel.app](https://noshowiq-fullstack-raphashakoketso69-3253s-projects.vercel.app) |
+| **Pharmalink** | [pharmalink-ebon.vercel.app](https://pharmalink-ebon.vercel.app) |
+| **KasiPass** | [kasipass.vercel.app](https://kasipass.vercel.app) |
+| **Ticketza** | [ticketza-iota.vercel.app](https://ticketza-iota.vercel.app) |
+| **SupplyWave** | [supplywave-snowy.vercel.app](https://supplywave-snowy.vercel.app) |
+| **AI Driver Recruitment** | [ai-driver-recruitment.vercel.app](https://ai-driver-recruitment.vercel.app) |
+| **Finaxis App** | [finaxis-app-lac.vercel.app](https://finaxis-app-lac.vercel.app) |
+| **Autonomous Dev Factory v7** | [autonomous-dev-factory-v7.vercel.app](https://autonomous-dev-factory-v7.vercel.app) |
+| **AI Agent** | [ai-agent-opal-ten.vercel.app](https://ai-agent-opal-ten.vercel.app) |
+| **DevForge AI** | [devforge-ai-chi.vercel.app](https://devforge-ai-chi.vercel.app) |
+| **Sovereign AI Nexus v2** | [sovereign-ai-nexus-v2.vercel.app](https://sovereign-ai-nexus-v2.vercel.app) |
+| **Stunning Octo System** | [stunning-octo-system-khaki.vercel.app](https://stunning-octo-system-khaki.vercel.app) |
+| **Mzansi Restaurant** | [restaurant-plan.vercel.app](https://restaurant-plan.vercel.app) |
+| **Sumbandila Pro** | [sumbandila-app.vercel.app](https://sumbandila-app.vercel.app) |
+| **Saas Multitenant Backend** | [saas-multitenant-backend.vercel.app](https://saas-multitenant-backend.vercel.app) |
+| **Secure Auth RBAC Template** | [secure-auth-rbac-template.vercel.app](https://secure-auth-rbac-template.vercel.app) |
+
+### 2️⃣ Cloudflare Pages (Showcase Demos)
+
+| App | URL |
+|-----|-----|
+| **DDoS Detection Simulator** | [ddos-detection-simulator.pages.dev](https://ddos-detection-simulator.pages.dev) |
+| **Insider Threat Detector** | [insider-threat-detector.pages.dev](https://insider-threat-detector.pages.dev) |
+| **Phishing Awareness Game** | [phishing-awareness-game.pages.dev](https://phishing-awareness-game.pages.dev) |
+| **RideWave UI Simulation** | [ridewave-ui-simulation.pages.dev](https://ridewave-ui-simulation.pages.dev) |
+| **API Mock Server** | [api-mock-server.pages.dev](https://api-mock-server.pages.dev) |
+| **Password Analyzer** | [password-analyzer.pages.dev](https://password-analyzer.pages.dev) |
+| **Password Hasher** | [password-hasher.pages.dev](https://password-hasher.pages.dev) |
+| **GitFlowPro** | [gitflowpro.pages.dev](https://gitflowpro.pages.dev) |
+| **Ironclad Sandbox** | [ironclad-sandbox.pages.dev](https://ironclad-sandbox.pages.dev) |
+| **Contribution Snake** | [raphasha27-contribution-snake.pages.dev](https://raphasha27-contribution-snake.pages.dev) |
+| **Kirov Algorithms** | [kirov-algorithms.pages.dev](https://kirov-algorithms.pages.dev) |
+| **AI Prompt CLI** | [ai-prompt-cli.pages.dev](https://ai-prompt-cli.pages.dev) |
+| **Sec Audit CLI** | [sec-audit-cli.pages.dev](https://sec-audit-cli.pages.dev) |
+| **Repo Audit Bot** | [repo-audit-bot.pages.dev](https://repo-audit-bot.pages.dev) |
+| **Mochi Motion** | [mochi-motion.pages.dev](https://mochi-motion.pages.dev) |
+| **Enterprise FastAPI Starter** | [enterprise-fastapi-starter.pages.dev](https://enterprise-fastapi-starter.pages.dev) |
+| **SecureBank 360** | [securebank-360.pages.dev](https://securebank-360.pages.dev) |
+| **SmartBank Enterprise Platform** | [smartbank-enterprise-platform.pages.dev](https://smartbank-enterprise-platform.pages.dev) |
+
+### 3️⃣ GitHub Pages
+
+| App | URL |
+|-----|-----|
+| **Portfolio (GH Pages)** | [raphasha27.github.io](https://raphasha27.github.io) |
+
+### 4️⃣ Streamlit Community Cloud (one-click deploy → free)
+
+| App | Deploy |
+|-----|--------|
+| **Gauteng Transport Dashboard** | [gauteng-transport-dashboard](https://share.streamlit.io/deploy?repository=Raphasha27/gauteng-transport-dashboard) |
+| **Smart Packaging Platform** | [smart-packaging-platform](https://share.streamlit.io/deploy?repository=Raphasha27/smart-packaging-platform) |
+
+### 📱 Android APKs (download & install)
+
+| App | APK |
+|-----|-----|
+| **RideWave** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/ridewave/releases/tag/v1.0.0-live) |
+| **Afro Fashion Mobile** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/afro_fashion_mobile/releases/tag/v1.0.0-live) |
+| **Mzansi Restaurant / Sumbandila / Thuto AI / Shova** | Building on EAS Cloud — links drop here soon |
+
+---
+
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=600&lines=NEXT-GEN+AI+SYSTEMS+ARCHITECT;FOUNDER+%40+KIROV+DYNAMICS;DEVSECOPS+%26+CYBERSECURITY;BUILDING+AFRICA'S+DIGITAL+FUTURE" alt="Headline Rotator" />
 </div>
-
-<br />
 
 <div align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
@@ -1119,3 +1217,5 @@ This project is developed and maintained together with the team:
 - [Raphasha27](https://github.com/Raphasha27) — Project lead & maintainer
 - [KirovDynamicsTechnology](https://github.com/KirovDynamicsTechnology) — Kirov Dynamics (company)
 - [DkMash](https://github.com/DkMash) — Teammate
+
+
