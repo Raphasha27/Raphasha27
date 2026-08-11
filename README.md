@@ -124,7 +124,7 @@
 | **Afro Fashion Mobile** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/afro_fashion_mobile/releases/tag/v1.0.0-live) |
 | **Mzansi Restaurant** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/restaurant_plan/releases/tag/v1.0.0-live) |
 | **Sumbandila** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/SMD/releases/tag/v1.0.0-live) |
-| **Thuto AI** | Building on EAS Cloud — links drop here soon |
+| **Thuto AI** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/thuto-ai/releases/tag/v1.0.0-live) |
 | **Shova** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/Shova/releases/tag/v1.0.0-live) |
 | **Stunning Octo System** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/stunning-octo-system/releases/tag/v1.0.0-live) |
 
