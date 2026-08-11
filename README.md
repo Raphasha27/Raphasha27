@@ -16,14 +16,14 @@
 | App | URL |
 |-----|-----|
 | **Aura Weather AI** | [aura-weather-ai.vercel.app](https://aura-weather-ai.vercel.app) |
-| **Cybershield SOC** | [cybershieldsoc-raphashakoketso69-3253s-projects.vercel.app](https://cybershieldsoc-raphashakoketso69-3253s-projects.vercel.app) |
-| **EskomSense AI** | [eskomsense-ai-raphashakoketso69-3253s-projects.vercel.app](https://eskomsense-ai-raphashakoketso69-3253s-projects.vercel.app) |
+| **Cybershield SOC** | [cybershieldsoc.vercel.app](https://cybershieldsoc.vercel.app) |
+| **EskomSense AI** | [eskomsense-ai.vercel.app](https://eskomsense-ai.vercel.app) |
 | **Mzansi AgriAI** | [mzansi-agriai.vercel.app](https://mzansi-agriai.vercel.app) |
 | **Nexus Command Center** | [nexus-command-center-wine.vercel.app](https://nexus-command-center-wine.vercel.app) |
 | **Kirov Dynamics Hub** | [kirov-dynamics.vercel.app](https://kirov-dynamics.vercel.app) |
 | **TradePulse Terminal Lab** | [tradepulse-terminal-lab.vercel.app](https://tradepulse-terminal-lab.vercel.app) |
 | **CyberMesh Labs** | [cybermesh-labs.vercel.app](https://cybermesh-labs.vercel.app) |
-| **Predictive Election Markets Lab** | [predictive-election-markets-lab.vercel.app](https://predictive-election-markets-lab.vercel.app) |
+| **Predictive Election Markets Lab** | [predictive-election-markets-lab-live.vercel.app](https://predictive-election-markets-lab-live.vercel.app) |
 | **PhantomGrid OSINT Lab** | [phantomgrid-osint-lab.vercel.app](https://phantomgrid-osint-lab.vercel.app) |
 | **Predictive Core Lab** | [predictive-core-lab.vercel.app](https://predictive-core-lab.vercel.app) |
 | **Automata Stack Lab** | [automata-stack-lab.vercel.app](https://automata-stack-lab.vercel.app) |
@@ -33,13 +33,13 @@
 | **Small Business Assistant** | [small-business-assistant-brown.vercel.app](https://small-business-assistant-brown.vercel.app) |
 | **Fire4s AI Resume Builder** | [fire4s-ai-resume-builder.vercel.app](https://fire4s-ai-resume-builder.vercel.app) |
 | **Fire4s End-End AI Solutions** | [fire4s-end-end-ai-solutions.vercel.app](https://fire4s-end-end-ai-solutions.vercel.app) |
-| **Website Generator** | [website-generator-dusky-eight.vercel.app](https://website-generator-dusky-eight.vercel.app) |
+| **Website Generator** | [website-generator-live.vercel.app](https://website-generator-live.vercel.app) |
 | **SupportHive-C** | [supporthive-c.vercel.app](https://supporthive-c.vercel.app) |
 | **SeatLock** | [seatlock-beta.vercel.app](https://seatlock-beta.vercel.app) |
-| **Trust Ride SA** | [trust-ride-sa.vercel.app](https://trust-ride-sa.vercel.app) |
-| **Management System** | [management-system-raphashakoketso69-3253s-projects.vercel.app](https://management-system-raphashakoketso69-3253s-projects.vercel.app) |
-| **Opsly SaaS** | [opsly-saas.vercel.app](https://opsly-saas.vercel.app) |
-| **NoShowIQ Fullstack** | [noshowiq-fullstack-raphashakoketso69-3253s-projects.vercel.app](https://noshowiq-fullstack-raphashakoketso69-3253s-projects.vercel.app) |
+| **Trust Ride SA** | [trust-ride-sa-live.vercel.app](https://trust-ride-sa-live.vercel.app) |
+| **Management System** | [management-system.vercel.app](https://management-system.vercel.app) |
+| **Opsly SaaS** | [opsly-saas-app.vercel.app](https://opsly-saas-app.vercel.app) |
+| **NoShowIQ Fullstack** | [noshowiq-fullstack.vercel.app](https://noshowiq-fullstack.vercel.app) |
 | **Pharmalink** | [pharmalink-ebon.vercel.app](https://pharmalink-ebon.vercel.app) |
 | **KasiPass** | [kasipass.vercel.app](https://kasipass.vercel.app) |
 | **Ticketza** | [ticketza-iota.vercel.app](https://ticketza-iota.vercel.app) |
