@@ -7,6 +7,26 @@
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=600&lines=NEXT-GEN+AI+SYSTEMS+ARCHITECT;FOUNDER+%40+KIROV+DYNAMICS;DEVSECOPS+%26+CYBERSECURITY;BUILDING+AFRICA'S+DIGITAL+FUTURE" alt="Headline Rotator" />
 </div>
 
+<br />
+
+<div align="center">
+  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
+</div>
+
+<br />
+
+<div align="center">
+  <a href="https://github.com/Kirov-Dynamics-Technology">
+    <img src="https://img.shields.io/badge/Kirov_Dynamics_Technology-Official_Founder-0D1117?style=for-the-badge&logo=github&logoColor=8B5CF6&labelColor=0D1117&border=8B5CF6" />
+  </a>
+</div>
+<br />
+<div align="center">
+  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Koketso_Raphasha-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+</div>
+
+<br />
+
 ---
 
 <h2 align="center">🚀 Live Deployments — Everything Running Free</h2>
@@ -104,27 +124,6 @@
 | **Afro Fashion Mobile** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/afro_fashion_mobile/releases/tag/v1.0.0-live) |
 | **Mzansi Restaurant** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/restaurant_plan/releases/tag/v1.0.0-live) |
 | **Sumbandila / Thuto AI / Shova** | Building on EAS Cloud — links drop here soon |
-
----
-
-<div align="center">
-  <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
-</div>
-
-<br />
-
-
-<div align="center">
-  <a href="https://github.com/Kirov-Dynamics-Technology">
-    <img src="https://img.shields.io/badge/Kirov_Dynamics_Technology-Official_Founder-0D1117?style=for-the-badge&logo=github&logoColor=8B5CF6&labelColor=0D1117&border=8B5CF6" />
-  </a>
-</div>
-<br />
-<div align="center">
-  <a href="https://portfolio-iota-eight-90.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Koketso_Raphasha-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-</div>
-
-<br />
 
 ---
 
