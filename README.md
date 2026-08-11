@@ -102,7 +102,8 @@
 |-----|-----|
 | **RideWave** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/ridewave/releases/tag/v1.0.0-live) |
 | **Afro Fashion Mobile** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/afro_fashion_mobile/releases/tag/v1.0.0-live) |
-| **Mzansi Restaurant / Sumbandila / Thuto AI / Shova** | Building on EAS Cloud — links drop here soon |
+| **Mzansi Restaurant** | [Download APK (v1.0.0-live)](https://github.com/Raphasha27/restaurant_plan/releases/tag/v1.0.0-live) |
+| **Sumbandila / Thuto AI / Shova** | Building on EAS Cloud — links drop here soon |
 
 ---
 
