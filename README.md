@@ -400,6 +400,13 @@
         <a href="https://raphasha27.github.io/thuto-ai/"><b>Thuto AI</b></a><br/><sub>SA Education AI</sub>
       </td>
     </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://raphasha27.github.io/cine-compass/"><b>Cine-Compass</b></a><br/><sub>Movie Discovery App</sub>
+      </td>
+      <td align="center" width="33%"></td>
+      <td align="center" width="33%"></td>
+    </tr>
   </table>
 </div>
 
@@ -772,8 +779,10 @@
 | **DDoS Detection Simulator** | [![CI](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/DDOS-Detection-Simulator/actions/workflows/ci.yml) |
 | **Insider Threat Detector** | [![CI](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/Insider-Threat-Detector/actions/workflows/ci.yml) |
 | **Nexus Command Center** | [![Deploy](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml/badge.svg)](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml) |
+| **Nexus Command Center** | [![Deploy](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml/badge.svg)](https://github.com/Raphasha27/nexus-command-center/actions/workflows/deploy.yml) |
 | **Aura Weather AI** | [![CI](https://github.com/Raphasha27/aura-weather-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/aura-weather-ai/actions/workflows/ci.yml) |
 | **Thuto AI** | [![CI](https://github.com/Raphasha27/thuto-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/thuto-ai/actions/workflows/ci.yml) |
+| **Cine-Compass** | [![Deploy](https://github.com/Raphasha27/cine-compass/actions/workflows/deploy.yml/badge.svg)](https://github.com/Raphasha27/cine-compass/actions/workflows/deploy.yml) |
 
 </div>
 
