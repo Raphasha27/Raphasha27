@@ -3,6 +3,10 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=20,11,15&height=200&section=header&text=Koketso%20Raphasha&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=34" width="100%" />
 </div>
 
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=600&lines=NEXT-GEN+AI+SYSTEMS+ARCHITECT;FOUNDER+%40+KIROV+DYNAMICS;DEVSECOPS+%26+CYBERSECURITY;BUILDING+AFRICA'S+DIGITAL+FUTURE" alt="Headline Rotator" />
+</div>
+
 ---
 
 <h2 align="center">🚀 Live Deployments — Everything Running Free</h2>
@@ -101,10 +105,6 @@
 | **Mzansi Restaurant / Sumbandila / Thuto AI / Shova** | Building on EAS Cloud — links drop here soon |
 
 ---
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=22&duration=3000&pause=700&color=0EA5E9&center=true&vCenter=true&width=600&lines=NEXT-GEN+AI+SYSTEMS+ARCHITECT;FOUNDER+%40+KIROV+DYNAMICS;DEVSECOPS+%26+CYBERSECURITY;BUILDING+AFRICA'S+DIGITAL+FUTURE" alt="Headline Rotator" />
-</div>
 
 <div align="center">
   <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400" alt="Coding Animation" />
