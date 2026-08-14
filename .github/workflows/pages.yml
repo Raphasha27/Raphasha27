@@ -30,23 +30,32 @@ jobs:
         if: hashFiles('package.json') != ''
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: 22
 
-      - name: Install and build (only if package.json exists)
+- name: Install and build (only if package.json exists)
         if: steps.node.outcome == 'success'
         run: |
-          npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+          npm ci --no-audit --no-fund --legacy-peer-deps || npm install --no-audit --no-fund --legacy-peer-deps
           npm run build --if-present
+
+      - name: Include docs in deploy output
+        run: |
+          if [ -d docs ]; then
+            for p in dist out build public; do
+              if [ -d "$p" ]; then cp -r docs "$p"/docs 2>/dev/null || true; fi
+            done
+          fi
 
       - name: Determine deploy path
         id: deploy_path
         run: |
-          if [ -d dist ] && [ "$(ls -A dist)" ]; then
-            echo "deploy_path=dist" >> "$GITHUB_OUTPUT"
-          else
-            echo "deploy_path=." >> "$GITHUB_OUTPUT"
-          fi
+          for p in dist build out public; do
+            if [ -d "$p" ] && [ "$(ls -A "$p" | head -c1)" ]; then
+              echo "deploy_path=$p" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+          echo "deploy_path=." >> "$GITHUB_OUTPUT"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
