@@ -1,0 +1,58 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - dev
+      - experimental/v1
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node (only if package.json exists)
+        id: node
+        if: hashFiles('package.json') != ''
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install and build (only if package.json exists)
+        if: steps.node.outcome == 'success'
+        run: |
+          npm ci --no-audit --no-fund || npm install --no-audit --no-fund
+          npm run build --if-present
+
+      - name: Determine deploy path
+        id: deploy_path
+        run: |
+          if [ -d dist ] && [ "$(ls -A dist)" ]; then
+            echo "deploy_path=dist" >> "$GITHUB_OUTPUT"
+          else
+            echo "deploy_path=." >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ steps.deploy_path.outputs.deploy_path }}
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
