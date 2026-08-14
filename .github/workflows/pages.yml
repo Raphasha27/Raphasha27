@@ -32,7 +32,7 @@ jobs:
         with:
           node-version: 22
 
-- name: Install and build (only if package.json exists)
+      - name: Install and build (only if package.json exists)
         if: steps.node.outcome == 'success'
         run: |
           npm ci --no-audit --no-fund --legacy-peer-deps || npm install --no-audit --no-fund --legacy-peer-deps
