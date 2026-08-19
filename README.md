@@ -19,6 +19,59 @@
 
 ---
 
+## 📊 GitHub Analytics
+
+<div align="center">
+
+  <!-- GitHub Stats and Languages Row -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" width="49%" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
+
+  <br><br>
+
+  <!-- Snake Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+  </picture>
+
+</div>
+
+---
+
+## 🧭 Curated Projects
+
+My public profile is intentionally minimal — only my strongest, production-ready work lives here. All experiments, labs and prototypes are private, and every live demo is collected in the [Demos Hub](https://raphasha27.github.io/raphasha-demos/).
+
+<br />
+
+<div align="center">
+
+### 🛡️ CyberShield SOC
+Real-time security operations center — Angular 19, D3.js, Signals.
+[Live Demo](https://cybershieldsoc.vercel.app) · [Repository](https://github.com/raphasha27/cybershield_soc)
+
+### 🔐 Secure Auth RBAC Template
+Production-ready FastAPI auth with JWT, role-based access control & middleware.
+[Live Demo](https://secure-auth-rbac-template.vercel.app) · [Repository](https://github.com/raphasha27/secure-auth-rbac-template)
+
+### ⚡ EskomSense AI
+ML-powered load shedding predictor & backup energy optimizer for South Africa.
+[Live Demo](https://eskomsense-ai.vercel.app) · [Repository](https://github.com/raphasha27/EskomSense-AI)
+
+### 🐍 Snake Game
+Classic arcade snake — smooth gameplay, modern design, mobile-friendly.
+[Live Demo](https://snake-game-ivory-omega.vercel.app) · [Repository](https://github.com/raphasha27/snake-game)
+
+### 👨‍💻 Developer Portfolio
+This site you're on — my full story, skills and contact.
+[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/raphasha27/raphasha-dev-portfolio)
+
+</div>
+
+<br />
+
 ## 🛠️ Mastered Technologies & Tools
 
 <div align="center">
@@ -126,38 +179,6 @@
 
 ---
 
-## 🧭 Curated Projects
-
-My public profile is intentionally minimal — only my strongest, production-ready work lives here. All experiments, labs and prototypes are private, and every live demo is collected in the [Demos Hub](https://raphasha27.github.io/raphasha-demos/).
-
-<br />
-
-<div align="center">
-
-### 🛡️ CyberShield SOC
-Real-time security operations center — Angular 19, D3.js, Signals.
-[Live Demo](https://cybershieldsoc.vercel.app) · [Repository](https://github.com/raphasha27/cybershield_soc)
-
-### 🔐 Secure Auth RBAC Template
-Production-ready FastAPI auth with JWT, role-based access control & middleware.
-[Live Demo](https://secure-auth-rbac-template.vercel.app) · [Repository](https://github.com/raphasha27/secure-auth-rbac-template)
-
-### ⚡ EskomSense AI
-ML-powered load shedding predictor & backup energy optimizer for South Africa.
-[Live Demo](https://eskomsense-ai.vercel.app) · [Repository](https://github.com/raphasha27/EskomSense-AI)
-
-### 🐍 Snake Game
-Classic arcade snake — smooth gameplay, modern design, mobile-friendly.
-[Live Demo](https://snake-game-ivory-omega.vercel.app) · [Repository](https://github.com/raphasha27/snake-game)
-
-### 👨‍💻 Developer Portfolio
-This site you're on — my full story, skills and contact.
-[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/raphasha27/raphasha-dev-portfolio)
-
-</div>
-
-<br />
-
 ## 🎮 Try Everything Else
 
 > Every other demo — security labs, AI experiments, games, dashboards and simulations — is one click away:
@@ -165,27 +186,6 @@ This site you're on — my full story, skills and contact.
 ### [👉 Open the Demos Hub](https://raphasha27.github.io/raphasha-demos/)
 
 <br />
-
----
-
-## 📊 GitHub Analytics
-
-<div align="center">
-
-  <!-- GitHub Stats and Languages Row -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" width="49%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
-
-  <br><br>
-
-  <!-- Snake Animation -->
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
-  </picture>
-
-</div>
 
 ---
 
@@ -221,3 +221,4 @@ This site you're on — my full story, skills and contact.
 <div align="center" style="margin-top: 30px;">
   <sub>Built with &#x2764;&#xFE0F; by <b>Koketso Raphasha</b> &bull; &copy; 2026</sub>
 </div>
+
