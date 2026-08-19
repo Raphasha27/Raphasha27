@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Koketso Raphasha — Portfolio</title>
+  <meta http-equiv="refresh" content="0; url=https://koketso-raphasha.vercel.app/">
+  <link rel="canonical" href="https://koketso-raphasha.vercel.app/">
+  <meta name="robots" content="index, follow">
+  <script>
+    window.location.href = "https://koketso-raphasha.vercel.app/";
+  </script>
+</head>
+<body>
+  <p>Redirecting to <a href="https://koketso-raphasha.vercel.app/">Koketso Raphasha's Portfolio</a>...</p>
+</body>
+</html>

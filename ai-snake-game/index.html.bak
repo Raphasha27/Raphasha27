@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI Snake - Autonomous pathfinding demo by Koketso Raphasha">
+  <title>AI Snake - Raphasha27</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="title">🐍 AI Snake</div>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-label">Score</div>
+          <div class="stat-value green" id="score">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Best</div>
+          <div class="stat-value blue" id="high-score">0</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">AI</div>
+          <div class="stat-value green active" id="ai-status">● Active</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-wrapper">
+      <canvas id="gameCanvas" width="600" height="600"></canvas>
+    </div>
+
+    <div class="status-bar">
+      <div class="status-indicator">
+        <span class="status-dot" id="status-dot"></span>
+        <span>Status:</span>
+        <span id="status-text">Initializing...</span>
+      </div>
+      <span class="game-count" id="game-count">Game #1</span>
+    </div>
+
+    <div class="footer">
+      <a href="https://github.com/Raphasha27">github.com/Raphasha27</a>
+    </div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

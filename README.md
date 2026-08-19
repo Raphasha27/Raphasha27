@@ -953,3 +953,8 @@
 <div align='center'><sub>Part of <a href='https://github.com/Kirov-Dynamics-Technology'>Kirov Dynamics Technology</a> ecosystem · Collaborator: <a href='https://github.com/DkMash'>@DkMash</a></sub></div>
 </div>
 </div>
+
+
+## Usage Instructions
+Framework detected: Vanilla Web (HTML/JS/CSS)
+Open the HTML files directly in your browser or run a simple local web server (e.g. `npx serve` or `python -m http.server`).

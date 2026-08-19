@@ -133,3 +133,22 @@ canvas {
   0%, 100% { opacity: 0.6; }
   50% { opacity: 1; }
 }
+
+
+/* Auto-injected baseline mobile responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    img, video, canvas {
+        max-width: 100%;
+        height: auto;
+    }
+    .container, .wrap, .wrapper {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+}
