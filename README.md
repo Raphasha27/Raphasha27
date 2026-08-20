@@ -19,15 +19,6 @@
 <br />
 
 
-<<<<<<< HEAD
-<div align="center">
-  <a href="https://github.com/Kirov-Dynamics-Technology">
-    <img src="https://img.shields.io/badge/Kirov_Dynamics_Technology-Official_Founder-0D1117?style=for-the-badge&logo=github&logoColor=8B5CF6&labelColor=0D1117&border=8B5CF6" />
-  </a>
-</div>
-<br />
-=======
->>>>>>> 6d70ed0869098ced360c5500331956825ad2849c
 <div align="center">
   <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="80%" style="border-radius:20px; border:3px solid #38bdf8; box-shadow: 0 0 20px #38bdf8, 0 0 40px rgba(56,189,248,0.6), 0 0 60px rgba(34,197,94,0.4); max-width: 800px;" alt="Coding Animation" />
 </div>
@@ -47,91 +38,7 @@
 <br />
 
 <div align="center">
-<<<<<<< HEAD
-  <img src="https://komarev.com/ghpvc/?username=Raphasha27&label=PROFILE+VIEWS&style=for-the-badge&color=8B5CF6" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/Raphasha27?style=for-the-badge&logo=github&label=Followers&color=22C55E" alt="Followers" />
-  <img src="https://img.shields.io/github/stars/Raphasha27?style=for-the-badge&logo=github&label=Total+Stars&color=F59E0B" alt="Stars" />
-  <img src="https://img.shields.io/badge/Last_Updated-August_2026-0EA5E9?style=for-the-badge&logo=githubactions&logoColor=white" alt="Last Updated" />
-</div>
-
-<br />
-
-<table align="center" style="border: 1px solid #30363D; border-radius: 8px;">
-  <tr>
-    <td align="center" width="33%">
-      <div><b style="color:#0EA5E9; font-size:16px;">BSc IT (Distinction)</b></div>
-      <div style="font-size:12px; color:#94A3B8;">Richfield Graduate</div>
-    </td>
-    <td align="center" width="33%">
-      <div><b style="color:#22C55E; font-size:16px;">System Architect</b></div>
-      <div style="font-size:12px; color:#94A3B8;">Enterprise Dev</div>
-    </td>
-    <td align="center" width="33%">
-      <div><b style="color:#F59E0B; font-size:16px;">Johannesburg, ZA</b></div>
-      <div style="font-size:12px; color:#94A3B8;">Global Reach</div>
-    </td>
-  </tr>
-</table>
-
-<br />
-
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/110734842?v=4" style="border-radius:50%; border:3px solid #8B5CF6; width:100px; height:100px; box-shadow: 0 0 15px #8B5CF6;" />
-  <br /><br />
-  <b>Mission Directive // 2026</b>
-  <br />
-  <p style="max-width: 600px; margin: 0 auto; color: #E2E8F0;">
-    Engineering autonomous frameworks, AI-powered security (SOC), and offline-first ecosystems for the African digital economy. Every system shipped is built for resilience, scalability, and extreme performance.
-  </p>
-</div>
-
-<br />
-
----
-
-<h2 align="center">🌤️ Live Product: Aura Weather AI</h2>
-
-<div align="center">
-
-### 🛡️ CyberShield SOC
-Real-time security operations center — Angular 19, D3.js, Signals.
-[Live Demo](https://cybershieldsoc.vercel.app) · [Repository](https://github.com/raphasha27/cybershield_soc)
-
-### 🔐 Secure Auth RBAC Template
-Production-ready FastAPI auth with JWT, role-based access control & middleware.
-[Live Demo](https://secure-auth-rbac-template.vercel.app) · [Repository](https://github.com/raphasha27/secure-auth-rbac-template)
-
-### ⚡ EskomSense AI
-ML-powered load shedding predictor & backup energy optimizer for South Africa.
-[Live Demo](https://eskomsense-ai.vercel.app) · [Repository](https://github.com/raphasha27/EskomSense-AI)
-
-### 🐍 Snake Game
-Classic arcade snake — smooth gameplay, modern design, mobile-friendly.
-[Live Demo](https://snake-game-ivory-omega.vercel.app) · [Repository](https://github.com/raphasha27/snake-game)
-
-### 👨‍💻 Developer Portfolio
-This site you're on — my full story, skills and contact.
-[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/raphasha27/raphasha-dev-portfolio)
-
-</div>
-
-<br />
-
-## 🎮 Try Everything Else
-
-> Every other demo — security labs, AI experiments, games, dashboards and simulations — is one click away:
-
-<br/>
-
----
-
-<h2 align="center">🎯 Current Mission: Agentic Engineering</h2>
-
-<div align="center">
-  <table>
-=======
   <table border="0" width="100%">
->>>>>>> 6d70ed0869098ced360c5500331956825ad2849c
     <tr>
       <td width="25%" align="center" valign="top">
         <h3 align="center">💻 Languages</h3>
@@ -229,61 +136,6 @@ This site you're on — my full story, skills and contact.
 
 ---
 
-<<<<<<< HEAD
-<h2 align="center">🛡️ Cybersecurity Labs</h2>
-
-<div align="center">
-  <p style="color:#94A3B8; max-width: 700px;">
-    Professional cybersecurity tools for ethical security research, SOC training, and awareness —<br/>
-    built with Python, defensive focus, and recruiter-ready documentation.
-  </p>
-</div>
-
-<br/>
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Network-Port-Scanner"><b>🔌 Network Port Scanner</b></a>
-        <br/><sub>Multi-threaded scanning with banner grabbing, CSV/JSON export, and secure coding</sub>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Password-Analyzer"><b>🔑 Password Analyzer</b></a>
-        <br/><sub>Entropy calculation, dictionary attack simulation & NIST SP 800-63B scoring</sub>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Password-Hasher"><b>🔐 Password Hasher</b></a>
-        <br/><sub>Argon2id, bcrypt & PBKDF2 comparison with detailed security reports</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Suspicious-URL-Checker"><b>🌐 Suspicious URL Checker</b></a>
-        <br/><sub>Phishing URL detection with homograph analysis and risk scoring</sub>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Phishing-Awareness-Game"><b>🎣 Phishing Awareness Game</b></a>
-        <br/><sub>Gamified security awareness training with realistic scenarios</sub>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/DDOS-Detection-Simulator"><b>🌊 DDoS Detection Simulator</b></a>
-        <br/><sub>Traffic simulation, anomaly detection & real-time alert generation</sub>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" width="33%">
-        <a href="https://github.com/Raphasha27/Insider-Threat-Detector"><b>👁️ Insider Threat Detector</b></a>
-        <br/><sub>Behavioral analytics for nation-state & negligent insider simulation</sub>
-      </td>
-      <td align="center" colspan="2">
-        <a href="https://github.com/Raphasha27/kirov-dynamics"><b>🔬 Explore All Security Projects →</b></a>
-        <br/><sub>Kirov Security Core, Threat SDK, Scanner, Observability Platform & more</sub>
-      </td>
-    </tr>
-  </table>
-</div>
-=======
 ## 🧭 Curated Projects
 
 My public profile is intentionally minimal — only my strongest, production-ready work lives here. All experiments, labs and prototypes are private, and every live demo is collected in the [Demos Hub](https://raphasha27.github.io/raphasha-demos/).
@@ -321,7 +173,6 @@ This site you're on — my full story, skills and contact.
 > Every other demo — security labs, AI experiments, games, dashboards and simulations — is one click away:
 
 ### [👉 Open the Demos Hub](https://raphasha27.github.io/raphasha-demos/)
->>>>>>> 6d70ed0869098ced360c5500331956825ad2849c
 
 <br />
 
@@ -334,21 +185,6 @@ This site you're on — my full story, skills and contact.
   <!-- GitHub Stats and Languages Row -->
   <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&count_private=true" width="49%" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Raphasha27&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" width="49%" alt="Top Languages" />
-
-  <br><br>
-
-  <!-- Typing Roles SVG -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
-
-  <br><br>
-
-  <!-- Typing Roles SVG -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
-
-  <br><br>
-
-  <!-- Typing Roles SVG -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
 
   <br><br>
 
