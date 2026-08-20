@@ -1,34 +1,14 @@
-# Contributing Guidelines
+# Contributing to this project
 
-Thank you for contributing to this repository!
+First off, thank you for considering contributing! It's people like you that make open source such a great community.
 
-## Development Workflow
+## How to contribute
+1. Fork the repo and create your branch from `main` or `master`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
+6. Issue that pull request!
 
-1. **Fork** the repository and create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-2. **Follow coding conventions**:
-   - HTML: semantic markup, accessibility attributes
-   - CSS: use CSS custom properties, responsive design
-   - JavaScript: ES6+, avoid inline event handlers where possible
-   - Python: PEP 8, type hints where applicable
-
-3. **Commit messages** follow [Conventional Commits](https://www.conventionalcommits.org/):
-   - `feat:` new feature
-   - `fix:` bug fix
-   - `chore:` maintenance, tooling
-   - `docs:` documentation
-   - `security:` vulnerability fix
-   - `refactor:` code restructure
-
-4. **Before submitting a PR**:
-   - Verify all HTML files render without errors
-   - Check for hardcoded secrets or credentials
-   - Ensure no `.env` files or logs are committed
-   - Validate JavaScript for console errors
-
-5. **Security first**: Never commit secrets, API keys, or tokens. Always use environment variables.
-
-We appreciate your contributions to keeping this project secure and robust!
+## Code of Conduct
+By participating in this project, you agree to abide by our Code of Conduct.
