@@ -92,31 +92,34 @@
 <h2 align="center">🌤️ Live Product: Aura Weather AI</h2>
 
 <div align="center">
-  <a href="https://aura-weather-ai.vercel.app">
-    <img src="https://img.shields.io/badge/Aura_Weather_AI-LIVE_APP-0EA5E9?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://github.com/Raphasha27/aura-weather-ai">
-    <img src="https://img.shields.io/badge/Star_on_GitHub-Support-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+
+### 🛡️ CyberShield SOC
+Real-time security operations center — Angular 19, D3.js, Signals.
+[Live Demo](https://cybershieldsoc.vercel.app) · [Repository](https://github.com/raphasha27/cybershield_soc)
+
+### 🔐 Secure Auth RBAC Template
+Production-ready FastAPI auth with JWT, role-based access control & middleware.
+[Live Demo](https://secure-auth-rbac-template.vercel.app) · [Repository](https://github.com/raphasha27/secure-auth-rbac-template)
+
+### ⚡ EskomSense AI
+ML-powered load shedding predictor & backup energy optimizer for South Africa.
+[Live Demo](https://eskomsense-ai.vercel.app) · [Repository](https://github.com/raphasha27/EskomSense-AI)
+
+### 🐍 Snake Game
+Classic arcade snake — smooth gameplay, modern design, mobile-friendly.
+[Live Demo](https://snake-game-ivory-omega.vercel.app) · [Repository](https://github.com/raphasha27/snake-game)
+
+### 👨‍💻 Developer Portfolio
+This site you're on — my full story, skills and contact.
+[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/raphasha27/raphasha-dev-portfolio)
+
 </div>
 
-<br/>
+<br />
 
-<div align="center">
-  <p style="color:#94A3B8; max-width: 750px;">
-    Production weather intelligence app deployed live —<br/>
-    real-time Open-Meteo data, 24h interactive thermal chart, 7-day forecast,<br/>
-    autocomplete city search, saved locations, °C/°F, and AI insights from live data.
-  </p>
-</div>
+## 🎮 Try Everything Else
 
-<div align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open--Meteo_API-1D4ED8?style=flat-square&logo=openstreetmap&logoColor=white" />
-  <img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
-  <img src="https://img.shields.io/badge/SEO_Ready-22C55E?style=flat-square&logo=google&logoColor=white" />
-</div>
+> Every other demo — security labs, AI experiments, games, dashboards and simulations — is one click away:
 
 <br/>
 
