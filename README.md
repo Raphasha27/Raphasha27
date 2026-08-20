@@ -337,6 +337,26 @@ This site you're on — my full story, skills and contact.
 
   <br><br>
 
+  <!-- Typing Roles SVG -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+
+  <br><br>
+
+  <!-- Typing Roles SVG -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+
+  <br><br>
+
+  <!-- Typing Roles SVG -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+
+  <br><br>
+
+  <!-- Typing Roles SVG -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+
+  <br><br>
+
   <!-- Snake Animation -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
