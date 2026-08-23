@@ -136,33 +136,53 @@
 
 ---
 
-## 🧭 Curated Projects
+## 🧭 Flagship Projects
 
-My public profile is intentionally minimal — only my strongest, production-ready work lives here. All experiments, labs and prototypes are private, and every live demo is collected in the [Demos Hub](https://raphasha27.github.io/raphasha-demos/).
+Production-grade work across Go, Rust, Python, TypeScript, React, and Java.
 
 <br />
 
 <div align="center">
 
 ### 🛡️ CyberShield SOC
-Real-time security operations center — Angular 19, D3.js, Signals.
-[Live Demo](https://cybershieldsoc.vercel.app) · [Repository](https://github.com/raphasha27/cybershield_soc)
+Real-time SOC with Go WebSocket server, Rust threat analyzer, and Docker.
+[Repository](https://github.com/Raphasha27/cybershield_soc)
 
-### 🔐 Secure Auth RBAC Template
-Production-ready FastAPI auth with JWT, role-based access control & middleware.
-[Live Demo](https://secure-auth-rbac-template.vercel.app) · [Repository](https://github.com/raphasha27/secure-auth-rbac-template)
+### 🏦 SmartBank Enterprise Platform
+Microservices core banking — Java Spring Boot, event-driven, 8 services.
+[Repository](https://github.com/Raphasha27/smartbank-enterprise-platform)
+
+### 🤖 AI Document Intelligence
+RAG-powered document Q&A — React TypeScript frontend, Python FastAPI, ChromaDB.
+[Repository](https://github.com/Raphasha27/ai-document-intelligence)
+
+### 💸 Africa Fintech API
+Mobile money API for Africa — FastAPI, JWT auth, multi-currency wallets.
+[Repository](https://github.com/Raphasha27/africa-fintech-api)
 
 ### ⚡ EskomSense AI
-ML-powered load shedding predictor & backup energy optimizer for South Africa.
-[Live Demo](https://eskomsense-ai.vercel.app) · [Repository](https://github.com/raphasha27/EskomSense-AI)
+PyTorch LSTM load forecasting for South Africa's power grid.
+[Repository](https://github.com/Raphasha27/EskomSense-AI)
 
-### 🐍 Snake Game
-Classic arcade snake — smooth gameplay, modern design, mobile-friendly.
-[Live Demo](https://snake-game-ivory-omega.vercel.app) · [Repository](https://github.com/raphasha27/snake-game)
+### 🔐 Secure Auth RBAC Template
+Role-based access control — FastAPI, SQLAlchemy, JWT, permission matrix.
+[Repository](https://github.com/Raphasha27/secure-auth-rbac-template)
+
+### 🔍 PhantomGrid OSINT Lab
+Open source intelligence reconnaissance and IoC tracking platform.
+[Repository](https://github.com/Raphasha27/PhantomGrid-OSINT-Lab)
+
+### 📊 Nexus Quant
+Quantitative trading analytics — signal generation, anomaly detection, backtesting.
+[Repository](https://github.com/Raphasha27/Nexus-Quant)
+
+### 🎯 Threat Modeling Studio
+Collaborative STRIDE threat analysis with attack trees and risk scoring.
+[Repository](https://github.com/Raphasha27/threat-modeling-studio)
 
 ### 👨‍💻 Developer Portfolio
-This site you're on — my full story, skills and contact.
-[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/raphasha27/raphasha-dev-portfolio)
+Full-stack portfolio — React, Tailwind, 25+ components, dark theme.
+[Live Site](https://raphasha-dev-portfolio.vercel.app) · [Repository](https://github.com/Raphasha27/raphasha-dev-portfolio)
 
 </div>
 
