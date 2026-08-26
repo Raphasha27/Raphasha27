@@ -79,6 +79,20 @@
 </p>
 
 <p align="center">
+  <!-- Typing Roles SVG -->
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=28&duration=3000&pause=1000&color=22C55E&center=true&vCenter=true&width=700&lines=Software+Developer;Web+Developer;Mobile+App+Developer;Full-Stack+Engineer;System+Architect;AI+%26+Automation+Builder;Cloud-Native+Visionary" alt="My Roles" />
+</p>
+
+<p align="center">
+  <!-- Snake Animation -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+  </picture>
+</p>
+
+<p align="center">
   <i>Let's connect and build the digital infrastructure of tomorrow.</i> <br>
   <a href="mailto:raphashakoketso69@gmail.com">raphashakoketso69@gmail.com</a>
 </p>
