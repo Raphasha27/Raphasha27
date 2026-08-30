@@ -22,5 +22,106 @@
 
 
 
+
+\n
+<!-- KDT Secure Auth Portal (Simulated) -->
+<style id="kdt-auth-style">
+  .kdt-auth-overlay { position: fixed; inset: 0; background: #0b1020; z-index: 2147483647; display: flex; align-items: center; justify-content: center; font-family: 'Segoe UI', system-ui, sans-serif; color: #fff; background: radial-gradient(ellipse at 50% 30%, #0d1326 0%, #050810 40%, #000 100%); }
+  .kdt-auth-card { background: rgba(15,20,40,0.85); border: 1px solid rgba(255,255,255,0.05); border-radius: 20px; padding: 44px 40px; width: 100%; max-width: 420px; text-align: center; box-shadow: 0 25px 60px rgba(0,0,0,0.6), 0 0 0 1px #4f8cff40; backdrop-filter: blur(20px); }
+  .kdt-auth-icon { width: 54px; height: 54px; background: linear-gradient(135deg, #4f8cff, #1e3a8a); border-radius: 14px; display: inline-flex; align-items: center; justify-content: center; margin-bottom: 24px; box-shadow: 0 0 24px #4f8cff60; }
+  .kdt-auth-icon svg { width: 30px; height: 30px; stroke: #fff; stroke-width: 2.2; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+  .kdt-auth-title { font-size: 1.6rem; font-weight: 800; margin-bottom: 6px; letter-spacing: 1px; text-transform: uppercase; }
+  .kdt-auth-subtitle { font-size: 0.75rem; color: #9aa7c7; text-transform: uppercase; letter-spacing: 3px; margin-bottom: 32px; }
+  .kdt-auth-group { text-align: left; margin-bottom: 18px; }
+  .kdt-auth-label { display: block; font-size: 0.65rem; color: #9aa7c7; font-weight: 700; margin-bottom: 8px; letter-spacing: 1.5px; text-transform: uppercase; }
+  .kdt-auth-input { width: 100%; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.1); border-radius: 10px; padding: 14px 16px; color: #fff; font-size: 0.95rem; outline: none; transition: 0.2s; box-sizing: border-box; }
+  .kdt-auth-input:focus { border-color: #4f8cff; box-shadow: 0 0 0 3px #4f8cff30; background: rgba(0,0,0,0.6); }
+  .kdt-auth-btn { width: 100%; background: linear-gradient(135deg, #4f8cff, #1e3a8a); color: #fff; font-weight: 800; border: none; border-radius: 10px; padding: 15px; font-size: 0.95rem; cursor: pointer; transition: 0.2s; margin-top: 10px; text-transform: uppercase; letter-spacing: 2px; text-shadow: 0 1px 2px rgba(0,0,0,0.3); }
+  .kdt-auth-btn:hover { filter: brightness(1.1); transform: translateY(-1px); box-shadow: 0 8px 24px #4f8cff50; }
+  .kdt-auth-error { color: #f87171; font-size: 0.8rem; margin-top: 14px; background: rgba(248,113,113,0.1); border: 1px solid rgba(248,113,113,0.3); border-radius: 8px; padding: 10px; display: none; }
+  .kdt-auth-footer { font-size: 0.65rem; color: #4b5563; margin-top: 28px; text-transform: uppercase; letter-spacing: 1.5px; }
+  .kdt-auth-brand { position: absolute; bottom: 16px; right: 20px; font-size: 0.65rem; color: #4b5563; font-weight: 600; display: flex; align-items: center; gap: 6px; }
+  .kdt-auth-brand-dot { width: 6px; height: 6px; background: #4f8cff; border-radius: 50%; box-shadow: 0 0 8px #4f8cff; animation: kdt-pulse 2s infinite; }
+  @keyframes kdt-pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+  
+  .kdt-credentials-box { margin-top: 16px; font-size: 0.75rem; color: #9aa7c7; text-align: center; line-height: 1.6; background: rgba(0,0,0,0.3); padding: 12px; border-radius: 10px; border: 1px dashed #4f8cff50; }
+  .kdt-credentials-box strong { color: #4f8cff; }
+</style>
+<div id="kdt-auth-overlay" class="kdt-auth-overlay">
+  <div class="kdt-auth-card">
+    <div class="kdt-auth-icon">
+      <svg viewBox="0 0 24 24"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+    </div>
+    <div class="kdt-auth-title" id="kdt-app-title">Raphasha27 Hub</div>
+    <div class="kdt-auth-subtitle">SECURE ACCESS PORTAL</div>
+    <div class="kdt-auth-group">
+      <label class="kdt-auth-label">AUTHORIZED ID</label>
+      <input type="text" id="kdt-email" class="kdt-auth-input" placeholder="demo@kirovdynamics.tech">
+    </div>
+    <div class="kdt-auth-group">
+      <label class="kdt-auth-label">SECURE ACCESS CODE</label>
+      <input type="password" id="kdt-password" class="kdt-auth-input" placeholder="••••••••">
+    </div>
+    <button class="kdt-auth-btn" id="kdt-auth-btn" onclick="kdtAuthenticate()">INITIALIZE PROTOCOL</button>
+    <div id="kdt-auth-error" class="kdt-auth-error">Access Denied. Invalid credentials.</div>
+    
+    <div class="kdt-credentials-box">
+      <div style="margin-bottom: 6px;"><strong>DEMO ACCESS</strong><br>demo@kirovdynamics.tech<br>Demo@1234!</div>
+      <div><strong>ADMIN ACCESS</strong><br>admin@kirovdynamics.tech<br>KDT@Admin2026!</div>
+    </div>
+    
+    <div class="kdt-auth-footer">ENCRYPTED ACCESS V2.04</div>
+  </div>
+  <div class="kdt-auth-brand"><div class="kdt-auth-brand-dot"></div>KDT · Kirov Dynamics Technology</div>
+</div>
+<script>
+  (function() {
+    const title = document.title || "Raphasha27 Hub";
+    const titleEl = document.getElementById("kdt-app-title");
+    if (titleEl && document.title) titleEl.innerText = title;
+    
+    const siblings = document.body.children;
+    for(let i=0; i<siblings.length; i++) {
+      let el = siblings[i];
+      if(el.id !== 'kdt-auth-overlay' && el.id !== 'kdt-auth-style' && el.tagName !== 'SCRIPT' && el.tagName !== 'STYLE' && el.tagName !== 'LINK') {
+        el.dataset.kdtDisplay = window.getComputedStyle(el).display;
+        el.style.display = 'none';
+      }
+    }
+  })();
+
+  function kdtAuthenticate() {
+    const btn = document.getElementById("kdt-auth-btn");
+    const email = document.getElementById("kdt-email").value;
+    const pwd = document.getElementById("kdt-password").value;
+    
+    btn.innerText = "AUTHENTICATING...";
+    btn.style.opacity = "0.7";
+    
+    setTimeout(() => {
+      const isDemo = email === "demo@kirovdynamics.tech" && pwd === "Demo@1234!";
+      const isAdmin = email === "admin@kirovdynamics.tech" && pwd === "KDT@Admin2026!";
+      
+      if(isDemo || isAdmin) {
+        document.getElementById("kdt-auth-overlay").style.display = "none";
+        const styleEl = document.getElementById("kdt-auth-style");
+        if(styleEl) styleEl.remove();
+        const siblings = document.body.children;
+        for(let i=0; i<siblings.length; i++) {
+          let el = siblings[i];
+          if(el.dataset.kdtDisplay !== undefined) {
+            el.style.display = el.dataset.kdtDisplay === 'none' ? '' : el.dataset.kdtDisplay;
+          }
+        }
+      } else {
+        document.getElementById("kdt-auth-error").style.display = "block";
+        btn.innerText = "INITIALIZE PROTOCOL";
+        btn.style.opacity = "1";
+      }
+    }, 800);
+  }
+</script>
+<!-- End KDT Secure Auth Portal -->
+
 </body>
 </html>
