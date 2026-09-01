@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node (only if package.json exists)
         id: node
         if: hashFiles('package.json') != ''
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 22
 

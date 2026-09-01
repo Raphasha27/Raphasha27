@@ -1,17 +1,41 @@
 version: 2
 updates:
-  # Maintain dependencies for GitHub Actions
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
-      day: "monday"
+      interval: "weekly"
+    commit-message:
+      prefix: "ci"
     labels:
       - "dependencies"
-      - "github-actions"
       - "automated"
+    groups:
+      actions:
+        patterns:
+          - "*"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
     commit-message:
-      prefix: "chore"
-      include: "scope"
-    # Reduced to prevent spam-like behavior
-    open-pull-requests-limit: 2
+      prefix: "deps"
+    labels:
+      - "dependencies"
+      - "automated"
+    groups:
+      python-deps:
+        patterns:
+          - "*"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "deps"
+    labels:
+      - "dependencies"
+      - "automated"
+    groups:
+      npm-deps:
+        patterns:
+          - "*"
