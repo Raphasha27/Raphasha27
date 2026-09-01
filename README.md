@@ -1,208 +1,209 @@
-<!-- SECTION: HEADER START -->
-<div align="center">
-
-  <!-- Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ADD8&height=200&section=header&text=Koketso%20Raphasha&fontSize=50&fontAlignY=35&desc=Building%20AI-Powered%20Systems%20for%20Africa&descAlignY=55&descSize=20" alt="Banner" />
-
-  <br><br>
-
-  <!-- Old Man Typing GIF -->
-  <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="80%" style="border-radius:20px; border:3px solid #38bdf8; box-shadow: 0 0 20px #38bdf8, 0 0 40px rgba(56,189,248,0.6), 0 0 60px rgba(34,197,94,0.4); max-width: 800px;" alt="Coding Animation" />
-
-  <br><br>
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary;Elite+AI+Engineer" alt="Typing Animation">
-  
-  <p align="center">
-    <a href="https://github.com/Raphasha27">
-      <img src="https://img.shields.io/github/followers/Raphasha27?label=Followers&style=for-the-badge&color=0ea5e9&logo=github" alt="GitHub Followers">
-    </a>
-    <a href="https://www.linkedin.com/in/koketso-raphasha-27">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-  </p>
-
-</div>
-<!-- SECTION: HEADER END -->
-
----
-
-## 🎓 Specialized Learning & Certifications
-<div align="center">
-  <p><i>Continuous growth in AI, Design, and Engineering</i></p>
-  
-  <table border="0">
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Data_Analytics-0EA5E9?style=for-the-badge&logo=google-analytics&logoColor=white" /><br>Google / Coursera</td>
-      <td align="center"><img src="https://img.shields.io/badge/UX_Design-10B981?style=for-the-badge&logo=figma&logoColor=white" /><br>Google / UI/UX</td>
-      <td align="center"><img src="https://img.shields.io/badge/AI_Engineering-006699?style=for-the-badge&logo=ibm&logoColor=white" /><br>IBM Professional</td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Professional_Dev-34D399?style=for-the-badge&logo=target&logoColor=white" /><br>YES4Youth / CapaCiTi</td>
-      <td align="center"><img src="https://img.shields.io/badge/Python_Beginner-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB" /><br>Univ. of Michigan</td>
-      <td align="center"><img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br>DeepLearning.AI</td>
-    </tr>
-    <tr>
-      <td align="center"><img src="https://img.shields.io/badge/Meta_Frontend-1877F2?style=for-the-badge&logo=meta&logoColor=white" /><br>Meta / Coursera</td>
-      <td align="center"><img src="https://img.shields.io/badge/Data_Science-006699?style=for-the-badge&logo=ibm&logoColor=white" /><br>IBM / Coursera</td>
-      <td align="center"><img src="https://img.shields.io/badge/Azure_AI_Engineer-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" /><br>Microsoft Associate</td>
-    </tr>
-  </table>
-</div>
-
----
-
-## 🛠️ Tech Arsenals & About Me
-
-<div align="center">
-  <!-- HORIZONTAL TECH ARSENAL MARQUEE -->
-  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
-  <br><br>
-
-  <table border="0" width="100%">
-    <tr>
-      <td width="70%" valign="top">
-        <h2 align="left">👤 About Me</h2>
-        <p align="left">
-          I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
-        </p>
-        <p align="left">
-          Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
-        </p>
-      </td>
-      <td width="30%" align="right">
-        <!-- VERTICAL TECH STACK MARQUEE -->
-        <img src="./assets/vertical_stack.svg" width="120" alt="Tech Stack Marquee" />
-      </td>
-    </tr>
-  </table>
-  
-  <br>
-
-  <!-- THE 2026 DEVELOPER'S ARSENAL -->
-  <img src="./assets/arsenal_2026.svg" width="100%" alt="The 2026 Developer's Arsenal">
-
-</div>
-
----
-
-## 💎 Portfolio: 18 Production-Ready Projects
-
-<div align="center">
-  <p><i>Full-stack projects spanning 12 programming languages and frameworks</i></p>
-</div>
-
-### 🐍 Python Projects
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[Python AI Fraud Detection](https://github.com/Raphasha27/python-ai-fraud-detection)** | AI-powered fraud detection with XGBoost, FastAPI, and Cloudflare Workers | [GitHub Pages](https://raphasha27.github.io/python-ai-fraud-detection) · [Cloudflare](https://fraud-detection-api-3pg.pages.dev) |
-| **[Python Data Engineering Platform](https://github.com/Raphasha27/python-data-engineering-platform)** | Scalable data pipelines with Apache Kafka, Spark, and Airflow | [GitHub Pages](https://raphasha27.github.io/python-data-engineering-platform) |
-| **[Python RAG Knowledge Assistant](https://github.com/Raphasha27/python-rag-knowledge-assistant)** | Retrieval-Augmented Generation with ChromaDB and HuggingFace | [GitHub Pages](https://raphasha27.github.io/python-rag-knowledge-assistant) · [Cloudflare](https://rag-knowledge-assistant.pages.dev) |
-| **[Python Computer Vision System](https://github.com/Raphasha27/python-computer-vision-system)** | Real-time object detection with YOLOv8, OpenCV, and PyTorch | [GitHub Pages](https://raphasha27.github.io/python-computer-vision-system) |
-| **[Data Analytics Dashboard](https://github.com/Raphasha27/data-analytics-dashboard)** | Interactive data visualization with Plotly and FastAPI | [GitHub Pages](https://raphasha27.github.io/data-analytics-dashboard) · [Vercel](https://data-analytics-dashboard-alpha.vercel.app) |
-
-### ☕ Java & Kotlin
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[Java Enterprise Banking API](https://github.com/Raphasha27/java-enterprise-banking-api)** | Enterprise banking with Spring Boot, JWT, PostgreSQL, and Redis | [GitHub Pages](https://raphasha27.github.io/java-enterprise-banking-api) |
-| **[Kotlin Android Backend](https://github.com/Raphasha27/kotlin-android-backend)** | Full-stack Kotlin with Spring Boot API and Android client | [GitHub Pages](https://raphasha27.github.io/kotlin-android-backend) |
-
-### 🟦 TypeScript & JavaScript
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[TypeScript Next.js SaaS Platform](https://github.com/Raphasha27/typescript-nextjs-saas-platform)** | Full-stack SaaS with Next.js 15, Prisma, Tailwind, and Stripe | [GitHub Pages](https://raphasha27.github.io/typescript-nextjs-saas-platform) · [Vercel](https://typescript-nextjs-saas-platform.vercel.app) |
-
-### 🔵 Go & Rust
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[Go Distributed System](https://github.com/Raphasha27/go-distributed-system)** | High-performance microservices with Go, Gin, Kafka, and K8s | [GitHub Pages](https://raphasha27.github.io/go-distributed-system) |
-| **[Rust Systems Project](https://github.com/Raphasha27/rust-systems-project)** | Systems programming with Tokio async runtime and Axum | [GitHub Pages](https://raphasha27.github.io/rust-systems-project) |
-
-### 🟢 C# & C++
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[C# Enterprise Platform](https://github.com/Raphasha27/csharp-enterprise-platform)** | Enterprise platform with ASP.NET Core and Entity Framework | [GitHub Pages](https://raphasha27.github.io/csharp-enterprise-platform) |
-| **[C++ High Performance ML](https://github.com/Raphasha27/cpp-high-performance-ml)** | High-performance ML library with CMake, Eigen, and SIMD | [GitHub Pages](https://raphasha27.github.io/cpp-high-performance-ml) |
-
-### 🔴 Scala
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[Scala Spark Analytics](https://github.com/Raphasha27/scala-spark-analytics)** | Big data analytics with Apache Spark and Scala | [GitHub Pages](https://raphasha27.github.io/scala-spark-analytics) |
-| **[Scala Akka Actors](https://github.com/Raphasha27/scala-akka-actors)** | Actor-based concurrency with Akka Typed Actors | [GitHub Pages](https://raphasha27.github.io/scala-akka-actors) |
-
-### 🟣 Mobile & GPU Computing
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[Mobile Cross Platform](https://github.com/Raphasha27/mobile-cross-platform)** | Cross-platform apps with Flutter and React Native | [GitHub Pages](https://raphasha27.github.io/mobile-cross-platform) |
-| **[CUDA ML Optimization](https://github.com/Raphasha27/cuda-ml-optimization)** | GPU-accelerated ML with custom CUDA kernels | [GitHub Pages](https://raphasha27.github.io/cuda-ml-optimization) |
-| **[Julia Scientific Computing](https://github.com/Raphasha27/julia-scientific-computing)** | Scientific computing with DifferentialEquations.jl and Flux.jl | [GitHub Pages](https://raphasha27.github.io/julia-scientific-computing) |
-
-### 🔧 DevOps
-
-| Project | Description | Live Demo |
-|---------|-------------|-----------|
-| **[DevOps Automation Platform](https://github.com/Raphasha27/devops-automation-platform)** | Infrastructure automation with Terraform, Ansible, and GitHub Actions | [GitHub Pages](https://raphasha27.github.io/devops-automation-platform) |
-
-### 🐳 Docker Hub
-
-All 18 projects are available as Docker images: **[hub.docker.com/u/raphasha27](https://hub.docker.com/u/raphasha27)**
-
----
-
-## 📊 GitHub Statistics & Real Contributions
-
-<div align="center">
-  <!-- GitHub Stats (with count_private=true and include_all_commits=true) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&stroke=0EA5E9&ring=0EA5E9&fire=0EA5E9&currStreakNum=0EA5E9&sideNums=0EA5E9&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="GitHub Streak" width="49%">
-</div>
-
-<br>
-
-<div align="center">
-  <h3>🐍 GitHub Contribution Graph (Snake)</h3>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" width="100%">
-  </picture>
-</div>
-
----
-
-## 📬 Connect & Collaborate
-<div align="center">
-  <table border="0">
-    <tr>
-      <td><img src="./assets/qr_code.png" width="150" alt="QR Code"></td>
-      <td valign="middle">
-        <a href="mailto:koketso.raphasha@capaciti.org.za">
-          <img src="https://img.shields.io/badge/Work-Email-0078D4?style=for-the-badge&logo=microsoft-outlook&logoColor=white" alt="Work Email"/>
-        </a><br>
-        <a href="mailto:raphashakoketso99@gmail.com">
-          <img src="https://img.shields.io/badge/Personal-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Personal Email"/>
-        </a><br>
-        <a href="tel:+27781172470">
-          <img src="https://img.shields.io/badge/Phone-Contact-34D399?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Phone"/>
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<div align="center" style="margin-top: 20px;">
-  <a href="https://linkedin.com/in/koketso-raphasha-27"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin" alt="LinkedIn"></a>
-  <a href="https://discord.com/users/Raphasha27"><img src="https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord" alt="Discord"></a>
-  <a href="https://x.com/Raphasha27"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=flat-square&logo=twitter" alt="X"></a>
-</div>
-
-<div align="center" style="margin-top: 30px;">
-  <sub>Built with ❤️ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
-</div>
+-<-!----- -S-E-C-T-I-O-N-:- -H-E-A-D-E-R- -S-T-A-R-T- ----->-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+-
+- - -<-!----- -B-a-n-n-e-r- ----->-
+- - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-c-a-p-s-u-l-e---r-e-n-d-e-r-.-v-e-r-c-e-l-.-a-p-p-/-a-p-i-?-t-y-p-e-=-w-a-v-i-n-g-&-c-o-l-o-r-=-0-0-A-D-D-8-&-h-e-i-g-h-t-=-2-0-0-&-s-e-c-t-i-o-n-=-h-e-a-d-e-r-&-t-e-x-t-=-K-o-k-e-t-s-o-%-2-0-R-a-p-h-a-s-h-a-&-f-o-n-t-S-i-z-e-=-5-0-&-f-o-n-t-A-l-i-g-n-Y-=-3-5-&-d-e-s-c-=-B-u-i-l-d-i-n-g-%-2-0-A-I---P-o-w-e-r-e-d-%-2-0-S-y-s-t-e-m-s-%-2-0-f-o-r-%-2-0-A-f-r-i-c-a-&-d-e-s-c-A-l-i-g-n-Y-=-5-5-&-d-e-s-c-S-i-z-e-=-2-0-"- -a-l-t-=-"-B-a-n-n-e-r-"- -/->-
+-
+- - -<-b-r->-<-b-r->-
+-
+- - -<-!----- -O-l-d- -M-a-n- -T-y-p-i-n-g- -G-I-F- ----->-
+- - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-c-d-n-.-d-r-i-b-b-b-l-e-.-c-o-m-/-u-s-e-r-s-/-2-1-3-1-9-9-3-/-s-c-r-e-e-n-s-h-o-t-s-/-4-9-4-8-7-3-6-/-t-h-o-u-g-h-t-w-o-r-k-s---g-i-f-_-d-r-i-b-b-b-l-e-.-g-i-f-"- -w-i-d-t-h-=-"-8-0-%-"- -s-t-y-l-e-=-"-b-o-r-d-e-r---r-a-d-i-u-s-:-2-0-p-x-;- -b-o-r-d-e-r-:-3-p-x- -s-o-l-i-d- -#-3-8-b-d-f-8-;- -b-o-x---s-h-a-d-o-w-:- -0- -0- -2-0-p-x- -#-3-8-b-d-f-8-,- -0- -0- -4-0-p-x- -r-g-b-a-(-5-6-,-1-8-9-,-2-4-8-,-0-.-6-)-,- -0- -0- -6-0-p-x- -r-g-b-a-(-3-4-,-1-9-7-,-9-4-,-0-.-4-)-;- -m-a-x---w-i-d-t-h-:- -8-0-0-p-x-;-"- -a-l-t-=-"-C-o-d-i-n-g- -A-n-i-m-a-t-i-o-n-"- -/->-
+-
+- - -<-b-r->-<-b-r->-
+-
+- - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-r-e-a-d-m-e---t-y-p-i-n-g---s-v-g-.-h-e-r-o-k-u-a-p-p-.-c-o-m-?-f-o-n-t-=-F-i-r-a-+-C-o-d-e-&-s-i-z-e-=-2-5-&-p-a-u-s-e-=-1-0-0-0-&-c-o-l-o-r-=-0-E-A-5-E-9-&-c-e-n-t-e-r-=-t-r-u-e-&-v-C-e-n-t-e-r-=-t-r-u-e-&-w-i-d-t-h-=-6-0-0-&-l-i-n-e-s-=-A-I-+-S-p-e-c-i-a-l-i-s-t-;-M-o-b-i-l-e-+-A-p-p-+-D-e-v-e-l-o-p-e-r-;-C-l-o-u-d-+-V-i-s-i-o-n-a-r-y-;-E-l-i-t-e-+-A-I-+-E-n-g-i-n-e-e-r-"- -a-l-t-=-"-T-y-p-i-n-g- -A-n-i-m-a-t-i-o-n-"->-
+- - -
+- - -<-p- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - - - -<-a- -h-r-e-f-=-"-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-"->-
+- - - - - - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-g-i-t-h-u-b-/-f-o-l-l-o-w-e-r-s-/-R-a-p-h-a-s-h-a-2-7-?-l-a-b-e-l-=-F-o-l-l-o-w-e-r-s-&-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-c-o-l-o-r-=-0-e-a-5-e-9-&-l-o-g-o-=-g-i-t-h-u-b-"- -a-l-t-=-"-G-i-t-H-u-b- -F-o-l-l-o-w-e-r-s-"->-
+- - - - -<-/-a->-
+- - - - -<-a- -h-r-e-f-=-"-h-t-t-p-s-:-/-/-w-w-w-.-l-i-n-k-e-d-i-n-.-c-o-m-/-i-n-/-k-o-k-e-t-s-o---r-a-p-h-a-s-h-a---2-7-"->-
+- - - - - - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-L-i-n-k-e-d-I-n---0-0-7-7-B-5-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-l-i-n-k-e-d-i-n-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -a-l-t-=-"-L-i-n-k-e-d-I-n-"->-
+- - - - -<-/-a->-
+- - -<-/-p->-
+-
+-<-/-d-i-v->-
+-<-!----- -S-E-C-T-I-O-N-:- -H-E-A-D-E-R- -E-N-D- ----->-
+-
+-------
+-
+-#-#- -🎓- -S-p-e-c-i-a-l-i-z-e-d- -L-e-a-r-n-i-n-g- -&- -C-e-r-t-i-f-i-c-a-t-i-o-n-s-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-p->-<-i->-C-o-n-t-i-n-u-o-u-s- -g-r-o-w-t-h- -i-n- -A-I-,- -D-e-s-i-g-n-,- -a-n-d- -E-n-g-i-n-e-e-r-i-n-g-<-/-i->-<-/-p->-
+- - -
+- - -<-t-a-b-l-e- -b-o-r-d-e-r-=-"-0-"->-
+- - - - -<-t-r->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-D-a-t-a-_-A-n-a-l-y-t-i-c-s---0-E-A-5-E-9-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-g-o-o-g-l-e---a-n-a-l-y-t-i-c-s-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-G-o-o-g-l-e- -/- -C-o-u-r-s-e-r-a-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-U-X-_-D-e-s-i-g-n---1-0-B-9-8-1-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-f-i-g-m-a-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-G-o-o-g-l-e- -/- -U-I-/-U-X-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-A-I-_-E-n-g-i-n-e-e-r-i-n-g---0-0-6-6-9-9-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-i-b-m-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-I-B-M- -P-r-o-f-e-s-s-i-o-n-a-l-<-/-t-d->-
+- - - - -<-/-t-r->-
+- - - - -<-t-r->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-P-r-o-f-e-s-s-i-o-n-a-l-_-D-e-v---3-4-D-3-9-9-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-t-a-r-g-e-t-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-Y-E-S-4-Y-o-u-t-h- -/- -C-a-p-a-C-i-T-i-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-P-y-t-h-o-n-_-B-e-g-i-n-n-e-r---F-F-D-4-3-B-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-p-y-t-h-o-n-&-l-o-g-o-C-o-l-o-r-=-3-7-7-6-A-B-"- -/->-<-b-r->-U-n-i-v-.- -o-f- -M-i-c-h-i-g-a-n-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-M-a-c-h-i-n-e-_-L-e-a-r-n-i-n-g---F-F-6-F-0-0-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-t-e-n-s-o-r-f-l-o-w-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-D-e-e-p-L-e-a-r-n-i-n-g-.-A-I-<-/-t-d->-
+- - - - -<-/-t-r->-
+- - - - -<-t-r->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-M-e-t-a-_-F-r-o-n-t-e-n-d---1-8-7-7-F-2-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-m-e-t-a-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-M-e-t-a- -/- -C-o-u-r-s-e-r-a-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-D-a-t-a-_-S-c-i-e-n-c-e---0-0-6-6-9-9-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-i-b-m-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-I-B-M- -/- -C-o-u-r-s-e-r-a-<-/-t-d->-
+- - - - - - -<-t-d- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-A-z-u-r-e-_-A-I-_-E-n-g-i-n-e-e-r---0-0-7-8-D-4-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-m-i-c-r-o-s-o-f-t---a-z-u-r-e-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -/->-<-b-r->-M-i-c-r-o-s-o-f-t- -A-s-s-o-c-i-a-t-e-<-/-t-d->-
+- - - - -<-/-t-r->-
+- - -<-/-t-a-b-l-e->-
+-<-/-d-i-v->-
+-
+-------
+-
+-#-#- -🛠-️- -T-e-c-h- -A-r-s-e-n-a-l-s- -&- -A-b-o-u-t- -M-e-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-!----- -H-O-R-I-Z-O-N-T-A-L- -T-E-C-H- -A-R-S-E-N-A-L- -M-A-R-Q-U-E-E- ----->-
+- - -<-i-m-g- -s-r-c-=-"-.-/-a-s-s-e-t-s-/-h-o-r-i-z-o-n-t-a-l-_-m-a-r-q-u-e-e-.-s-v-g-"- -w-i-d-t-h-=-"-1-0-0-%-"- -a-l-t-=-"-T-e-c-h- -A-r-s-e-n-a-l- -S-c-r-o-l-l-i-n-g-"->-
+- - -<-b-r->-<-b-r->-
+-
+- - -<-t-a-b-l-e- -b-o-r-d-e-r-=-"-0-"- -w-i-d-t-h-=-"-1-0-0-%-"->-
+- - - - -<-t-r->-
+- - - - - - -<-t-d- -w-i-d-t-h-=-"-7-0-%-"- -v-a-l-i-g-n-=-"-t-o-p-"->-
+- - - - - - - - -<-h-2- -a-l-i-g-n-=-"-l-e-f-t-"->-👤- -A-b-o-u-t- -M-e-<-/-h-2->-
+- - - - - - - - -<-p- -a-l-i-g-n-=-"-l-e-f-t-"->-
+- - - - - - - - - - -I- -a-m- -a- -d-e-t-e-r-m-i-n-e-d- -<-b->-S-o-f-t-w-a-r-e- -D-e-v-e-l-o-p-e-r- -a-n-d- -A-I- -S-p-e-c-i-a-l-i-s-t-<-/-b->- -b-a-s-e-d- -i-n- -S-o-u-t-h- -A-f-r-i-c-a-,- -d-e-d-i-c-a-t-e-d- -t-o- -p-i-o-n-e-e-r-i-n-g- -h-i-g-h---i-m-p-a-c-t-,- -A-I---d-r-i-v-e-n- -s-o-l-u-t-i-o-n-s- -t-h-a-t- -a-d-d-r-e-s-s- -c-o-m-p-l-e-x- -r-e-a-l---w-o-r-l-d- -c-h-a-l-l-e-n-g-e-s-.- -M-y- -e-x-p-e-r-t-i-s-e- -l-i-e-s- -a-t- -t-h-e- -n-e-x-u-s- -o-f- -h-i-g-h---p-e-r-f-o-r-m-a-n-c-e- -a-r-c-h-i-t-e-c-t-u-r-e-,- -n-e-u-r-a-l- -c-o-m-p-u-t-a-t-i-o-n-,- -a-n-d- -p-r-e-m-i-u-m- -a-e-s-t-h-e-t-i-c-s-.- -
+- - - - - - - - -<-/-p->-
+- - - - - - - - -<-p- -a-l-i-g-n-=-"-l-e-f-t-"->-
+- - - - - - - - - - -W-h-e-t-h-e-r- -a-r-c-h-i-t-e-c-t-i-n-g- -r-e-s-i-l-i-e-n-t- -c-l-o-u-d- -i-n-f-r-a-s-t-r-u-c-t-u-r-e-s- -o-r- -f-i-n-e---t-u-n-i-n-g- -v-i-s-i-o-n- -m-o-d-e-l-s-,- -I- -s-t-r-i-v-e- -t-o- -b-u-i-l-d- -"-S-o-v-e-r-e-i-g-n- -I-n-t-e-l-l-i-g-e-n-c-e-"-—-s-y-s-t-e-m-s- -t-h-a-t- -a-r-e- -n-o-t- -o-n-l-y- -p-e-r-f-o-r-m-a-n-t- -b-u-t- -a-l-s-o- -r-e-s-p-e-c-t- -d-a-t-a- -p-r-i-v-a-c-y- -a-n-d- -u-s-e-r- -a-u-t-o-n-o-m-y-.- -I- -b-r-i-d-g-e- -t-h-e- -g-a-p- -b-e-t-w-e-e-n- -a-b-s-t-r-a-c-t- -d-a-t-a- -a-n-d- -h-u-m-a-n- -i-n-t-u-i-t-i-o-n- -t-h-r-o-u-g-h- -g-l-a-s-s-m-o-r-p-h-i-c-,- -s-t-a-t-e---o-f---t-h-e---a-r-t- -U-I- -d-e-s-i-g-n-s-.-
+- - - - - - - - -<-/-p->-
+- - - - - - -<-/-t-d->-
+- - - - - - -<-t-d- -w-i-d-t-h-=-"-3-0-%-"- -a-l-i-g-n-=-"-r-i-g-h-t-"->-
+- - - - - - - - -<-!----- -V-E-R-T-I-C-A-L- -T-E-C-H- -S-T-A-C-K- -M-A-R-Q-U-E-E- ----->-
+- - - - - - - - -<-i-m-g- -s-r-c-=-"-.-/-a-s-s-e-t-s-/-v-e-r-t-i-c-a-l-_-s-t-a-c-k-.-s-v-g-"- -w-i-d-t-h-=-"-1-2-0-"- -a-l-t-=-"-T-e-c-h- -S-t-a-c-k- -M-a-r-q-u-e-e-"- -/->-
+- - - - - - -<-/-t-d->-
+- - - - -<-/-t-r->-
+- - -<-/-t-a-b-l-e->-
+- - -
+- - -<-b-r->-
+-
+- - -<-!----- -T-H-E- -2-0-2-6- -D-E-V-E-L-O-P-E-R-'-S- -A-R-S-E-N-A-L- ----->-
+- - -<-i-m-g- -s-r-c-=-"-.-/-a-s-s-e-t-s-/-a-r-s-e-n-a-l-_-2-0-2-6-.-s-v-g-"- -w-i-d-t-h-=-"-1-0-0-%-"- -a-l-t-=-"-T-h-e- -2-0-2-6- -D-e-v-e-l-o-p-e-r-'-s- -A-r-s-e-n-a-l-"->-
+-
+-<-/-d-i-v->-
+-
+-------
+-
+-#-#- -💎- -P-o-r-t-f-o-l-i-o-:- -1-8- -P-r-o-d-u-c-t-i-o-n---R-e-a-d-y- -P-r-o-j-e-c-t-s-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-p->-<-i->-F-u-l-l---s-t-a-c-k- -p-r-o-j-e-c-t-s- -s-p-a-n-n-i-n-g- -1-2- -p-r-o-g-r-a-m-m-i-n-g- -l-a-n-g-u-a-g-e-s- -a-n-d- -f-r-a-m-e-w-o-r-k-s-<-/-i->-<-/-p->-
+-<-/-d-i-v->-
+-
+-#-#-#- -🐍- -P-y-t-h-o-n- -P-r-o-j-e-c-t-s-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-P-y-t-h-o-n- -A-I- -F-r-a-u-d- -D-e-t-e-c-t-i-o-n-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-p-y-t-h-o-n---a-i---f-r-a-u-d---d-e-t-e-c-t-i-o-n-)-*-*- -|- -A-I---p-o-w-e-r-e-d- -f-r-a-u-d- -d-e-t-e-c-t-i-o-n- -w-i-t-h- -X-G-B-o-o-s-t-,- -F-a-s-t-A-P-I-,- -a-n-d- -C-l-o-u-d-f-l-a-r-e- -W-o-r-k-e-r-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-p-y-t-h-o-n---a-i---f-r-a-u-d---d-e-t-e-c-t-i-o-n-)- -·- -[-C-l-o-u-d-f-l-a-r-e-]-(-h-t-t-p-s-:-/-/-f-r-a-u-d---d-e-t-e-c-t-i-o-n---a-p-i---3-p-g-.-p-a-g-e-s-.-d-e-v-)- -|-
+-|- -*-*-[-P-y-t-h-o-n- -D-a-t-a- -E-n-g-i-n-e-e-r-i-n-g- -P-l-a-t-f-o-r-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-p-y-t-h-o-n---d-a-t-a---e-n-g-i-n-e-e-r-i-n-g---p-l-a-t-f-o-r-m-)-*-*- -|- -S-c-a-l-a-b-l-e- -d-a-t-a- -p-i-p-e-l-i-n-e-s- -w-i-t-h- -A-p-a-c-h-e- -K-a-f-k-a-,- -S-p-a-r-k-,- -a-n-d- -A-i-r-f-l-o-w- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-p-y-t-h-o-n---d-a-t-a---e-n-g-i-n-e-e-r-i-n-g---p-l-a-t-f-o-r-m-)- -|-
+-|- -*-*-[-P-y-t-h-o-n- -R-A-G- -K-n-o-w-l-e-d-g-e- -A-s-s-i-s-t-a-n-t-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-p-y-t-h-o-n---r-a-g---k-n-o-w-l-e-d-g-e---a-s-s-i-s-t-a-n-t-)-*-*- -|- -R-e-t-r-i-e-v-a-l---A-u-g-m-e-n-t-e-d- -G-e-n-e-r-a-t-i-o-n- -w-i-t-h- -C-h-r-o-m-a-D-B- -a-n-d- -H-u-g-g-i-n-g-F-a-c-e- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-p-y-t-h-o-n---r-a-g---k-n-o-w-l-e-d-g-e---a-s-s-i-s-t-a-n-t-)- -·- -[-C-l-o-u-d-f-l-a-r-e-]-(-h-t-t-p-s-:-/-/-r-a-g---k-n-o-w-l-e-d-g-e---a-s-s-i-s-t-a-n-t-.-p-a-g-e-s-.-d-e-v-)- -|-
+-|- -*-*-[-P-y-t-h-o-n- -C-o-m-p-u-t-e-r- -V-i-s-i-o-n- -S-y-s-t-e-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-p-y-t-h-o-n---c-o-m-p-u-t-e-r---v-i-s-i-o-n---s-y-s-t-e-m-)-*-*- -|- -R-e-a-l---t-i-m-e- -o-b-j-e-c-t- -d-e-t-e-c-t-i-o-n- -w-i-t-h- -Y-O-L-O-v-8-,- -O-p-e-n-C-V-,- -a-n-d- -P-y-T-o-r-c-h- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-p-y-t-h-o-n---c-o-m-p-u-t-e-r---v-i-s-i-o-n---s-y-s-t-e-m-)- -|-
+-|- -*-*-[-D-a-t-a- -A-n-a-l-y-t-i-c-s- -D-a-s-h-b-o-a-r-d-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-d-a-t-a---a-n-a-l-y-t-i-c-s---d-a-s-h-b-o-a-r-d-)-*-*- -|- -I-n-t-e-r-a-c-t-i-v-e- -d-a-t-a- -v-i-s-u-a-l-i-z-a-t-i-o-n- -w-i-t-h- -P-l-o-t-l-y- -a-n-d- -F-a-s-t-A-P-I- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-d-a-t-a---a-n-a-l-y-t-i-c-s---d-a-s-h-b-o-a-r-d-)- -·- -[-V-e-r-c-e-l-]-(-h-t-t-p-s-:-/-/-d-a-t-a---a-n-a-l-y-t-i-c-s---d-a-s-h-b-o-a-r-d---a-l-p-h-a-.-v-e-r-c-e-l-.-a-p-p-)- -|-
+-
+-#-#-#- -☕- -J-a-v-a- -&- -K-o-t-l-i-n-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-J-a-v-a- -E-n-t-e-r-p-r-i-s-e- -B-a-n-k-i-n-g- -A-P-I-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-j-a-v-a---e-n-t-e-r-p-r-i-s-e---b-a-n-k-i-n-g---a-p-i-)-*-*- -|- -E-n-t-e-r-p-r-i-s-e- -b-a-n-k-i-n-g- -w-i-t-h- -S-p-r-i-n-g- -B-o-o-t-,- -J-W-T-,- -P-o-s-t-g-r-e-S-Q-L-,- -a-n-d- -R-e-d-i-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-j-a-v-a---e-n-t-e-r-p-r-i-s-e---b-a-n-k-i-n-g---a-p-i-)- -|-
+-|- -*-*-[-K-o-t-l-i-n- -A-n-d-r-o-i-d- -B-a-c-k-e-n-d-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-k-o-t-l-i-n---a-n-d-r-o-i-d---b-a-c-k-e-n-d-)-*-*- -|- -F-u-l-l---s-t-a-c-k- -K-o-t-l-i-n- -w-i-t-h- -S-p-r-i-n-g- -B-o-o-t- -A-P-I- -a-n-d- -A-n-d-r-o-i-d- -c-l-i-e-n-t- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-k-o-t-l-i-n---a-n-d-r-o-i-d---b-a-c-k-e-n-d-)- -|-
+-
+-#-#-#- -🟦- -T-y-p-e-S-c-r-i-p-t- -&- -J-a-v-a-S-c-r-i-p-t-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-T-y-p-e-S-c-r-i-p-t- -N-e-x-t-.-j-s- -S-a-a-S- -P-l-a-t-f-o-r-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-t-y-p-e-s-c-r-i-p-t---n-e-x-t-j-s---s-a-a-s---p-l-a-t-f-o-r-m-)-*-*- -|- -F-u-l-l---s-t-a-c-k- -S-a-a-S- -w-i-t-h- -N-e-x-t-.-j-s- -1-5-,- -P-r-i-s-m-a-,- -T-a-i-l-w-i-n-d-,- -a-n-d- -S-t-r-i-p-e- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-t-y-p-e-s-c-r-i-p-t---n-e-x-t-j-s---s-a-a-s---p-l-a-t-f-o-r-m-)- -·- -[-V-e-r-c-e-l-]-(-h-t-t-p-s-:-/-/-t-y-p-e-s-c-r-i-p-t---n-e-x-t-j-s---s-a-a-s---p-l-a-t-f-o-r-m-.-v-e-r-c-e-l-.-a-p-p-)- -|-
+-
+-#-#-#- -🔵- -G-o- -&- -R-u-s-t-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-G-o- -D-i-s-t-r-i-b-u-t-e-d- -S-y-s-t-e-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-g-o---d-i-s-t-r-i-b-u-t-e-d---s-y-s-t-e-m-)-*-*- -|- -H-i-g-h---p-e-r-f-o-r-m-a-n-c-e- -m-i-c-r-o-s-e-r-v-i-c-e-s- -w-i-t-h- -G-o-,- -G-i-n-,- -K-a-f-k-a-,- -a-n-d- -K-8-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-g-o---d-i-s-t-r-i-b-u-t-e-d---s-y-s-t-e-m-)- -|-
+-|- -*-*-[-R-u-s-t- -S-y-s-t-e-m-s- -P-r-o-j-e-c-t-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-r-u-s-t---s-y-s-t-e-m-s---p-r-o-j-e-c-t-)-*-*- -|- -S-y-s-t-e-m-s- -p-r-o-g-r-a-m-m-i-n-g- -w-i-t-h- -T-o-k-i-o- -a-s-y-n-c- -r-u-n-t-i-m-e- -a-n-d- -A-x-u-m- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-r-u-s-t---s-y-s-t-e-m-s---p-r-o-j-e-c-t-)- -|-
+-
+-#-#-#- -🟢- -C-#- -&- -C-+-+-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-C-#- -E-n-t-e-r-p-r-i-s-e- -P-l-a-t-f-o-r-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-c-s-h-a-r-p---e-n-t-e-r-p-r-i-s-e---p-l-a-t-f-o-r-m-)-*-*- -|- -E-n-t-e-r-p-r-i-s-e- -p-l-a-t-f-o-r-m- -w-i-t-h- -A-S-P-.-N-E-T- -C-o-r-e- -a-n-d- -E-n-t-i-t-y- -F-r-a-m-e-w-o-r-k- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-c-s-h-a-r-p---e-n-t-e-r-p-r-i-s-e---p-l-a-t-f-o-r-m-)- -|-
+-|- -*-*-[-C-+-+- -H-i-g-h- -P-e-r-f-o-r-m-a-n-c-e- -M-L-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-c-p-p---h-i-g-h---p-e-r-f-o-r-m-a-n-c-e---m-l-)-*-*- -|- -H-i-g-h---p-e-r-f-o-r-m-a-n-c-e- -M-L- -l-i-b-r-a-r-y- -w-i-t-h- -C-M-a-k-e-,- -E-i-g-e-n-,- -a-n-d- -S-I-M-D- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-c-p-p---h-i-g-h---p-e-r-f-o-r-m-a-n-c-e---m-l-)- -|-
+-
+-#-#-#- -🔴- -S-c-a-l-a-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-S-c-a-l-a- -S-p-a-r-k- -A-n-a-l-y-t-i-c-s-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-s-c-a-l-a---s-p-a-r-k---a-n-a-l-y-t-i-c-s-)-*-*- -|- -B-i-g- -d-a-t-a- -a-n-a-l-y-t-i-c-s- -w-i-t-h- -A-p-a-c-h-e- -S-p-a-r-k- -a-n-d- -S-c-a-l-a- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-s-c-a-l-a---s-p-a-r-k---a-n-a-l-y-t-i-c-s-)- -|-
+-|- -*-*-[-S-c-a-l-a- -A-k-k-a- -A-c-t-o-r-s-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-s-c-a-l-a---a-k-k-a---a-c-t-o-r-s-)-*-*- -|- -A-c-t-o-r---b-a-s-e-d- -c-o-n-c-u-r-r-e-n-c-y- -w-i-t-h- -A-k-k-a- -T-y-p-e-d- -A-c-t-o-r-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-s-c-a-l-a---a-k-k-a---a-c-t-o-r-s-)- -|-
+-
+-#-#-#- -🟣- -M-o-b-i-l-e- -&- -G-P-U- -C-o-m-p-u-t-i-n-g-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-M-o-b-i-l-e- -C-r-o-s-s- -P-l-a-t-f-o-r-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-m-o-b-i-l-e---c-r-o-s-s---p-l-a-t-f-o-r-m-)-*-*- -|- -C-r-o-s-s---p-l-a-t-f-o-r-m- -a-p-p-s- -w-i-t-h- -F-l-u-t-t-e-r- -a-n-d- -R-e-a-c-t- -N-a-t-i-v-e- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-m-o-b-i-l-e---c-r-o-s-s---p-l-a-t-f-o-r-m-)- -|-
+-|- -*-*-[-C-U-D-A- -M-L- -O-p-t-i-m-i-z-a-t-i-o-n-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-c-u-d-a---m-l---o-p-t-i-m-i-z-a-t-i-o-n-)-*-*- -|- -G-P-U---a-c-c-e-l-e-r-a-t-e-d- -M-L- -w-i-t-h- -c-u-s-t-o-m- -C-U-D-A- -k-e-r-n-e-l-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-c-u-d-a---m-l---o-p-t-i-m-i-z-a-t-i-o-n-)- -|-
+-|- -*-*-[-J-u-l-i-a- -S-c-i-e-n-t-i-f-i-c- -C-o-m-p-u-t-i-n-g-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-j-u-l-i-a---s-c-i-e-n-t-i-f-i-c---c-o-m-p-u-t-i-n-g-)-*-*- -|- -S-c-i-e-n-t-i-f-i-c- -c-o-m-p-u-t-i-n-g- -w-i-t-h- -D-i-f-f-e-r-e-n-t-i-a-l-E-q-u-a-t-i-o-n-s-.-j-l- -a-n-d- -F-l-u-x-.-j-l- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-j-u-l-i-a---s-c-i-e-n-t-i-f-i-c---c-o-m-p-u-t-i-n-g-)- -|-
+-
+-#-#-#- -🔧- -D-e-v-O-p-s-
+-
+-|- -P-r-o-j-e-c-t- -|- -D-e-s-c-r-i-p-t-i-o-n- -|- -L-i-v-e- -D-e-m-o- -|-
+-|-------------------|---------------------------|-----------------------|-
+-|- -*-*-[-D-e-v-O-p-s- -A-u-t-o-m-a-t-i-o-n- -P-l-a-t-f-o-r-m-]-(-h-t-t-p-s-:-/-/-g-i-t-h-u-b-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-d-e-v-o-p-s---a-u-t-o-m-a-t-i-o-n---p-l-a-t-f-o-r-m-)-*-*- -|- -I-n-f-r-a-s-t-r-u-c-t-u-r-e- -a-u-t-o-m-a-t-i-o-n- -w-i-t-h- -T-e-r-r-a-f-o-r-m-,- -A-n-s-i-b-l-e-,- -a-n-d- -G-i-t-H-u-b- -A-c-t-i-o-n-s- -|- -[-G-i-t-H-u-b- -P-a-g-e-s-]-(-h-t-t-p-s-:-/-/-r-a-p-h-a-s-h-a-2-7-.-g-i-t-h-u-b-.-i-o-/-d-e-v-o-p-s---a-u-t-o-m-a-t-i-o-n---p-l-a-t-f-o-r-m-)- -|-
+-
+-#-#-#- -🐳- -D-o-c-k-e-r- -H-u-b-
+-
+-A-l-l- -1-8- -p-r-o-j-e-c-t-s- -a-r-e- -a-v-a-i-l-a-b-l-e- -a-s- -D-o-c-k-e-r- -i-m-a-g-e-s-:- -*-*-[-h-u-b-.-d-o-c-k-e-r-.-c-o-m-/-u-/-r-a-p-h-a-s-h-a-2-7-]-(-h-t-t-p-s-:-/-/-h-u-b-.-d-o-c-k-e-r-.-c-o-m-/-u-/-r-a-p-h-a-s-h-a-2-7-)-*-*-
+-
+-------
+-
+-#-#- -📊- -G-i-t-H-u-b- -S-t-a-t-i-s-t-i-c-s- -&- -R-e-a-l- -C-o-n-t-r-i-b-u-t-i-o-n-s-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-!----- -G-i-t-H-u-b- -S-t-a-t-s- -(-w-i-t-h- -c-o-u-n-t-_-p-r-i-v-a-t-e-=-t-r-u-e- -a-n-d- -i-n-c-l-u-d-e-_-a-l-l-_-c-o-m-m-i-t-s-=-t-r-u-e-)- ----->-
+- - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-g-i-t-h-u-b---r-e-a-d-m-e---s-t-a-t-s-.-v-e-r-c-e-l-.-a-p-p-/-a-p-i-?-u-s-e-r-n-a-m-e-=-R-a-p-h-a-s-h-a-2-7-&-s-h-o-w-_-i-c-o-n-s-=-t-r-u-e-&-t-i-t-l-e-_-c-o-l-o-r-=-0-E-A-5-E-9-&-i-c-o-n-_-c-o-l-o-r-=-0-E-A-5-E-9-&-t-e-x-t-_-c-o-l-o-r-=-c-b-d-5-e-1-&-b-g-_-c-o-l-o-r-=-0-d-1-1-1-7-&-h-i-d-e-_-b-o-r-d-e-r-=-t-r-u-e-&-c-o-u-n-t-_-p-r-i-v-a-t-e-=-t-r-u-e-&-i-n-c-l-u-d-e-_-a-l-l-_-c-o-m-m-i-t-s-=-t-r-u-e-"- -a-l-t-=-"-G-i-t-H-u-b- -S-t-a-t-s-"- -w-i-d-t-h-=-"-4-9-%-"->-
+- - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-g-i-t-h-u-b---r-e-a-d-m-e---s-t-r-e-a-k---s-t-a-t-s-.-h-e-r-o-k-u-a-p-p-.-c-o-m-/-?-u-s-e-r-=-R-a-p-h-a-s-h-a-2-7-&-t-h-e-m-e-=-d-a-r-k-&-s-t-r-o-k-e-=-0-E-A-5-E-9-&-r-i-n-g-=-0-E-A-5-E-9-&-f-i-r-e-=-0-E-A-5-E-9-&-c-u-r-r-S-t-r-e-a-k-N-u-m-=-0-E-A-5-E-9-&-s-i-d-e-N-u-m-s-=-0-E-A-5-E-9-&-s-i-d-e-L-a-b-e-l-s-=-c-b-d-5-e-1-&-d-a-t-e-s-=-c-b-d-5-e-1-&-h-i-d-e-_-b-o-r-d-e-r-=-t-r-u-e-"- -a-l-t-=-"-G-i-t-H-u-b- -S-t-r-e-a-k-"- -w-i-d-t-h-=-"-4-9-%-"->-
+-<-/-d-i-v->-
+-
+-<-b-r->-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-h-3->-🐍- -G-i-t-H-u-b- -C-o-n-t-r-i-b-u-t-i-o-n- -G-r-a-p-h- -(-S-n-a-k-e-)-<-/-h-3->-
+- - -<-p-i-c-t-u-r-e->-
+- - - - -<-s-o-u-r-c-e- -m-e-d-i-a-=-"-(-p-r-e-f-e-r-s---c-o-l-o-r---s-c-h-e-m-e-:- -d-a-r-k-)-"- -s-r-c-s-e-t-=-"-h-t-t-p-s-:-/-/-r-a-w-.-g-i-t-h-u-b-u-s-e-r-c-o-n-t-e-n-t-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-R-a-p-h-a-s-h-a-2-7-/-o-u-t-p-u-t-/-g-i-t-h-u-b---c-o-n-t-r-i-b-u-t-i-o-n---g-r-i-d---s-n-a-k-e---d-a-r-k-.-s-v-g-"->-
+- - - - -<-s-o-u-r-c-e- -m-e-d-i-a-=-"-(-p-r-e-f-e-r-s---c-o-l-o-r---s-c-h-e-m-e-:- -l-i-g-h-t-)-"- -s-r-c-s-e-t-=-"-h-t-t-p-s-:-/-/-r-a-w-.-g-i-t-h-u-b-u-s-e-r-c-o-n-t-e-n-t-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-R-a-p-h-a-s-h-a-2-7-/-o-u-t-p-u-t-/-g-i-t-h-u-b---c-o-n-t-r-i-b-u-t-i-o-n---g-r-i-d---s-n-a-k-e-.-s-v-g-"->-
+- - - - -<-i-m-g- -a-l-t-=-"-G-i-t-H-u-b- -C-o-n-t-r-i-b-u-t-i-o-n- -G-r-i-d- -S-n-a-k-e- -A-n-i-m-a-t-i-o-n-"- -s-r-c-=-"-h-t-t-p-s-:-/-/-r-a-w-.-g-i-t-h-u-b-u-s-e-r-c-o-n-t-e-n-t-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-/-R-a-p-h-a-s-h-a-2-7-/-o-u-t-p-u-t-/-g-i-t-h-u-b---c-o-n-t-r-i-b-u-t-i-o-n---g-r-i-d---s-n-a-k-e-.-s-v-g-"- -w-i-d-t-h-=-"-1-0-0-%-"->-
+- - -<-/-p-i-c-t-u-r-e->-
+-<-/-d-i-v->-
+-
+-------
+-
+-#-#- -📬- -C-o-n-n-e-c-t- -&- -C-o-l-l-a-b-o-r-a-t-e-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"->-
+- - -<-t-a-b-l-e- -b-o-r-d-e-r-=-"-0-"->-
+- - - - -<-t-r->-
+- - - - - - -<-t-d->-<-i-m-g- -s-r-c-=-"-.-/-a-s-s-e-t-s-/-q-r-_-c-o-d-e-.-p-n-g-"- -w-i-d-t-h-=-"-1-5-0-"- -a-l-t-=-"-Q-R- -C-o-d-e-"->-<-/-t-d->-
+- - - - - - -<-t-d- -v-a-l-i-g-n-=-"-m-i-d-d-l-e-"->-
+- - - - - - - - -<-a- -h-r-e-f-=-"-m-a-i-l-t-o-:-k-o-k-e-t-s-o-.-r-a-p-h-a-s-h-a-@-c-a-p-a-c-i-t-i-.-o-r-g-.-z-a-"->-
+- - - - - - - - - - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-W-o-r-k---E-m-a-i-l---0-0-7-8-D-4-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-m-i-c-r-o-s-o-f-t---o-u-t-l-o-o-k-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -a-l-t-=-"-W-o-r-k- -E-m-a-i-l-"-/->-
+- - - - - - - - -<-/-a->-<-b-r->-
+- - - - - - - - -<-a- -h-r-e-f-=-"-m-a-i-l-t-o-:-r-a-p-h-a-s-h-a-k-o-k-e-t-s-o-9-9-@-g-m-a-i-l-.-c-o-m-"->-
+- - - - - - - - - - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-P-e-r-s-o-n-a-l---E-m-a-i-l---D-1-4-8-3-6-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-g-m-a-i-l-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -a-l-t-=-"-P-e-r-s-o-n-a-l- -E-m-a-i-l-"-/->-
+- - - - - - - - -<-/-a->-<-b-r->-
+- - - - - - - - -<-a- -h-r-e-f-=-"-t-e-l-:-+-2-7-7-8-1-1-7-2-4-7-0-"->-
+- - - - - - - - - - -<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-P-h-o-n-e---C-o-n-t-a-c-t---3-4-D-3-9-9-?-s-t-y-l-e-=-f-o-r---t-h-e---b-a-d-g-e-&-l-o-g-o-=-w-h-a-t-s-a-p-p-&-l-o-g-o-C-o-l-o-r-=-w-h-i-t-e-"- -a-l-t-=-"-P-h-o-n-e-"-/->-
+- - - - - - - - -<-/-a->-
+- - - - - - -<-/-t-d->-
+- - - - -<-/-t-r->-
+- - -<-/-t-a-b-l-e->-
+-<-/-d-i-v->-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"- -s-t-y-l-e-=-"-m-a-r-g-i-n---t-o-p-:- -2-0-p-x-;-"->-
+- - -<-a- -h-r-e-f-=-"-h-t-t-p-s-:-/-/-l-i-n-k-e-d-i-n-.-c-o-m-/-i-n-/-k-o-k-e-t-s-o---r-a-p-h-a-s-h-a---2-7-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-L-i-n-k-e-d-I-n---0-0-7-7-B-5-?-s-t-y-l-e-=-f-l-a-t---s-q-u-a-r-e-&-l-o-g-o-=-l-i-n-k-e-d-i-n-"- -a-l-t-=-"-L-i-n-k-e-d-I-n-"->-<-/-a->-
+- - -<-a- -h-r-e-f-=-"-h-t-t-p-s-:-/-/-d-i-s-c-o-r-d-.-c-o-m-/-u-s-e-r-s-/-R-a-p-h-a-s-h-a-2-7-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-D-i-s-c-o-r-d---5-8-6-5-F-2-?-s-t-y-l-e-=-f-l-a-t---s-q-u-a-r-e-&-l-o-g-o-=-d-i-s-c-o-r-d-"- -a-l-t-=-"-D-i-s-c-o-r-d-"->-<-/-a->-
+- - -<-a- -h-r-e-f-=-"-h-t-t-p-s-:-/-/-x-.-c-o-m-/-R-a-p-h-a-s-h-a-2-7-"->-<-i-m-g- -s-r-c-=-"-h-t-t-p-s-:-/-/-i-m-g-.-s-h-i-e-l-d-s-.-i-o-/-b-a-d-g-e-/-T-w-i-t-t-e-r---1-D-A-1-F-2-?-s-t-y-l-e-=-f-l-a-t---s-q-u-a-r-e-&-l-o-g-o-=-t-w-i-t-t-e-r-"- -a-l-t-=-"-X-"->-<-/-a->-
+-<-/-d-i-v->-
+-
+-<-d-i-v- -a-l-i-g-n-=-"-c-e-n-t-e-r-"- -s-t-y-l-e-=-"-m-a-r-g-i-n---t-o-p-:- -3-0-p-x-;-"->-
+- - -<-s-u-b->-B-u-i-l-t- -w-i-t-h- -❤-️- -b-y- -<-b->-K-o-k-e-t-s-o- -R-a-p-h-a-s-h-a-<-/-b->- -•- -<-b->-F-i-r-e-4-s- -T-e-a-m- -@- -C-A-P-A-C-I-T-I-<-/-b->- -•- -©- -2-0-2-6-<-/-s-u-b->-
+-<-/-d-i-v->-
+-
