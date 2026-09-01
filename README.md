@@ -86,19 +86,73 @@
 
 ---
 
-## 💎 Trusted Demos & Featured Masterpieces
+## 💎 Portfolio: 18 Production-Ready Projects
 
-### 🚦 FlowSentinel (Traffic Governance Platform)
-**Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
-\ .NET 8 \ \ Redis \ \ Docker \ \ OpenTelemetry \ \ Lua \ \ Prometheus \
+<div align="center">
+  <p><i>Full-stack projects spanning 12 programming languages and frameworks</i></p>
+</div>
 
-### 🤖 AI Job Market Intelligence
-A premium platform for real-time job market analytics and AI resume matching.
-\ React \ \ FastAPI \ \ OpenAI \ \ Tailwind \
+### 🐍 Python Projects
 
-### 🧠 AI Document Intelligence (Enterprise RAG Pipeline)
-A full-stack RAG system to chat with documents securely using vector embeddings.
-\ Python \ \ React \ \ LLMs \ \ VectorDB \
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[Python AI Fraud Detection](https://github.com/Raphasha27/python-ai-fraud-detection)** | AI-powered fraud detection with XGBoost, FastAPI, and Cloudflare Workers | [GitHub Pages](https://raphasha27.github.io/python-ai-fraud-detection) · [Cloudflare](https://fraud-detection-api-3pg.pages.dev) |
+| **[Python Data Engineering Platform](https://github.com/Raphasha27/python-data-engineering-platform)** | Scalable data pipelines with Apache Kafka, Spark, and Airflow | [GitHub Pages](https://raphasha27.github.io/python-data-engineering-platform) |
+| **[Python RAG Knowledge Assistant](https://github.com/Raphasha27/python-rag-knowledge-assistant)** | Retrieval-Augmented Generation with ChromaDB and HuggingFace | [GitHub Pages](https://raphasha27.github.io/python-rag-knowledge-assistant) · [Cloudflare](https://rag-knowledge-assistant.pages.dev) |
+| **[Python Computer Vision System](https://github.com/Raphasha27/python-computer-vision-system)** | Real-time object detection with YOLOv8, OpenCV, and PyTorch | [GitHub Pages](https://raphasha27.github.io/python-computer-vision-system) |
+| **[Data Analytics Dashboard](https://github.com/Raphasha27/data-analytics-dashboard)** | Interactive data visualization with Plotly and FastAPI | [GitHub Pages](https://raphasha27.github.io/data-analytics-dashboard) · [Vercel](https://data-analytics-dashboard-alpha.vercel.app) |
+
+### ☕ Java & Kotlin
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[Java Enterprise Banking API](https://github.com/Raphasha27/java-enterprise-banking-api)** | Enterprise banking with Spring Boot, JWT, PostgreSQL, and Redis | [GitHub Pages](https://raphasha27.github.io/java-enterprise-banking-api) |
+| **[Kotlin Android Backend](https://github.com/Raphasha27/kotlin-android-backend)** | Full-stack Kotlin with Spring Boot API and Android client | [GitHub Pages](https://raphasha27.github.io/kotlin-android-backend) |
+
+### 🟦 TypeScript & JavaScript
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[TypeScript Next.js SaaS Platform](https://github.com/Raphasha27/typescript-nextjs-saas-platform)** | Full-stack SaaS with Next.js 15, Prisma, Tailwind, and Stripe | [GitHub Pages](https://raphasha27.github.io/typescript-nextjs-saas-platform) · [Vercel](https://typescript-nextjs-saas-platform.vercel.app) |
+
+### 🔵 Go & Rust
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[Go Distributed System](https://github.com/Raphasha27/go-distributed-system)** | High-performance microservices with Go, Gin, Kafka, and K8s | [GitHub Pages](https://raphasha27.github.io/go-distributed-system) |
+| **[Rust Systems Project](https://github.com/Raphasha27/rust-systems-project)** | Systems programming with Tokio async runtime and Axum | [GitHub Pages](https://raphasha27.github.io/rust-systems-project) |
+
+### 🟢 C# & C++
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[C# Enterprise Platform](https://github.com/Raphasha27/csharp-enterprise-platform)** | Enterprise platform with ASP.NET Core and Entity Framework | [GitHub Pages](https://raphasha27.github.io/csharp-enterprise-platform) |
+| **[C++ High Performance ML](https://github.com/Raphasha27/cpp-high-performance-ml)** | High-performance ML library with CMake, Eigen, and SIMD | [GitHub Pages](https://raphasha27.github.io/cpp-high-performance-ml) |
+
+### 🔴 Scala
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[Scala Spark Analytics](https://github.com/Raphasha27/scala-spark-analytics)** | Big data analytics with Apache Spark and Scala | [GitHub Pages](https://raphasha27.github.io/scala-spark-analytics) |
+| **[Scala Akka Actors](https://github.com/Raphasha27/scala-akka-actors)** | Actor-based concurrency with Akka Typed Actors | [GitHub Pages](https://raphasha27.github.io/scala-akka-actors) |
+
+### 🟣 Mobile & GPU Computing
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[Mobile Cross Platform](https://github.com/Raphasha27/mobile-cross-platform)** | Cross-platform apps with Flutter and React Native | [GitHub Pages](https://raphasha27.github.io/mobile-cross-platform) |
+| **[CUDA ML Optimization](https://github.com/Raphasha27/cuda-ml-optimization)** | GPU-accelerated ML with custom CUDA kernels | [GitHub Pages](https://raphasha27.github.io/cuda-ml-optimization) |
+| **[Julia Scientific Computing](https://github.com/Raphasha27/julia-scientific-computing)** | Scientific computing with DifferentialEquations.jl and Flux.jl | [GitHub Pages](https://raphasha27.github.io/julia-scientific-computing) |
+
+### 🔧 DevOps
+
+| Project | Description | Live Demo |
+|---------|-------------|-----------|
+| **[DevOps Automation Platform](https://github.com/Raphasha27/devops-automation-platform)** | Infrastructure automation with Terraform, Ansible, and GitHub Actions | [GitHub Pages](https://raphasha27.github.io/devops-automation-platform) |
+
+### 🐳 Docker Hub
+
+All 18 projects are available as Docker images: **[hub.docker.com/u/raphasha27](https://hub.docker.com/u/raphasha27)**
 
 ---
 
