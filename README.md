@@ -1,12 +1,16 @@
 <!-- SECTION: HEADER START -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0EA5E9&height=200&section=header&text=Koketso%20Raphasha&fontSize=70&animation=fadeIn&fontAlignY=35" width="100%" alt="Header Banner">
-  
-  <br>
-  
-  <!-- 3D AI Programming Bot -->
-  <img src="./assets/bot_animated.svg" width="220" alt="3D AI Programming Bot">
-  
+
+  <!-- Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ADD8&height=200&section=header&text=Koketso%20Raphasha&fontSize=50&fontAlignY=35&desc=Building%20AI-Powered%20Systems%20for%20Africa&descAlignY=55&descSize=20" alt="Banner" />
+
+  <br><br>
+
+  <!-- Old Man Typing GIF -->
+  <img src="https://cdn.dribbble.com/users/2131993/screenshots/4948736/thoughtworks-gif_dribbble.gif" width="80%" style="border-radius:20px; border:3px solid #38bdf8; box-shadow: 0 0 20px #38bdf8, 0 0 40px rgba(56,189,248,0.6), 0 0 60px rgba(34,197,94,0.4); max-width: 800px;" alt="Coding Animation" />
+
+  <br><br>
+
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&pause=1000&color=0EA5E9&center=true&vCenter=true&width=600&lines=AI+Specialist;Mobile+App+Developer;Cloud+Visionary;Elite+AI+Engineer" alt="Typing Animation">
   
   <p align="center">
@@ -18,69 +22,8 @@
     </a>
   </p>
 
-  <br>
-  
-  <table border="0" width="100%">
-    <tr>
-      <td width="70%" valign="top">
-        <h2 align="left">👤 About Me</h2>
-        <p align="left">
-          I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
-        </p>
-        <p align="left">
-          Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
-        </p>
-      </td>
-      <td width="30%" align="right">
-        <!-- VERTICAL TECH STACK MARQUEE -->
-        <img src="./assets/vertical_stack.svg" width="120" alt="Tech Stack Marquee" />
-      </td>
-    </tr>
-  </table>
 </div>
 <!-- SECTION: HEADER END -->
-
----
-
-## 🎮 Elite AI Showroom: Snake AI (Hard Mode)
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td width="60%">
-        <p align="left">
-          <b>Snake AI: Hard Mode</b> is an autonomous agent demonstrating advanced graph search and state-space evaluation techniques.
-        </p>
-        <ul>
-          <li><b>Algorithm</b>: Custom A* Pathfinding + Recursive Flood-Fill Safety Analysis.</li>
-          <li><b>Intelligence</b>: Evaluates 100+ moves ahead to avoid self-trapping loops.</li>
-          <li><b>Visualization</b>: Real-time path projection and neural-node stat tracking.</li>
-        </ul>
-        <p align="left">
-          <a href="./snake_ai.html">
-            <img src="https://img.shields.io/badge/PLAY_LIVE-0EA5E9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Demo" />
-          </a>
-          <a href="https://github.com/Raphasha27/Raphasha27/blob/main/snake_ai.html">
-            <img src="https://img.shields.io/badge/VIEW_SOURCE-10B981?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
-          </a>
-        </p>
-      </td>
-      <td width="40%">
-        <!-- AUTOPLAYING AI SHOWCASE -->
-        <img src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" width="100%" alt="Snake AI Auto-Play">
-        <br>
-        <sub><i>Simulated A* Neural Traversal</i></sub>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<!-- THE 2026 DEVELOPER'S ARSENAL -->
-<div align="center">
-  <img src="./assets/arsenal_2026.svg" width="100%" alt="The 2026 Developer's Arsenal">
-</div>
 
 ---
 
@@ -99,43 +42,83 @@
       <td align="center"><img src="https://img.shields.io/badge/Python_Beginner-FFD43B?style=for-the-badge&logo=python&logoColor=3776AB" /><br>Univ. of Michigan</td>
       <td align="center"><img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /><br>DeepLearning.AI</td>
     </tr>
+    <tr>
+      <td align="center"><img src="https://img.shields.io/badge/Meta_Frontend-1877F2?style=for-the-badge&logo=meta&logoColor=white" /><br>Meta / Coursera</td>
+      <td align="center"><img src="https://img.shields.io/badge/Data_Science-006699?style=for-the-badge&logo=ibm&logoColor=white" /><br>IBM / Coursera</td>
+      <td align="center"><img src="https://img.shields.io/badge/Azure_AI_Engineer-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" /><br>Microsoft Associate</td>
+    </tr>
   </table>
 </div>
 
 ---
 
-## 🎯 My Mission & Vision
-- 🌐 **Sovereign Intelligence**: Building autonomous systems that prioritize data privacy and user sovereignty.
-- 🏗️ **Architectural Scalability**: Designing high-throughput systems using C++, .NET 8, and Rust.
-- 🧪 **Predictive Mastery**: Leveraging ML to forecast outcomes and optimize resource allocation.
+## 🛠️ Tech Arsenals & About Me
+
+<div align="center">
+  <!-- HORIZONTAL TECH ARSENAL MARQUEE -->
+  <img src="./assets/horizontal_marquee.svg" width="100%" alt="Tech Arsenal Scrolling">
+  <br><br>
+
+  <table border="0" width="100%">
+    <tr>
+      <td width="70%" valign="top">
+        <h2 align="left">👤 About Me</h2>
+        <p align="left">
+          I am a determined <b>Software Developer and AI Specialist</b> based in South Africa, dedicated to pioneering high-impact, AI-driven solutions that address complex real-world challenges. My expertise lies at the nexus of high-performance architecture, neural computation, and premium aesthetics. 
+        </p>
+        <p align="left">
+          Whether architecting resilient cloud infrastructures or fine-tuning vision models, I strive to build "Sovereign Intelligence"—systems that are not only performant but also respect data privacy and user autonomy. I bridge the gap between abstract data and human intuition through glassmorphic, state-of-the-art UI designs.
+        </p>
+      </td>
+      <td width="30%" align="right">
+        <!-- VERTICAL TECH STACK MARQUEE -->
+        <img src="./assets/vertical_stack.svg" width="120" alt="Tech Stack Marquee" />
+      </td>
+    </tr>
+  </table>
+  
+  <br>
+
+  <!-- THE 2026 DEVELOPER'S ARSENAL -->
+  <img src="./assets/arsenal_2026.svg" width="100%" alt="The 2026 Developer's Arsenal">
+
+</div>
 
 ---
 
-## 🎓 Academic Foundation
-- **Co-founder & Developer** @ **Kivoc Dynamics Technology** (Start-up) 🚀
-- **Bachelor of IT (Class of 2025)** @ **Richfield Graduate Institute of Technology**
-- 🎖️ **Academic Excellence**: Achieved **DISTINCTION in Mobile App Development**
-- 💼 **Enterprise Ready**: **CAPACITI Program Graduate** - Software Development Track
-- 🚀 **Professional Growth**: **YES4Youth Program Participant** - Tech & Leadership Training
-
----
-
-## 💎 Featured Masterpieces
+## 💎 Trusted Demos & Featured Masterpieces
 
 ### 🚦 FlowSentinel (Traffic Governance Platform)
 **Staff-Level Infrastructure Engineering.** A distributed rate-limiting engine featuring "Fail-Open" resilience, Redis Lua script evaluation, and total observability.
-` .NET 8 ` ` Redis ` ` Docker ` ` OpenTelemetry ` ` Lua ` ` Prometheus `
+\ .NET 8 \ \ Redis \ \ Docker \ \ OpenTelemetry \ \ Lua \ \ Prometheus \
 
 ### 🤖 AI Job Market Intelligence
 A premium platform for real-time job market analytics and AI resume matching.
-` React ` ` FastAPI ` ` OpenAI ` ` Tailwind `
+\ React \ \ FastAPI \ \ OpenAI \ \ Tailwind \
+
+### 🧠 AI Document Intelligence (Enterprise RAG Pipeline)
+A full-stack RAG system to chat with documents securely using vector embeddings.
+\ Python \ \ React \ \ LLMs \ \ VectorDB \
 
 ---
 
-## 📊 GitHub Statistics
+## 📊 GitHub Statistics & Real Contributions
+
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&include_all_commits=true" alt="GitHub Stats" width="49%">
+  <!-- GitHub Stats (with count_private=true and include_all_commits=true) -->
+  <img src="https://github-readme-stats.vercel.app/api?username=Raphasha27&show_icons=true&title_color=0EA5E9&icon_color=0EA5E9&text_color=cbd5e1&bg_color=0d1117&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Raphasha27&theme=dark&stroke=0EA5E9&ring=0EA5E9&fire=0EA5E9&currStreakNum=0EA5E9&sideNums=0EA5E9&sideLabels=cbd5e1&dates=cbd5e1&hide_border=true" alt="GitHub Streak" width="49%">
+</div>
+
+<br>
+
+<div align="center">
+  <h3>🐍 GitHub Contribution Graph (Snake)</h3>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg">
+    <img alt="GitHub Contribution Grid Snake Animation" src="https://raw.githubusercontent.com/Raphasha27/Raphasha27/output/github-contribution-grid-snake.svg" width="100%">
+  </picture>
 </div>
 
 ---
@@ -169,4 +152,3 @@ A premium platform for real-time job market analytics and AI resume matching.
 <div align="center" style="margin-top: 30px;">
   <sub>Built with ❤️ by <b>Koketso Raphasha</b> • <b>Fire4s Team @ CAPACITI</b> • © 2026</sub>
 </div>
-
