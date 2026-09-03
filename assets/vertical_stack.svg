@@ -1,14 +1,5 @@
 <svg fill="none" viewBox="0 0 150 520" width="150" height="520" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="#0d1117" rx="12"/>
-  <style>
-    @keyframes slide-up {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-50%); }
-    }
-    .track { animation: slide-up 20s linear infinite; }
-    .box { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8; }
-    .label { font-family: monospace; font-size: 11px; fill: #e6edf3; text-anchor: middle; }
-  </style>
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#0d1117" stop-opacity="1" />
@@ -18,50 +9,27 @@
     </linearGradient>
   </defs>
 
-  <g class="track">
-    <!-- Set 1 -->
-    <rect x="30" y="15" width="90" height="50" class="box"/>
-    <text x="75" y="46" class="label">Python</text>
+  <g>
+    <rect x="30" y="15" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="46" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">Python</text>
 
-    <rect x="30" y="80" width="90" height="50" class="box"/>
-    <text x="75" y="111" class="label">JavaScript</text>
+    <rect x="30" y="80" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="111" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">JavaScript</text>
 
-    <rect x="30" y="145" width="90" height="50" class="box"/>
-    <text x="75" y="176" class="label">TypeScript</text>
+    <rect x="30" y="145" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="176" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">TypeScript</text>
 
-    <rect x="30" y="210" width="90" height="50" class="box"/>
-    <text x="75" y="241" class="label">React</text>
+    <rect x="30" y="210" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="241" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">React</text>
 
-    <rect x="30" y="275" width="90" height="50" class="box"/>
-    <text x="75" y="306" class="label">Docker</text>
+    <rect x="30" y="275" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="306" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">Docker</text>
 
-    <rect x="30" y="340" width="90" height="50" class="box"/>
-    <text x="75" y="371" class="label">AWS</text>
+    <rect x="30" y="340" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="371" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">AWS</text>
 
-    <rect x="30" y="405" width="90" height="50" class="box"/>
-    <text x="75" y="436" class="label">PostgreSQL</text>
-
-    <!-- Set 2 (duplicate for seamless loop) -->
-    <rect x="30" y="485" width="90" height="50" class="box"/>
-    <text x="75" y="516" class="label">Python</text>
-
-    <rect x="30" y="550" width="90" height="50" class="box"/>
-    <text x="75" y="581" class="label">JavaScript</text>
-
-    <rect x="30" y="615" width="90" height="50" class="box"/>
-    <text x="75" y="646" class="label">TypeScript</text>
-
-    <rect x="30" y="680" width="90" height="50" class="box"/>
-    <text x="75" y="711" class="label">React</text>
-
-    <rect x="30" y="745" width="90" height="50" class="box"/>
-    <text x="75" y="776" class="label">Docker</text>
-
-    <rect x="30" y="810" width="90" height="50" class="box"/>
-    <text x="75" y="841" class="label">AWS</text>
-
-    <rect x="30" y="875" width="90" height="50" class="box"/>
-    <text x="75" y="906" class="label">PostgreSQL</text>
+    <rect x="30" y="405" width="90" height="50" fill="#161b22" stroke="#30363d" stroke-width="1" rx="8"/>
+    <text x="75" y="436" font-family="monospace" font-size="11" fill="#e6edf3" text-anchor="middle">PostgreSQL</text>
   </g>
 
   <rect width="150" height="520" fill="url(#fade)" pointer-events="none" />
