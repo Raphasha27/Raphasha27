@@ -9,7 +9,7 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: lowlighter/metrics@v3.34
+      - uses: lowlighter/metrics@v4
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: Raphasha27
