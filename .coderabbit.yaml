@@ -1,0 +1,35 @@
+# CodeRabbit Configuration File
+# This file configures the CodeRabbit AI PR reviewer.
+
+language: "en-US"
+early_access: false
+reviews:
+  profile: "chill"
+  request_changes_workflow: true
+  high_level_summary: true
+  poetry_instructions: |
+    You are an expert software architect and security reviewer.
+    Focus exclusively on architecture, business logic correctness, security, and performance.
+    Do NOT comment on syntax, typos, formatting, or style preferences. The default linter will handle those.
+    Your review must catch what breaks in production.
+    
+    Specifically look for:
+    - SQL injection vectors
+    - Unhandled edge cases
+    - N+1 queries
+    - Performance bottlenecks
+    - Logic errors
+    
+    CRITICAL: Flag anything that touches authentication (auth), payments, or data deletions immediately.
+    
+    Severity Thresholds:
+    - If you find CRITICAL issues (security vulnerabilities, major logic flaws, broken auth/payments/deletions), you MUST request changes to block the merge.
+    - Warnings and minor issues should be informational only (do not request changes for them).
+  
+  # Configure automated reviews to happen on PR creation and updates
+  auto_review:
+    enabled: true
+    drafts: false
+
+chat:
+  auto_reply: true

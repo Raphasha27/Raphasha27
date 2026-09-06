@@ -1,0 +1,51 @@
+name: Claude AI PR Reviewer
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      # This uses a popular open-source AI PR reviewer action and configures it to use Anthropic's Claude model
+      - name: Claude PR Review
+        uses: coderabbitai/ai-pr-reviewer@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        with:
+          debug: false
+          review_simple_changes: false
+          review_comment_lgtm: false
+          
+          # Use Claude for the review (requires ANTHROPIC_API_KEY secret)
+          openai_light_model: "claude-3-haiku-20240307"
+          openai_heavy_model: "claude-3-5-sonnet-20240620"
+          
+          system_message: |
+            You are an expert software architect and security reviewer reviewing a Pull Request.
+            Your role is to find what breaks in production, NOT what a linter would catch.
+            Do NOT comment on syntax, typos, formatting, or style preferences. These are completely useless.
+            
+            Focus heavily on:
+            - Business logic correctness
+            - SQL injection vectors
+            - Unhandled edge cases
+            - N+1 queries
+            - Performance issues
+            - Architecture and design
+            
+            CRITICAL RULES:
+            - Flag anything that touches authentication (auth), payments, or data deletions.
+            - Set severity thresholds: CRITICAL issues must be clearly marked to block the merge. WARNINGS are only informational.
+            - Post inline comments directly on the problematic lines so the developer can review the feedback before merging.
