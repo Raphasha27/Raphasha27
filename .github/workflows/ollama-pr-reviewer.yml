@@ -1,4 +1,4 @@
-name: Free AI PR Reviewer (Gemini)
+name: 100% Free Local AI PR Reviewer (Ollama)
 
 on:
   pull_request:
@@ -16,24 +16,38 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          
+      - name: Install and Start Ollama
+        run: |
+          # Install Ollama
+          curl -fsSL https://ollama.com/install.sh | sh
+          
+          # Start Ollama server in the background
+          ollama serve &
+          
+          # Wait for the server to start
+          sleep 5
+          
+          # Pull a highly capable, fast local model for code review
+          ollama pull qwen2.5:3b
 
-      - name: Gemini AI PR Review
+      - name: Local AI PR Review
         uses: coderabbitai/ai-pr-reviewer@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Using Gemini's OpenAI compatible endpoint with a free Google AI Studio key
-          OPENAI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Ollama doesn't need a real API key
+          OPENAI_API_KEY: "dummy"
         with:
           debug: false
           review_simple_changes: false
           review_comment_lgtm: false
           
-          # Point to Google's Gemini API
-          openai_base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+          # Point the reviewer to the local Ollama instance (OpenAI compatible endpoint)
+          openai_base_url: "http://localhost:11434/v1"
           
-          # Use free tier Gemini models
-          openai_light_model: "gemini-1.5-flash"
-          openai_heavy_model: "gemini-1.5-pro"
+          # Use the local model we just downloaded
+          openai_light_model: "qwen2.5:3b"
+          openai_heavy_model: "qwen2.5:3b"
           
           system_message: |
             You are an expert software architect and security reviewer reviewing a Pull Request.
