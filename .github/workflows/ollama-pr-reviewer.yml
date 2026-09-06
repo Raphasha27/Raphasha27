@@ -10,59 +10,122 @@ jobs:
     permissions:
       contents: read
       pull-requests: write
-    
+
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Dependencies
+        run: pip install requests
+
       - name: Install and Start Ollama
         run: |
-          # Install Ollama
           curl -fsSL https://ollama.com/install.sh | sh
-          
-          # Start Ollama server in the background
           ollama serve &
-          
-          # Wait for the server to start
-          sleep 5
-          
-          # Pull a highly capable, fast local model for code review
-          ollama pull qwen2.5:3b
+          # Wait for Ollama server to be ready
+          for i in $(seq 1 30); do
+            curl -s http://localhost:11434 && break
+            sleep 2
+          done
+          # Pull a fast, highly capable open-source code model
+          ollama pull qwen2.5-coder:3b
 
-      - name: Local AI PR Review
-        uses: coderabbitai/ai-pr-reviewer@latest
+      - name: Run AI PR Review
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # Ollama doesn't need a real API key
-          OPENAI_API_KEY: "dummy"
-        with:
-          debug: false
-          review_simple_changes: false
-          review_comment_lgtm: false
-          
-          # Point the reviewer to the local Ollama instance (OpenAI compatible endpoint)
-          openai_base_url: "http://localhost:11434/v1"
-          
-          # Use the local model we just downloaded
-          openai_light_model: "qwen2.5:3b"
-          openai_heavy_model: "qwen2.5:3b"
-          
-          system_message: |
-            You are an expert software architect and security reviewer reviewing a Pull Request.
-            Your role is to find what breaks in production, NOT what a linter would catch.
-            Do NOT comment on syntax, typos, formatting, or style preferences. These are completely useless.
-            
-            Focus heavily on:
-            - Business logic correctness
-            - SQL injection vectors
-            - Unhandled edge cases
-            - N+1 queries
-            - Performance issues
-            - Architecture and design
-            
-            CRITICAL RULES:
-            - Flag anything that touches authentication (auth), payments, or data deletions.
-            - Set severity thresholds: CRITICAL issues must be clearly marked to block the merge. WARNINGS are only informational.
-            - Post inline comments directly on the problematic lines so the developer can review the feedback before merging.
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          python3 << 'EOF'
+          import os, json, requests, sys
+
+          GITHUB_TOKEN = os.environ["GITHUB_TOKEN"]
+          REPO         = os.environ["REPO"]
+          PR_NUMBER    = os.environ["PR_NUMBER"]
+          OLLAMA_URL   = "http://localhost:11434/api/generate"
+          MODEL        = "qwen2.5-coder:3b"
+          HEADERS      = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github+json"}
+
+          # ── 1. Fetch the PR diff ──────────────────────────────────────────────
+          diff_resp = requests.get(
+              f"https://api.github.com/repos/{REPO}/pulls/{PR_NUMBER}",
+              headers={**HEADERS, "Accept": "application/vnd.github.v3.diff"},
+          )
+          diff = diff_resp.text[:12000]   # stay within model context window
+
+          # ── 2. Build the review prompt ────────────────────────────────────────
+          PROMPT = f"""You are a senior software architect and security engineer doing a Pull Request review.
+          Your job is to find what BREAKS IN PRODUCTION. Do NOT comment on syntax, typos, formatting, or style.
+
+          FOCUS ON:
+          - Business logic correctness
+          - SQL injection vectors
+          - Unhandled edge cases that would throw in production
+          - N+1 query problems
+          - Performance bottlenecks
+          - Authentication (auth) flaws
+          - Payment logic bugs
+          - Data deletion without proper guards
+
+          SEVERITY RULES (you MUST include these labels):
+          - [CRITICAL] — security vulnerability, broken auth/payment/deletion, major logic flaw → must be fixed before merge
+          - [WARNING]  — performance issue, unhandled edge case → informational, does not block merge
+          - [SKIP]     — style/formatting/typos → do NOT report these at all
+
+          Ignore style preferences entirely. Every comment must explain WHY it matters in production.
+
+          Here is the PR diff:
+
+          {diff}
+
+          Provide your review as a numbered list. For each issue include:
+          1. Severity label: [CRITICAL] or [WARNING]
+          2. The file and line number if visible
+          3. A clear, concise explanation of the production risk
+          4. A concrete fix suggestion
+
+          If no issues are found, say: "✅ No critical or production-impacting issues found."
+          """
+
+          # ── 3. Call local Ollama ──────────────────────────────────────────────
+          print("🤖 Running local AI review with Ollama…")
+          ollama_resp = requests.post(OLLAMA_URL, json={"model": MODEL, "prompt": PROMPT, "stream": False}, timeout=300)
+          ollama_resp.raise_for_status()
+          review_text = ollama_resp.json()["response"].strip()
+          print(review_text)
+
+          # ── 4. Determine pass/fail ────────────────────────────────────────────
+          has_critical = "[CRITICAL]" in review_text
+
+          # ── 5. Post summary comment on the PR ─────────────────────────────────
+          body = f"""## 🤖 AI Architecture & Security Review
+
+          {review_text}
+
+          ---
+          > Reviewed by local [Ollama](https://ollama.com) · Model: `{MODEL}` · No external API used · 100% free
+          > ⚠️ **CRITICAL issues block merge. WARNING issues are informational only.**
+          """
+
+          comment_resp = requests.post(
+              f"https://api.github.com/repos/{REPO}/issues/{PR_NUMBER}/comments",
+              headers=HEADERS,
+              json={"body": body},
+          )
+          comment_resp.raise_for_status()
+          print(f"✅ Posted review comment. has_critical={has_critical}")
+
+          # ── 6. Fail the workflow if CRITICAL issues found (blocks the merge) ──
+          if has_critical:
+              print("❌ CRITICAL issues found — blocking merge.")
+              sys.exit(1)
+          else:
+              print("✅ No critical issues. Merge gate passed.")
+          EOF
