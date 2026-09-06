@@ -1,4 +1,4 @@
-name: Claude AI PR Reviewer
+name: Free AI PR Reviewer (Gemini)
 
 on:
   pull_request:
@@ -17,20 +17,23 @@ jobs:
         with:
           fetch-depth: 0
 
-      # This uses a popular open-source AI PR reviewer action and configures it to use Anthropic's Claude model
-      - name: Claude PR Review
+      - name: Gemini AI PR Review
         uses: coderabbitai/ai-pr-reviewer@latest
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Using Gemini's OpenAI compatible endpoint with a free Google AI Studio key
+          OPENAI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         with:
           debug: false
           review_simple_changes: false
           review_comment_lgtm: false
           
-          # Use Claude for the review (requires ANTHROPIC_API_KEY secret)
-          openai_light_model: "claude-3-haiku-20240307"
-          openai_heavy_model: "claude-3-5-sonnet-20240620"
+          # Point to Google's Gemini API
+          openai_base_url: "https://generativelanguage.googleapis.com/v1beta/openai/"
+          
+          # Use free tier Gemini models
+          openai_light_model: "gemini-1.5-flash"
+          openai_heavy_model: "gemini-1.5-pro"
           
           system_message: |
             You are an expert software architect and security reviewer reviewing a Pull Request.
